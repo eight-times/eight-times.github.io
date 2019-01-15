@@ -106853,7 +106853,8 @@ function generateUrlFromSceneValues(name, values) {
     var obj = (0, _core.flatten)(values.toJSON());
     var search = "scene=" + name + "&" + (0, _core.objToUrlParams)(obj);
     var loc = location;
-    var url = loc.protocol + "//" + loc.hostname + ":" + loc.port + "?" + search;
+    console.log(loc);
+    var url = loc.protocol + "//" + loc.hostname + (loc.port != undefined ? ":" + loc.port : "") + loc.pathname + "?" + search;
     return url;
 }
 
