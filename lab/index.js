@@ -26662,13945 +26662,7 @@ exports.default = FastSimplexNoise;
 
 module.exports = require('react/lib/ReactDOM');
 
-},{"react/lib/ReactDOM":387}],227:[function(require,module,exports){
-'use strict';
-
-var _React3Descriptor = require('./descriptors/React3Descriptor');
-
-var _React3Descriptor2 = _interopRequireDefault(_React3Descriptor);
-
-var _ModuleDescriptor = require('./descriptors/ModuleDescriptor');
-
-var _ModuleDescriptor2 = _interopRequireDefault(_ModuleDescriptor);
-
-var _ViewportDescriptor = require('./descriptors/ViewportDescriptor');
-
-var _ViewportDescriptor2 = _interopRequireDefault(_ViewportDescriptor);
-
-var _SceneDescriptor = require('./descriptors/Object/SceneDescriptor');
-
-var _SceneDescriptor2 = _interopRequireDefault(_SceneDescriptor);
-
-var _Object3DDescriptor = require('./descriptors/Object/Object3DDescriptor');
-
-var _Object3DDescriptor2 = _interopRequireDefault(_Object3DDescriptor);
-
-var _GroupDescriptor = require('./descriptors/Object/GroupDescriptor');
-
-var _GroupDescriptor2 = _interopRequireDefault(_GroupDescriptor);
-
-var _OrthographicCameraDescriptor = require('./descriptors/Object/Camera/OrthographicCameraDescriptor');
-
-var _OrthographicCameraDescriptor2 = _interopRequireDefault(_OrthographicCameraDescriptor);
-
-var _PerspectiveCameraDescriptor = require('./descriptors/Object/Camera/PerspectiveCameraDescriptor');
-
-var _PerspectiveCameraDescriptor2 = _interopRequireDefault(_PerspectiveCameraDescriptor);
-
-var _CubeCameraDescriptor = require('./descriptors/Object/Camera/CubeCameraDescriptor');
-
-var _CubeCameraDescriptor2 = _interopRequireDefault(_CubeCameraDescriptor);
-
-var _MeshDescriptor = require('./descriptors/Object/MeshDescriptor');
-
-var _MeshDescriptor2 = _interopRequireDefault(_MeshDescriptor);
-
-var _LineDescriptor = require('./descriptors/Object/LineDescriptor');
-
-var _LineDescriptor2 = _interopRequireDefault(_LineDescriptor);
-
-var _LineSegmentsDescriptor = require('./descriptors/Object/LineSegmentsDescriptor');
-
-var _LineSegmentsDescriptor2 = _interopRequireDefault(_LineSegmentsDescriptor);
-
-var _PointsDescriptor = require('./descriptors/Object/PointsDescriptor');
-
-var _PointsDescriptor2 = _interopRequireDefault(_PointsDescriptor);
-
-var _SpriteDescriptor = require('./descriptors/Object/SpriteDescriptor');
-
-var _SpriteDescriptor2 = _interopRequireDefault(_SpriteDescriptor);
-
-var _AmbientLightDescriptor = require('./descriptors/Light/AmbientLightDescriptor');
-
-var _AmbientLightDescriptor2 = _interopRequireDefault(_AmbientLightDescriptor);
-
-var _DirectionalLightDescriptor = require('./descriptors/Light/DirectionalLightDescriptor');
-
-var _DirectionalLightDescriptor2 = _interopRequireDefault(_DirectionalLightDescriptor);
-
-var _SpotLightDescriptor = require('./descriptors/Light/SpotLightDescriptor');
-
-var _SpotLightDescriptor2 = _interopRequireDefault(_SpotLightDescriptor);
-
-var _PointLightDescriptor = require('./descriptors/Light/PointLightDescriptor');
-
-var _PointLightDescriptor2 = _interopRequireDefault(_PointLightDescriptor);
-
-var _ResourcesDescriptor = require('./descriptors/Resource/ResourcesDescriptor');
-
-var _ResourcesDescriptor2 = _interopRequireDefault(_ResourcesDescriptor);
-
-var _GeometryResourceDescriptor = require('./descriptors/Resource/GeometryResourceDescriptor');
-
-var _GeometryResourceDescriptor2 = _interopRequireDefault(_GeometryResourceDescriptor);
-
-var _ShapeGeometryResourceDescriptor = require('./descriptors/Resource/ShapeGeometryResourceDescriptor');
-
-var _ShapeGeometryResourceDescriptor2 = _interopRequireDefault(_ShapeGeometryResourceDescriptor);
-
-var _TextureResourceDescriptor = require('./descriptors/Resource/TextureResourceDescriptor');
-
-var _TextureResourceDescriptor2 = _interopRequireDefault(_TextureResourceDescriptor);
-
-var _ShapeResourceDescriptor = require('./descriptors/Resource/ShapeResourceDescriptor');
-
-var _ShapeResourceDescriptor2 = _interopRequireDefault(_ShapeResourceDescriptor);
-
-var _GeometryDescriptor = require('./descriptors/Geometry/GeometryDescriptor');
-
-var _GeometryDescriptor2 = _interopRequireDefault(_GeometryDescriptor);
-
-var _BufferGeometryDescriptor = require('./descriptors/Geometry/BufferGeometryDescriptor');
-
-var _BufferGeometryDescriptor2 = _interopRequireDefault(_BufferGeometryDescriptor);
-
-var _BoxGeometryDescriptor = require('./descriptors/Geometry/BoxGeometryDescriptor');
-
-var _BoxGeometryDescriptor2 = _interopRequireDefault(_BoxGeometryDescriptor);
-
-var _SphereGeometryDescriptor = require('./descriptors/Geometry/SphereGeometryDescriptor');
-
-var _SphereGeometryDescriptor2 = _interopRequireDefault(_SphereGeometryDescriptor);
-
-var _ParametricGeometryDescriptor = require('./descriptors/Geometry/ParametricGeometryDescriptor');
-
-var _ParametricGeometryDescriptor2 = _interopRequireDefault(_ParametricGeometryDescriptor);
-
-var _PlaneBufferGeometryDescriptor = require('./descriptors/Geometry/PlaneBufferGeometryDescriptor');
-
-var _PlaneBufferGeometryDescriptor2 = _interopRequireDefault(_PlaneBufferGeometryDescriptor);
-
-var _PlaneGeometryDescriptor = require('./descriptors/Geometry/PlaneGeometryDescriptor');
-
-var _PlaneGeometryDescriptor2 = _interopRequireDefault(_PlaneGeometryDescriptor);
-
-var _PolyhedronGeometryDescriptor = require('./descriptors/Geometry/PolyhedronGeometryDescriptor');
-
-var _PolyhedronGeometryDescriptor2 = _interopRequireDefault(_PolyhedronGeometryDescriptor);
-
-var _IcosahedronGeometryDescriptor = require('./descriptors/Geometry/IcosahedronGeometryDescriptor');
-
-var _IcosahedronGeometryDescriptor2 = _interopRequireDefault(_IcosahedronGeometryDescriptor);
-
-var _OctahedronGeometryDescriptor = require('./descriptors/Geometry/OctahedronGeometryDescriptor');
-
-var _OctahedronGeometryDescriptor2 = _interopRequireDefault(_OctahedronGeometryDescriptor);
-
-var _TetrahedronGeometryDescriptor = require('./descriptors/Geometry/TetrahedronGeometryDescriptor');
-
-var _TetrahedronGeometryDescriptor2 = _interopRequireDefault(_TetrahedronGeometryDescriptor);
-
-var _CircleGeometryDescriptor = require('./descriptors/Geometry/CircleGeometryDescriptor');
-
-var _CircleGeometryDescriptor2 = _interopRequireDefault(_CircleGeometryDescriptor);
-
-var _CircleBufferGeometryDescriptor = require('./descriptors/Geometry/CircleBufferGeometryDescriptor');
-
-var _CircleBufferGeometryDescriptor2 = _interopRequireDefault(_CircleBufferGeometryDescriptor);
-
-var _RingGeometryDescriptor = require('./descriptors/Geometry/RingGeometryDescriptor');
-
-var _RingGeometryDescriptor2 = _interopRequireDefault(_RingGeometryDescriptor);
-
-var _CylinderGeometryDescriptor = require('./descriptors/Geometry/CylinderGeometryDescriptor');
-
-var _CylinderGeometryDescriptor2 = _interopRequireDefault(_CylinderGeometryDescriptor);
-
-var _LatheGeometryDescriptor = require('./descriptors/Geometry/LatheGeometryDescriptor');
-
-var _LatheGeometryDescriptor2 = _interopRequireDefault(_LatheGeometryDescriptor);
-
-var _TorusGeometryDescriptor = require('./descriptors/Geometry/TorusGeometryDescriptor');
-
-var _TorusGeometryDescriptor2 = _interopRequireDefault(_TorusGeometryDescriptor);
-
-var _TorusKnotGeometryDescriptor = require('./descriptors/Geometry/TorusKnotGeometryDescriptor');
-
-var _TorusKnotGeometryDescriptor2 = _interopRequireDefault(_TorusKnotGeometryDescriptor);
-
-var _ExtrudeGeometryDescriptor = require('./descriptors/Geometry/ExtrudeGeometryDescriptor');
-
-var _ExtrudeGeometryDescriptor2 = _interopRequireDefault(_ExtrudeGeometryDescriptor);
-
-var _TubeGeometryDescriptor = require('./descriptors/Geometry/TubeGeometryDescriptor');
-
-var _TubeGeometryDescriptor2 = _interopRequireDefault(_TubeGeometryDescriptor);
-
-var _DodecahedronGeometryDescriptor = require('./descriptors/Geometry/DodecahedronGeometryDescriptor');
-
-var _DodecahedronGeometryDescriptor2 = _interopRequireDefault(_DodecahedronGeometryDescriptor);
-
-var _TextGeometryDescriptor = require('./descriptors/Geometry/TextGeometryDescriptor');
-
-var _TextGeometryDescriptor2 = _interopRequireDefault(_TextGeometryDescriptor);
-
-var _ShapeGeometryDescriptor = require('./descriptors/Geometry/ShapeGeometryDescriptor');
-
-var _ShapeGeometryDescriptor2 = _interopRequireDefault(_ShapeGeometryDescriptor);
-
-var _ShapeDescriptor = require('./descriptors/Geometry/Shapes/ShapeDescriptor');
-
-var _ShapeDescriptor2 = _interopRequireDefault(_ShapeDescriptor);
-
-var _MoveToDescriptor = require('./descriptors/Geometry/Shapes/MoveToDescriptor');
-
-var _MoveToDescriptor2 = _interopRequireDefault(_MoveToDescriptor);
-
-var _LineToDescriptor = require('./descriptors/Geometry/Shapes/LineToDescriptor');
-
-var _LineToDescriptor2 = _interopRequireDefault(_LineToDescriptor);
-
-var _BezierCurveToDescriptor = require('./descriptors/Geometry/Shapes/BezierCurveToDescriptor');
-
-var _BezierCurveToDescriptor2 = _interopRequireDefault(_BezierCurveToDescriptor);
-
-var _QuadraticCurveToDescriptor = require('./descriptors/Geometry/Shapes/QuadraticCurveToDescriptor');
-
-var _QuadraticCurveToDescriptor2 = _interopRequireDefault(_QuadraticCurveToDescriptor);
-
-var _AbsArcDescriptor = require('./descriptors/Geometry/Shapes/AbsArcDescriptor');
-
-var _AbsArcDescriptor2 = _interopRequireDefault(_AbsArcDescriptor);
-
-var _AbsEllipseDescriptor = require('./descriptors/Geometry/Shapes/AbsEllipseDescriptor');
-
-var _AbsEllipseDescriptor2 = _interopRequireDefault(_AbsEllipseDescriptor);
-
-var _HoleDescriptor = require('./descriptors/Geometry/Shapes/HoleDescriptor');
-
-var _HoleDescriptor2 = _interopRequireDefault(_HoleDescriptor);
-
-var _SplineThruDescriptor = require('./descriptors/Geometry/Shapes/SplineThruDescriptor');
-
-var _SplineThruDescriptor2 = _interopRequireDefault(_SplineThruDescriptor);
-
-var _PointsMaterialDescriptor = require('./descriptors/Material/PointsMaterialDescriptor');
-
-var _PointsMaterialDescriptor2 = _interopRequireDefault(_PointsMaterialDescriptor);
-
-var _MeshBasicMaterialDescriptor = require('./descriptors/Material/MeshBasicMaterialDescriptor');
-
-var _MeshBasicMaterialDescriptor2 = _interopRequireDefault(_MeshBasicMaterialDescriptor);
-
-var _MeshPhongMaterialDescriptor = require('./descriptors/Material/MeshPhongMaterialDescriptor');
-
-var _MeshPhongMaterialDescriptor2 = _interopRequireDefault(_MeshPhongMaterialDescriptor);
-
-var _MeshLambertMaterialDescriptor = require('./descriptors/Material/MeshLambertMaterialDescriptor');
-
-var _MeshLambertMaterialDescriptor2 = _interopRequireDefault(_MeshLambertMaterialDescriptor);
-
-var _ShaderMaterialDescriptor = require('./descriptors/Material/ShaderMaterialDescriptor');
-
-var _ShaderMaterialDescriptor2 = _interopRequireDefault(_ShaderMaterialDescriptor);
-
-var _RawShaderMaterialDescriptor = require('./descriptors/Material/RawShaderMaterialDescriptor');
-
-var _RawShaderMaterialDescriptor2 = _interopRequireDefault(_RawShaderMaterialDescriptor);
-
-var _TextureDescriptor = require('./descriptors/Material/TextureDescriptor');
-
-var _TextureDescriptor2 = _interopRequireDefault(_TextureDescriptor);
-
-var _MaterialResourceDescriptor = require('./descriptors/Resource/MaterialResourceDescriptor');
-
-var _MaterialResourceDescriptor2 = _interopRequireDefault(_MaterialResourceDescriptor);
-
-var _UniformsDescriptor = require('./descriptors/Material/UniformsDescriptor');
-
-var _UniformsDescriptor2 = _interopRequireDefault(_UniformsDescriptor);
-
-var _UniformDescriptor = require('./descriptors/Material/UniformDescriptor');
-
-var _UniformDescriptor2 = _interopRequireDefault(_UniformDescriptor);
-
-var _LineBasicMaterialDescriptor = require('./descriptors/Material/LineBasicMaterialDescriptor');
-
-var _LineBasicMaterialDescriptor2 = _interopRequireDefault(_LineBasicMaterialDescriptor);
-
-var _LineDashedMaterialDescriptor = require('./descriptors/Material/LineDashedMaterialDescriptor');
-
-var _LineDashedMaterialDescriptor2 = _interopRequireDefault(_LineDashedMaterialDescriptor);
-
-var _MeshDepthMaterialDescriptor = require('./descriptors/Material/MeshDepthMaterialDescriptor');
-
-var _MeshDepthMaterialDescriptor2 = _interopRequireDefault(_MeshDepthMaterialDescriptor);
-
-var _MeshNormalMaterialDescriptor = require('./descriptors/Material/MeshNormalMaterialDescriptor');
-
-var _MeshNormalMaterialDescriptor2 = _interopRequireDefault(_MeshNormalMaterialDescriptor);
-
-var _SpriteMaterialDescriptor = require('./descriptors/Material/SpriteMaterialDescriptor');
-
-var _SpriteMaterialDescriptor2 = _interopRequireDefault(_SpriteMaterialDescriptor);
-
-var _CameraHelperDescriptor = require('./descriptors/Object/Helper/CameraHelperDescriptor');
-
-var _CameraHelperDescriptor2 = _interopRequireDefault(_CameraHelperDescriptor);
-
-var _AxisHelperDescriptor = require('./descriptors/Object/Helper/AxisHelperDescriptor');
-
-var _AxisHelperDescriptor2 = _interopRequireDefault(_AxisHelperDescriptor);
-
-var _ArrowHelperDescriptor = require('./descriptors/Object/Helper/ArrowHelperDescriptor');
-
-var _ArrowHelperDescriptor2 = _interopRequireDefault(_ArrowHelperDescriptor);
-
-var _GridHelperDescriptor = require('./descriptors/Object/Helper/GridHelperDescriptor');
-
-var _GridHelperDescriptor2 = _interopRequireDefault(_GridHelperDescriptor);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var ElementDescriptorContainer = function ElementDescriptorContainer(react3RendererInstance) {
-      _classCallCheck(this, ElementDescriptorContainer);
-
-      this.react3RendererInstance = react3RendererInstance;
-
-      /**
-       * @type {Object.<string, THREEElementDescriptor>}
-       */
-      this.descriptors = {
-            react3: new _React3Descriptor2.default(react3RendererInstance),
-
-            module: new _ModuleDescriptor2.default(react3RendererInstance),
-
-            viewport: new _ViewportDescriptor2.default(react3RendererInstance),
-            scene: new _SceneDescriptor2.default(react3RendererInstance),
-
-            object3D: new _Object3DDescriptor2.default(react3RendererInstance),
-            group: new _GroupDescriptor2.default(react3RendererInstance),
-
-            orthographicCamera: new _OrthographicCameraDescriptor2.default(react3RendererInstance),
-            perspectiveCamera: new _PerspectiveCameraDescriptor2.default(react3RendererInstance),
-            cubeCamera: new _CubeCameraDescriptor2.default(react3RendererInstance),
-
-            mesh: new _MeshDescriptor2.default(react3RendererInstance),
-            line: new _LineDescriptor2.default(react3RendererInstance),
-            lineSegments: new _LineSegmentsDescriptor2.default(react3RendererInstance),
-            points: new _PointsDescriptor2.default(react3RendererInstance),
-            sprite: new _SpriteDescriptor2.default(react3RendererInstance),
-
-            meshBasicMaterial: new _MeshBasicMaterialDescriptor2.default(react3RendererInstance),
-            meshPhongMaterial: new _MeshPhongMaterialDescriptor2.default(react3RendererInstance),
-            meshLambertMaterial: new _MeshLambertMaterialDescriptor2.default(react3RendererInstance),
-            pointsMaterial: new _PointsMaterialDescriptor2.default(react3RendererInstance),
-            shaderMaterial: new _ShaderMaterialDescriptor2.default(react3RendererInstance),
-            rawShaderMaterial: new _RawShaderMaterialDescriptor2.default(react3RendererInstance),
-            lineBasicMaterial: new _LineBasicMaterialDescriptor2.default(react3RendererInstance),
-            lineDashedMaterial: new _LineDashedMaterialDescriptor2.default(react3RendererInstance),
-            meshDepthMaterial: new _MeshDepthMaterialDescriptor2.default(react3RendererInstance),
-            meshNormalMaterial: new _MeshNormalMaterialDescriptor2.default(react3RendererInstance),
-            spriteMaterial: new _SpriteMaterialDescriptor2.default(react3RendererInstance),
-
-            texture: new _TextureDescriptor2.default(react3RendererInstance),
-
-            geometry: new _GeometryDescriptor2.default(react3RendererInstance),
-            bufferGeometry: new _BufferGeometryDescriptor2.default(react3RendererInstance),
-            boxGeometry: new _BoxGeometryDescriptor2.default(react3RendererInstance),
-            sphereGeometry: new _SphereGeometryDescriptor2.default(react3RendererInstance),
-            parametricGeometry: new _ParametricGeometryDescriptor2.default(react3RendererInstance),
-            planeBufferGeometry: new _PlaneBufferGeometryDescriptor2.default(react3RendererInstance),
-            planeGeometry: new _PlaneGeometryDescriptor2.default(react3RendererInstance),
-            polyhedronGeometry: new _PolyhedronGeometryDescriptor2.default(react3RendererInstance),
-            icosahedronGeometry: new _IcosahedronGeometryDescriptor2.default(react3RendererInstance),
-            octahedronGeometry: new _OctahedronGeometryDescriptor2.default(react3RendererInstance),
-            tetrahedronGeometry: new _TetrahedronGeometryDescriptor2.default(react3RendererInstance),
-            circleGeometry: new _CircleGeometryDescriptor2.default(react3RendererInstance),
-            circleBufferGeometry: new _CircleBufferGeometryDescriptor2.default(react3RendererInstance),
-            ringGeometry: new _RingGeometryDescriptor2.default(react3RendererInstance),
-            cylinderGeometry: new _CylinderGeometryDescriptor2.default(react3RendererInstance),
-            latheGeometry: new _LatheGeometryDescriptor2.default(react3RendererInstance),
-            torusGeometry: new _TorusGeometryDescriptor2.default(react3RendererInstance),
-            torusKnotGeometry: new _TorusKnotGeometryDescriptor2.default(react3RendererInstance),
-            extrudeGeometry: new _ExtrudeGeometryDescriptor2.default(react3RendererInstance),
-            tubeGeometry: new _TubeGeometryDescriptor2.default(react3RendererInstance),
-            dodecahedronGeometry: new _DodecahedronGeometryDescriptor2.default(react3RendererInstance),
-            textGeometry: new _TextGeometryDescriptor2.default(react3RendererInstance),
-            shapeGeometry: new _ShapeGeometryDescriptor2.default(react3RendererInstance),
-
-            shape: new _ShapeDescriptor2.default(react3RendererInstance),
-            moveTo: new _MoveToDescriptor2.default(react3RendererInstance),
-            lineTo: new _LineToDescriptor2.default(react3RendererInstance),
-            bezierCurveTo: new _BezierCurveToDescriptor2.default(react3RendererInstance),
-            quadraticCurveTo: new _QuadraticCurveToDescriptor2.default(react3RendererInstance),
-            absArc: new _AbsArcDescriptor2.default(react3RendererInstance),
-            absEllipse: new _AbsEllipseDescriptor2.default(react3RendererInstance),
-            hole: new _HoleDescriptor2.default(react3RendererInstance),
-            splineThru: new _SplineThruDescriptor2.default(react3RendererInstance),
-
-            ambientLight: new _AmbientLightDescriptor2.default(react3RendererInstance),
-            directionalLight: new _DirectionalLightDescriptor2.default(react3RendererInstance),
-            spotLight: new _SpotLightDescriptor2.default(react3RendererInstance),
-            pointLight: new _PointLightDescriptor2.default(react3RendererInstance),
-
-            resources: new _ResourcesDescriptor2.default(react3RendererInstance),
-            materialResource: new _MaterialResourceDescriptor2.default(react3RendererInstance),
-            geometryResource: new _GeometryResourceDescriptor2.default(react3RendererInstance),
-            shapeGeometryResource: new _ShapeGeometryResourceDescriptor2.default(react3RendererInstance),
-            textureResource: new _TextureResourceDescriptor2.default(react3RendererInstance),
-            shapeResource: new _ShapeResourceDescriptor2.default(react3RendererInstance),
-
-            uniforms: new _UniformsDescriptor2.default(react3RendererInstance),
-            uniform: new _UniformDescriptor2.default(react3RendererInstance),
-
-            cameraHelper: new _CameraHelperDescriptor2.default(react3RendererInstance),
-            axisHelper: new _AxisHelperDescriptor2.default(react3RendererInstance),
-            arrowHelper: new _ArrowHelperDescriptor2.default(react3RendererInstance),
-            gridHelper: new _GridHelperDescriptor2.default(react3RendererInstance)
-      };
-};
-
-module.exports = ElementDescriptorContainer;
-},{"./descriptors/Geometry/BoxGeometryDescriptor":252,"./descriptors/Geometry/BufferGeometryDescriptor":253,"./descriptors/Geometry/CircleBufferGeometryDescriptor":255,"./descriptors/Geometry/CircleGeometryDescriptor":256,"./descriptors/Geometry/CylinderGeometryDescriptor":257,"./descriptors/Geometry/DodecahedronGeometryDescriptor":258,"./descriptors/Geometry/ExtrudeGeometryDescriptor":259,"./descriptors/Geometry/GeometryDescriptor":260,"./descriptors/Geometry/IcosahedronGeometryDescriptor":263,"./descriptors/Geometry/LatheGeometryDescriptor":264,"./descriptors/Geometry/OctahedronGeometryDescriptor":265,"./descriptors/Geometry/ParametricGeometryDescriptor":266,"./descriptors/Geometry/PlaneBufferGeometryDescriptor":267,"./descriptors/Geometry/PlaneGeometryDescriptor":268,"./descriptors/Geometry/PolyhedronGeometryDescriptor":269,"./descriptors/Geometry/RingGeometryDescriptor":271,"./descriptors/Geometry/ShapeGeometryDescriptor":272,"./descriptors/Geometry/Shapes/AbsArcDescriptor":273,"./descriptors/Geometry/Shapes/AbsEllipseDescriptor":274,"./descriptors/Geometry/Shapes/BezierCurveToDescriptor":275,"./descriptors/Geometry/Shapes/HoleDescriptor":276,"./descriptors/Geometry/Shapes/LineToDescriptor":277,"./descriptors/Geometry/Shapes/MoveToDescriptor":278,"./descriptors/Geometry/Shapes/QuadraticCurveToDescriptor":280,"./descriptors/Geometry/Shapes/ShapeDescriptor":282,"./descriptors/Geometry/Shapes/SplineThruDescriptor":283,"./descriptors/Geometry/SphereGeometryDescriptor":284,"./descriptors/Geometry/TetrahedronGeometryDescriptor":285,"./descriptors/Geometry/TextGeometryDescriptor":286,"./descriptors/Geometry/TorusGeometryDescriptor":287,"./descriptors/Geometry/TorusKnotGeometryDescriptor":288,"./descriptors/Geometry/TubeGeometryDescriptor":289,"./descriptors/Light/AmbientLightDescriptor":290,"./descriptors/Light/DirectionalLightDescriptor":291,"./descriptors/Light/PointLightDescriptor":293,"./descriptors/Light/SpotLightDescriptor":294,"./descriptors/Material/LineBasicMaterialDescriptor":295,"./descriptors/Material/LineDashedMaterialDescriptor":296,"./descriptors/Material/MeshBasicMaterialDescriptor":298,"./descriptors/Material/MeshDepthMaterialDescriptor":299,"./descriptors/Material/MeshLambertMaterialDescriptor":300,"./descriptors/Material/MeshNormalMaterialDescriptor":301,"./descriptors/Material/MeshPhongMaterialDescriptor":302,"./descriptors/Material/PointsMaterialDescriptor":303,"./descriptors/Material/RawShaderMaterialDescriptor":304,"./descriptors/Material/ShaderMaterialDescriptor":305,"./descriptors/Material/SpriteMaterialDescriptor":306,"./descriptors/Material/TextureDescriptor":307,"./descriptors/Material/UniformDescriptor":308,"./descriptors/Material/UniformsDescriptor":309,"./descriptors/ModuleDescriptor":310,"./descriptors/Object/Camera/CubeCameraDescriptor":312,"./descriptors/Object/Camera/OrthographicCameraDescriptor":313,"./descriptors/Object/Camera/PerspectiveCameraDescriptor":314,"./descriptors/Object/GroupDescriptor":315,"./descriptors/Object/Helper/ArrowHelperDescriptor":316,"./descriptors/Object/Helper/AxisHelperDescriptor":317,"./descriptors/Object/Helper/CameraHelperDescriptor":318,"./descriptors/Object/Helper/GridHelperDescriptor":319,"./descriptors/Object/LineDescriptor":320,"./descriptors/Object/LineSegmentsDescriptor":321,"./descriptors/Object/MeshDescriptor":322,"./descriptors/Object/Object3DDescriptor":323,"./descriptors/Object/PointsDescriptor":324,"./descriptors/Object/SceneDescriptor":325,"./descriptors/Object/SpriteDescriptor":326,"./descriptors/React3Descriptor":327,"./descriptors/Resource/GeometryResourceDescriptor":328,"./descriptors/Resource/MaterialResourceDescriptor":329,"./descriptors/Resource/ResourcesDescriptor":331,"./descriptors/Resource/ShapeGeometryResourceDescriptor":332,"./descriptors/Resource/ShapeResourceDescriptor":333,"./descriptors/Resource/TextureResourceDescriptor":334,"./descriptors/ViewportDescriptor":336}],228:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _class, _temp;
-
-var _ReactReconciler = require('react/lib/ReactReconciler');
-
-var _ReactReconciler2 = _interopRequireDefault(_ReactReconciler);
-
-var _ReactMultiChild = require('react/lib/ReactMultiChild');
-
-var _ReactMultiChild2 = _interopRequireDefault(_ReactMultiChild);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _emptyFunction = require('fbjs/lib/emptyFunction');
-
-var _emptyFunction2 = _interopRequireDefault(_emptyFunction);
-
-var _flattenChildren = require('react/lib/flattenChildren');
-
-var _flattenChildren2 = _interopRequireDefault(_flattenChildren);
-
-var _ReactCurrentOwner = require('react/lib/ReactCurrentOwner');
-
-var _ReactCurrentOwner2 = _interopRequireDefault(_ReactCurrentOwner);
-
-var _ReactInstrumentation = require('react/lib/ReactInstrumentation');
-
-var _ReactInstrumentation2 = _interopRequireDefault(_ReactInstrumentation);
-
-var _ReactElement = require('react/lib/ReactElement');
-
-var _ReactElement2 = _interopRequireDefault(_ReactElement);
-
-var _ReactRef = require('react/lib/ReactRef');
-
-var _ReactRef2 = _interopRequireDefault(_ReactRef);
-
-var _React3ComponentFlags = require('./React3ComponentFlags');
-
-var _React3ComponentFlags2 = _interopRequireDefault(_React3ComponentFlags);
-
-var _idPropertyName = require('./utils/idPropertyName');
-
-var _idPropertyName2 = _interopRequireDefault(_idPropertyName);
-
-var _React3CompositeComponentWrapper = require('./React3CompositeComponentWrapper');
-
-var _React3CompositeComponentWrapper2 = _interopRequireDefault(_React3CompositeComponentWrapper);
-
-var _React3ComponentTree = require('./React3ComponentTree');
-
-var _React3ComponentTree2 = _interopRequireDefault(_React3ComponentTree);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function processChildContext(context) {
-  return context;
-}
-
-var RemountTrigger = function RemountTrigger() {
-  var _this = this;
-
-  _classCallCheck(this, RemountTrigger);
-
-  this.wantRemount = false;
-  this.onTrigger = function onTrigger() {};
-
-  this.trigger = function () {
-    _this.wantRemount = true;
-
-    _this.onTrigger();
-  };
-};
-
-var registrationNameModules = {};
-
-function deleteListener(rootNodeID, propKey) {
-  console.log('deleteListener', rootNodeID, propKey); // eslint-disable-line
-  debugger; // eslint-disable-line
-}
-
-function enqueuePutListener(rootNodeID, propKey, nextProp, transaction) {
-  console.log('enqueuePutListener', rootNodeID, propKey, nextProp, transaction); // eslint-disable-line
-  debugger; // eslint-disable-line
-}
-
-function _arrayMove(array, oldIndex, newIndex) {
-  array.splice(newIndex, 0, array.splice(oldIndex, 1)[0]);
-}
-
-var setChildrenForInstrumentation = _emptyFunction2.default;
-var setContentChildForInstrumentation = _emptyFunction2.default;
-var getDebugID = void 0;
-
-if (process.env.NODE_ENV !== 'production') {
-  (function () {
-    /* eslint-disable global-require */
-
-    var ReactInstanceMap = require('react/lib/ReactInstanceMap');
-
-    /* eslint-enable global-require */
-
-    getDebugID = function _(inst) {
-      if (!inst._debugID) {
-        // Check for ART-like instances. TODO: This is silly/gross.
-        var internal = ReactInstanceMap.get(inst);
-        if (internal) {
-          return internal._debugID;
-        }
-      }
-      return inst._debugID;
-    };
-
-    setChildrenForInstrumentation = function _(children) {
-      _ReactInstrumentation2.default.debugTool.onSetChildren(this._debugID, children ? Object.keys(children).map(function (key) {
-        return children[key]._debugID;
-      }) : []);
-    };
-
-    setContentChildForInstrumentation = function _(content) {
-      var hasExistingContent = this._contentDebugID !== null && this._contentDebugID !== undefined;
-      var debugID = this._debugID;
-      // This ID represents the inlined child that has no backing instance:
-      var contentDebugID = 'CDID-' + debugID;
-
-      if (content == null) {
-        if (hasExistingContent) {
-          _ReactInstrumentation2.default.debugTool.onUnmountComponent(this._contentDebugID);
-        }
-        this._contentDebugID = null;
-        return;
-      }
-
-      this._contentDebugID = contentDebugID;
-      if (hasExistingContent) {
-        _ReactInstrumentation2.default.debugTool.onBeforeUpdateComponent(contentDebugID, content);
-        _ReactInstrumentation2.default.debugTool.onUpdateComponent(contentDebugID);
-      } else {
-        _ReactInstrumentation2.default.debugTool.onBeforeMountComponent(contentDebugID, content, debugID);
-        _ReactInstrumentation2.default.debugTool.onMountComponent(contentDebugID);
-        _ReactInstrumentation2.default.debugTool.onSetChildren(debugID, [contentDebugID]);
-      }
-    };
-  })();
-}
-
-var getThreeObjectFromMountImage = function getThreeObjectFromMountImage(img) {
-  return img.threeObject;
-};
-
-var ReactMultiChildMixin = _ReactMultiChild2.default.Mixin;
-
-// TODO sync ReactDOMComponent
-var InternalComponent = (_temp = _class = function () {
-  function InternalComponent(element, react3RendererInstance) {
-    var _this2 = this;
-
-    _classCallCheck(this, InternalComponent);
-
-    this.updateChildren = ReactMultiChildMixin.updateChildren.bind(this);
-    this._mountChildAtIndex = ReactMultiChildMixin._mountChildAtIndex.bind(this);
-    this._unmountChild = ReactMultiChildMixin._unmountChild.bind(this);
-    this.unmountChildren = ReactMultiChildMixin.unmountChildren.bind(this);
-
-    this._currentElement = element;
-    /**
-     * @type React3Renderer
-     */
-    this._react3RendererInstance = react3RendererInstance;
-
-    this._elementType = element.type; // _tag
-    this._renderedChildren = [];
-    this._hostMarkup = null; // _hostNode
-    this._hostParent = null;
-    this._rootNodeID = 0;
-    this._hostID = 0; // _domID
-    this._hostContainerInfo = null;
-    this._threeObject = null;
-    this._topLevelWrapper = null;
-    this._markup = null;
-    this._nodeWithLegacyProperties = null;
-    this._forceRemountOfComponent = false;
-    this._flags = 0;
-
-    if (process.env.NODE_ENV !== 'production') {
-      this._ancestorInfo = null;
-
-      setContentChildForInstrumentation.call(this, null);
-    }
-
-    this.threeElementDescriptor = react3RendererInstance.threeElementDescriptors[element.type];
-    if (!this.threeElementDescriptor) {
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(false, 'No constructor for ' + element.type);
-      } else {
-        (0, _invariant2.default)(false);
-      }
-    }
-
-    if (process.env.NODE_ENV !== 'production' || process.env.ENABLE_REACT_ADDON_HOOKS === 'true') {
-      this.highlightComponent = function () {
-        _this2.threeElementDescriptor.highlight(_this2._threeObject);
-      };
-
-      this.hideHighlight = function () {
-        _this2.threeElementDescriptor.hideHighlight(_this2._threeObject);
-      };
-    }
-
-    this.remountTrigger = new RemountTrigger();
-
-    this.remountTrigger.onTrigger = function () {
-      _this2._forceRemountOfComponent = true;
-    };
-  }
-
-  _createClass(InternalComponent, [{
-    key: 'getHostMarkup',
-    value: function getHostMarkup() {
-      return this._markup;
-    }
-  }, {
-    key: 'getHostNode',
-    value: function getHostNode() {
-      // console.warn('host node?'); // eslint-disable-line no-console
-      return this._markup;
-    }
-
-    /**
-     * Generates root tag markup then recurses. This method has side effects and
-     * is not idempotent.
-     *
-     * @internal
-     * @param {ReactReconcileTransaction|ReactServerRenderingTransaction} transaction
-     * @param {?InternalComponent} hostParent the containing DOM component instance
-     * @param {?React3ContainerInfo} hostContainerInfo info about the host container
-     * @param {object} context
-     * @return {object} The computed markup.
-     */
-
-  }, {
-    key: 'mountComponent',
-    value: function mountComponent(transaction, hostParent, hostContainerInfo, context) {
-      var _markup;
-
-      this._rootNodeID = this._react3RendererInstance.globalIdCounter++;
-      this._hostID = hostContainerInfo._idCounter++;
-      this._hostParent = hostParent;
-      this._hostContainerInfo = hostContainerInfo;
-
-      var element = this._currentElement;
-
-      if (process.env.NODE_ENV !== 'production') {
-        this.threeElementDescriptor.checkPropTypes(element, this._currentElement._owner, this._debugID, element.props);
-      }
-
-      this._threeObject = this.threeElementDescriptor.construct(element.props);
-      this.threeElementDescriptor.applyInitialProps(this._threeObject, element.props);
-
-      this.threeElementDescriptor.placeRemountTrigger(this._threeObject, this.remountTrigger.trigger);
-
-      // create initial children
-      var childrenToUse = element.props.children;
-
-      var mountImages = void 0;
-      if (childrenToUse) {
-        mountImages = this.mountChildren(childrenToUse, transaction, context);
-      } else {
-        mountImages = [];
-      }
-
-      var markup = (_markup = {}, _defineProperty(_markup, _idPropertyName2.default, this._hostID), _defineProperty(_markup, '_rootInstance', null), _defineProperty(_markup, 'elementType', element.type), _defineProperty(_markup, 'threeObject', this._threeObject), _defineProperty(_markup, 'parentMarkup', null), _defineProperty(_markup, 'childrenMarkup', mountImages), _defineProperty(_markup, 'toJSON', function toJSON() {
-        return '---MARKUP---';
-      }), _markup);
-
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(!!this._threeObject.userData, 'No userdata present in threeobject for %s', element.type);
-      } else {
-        (0, _invariant2.default)(!!this._threeObject.userData);
-      }
-
-      Object.assign(this._threeObject.userData, {
-        object3D: this._threeObject,
-        react3internalComponent: this, // used for highlighting etc
-        toJSON: function toJSON() {
-          return '---USERDATA---';
-        },
-        markup: markup
-      });
-
-      var threeElementDescriptors = this._react3RendererInstance.threeElementDescriptors;
-
-      if (mountImages && mountImages.length > 0) {
-        this.threeElementDescriptor.addChildren(this._threeObject, mountImages.map(getThreeObjectFromMountImage));
-
-        for (var i = 0; i < mountImages.length; ++i) {
-          var mountImage = mountImages[i];
-
-          var descriptorForChild = threeElementDescriptors[mountImage.elementType];
-
-          mountImage.parentMarkup = markup;
-
-          descriptorForChild.setParent(mountImage.threeObject, this._threeObject);
-        }
-      }
-
-      this._markup = markup;
-
-      _React3ComponentTree2.default.precacheMarkup(this, this._markup);
-      this._flags |= _React3ComponentFlags2.default.hasCachedChildMarkups;
-
-      return markup;
-    }
-
-    /**
-     * @see ReactMultiChild._reconcilerInstantiateChildren
-     * Cloned because it uses
-     * @see React3Renderer.instantiateChildren
-     *
-     * @param nestedChildren
-     * @param transaction
-     * @param context
-     * @returns {*}
-     * @private
-     */
-
-  }, {
-    key: '_reconcilerInstantiateChildren',
-    value: function _reconcilerInstantiateChildren(nestedChildren, transaction, context) {
-      if (process.env.NODE_ENV !== 'production') {
-        var selfDebugID = getDebugID(this);
-
-        if (this._currentElement) {
-          var previousCurrent = _ReactCurrentOwner2.default.current;
-
-          try {
-            _ReactCurrentOwner2.default.current = this._currentElement._owner;
-            return this._react3RendererInstance.instantiateChildren(nestedChildren, transaction, context, selfDebugID);
-          } finally {
-            _ReactCurrentOwner2.default.current = previousCurrent;
-          }
-        }
-      }
-      return this._react3RendererInstance.instantiateChildren(nestedChildren, transaction, context, 0);
-    }
-
-    /**
-     * @see ReactMultiChild._reconcilerUpdateChildren
-     * Cloned because it uses
-     * @see React3Renderer.updateChildren
-     *
-     * @param prevChildren
-     * @param nextNestedChildrenElements
-     * @param mountImages
-     * @param removedMarkups
-     * @param transaction
-     * @param context
-     * @returns {?Object}
-     * @private
-     */
-
-  }, {
-    key: '_reconcilerUpdateChildren',
-    value: function _reconcilerUpdateChildren(prevChildren, nextNestedChildrenElements, mountImages, removedMarkups, transaction, context) {
-      var nextChildren = void 0;
-      var selfDebugID = 0;
-
-      if (process.env.NODE_ENV !== 'production') {
-        selfDebugID = getDebugID(this);
-
-        if (this._currentElement) {
-          var previousCurrent = _ReactCurrentOwner2.default.current;
-
-          try {
-            _ReactCurrentOwner2.default.current = this._currentElement._owner;
-            nextChildren = (0, _flattenChildren2.default)(nextNestedChildrenElements, selfDebugID);
-          } finally {
-            _ReactCurrentOwner2.default.current = previousCurrent;
-          }
-
-          this._react3RendererInstance.updateChildren(prevChildren, nextChildren, mountImages, removedMarkups, transaction, this, this._hostContainerInfo, context, selfDebugID);
-
-          return nextChildren;
-        }
-      }
-
-      nextChildren = (0, _flattenChildren2.default)(nextNestedChildrenElements, selfDebugID);
-
-      this._react3RendererInstance.updateChildren(prevChildren, nextChildren, mountImages, removedMarkups, transaction, this, this._hostContainerInfo, context, selfDebugID);
-
-      return nextChildren;
-    }
-
-    /**
-     * @see ReactMultiChild.mountChildren
-     *
-     * Generates a "mount image" for each of the supplied children. In the case
-     * of `ReactDOMComponent`, a mount image is a string of markup.
-     *
-     * @param {?object} nestedChildren Nested child maps.
-     * @param transaction
-     * @param context
-     * @return {array} An array of mounted representations.
-     * @internal
-     */
-
-  }, {
-    key: 'mountChildren',
-    value: function mountChildren(nestedChildren, transaction, context) {
-      var children = this._reconcilerInstantiateChildren(nestedChildren, transaction, context);
-      this._renderedChildren = children;
-
-      var mountImages = [];
-      var index = 0;
-
-      if (children) {
-        var childrenNames = Object.keys(children);
-        for (var i = 0; i < childrenNames.length; ++i) {
-          var name = childrenNames[i];
-          var child = children[name];
-          var selfDebugID = 0;
-
-          if (process.env.NODE_ENV !== 'production') {
-            selfDebugID = getDebugID(this);
-          }
-
-          var mountImage = _ReactReconciler2.default.mountComponent(child, transaction, this, this._hostContainerInfo, context, selfDebugID);
-
-          // const mountImage = ReactReconciler.mountComponent(child, rootID, transaction, context);
-          child._mountIndex = index;
-          mountImages.push(mountImage);
-          index++;
-        }
-      }
-
-      if (process.env.NODE_ENV !== 'production') {
-        setChildrenForInstrumentation.call(this, children);
-      }
-
-      return mountImages;
-    }
-  }, {
-    key: 'moveChild',
-    value: function moveChild(child, toIndex, lastIndex) {
-      if (child._mountIndex === toIndex) {
-        return;
-      }
-
-      this.threeElementDescriptor.moveChild(this._threeObject, child._threeObject, toIndex, child._mountIndex);
-
-      var markup = this._markup;
-
-      _arrayMove(markup.childrenMarkup, lastIndex, toIndex);
-    }
-  }, {
-    key: 'receiveComponent',
-    value: function receiveComponent(nextElement, transaction, context) {
-      // console.log('receive component');
-
-      var prevElement = this._currentElement;
-      this._currentElement = nextElement;
-
-      this.updateComponent(transaction, prevElement, nextElement, context);
-
-      if (this._forceRemountOfComponent) {
-        this._currentElement = null;
-      }
-    }
-
-    /**
-     * @see ReactDOMComponent.updateComponent
-     *
-     * Updates a DOM component after it has already been allocated and
-     * attached to the DOM. Reconciles the root DOM node, then recurses.
-     *
-     * @param {ReactReconcileTransaction} transaction
-     * @param {ReactElement} prevElement
-     * @param {ReactElement} nextElement
-     * @param context
-     * @internal
-     * @overridable
-     */
-
-  }, {
-    key: 'updateComponent',
-    value: function updateComponent(transaction, prevElement, nextElement, context) {
-      var lastProps = prevElement.props;
-      var nextProps = this._currentElement.props;
-
-      if (prevElement.type !== nextElement.type) {
-        if (process.env.NODE_ENV !== 'production') {
-          (0, _invariant2.default)(false, 'The component type changed unexpectedly');
-        } else {
-          (0, _invariant2.default)(false);
-        }
-      }
-
-      this._updateObjectProperties(lastProps, nextProps, transaction, context);
-      if (!this._forceRemountOfComponent) {
-        this._updateChildrenObjects(nextProps, transaction, processChildContext(context, this));
-      }
-    }
-
-    // see _updateDOMChildren
-
-  }, {
-    key: '_updateChildrenObjects',
-    value: function _updateChildrenObjects(nextProps, transaction, context) {
-      var nextChildren = nextProps.children || null;
-
-      if (process.env.NODE_ENV !== 'production') {
-        setContentChildForInstrumentation.call(this, null);
-      }
-
-      this.updateChildren(nextChildren, transaction, context);
-    }
-
-    // original: _updateDOMProperties
-
-  }, {
-    key: '_updateObjectProperties',
-    value: function _updateObjectProperties(lastProps, nextProps, transaction) {
-      var remountTrigger = this.remountTrigger;
-
-      remountTrigger.wantRemount = false;
-
-      this.threeElementDescriptor.beginPropertyUpdates(this._threeObject);
-
-      if (process.env.NODE_ENV !== 'production') {
-        this.threeElementDescriptor.checkPropTypes(this._currentElement, this._currentElement._owner, this._debugID, nextProps);
-      }
-
-      var lastPropKeys = Object.keys(lastProps);
-
-      // https://jsperf.com/object-keys-vs-for-in-with-closure/3
-      for (var i = 0; i < lastPropKeys.length; ++i) {
-        var propKey = lastPropKeys[i];
-
-        if (nextProps.hasOwnProperty(propKey)) {
-          continue;
-        }
-
-        if (propKey === 'children') {
-          continue;
-        }
-
-        if (remountTrigger.wantRemount) {
-          break;
-        }
-
-        if (registrationNameModules.hasOwnProperty(propKey)) {
-          if (lastProps[propKey]) {
-            // Only call deleteListener if there was a listener previously or
-            // else willDeleteListener gets called when there wasn't actually a
-            // listener (e.g., onClick={null})
-            deleteListener(this._rootNodeID, propKey);
-          }
-        } else {
-          this.threeElementDescriptor.deleteProperty(this._threeObject, propKey);
-        }
-      }
-
-      var nextPropKeys = Object.keys(nextProps);
-
-      for (var _i = 0; _i < nextPropKeys.length; ++_i) {
-        var _propKey = nextPropKeys[_i];
-
-        if (_propKey === 'children') {
-          continue;
-        }
-
-        if (remountTrigger.wantRemount) {
-          break;
-        }
-
-        var nextProp = nextProps[_propKey];
-        var lastProp = lastProps[_propKey];
-
-        if (nextProp === lastProp) {
-          continue;
-        }
-
-        if (registrationNameModules.hasOwnProperty(_propKey)) {
-          if (nextProp) {
-            enqueuePutListener(this._rootNodeID, _propKey, nextProp, transaction);
-          } else if (lastProp) {
-            deleteListener(this._rootNodeID, _propKey);
-          }
-        } else {
-          this.threeElementDescriptor.updateProperty(this._threeObject, _propKey, nextProp);
-        }
-      }
-
-      this.threeElementDescriptor.completePropertyUpdates(this._threeObject);
-    }
-  }, {
-    key: '_removeAllChildRefs',
-    value: function _removeAllChildRefs() {
-      var renderedChildren = this._renderedChildren;
-
-      if (renderedChildren) {
-        var renderedChildrenKeys = Object.keys(renderedChildren);
-
-        for (var i = 0; i < renderedChildrenKeys.length; ++i) {
-          var name = renderedChildrenKeys[i];
-
-          var renderedChild = renderedChildren[name];
-
-          if (renderedChild && renderedChild._currentElement && renderedChild._currentElement.ref) {
-            _ReactRef2.default.detachRefs(renderedChild, renderedChild._currentElement);
-
-            renderedChild._currentElement = _ReactElement2.default.cloneElement(renderedChild._currentElement, {
-              ref: null
-            });
-          }
-
-          renderedChild._removeAllChildRefs();
-        }
-      }
-    }
-
-    /**
-     * @see ReactDOMComponent.Mixin.unmountComponent
-     */
-
-  }, {
-    key: 'unmountComponent',
-    value: function unmountComponent(safely) {
-      if (this._threeObject !== null) {
-        this.threeElementDescriptor.componentWillUnmount(this._threeObject);
-      }
-
-      if (this._forceRemountOfComponent) {
-        this._removeAllChildRefs(); // prevent attaching of refs to children
-      }
-
-      this.unmountChildren(safely);
-      _React3ComponentTree2.default.uncacheMarkup(this);
-
-      if (this._threeObject !== null) {
-        this.threeElementDescriptor.unmount(this._threeObject);
-        // delete this._threeObject.userData.markup;
-      }
-
-      this._markup = null;
-      this._rootNodeID = 0;
-
-      if (this._nodeWithLegacyProperties) {
-        var node = this._nodeWithLegacyProperties;
-        node._reactInternalComponent = null;
-        this._nodeWithLegacyProperties = null;
-      }
-
-      if (process.env.NODE_ENV !== 'production') {
-        setContentChildForInstrumentation.call(this, null);
-      }
-    }
-  }, {
-    key: 'emptyJson',
-    value: function emptyJson() {
-      debugger; // eslint-disable-line
-      return '...';
-    }
-  }, {
-    key: 'getPublicInstance',
-    value: function getPublicInstance() {
-      return this._markup.threeObject;
-    }
-
-    /**
-     * @see ReactMultiChildMixin._updateChildren
-     *
-     * Improve performance by isolating this hot code path from the try/catch
-     * block in `updateChildren`.
-     *
-     * @param {?object} nextNestedChildrenElements Nested child maps.
-     * @param {ReactReconcileTransaction} transaction
-     * @param {any} context
-     * @final
-     * @protected
-     */
-
-  }, {
-    key: '_updateChildren',
-    value: function _updateChildren(nextNestedChildrenElements, transaction, context) {
-      var prevChildren = this._renderedChildren;
-      var removedMarkups = {};
-      var mountImages = [];
-      var nextChildren = this._reconcilerUpdateChildren(prevChildren, nextNestedChildrenElements, mountImages, removedMarkups, transaction, context);
-
-      if (!nextChildren && !prevChildren) {
-        return;
-      }
-
-      var remountTrigger = this.remountTrigger;
-
-      remountTrigger.wantRemount = false;
-
-      this.threeElementDescriptor.beginChildUpdates(this._threeObject);
-
-      // `nextIndex` will increment for each child in `nextChildren`, but
-      // `lastIndex` will be the last index visited in `prevChildren`.
-      var nextIndex = 0;
-      var lastIndex = 0;
-      // `nextMountIndex` will increment for each newly mounted child.
-      var nextMountIndex = 0;
-
-      if (nextChildren) {
-        var nextChildrenNames = Object.keys(nextChildren);
-
-        for (var i = 0; i < nextChildrenNames.length; ++i) {
-          var childName = nextChildrenNames[i];
-
-          if (remountTrigger.wantRemount) {
-            // This component will be remounted, (see extrude geometry)
-            // No need to update children any more as they will also be remounted!
-            continue;
-          }
-
-          var prevChild = prevChildren && prevChildren[childName];
-          var nextChild = nextChildren[childName];
-
-          if (prevChild === nextChild) {
-            this.moveChild(prevChild, nextIndex, lastIndex);
-            lastIndex = Math.max(prevChild._mountIndex, lastIndex);
-            prevChild._mountIndex = nextIndex;
-          } else {
-            if (prevChild) {
-              // Update `lastIndex` before `_mountIndex` gets unset by unmounting.
-              lastIndex = Math.max(prevChild._mountIndex, lastIndex);
-
-              var removedChildMarkup = removedMarkups[childName];
-
-              // handle removal here to allow replacing of components that are expected to be present
-              // only once in the parent
-              (0, _invariant2.default)(!!removedChildMarkup, 'Removed markup map should contain this child');
-
-              delete removedMarkups[childName];
-
-              this._unmountChild(prevChild, removedChildMarkup);
-            }
-
-            if (!remountTrigger.wantRemount) {
-              // The remount can be triggered by unmountChild as well (see extrude geometry)
-
-              // The child must be instantiated before it's mounted.
-              this._mountChildAtIndex(nextChild, mountImages[nextMountIndex], null, nextIndex, transaction, context);
-
-              nextMountIndex++;
-            }
-          }
-
-          nextIndex++;
-        }
-      }
-
-      var removedMarkupNames = Object.keys(removedMarkups);
-
-      for (var _i2 = 0; _i2 < removedMarkupNames.length; ++_i2) {
-        var removedMarkupName = removedMarkupNames[_i2];
-
-        this._unmountChild(prevChildren[removedMarkupName], removedMarkups[removedMarkupName]);
-      }
-
-      this._renderedChildren = nextChildren;
-
-      if (process.env.NODE_ENV !== 'production') {
-        setChildrenForInstrumentation.call(this, nextChildren);
-      }
-
-      this.threeElementDescriptor.completeChildUpdates(this._threeObject);
-    }
-
-    // afterNode unused
-
-  }, {
-    key: 'createChild',
-    value: function createChild(child, afterNode, mountImage) {
-      var mountIndex = child._mountIndex;
-
-      this._markup.childrenMarkup.splice(mountIndex, 0, mountImage);
-      mountImage.parentMarkup = this._markup;
-
-      this.threeElementDescriptor.addChild(this._threeObject, mountImage.threeObject, mountIndex);
-
-      var descriptorForChild = this._react3RendererInstance.threeElementDescriptors[mountImage.elementType];
-
-      descriptorForChild.setParent(mountImage.threeObject, this._threeObject);
-    }
-
-    /**
-     * Removes a child component.
-     *
-     * @param {ReactComponent} child Child to remove.
-     * @param {*} markup The markup for the child.
-     * @protected
-     */
-
-  }, {
-    key: 'removeChild',
-    value: function removeChild(child, markup) {
-      // eslint-disable-line no-unused-vars
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(!!markup && !!markup.threeObject, 'The child markup to replace has no threeObject');
-      }
-
-      this.threeElementDescriptor.removeChild(this._threeObject, markup.threeObject);
-
-      if (child instanceof InternalComponent) {
-        child.threeElementDescriptor.removedFromParent(markup.threeObject);
-      } else if (child instanceof _React3CompositeComponentWrapper2.default) {
-        markup.threeObject.userData.react3internalComponent.threeElementDescriptor.removedFromParent(markup.threeObject);
-      } else if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(false, 'Cannot remove child because it is not a known component type');
-      } else {
-        (0, _invariant2.default)(false);
-      }
-
-      var childrenMarkup = this._markup.childrenMarkup;
-
-      for (var i = 0; i < childrenMarkup.length; i++) {
-        var childMarkup = childrenMarkup[i];
-
-        if (childMarkup.threeObject === markup.threeObject) {
-          childrenMarkup.splice(i, 1);
-
-          delete childMarkup.parentMarkup;
-          return;
-        }
-      }
-
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(false, 'Trying to remove a child that is not mounted');
-      } else {
-        (0, _invariant2.default)(false);
-      }
-    }
-  }]);
-
-  return InternalComponent;
-}(), _class.displayName = 'React3Component', _temp);
-
-
-module.exports = InternalComponent;
-}).call(this,require('_process'))
-},{"./React3ComponentFlags":231,"./React3ComponentTree":232,"./React3CompositeComponentWrapper":233,"./utils/idPropertyName":341,"_process":203,"fbjs/lib/emptyFunction":345,"fbjs/lib/invariant":347,"react/lib/ReactCurrentOwner":386,"react/lib/ReactElement":409,"react/lib/ReactInstanceMap":421,"react/lib/ReactInstrumentation":422,"react/lib/ReactMultiChild":426,"react/lib/ReactReconciler":437,"react/lib/ReactRef":438,"react/lib/flattenChildren":470}],229:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var React3Module = function () {
-  function React3Module() {
-    _classCallCheck(this, React3Module);
-
-    this.userData = {};
-    this.uuid = _three2.default.Math.generateUUID();
-  }
-
-  _createClass(React3Module, [{
-    key: 'setup',
-    value: function setup(react3RendererInstance) {// eslint-disable-line no-unused-vars
-
-    }
-  }, {
-    key: 'update',
-    value: function update() {}
-  }, {
-    key: 'dispose',
-    value: function dispose() {}
-  }]);
-
-  return React3Module;
-}();
-
-module.exports = React3Module;
-},{"three":529}],230:[function(require,module,exports){
-'use strict';
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _class, _temp;
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _ReactComponentWithPureRenderMixin = require('react/lib/ReactComponentWithPureRenderMixin');
-
-var _ReactComponentWithPureRenderMixin2 = _interopRequireDefault(_ReactComponentWithPureRenderMixin);
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _React3Renderer = require('./React3Renderer');
-
-var _React3Renderer2 = _interopRequireDefault(_React3Renderer);
-
-var _propTypeInstanceOf = require('./utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var PropTypes = _react2.default.PropTypes;
-var React3 = (_temp = _class = function (_React$Component) {
-  _inherits(React3, _React$Component);
-
-  function React3(props, context) {
-    _classCallCheck(this, React3);
-
-    var _this = _possibleConstructorReturn(this, (React3.__proto__ || Object.getPrototypeOf(React3)).call(this, props, context));
-
-    _this.shouldComponentUpdate = _ReactComponentWithPureRenderMixin2.default.shouldComponentUpdate;
-
-    _this._onRecreateCanvas = function () {
-      _this.setState({
-        // changing the key will recreate the element
-        canvasKey: _this.state.canvasKey + 1
-      });
-    };
-
-    _this._canvasRef = function (c) {
-      _this._canvas = c;
-      if (_this.props.canvasRef) {
-        _this.props.canvasRef(c);
-      }
-    };
-
-    _this.state = {
-      canvasKey: 0
-    };
-    return _this;
-  }
-
-  _createClass(React3, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      this.react3Renderer = new _React3Renderer2.default();
-
-      this._render();
-    }
-  }, {
-    key: 'componentWillReceiveProps',
-    value: function componentWillReceiveProps(newProps) {
-      var lastProps = this.props;
-
-      if (lastProps.canvasRef !== newProps.canvasRef) {
-        if (lastProps.canvasRef) {
-          lastProps.canvasRef(null);
-        }
-
-        if (newProps.canvasRef) {
-          newProps.canvasRef(this._canvas);
-        }
-      }
-    }
-  }, {
-    key: 'componentDidUpdate',
-    value: function componentDidUpdate() {
-      this._render();
-    }
-  }, {
-    key: 'componentWillUnmount',
-    value: function componentWillUnmount() {
-      this.react3Renderer.dispose();
-      delete this.react3Renderer;
-    }
-  }, {
-    key: '_render',
-    value: function _render() {
-      var canvas = this._canvas;
-
-      var propsToClone = _extends({}, this.props);
-
-      delete propsToClone.canvasStyle;
-      delete propsToClone.canvasRef;
-
-      this.react3Renderer.render(_react2.default.createElement(
-        'react3',
-        _extends({}, propsToClone, {
-          onRecreateCanvas: this._onRecreateCanvas
-        }),
-        this.props.children
-      ), canvas);
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var canvasKey = this.state.canvasKey;
-
-
-      return _react2.default.createElement('canvas', {
-        ref: this._canvasRef,
-        key: canvasKey,
-        width: this.props.width,
-        height: this.props.height,
-        style: _extends({}, this.props.canvasStyle, {
-          width: this.props.width,
-          height: this.props.height
-        })
-      });
-    }
-  }]);
-
-  return React3;
-}(_react2.default.Component), _class.propTypes = {
-  context: PropTypes.string,
-  width: PropTypes.number.isRequired,
-  height: PropTypes.number.isRequired,
-  children: PropTypes.any,
-  canvasStyle: PropTypes.any,
-  gammaInput: PropTypes.bool,
-  gammaOutput: PropTypes.bool,
-  sortObjects: PropTypes.bool,
-  mainCamera: PropTypes.string,
-  onAnimate: PropTypes.func,
-  clearColor: PropTypes.oneOfType([(0, _propTypeInstanceOf2.default)(_three2.default.Color), PropTypes.number, PropTypes.string]),
-  shadowMapEnabled: PropTypes.bool,
-  shadowMapType: PropTypes.oneOf([_three2.default.BasicShadowMap, _three2.default.PCFShadowMap, _three2.default.PCFSoftShadowMap]),
-  shadowMapCullFace: PropTypes.oneOf([_three2.default.CullFaceNone, _three2.default.CullFaceBack, _three2.default.CullFaceFront, _three2.default.CullFaceFrontBack]),
-  shadowMapDebug: PropTypes.bool,
-  pixelRatio: PropTypes.number,
-  antialias: PropTypes.oneOfType([PropTypes.bool, PropTypes.number]),
-  canvasRef: PropTypes.func
-}, _class.defaultProps = {
-  context: '3d'
-}, _class.findTHREEObject = _React3Renderer2.default.findTHREEObject, _class.eventDispatcher = _React3Renderer2.default.eventDispatcher, _temp);
-
-
-module.exports = React3;
-},{"./React3Renderer":236,"./utils/propTypeInstanceOf":343,"react":520,"react/lib/ReactComponentWithPureRenderMixin":384,"three":529}],231:[function(require,module,exports){
-"use strict";
-
-// see ReactDOMComponentFlags
-
-var React3ComponentFlags = {
-  hasCachedChildMarkups: 1 << 0
-};
-
-module.exports = React3ComponentFlags;
-},{}],232:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _React3ComponentFlags = require('./React3ComponentFlags');
-
-var _React3ComponentFlags2 = _interopRequireDefault(_React3ComponentFlags);
-
-var _idPropertyName = require('./utils/idPropertyName');
-
-var _idPropertyName2 = _interopRequireDefault(_idPropertyName);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var internalInstanceKey = '__react3InternalInstance$' + Math.random().toString(36).slice(2);
-
-/**
- * Drill down (through composites and empty components) until we get a host or
- * host text component.
- *
- * This is pretty polymorphic but unavoidable with the current structure we have
- * for `_renderedChildren`.
- */
-// see ReactDOMComponentTree
-
-function getRenderedHostOrTextFromComponent(component) {
-  var result = component;
-
-  var rendered = result._renderedComponent;
-
-  while (rendered) {
-    result = rendered;
-
-    rendered = result._renderedComponent;
-  }
-
-  return result;
-}
-
-/**
- * Populate `_hostMarkup` on the rendered host/text component with the given
- * markup. The passed `instance` can be a composite.
- */
-function precacheMarkup(instance, markup) {
-  (0, _invariant2.default)(!!markup, 'Markup is null!');
-  var hostInstance = getRenderedHostOrTextFromComponent(instance);
-  hostInstance._hostMarkup = markup;
-  markup[internalInstanceKey] = hostInstance;
-}
-
-function uncacheMarkup(inst) {
-  var markup = inst._hostMarkup;
-  if (markup) {
-    delete markup[internalInstanceKey];
-    inst._hostMarkup = null;
-  }
-}
-
-/**
- * Populate `_hostMarkup` on each child of `inst`, assuming that the children
- * match up with the children of `markup`.
- *
- * We cache entire levels at once to avoid an n^2 problem where we access the
- * children of a markup sequentially and have to walk from the start to our target
- * markup every time.
- *
- * Since we update `_renderedChildren` and the actual DOM at (slightly)
- * different times, we could race here and see a newer `_renderedChildren` than
- * the markups we see. To avoid this, ReactMultiChild calls
- * `prepareToManageChildren` before we change `_renderedChildren`, at which
- * time the container's child markups are always cached (until it unmounts).
- */
-function precacheChildMarkups(instance, markup) {
-  if ((instance._flags & _React3ComponentFlags2.default.hasCachedChildMarkups) !== 0) {
-    return;
-  }
-
-  var renderedChildren = instance._renderedChildren;
-
-  var childrenNames = Object.keys(renderedChildren);
-
-  var childrenMarkup = markup.childrenMarkup;
-
-  /* eslint-disable no-labels, no-unused-labels, no-restricted-syntax */
-  outer: for (var i = 0; i < childrenNames.length; ++i) {
-    /* eslint-enable no-labels, no-unused-labels, no-restricted-syntax */
-    var childName = childrenNames[i];
-
-    var childInst = renderedChildren[childName];
-    // TODO implement _domID
-    var childID = getRenderedHostOrTextFromComponent(childInst)._hostID;
-    if (childID === 0) {
-      // We're currently unmounting this child in ReactMultiChild; skip it.
-      continue;
-    }
-
-    for (var j = 0; j < childrenMarkup.length; ++j) {
-      var childMarkup = childrenMarkup[j];
-
-      if (childMarkup[_idPropertyName2.default] === childID) {
-        precacheMarkup(childInst, childMarkup);
-
-        continue outer; // eslint-disable-line no-labels
-      }
-    }
-
-    // We reached the end of the DOM children without finding an ID match.
-    if (process.env.NODE_ENV !== 'production') {
-      (0, _invariant2.default)(false, 'Unable to find element with ID %s.', childID);
-    } else {
-      (0, _invariant2.default)(false);
-    }
-
-    /* original implementation:
-    // We assume the child nodes are in the same order as the child instances.
-    for (; childMarkup !== null; childMarkup = childMarkup.nextSibling) {
-      if (childMarkup.nodeType === 1 && // Element.ELEMENT_NODE
-        childMarkup.getAttribute(ATTR_NAME) === String(childID) ||
-        childMarkup.nodeType === 8 &&
-        childMarkup.nodeValue === ` react-text: ${childID} ` ||
-        childMarkup.nodeType === 8 &&
-        childMarkup.nodeValue === ` react-empty: ${childID} `) {
-        precacheNode(childInst, childMarkup);
-        continue outer; // eslint-disable-line no-labels
-      }
-    }
-    */
-  }
-  instance._flags |= _React3ComponentFlags2.default.hasCachedChildMarkups;
-}
-
-// see ReactDOMComponentTree:getClosestInstanceFromNode
-function getClosestInstanceFromMarkup(markup) {
-  if (markup[internalInstanceKey]) {
-    return markup[internalInstanceKey];
-  }
-
-  var currentMarkup = markup;
-
-  // Walk up the tree until we find an ancestor whose instance we have cached.
-  var parentMarkupsWithoutInstanceKey = [];
-  while (!currentMarkup[internalInstanceKey]) {
-    parentMarkupsWithoutInstanceKey.push(currentMarkup);
-    if (currentMarkup.parentMarkup) {
-      currentMarkup = currentMarkup.parentMarkup;
-    } else {
-      // Top of the tree. This markup must not be part of a React tree (or is
-      // unmounted, potentially).
-      return null;
-    }
-  }
-
-  // if we're here, then currentMarkup does have internalInstanceKey, otherwise
-  // we would have reached the top of the tree and returned null.
-
-  var closest = void 0;
-  var instance = currentMarkup[internalInstanceKey];
-
-  // traversing from greatest ancestor (e.g. parent of all parents) downwards
-  // e.g. walk down the tree now
-  while (instance) {
-    closest = instance;
-
-    if (!parentMarkupsWithoutInstanceKey.length) {
-      break;
-    }
-
-    // this will ensure that all children of the current greatest ancestor
-    // have internalInstanceKey
-    precacheChildMarkups(instance, currentMarkup);
-
-    currentMarkup = parentMarkupsWithoutInstanceKey.pop();
-    instance = currentMarkup[internalInstanceKey];
-  }
-
-  /* original impl of ^
-  for (; currentMarkup && (instance = currentMarkup[internalInstanceKey]);
-         currentMarkup = parentMarkupsWithoutInstanceKey.pop()) {
-    closest = instance;
-    if (parentMarkupsWithoutInstanceKey.length) {
-      this.precacheChildMarkups(instance, currentMarkup);
-    }
-  }
-  */
-
-  return closest;
-}
-
-// see ReactDOMComponentTree:getInstanceFromNode
-function getInstanceFromMarkup(markup) {
-  var inst = getClosestInstanceFromMarkup(markup);
-  if (inst !== null && inst._hostMarkup === markup) {
-    return inst;
-  }
-
-  return null;
-}
-
-/**
- * Given an InternalComponent, return the corresponding
- * host markup.
- */
-function getMarkupFromInstance(inst) {
-  // Without this first invariant, passing a non-React3-component triggers the next
-  // invariant for a missing parent, which is super confusing.
-
-  if (process.env.NODE_ENV !== 'production') {
-    (0, _invariant2.default)(inst._hostMarkup !== undefined, 'getMarkupFromInstance: Invalid argument.');
-  } else {
-    (0, _invariant2.default)(inst._hostMarkup !== undefined);
-  }
-
-  if (inst._hostMarkup) {
-    return inst._hostMarkup;
-  }
-
-  var currentInstance = inst;
-
-  // Walk up the tree until we find an ancestor whose host node we have cached.
-  var parents = [];
-  while (!currentInstance._hostMarkup) {
-    parents.push(currentInstance);
-    (0, _invariant2.default)(currentInstance._hostParent, 'React3 tree root should always have a node reference.');
-    currentInstance = currentInstance._hostParent;
-  }
-
-  // Now parents contains each ancestor that does *not* have a cached host
-  // markup, and `currentInstance` is the deepest ancestor that does.
-  for (; parents.length; currentInstance = parents.pop()) {
-    precacheChildMarkups(currentInstance, currentInstance._hostMarkup);
-  }
-
-  return currentInstance._hostMarkup;
-}
-
-module.exports = {
-  getMarkupFromInstance: getMarkupFromInstance,
-  getInstanceFromMarkup: getInstanceFromMarkup,
-  precacheMarkup: precacheMarkup,
-  uncacheMarkup: uncacheMarkup,
-  precacheChildMarkups: precacheChildMarkups,
-  getClosestInstanceFromMarkup: getClosestInstanceFromMarkup,
-  getRenderedHostOrTextFromComponent: getRenderedHostOrTextFromComponent
-};
-}).call(this,require('_process'))
-},{"./React3ComponentFlags":231,"./utils/idPropertyName":341,"_process":203,"fbjs/lib/invariant":347}],233:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _ReactCompositeComponent = require('react/lib/ReactCompositeComponent');
-
-var _ReactCompositeComponent2 = _interopRequireDefault(_ReactCompositeComponent);
-
-var _ReactElement = require('react/lib/ReactElement');
-
-var _ReactElement2 = _interopRequireDefault(_ReactElement);
-
-var _ReactCurrentOwner = require('react/lib/ReactCurrentOwner');
-
-var _ReactCurrentOwner2 = _interopRequireDefault(_ReactCurrentOwner);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ReactInstanceMap = require('react/lib/ReactInstanceMap');
-
-var _ReactInstanceMap2 = _interopRequireDefault(_ReactInstanceMap);
-
-var _ReactInstrumentation = require('react/lib/ReactInstrumentation');
-
-var _ReactInstrumentation2 = _interopRequireDefault(_ReactInstrumentation);
-
-var _emptyObject = require('fbjs/lib/emptyObject');
-
-var _emptyObject2 = _interopRequireDefault(_emptyObject);
-
-var _warning = require('fbjs/lib/warning');
-
-var _warning2 = _interopRequireDefault(_warning);
-
-var _removeDevTool = require('./utils/removeDevTool');
-
-var _removeDevTool2 = _interopRequireDefault(_removeDevTool);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var ReactCompositeComponentMixinImpl = function ReactCompositeComponentMixinImpl() {
-  _classCallCheck(this, ReactCompositeComponentMixinImpl);
-};
-
-ReactCompositeComponentMixinImpl.prototype = _extends({}, ReactCompositeComponentMixinImpl.prototype, _ReactCompositeComponent2.default.Mixin);
-
-function warnIfInvalidElement(Component, element) {
-  if (process.env.NODE_ENV !== 'production') {
-    (0, _warning2.default)(element === null || element === false || _ReactElement2.default.isValidElement(element), '%s(...): A valid React element (or null) must be returned. You may have ' + 'returned undefined, an array or some other invalid object.', Component.displayName || Component.name || 'Component');
-  }
-}
-
-var CompositeTypes = {
-  ImpureClass: 0,
-  PureClass: 1,
-  StatelessFunctional: 2
-};
-
-function shouldConstruct(Component) {
-  return !!Component.prototype && Component.prototype.isReactComponent;
-}
-
-function isPureComponent(Component) {
-  return !!(Component.prototype && Component.prototype.isPureReactComponent);
-}
-
-var invokeComponentDidMountWithTimer = void 0;
-
-if (process.env.NODE_ENV !== 'production') {
-  invokeComponentDidMountWithTimer = function _invokeComponentDidMountWithTimer() {
-    var publicInstance = this._instance;
-    if (this._debugID !== 0) {
-      _ReactInstrumentation2.default.debugTool.onBeginLifeCycleTimer(this._debugID, 'componentDidMount');
-    }
-    publicInstance.componentDidMount();
-    if (this._debugID !== 0) {
-      _ReactInstrumentation2.default.debugTool.onEndLifeCycleTimer(this._debugID, 'componentDidMount');
-    }
-  };
-}
-
-var StatelessComponent = function () {
-  function StatelessComponent() {
-    _classCallCheck(this, StatelessComponent);
-  }
-
-  _createClass(StatelessComponent, [{
-    key: 'render',
-    value: function render() {
-      var componentCreator = _ReactInstanceMap2.default.get(this)._currentElement.type;
-      var element = componentCreator(this.props, this.context, this.updater);
-      warnIfInvalidElement(componentCreator, element);
-      return element;
-    }
-  }]);
-
-  return StatelessComponent;
-}();
-
-var React3CompositeComponentWrapper = function (_ReactCompositeCompon) {
-  _inherits(React3CompositeComponentWrapper, _ReactCompositeCompon);
-
-  function React3CompositeComponentWrapper(element, react3RendererInstance) {
-    _classCallCheck(this, React3CompositeComponentWrapper);
-
-    var _this = _possibleConstructorReturn(this, (React3CompositeComponentWrapper.__proto__ || Object.getPrototypeOf(React3CompositeComponentWrapper)).call(this));
-
-    _this._react3RendererInstance = react3RendererInstance;
-
-    _this.construct(element);
-    return _this;
-  }
-
-  _createClass(React3CompositeComponentWrapper, [{
-    key: 'getHostMarkup',
-    value: function getHostMarkup() {
-      return _get(React3CompositeComponentWrapper.prototype.__proto__ || Object.getPrototypeOf(React3CompositeComponentWrapper.prototype), 'getHostNode', this).call(this);
-    }
-  }, {
-    key: 'construct',
-    value: function construct(element) {
-      _get(React3CompositeComponentWrapper.prototype.__proto__ || Object.getPrototypeOf(React3CompositeComponentWrapper.prototype), 'construct', this).call(this, element);
-
-      this._threeObject = null;
-    }
-
-    /**
-     * @see ReactCompositeComponent.
-     *
-     * Cloned because it needs to set _threeObject and remove dev tool
-     *
-     * Call the component's `render` method and update the DOM accordingly.
-     *
-     * @param {ReactReconcileTransaction} transaction
-     * @param context
-     * @internal
-     */
-
-  }, {
-    key: '_updateRenderedComponent',
-    value: function _updateRenderedComponent(transaction, context) {
-      var devToolRemoved = void 0;
-      if (process.env.NODE_ENV !== 'production') {
-        devToolRemoved = (0, _removeDevTool2.default)();
-      }
-
-      _get(React3CompositeComponentWrapper.prototype.__proto__ || Object.getPrototypeOf(React3CompositeComponentWrapper.prototype), '_updateRenderedComponent', this).call(this, transaction, context);
-
-      if (process.env.NODE_ENV !== 'production') {
-        if (devToolRemoved) {
-          _removeDevTool2.default.restore();
-        }
-      }
-
-      this._threeObject = this._renderedComponent._threeObject;
-    }
-  }, {
-    key: '_instantiateReactComponent',
-    value: function _instantiateReactComponent(element, shouldHaveDebugID) {
-      return this._react3RendererInstance.instantiateReactComponent(element, shouldHaveDebugID);
-    }
-
-    // TODO: prevInstance
-
-  }, {
-    key: '_replaceNodeWithMarkup',
-    value: function _replaceNodeWithMarkup(oldMarkup, nextMarkup) {
-      var parentMarkup = oldMarkup.parentMarkup;
-
-      var ownerChildrenMarkups = parentMarkup.childrenMarkup;
-
-      var indexInParent = ownerChildrenMarkups.indexOf(oldMarkup);
-
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(indexInParent !== -1, 'The node has no parent');
-      } else {
-        (0, _invariant2.default)(indexInParent !== -1);
-      }
-
-      var parentInternalComponent = parentMarkup.threeObject.userData.react3internalComponent;
-      var originalInternalComponent = oldMarkup.threeObject.userData.react3internalComponent;
-
-      parentInternalComponent.removeChild(originalInternalComponent, oldMarkup);
-      var nextChild = nextMarkup.threeObject.userData.react3internalComponent;
-      nextChild._mountIndex = indexInParent;
-      parentInternalComponent.createChild(nextChild, null, nextMarkup);
-    }
-
-    // See ReactCompositeComponent.mountComponent
-
-    /**
-     * Initializes the component, renders markup, and registers event listeners.
-     *
-     * @param {ReactReconcileTransaction|ReactServerRenderingTransaction} transaction
-     * @param {?object} hostParent
-     * @param {?object} hostContainerInfo
-     * @param {?object} context
-     * @return {?string} Rendered markup to be inserted into the DOM.
-     * @final
-     * @internal
-     */
-
-  }, {
-    key: 'mountComponent',
-    value: function mountComponent(transaction, hostParent, hostContainerInfo, context) {
-      this._context = context;
-      this._mountOrder = this._react3RendererInstance.nextMountID++;
-      this._hostParent = hostParent;
-      this._hostContainerInfo = hostContainerInfo;
-
-      var publicProps = this._currentElement.props;
-      var publicContext = this._processContext(context);
-
-      var Component = this._currentElement.type;
-
-      var updateQueue = transaction.getUpdateQueue();
-
-      // Initialize the public class
-      var doConstruct = shouldConstruct(Component);
-      var inst = this._constructComponent(doConstruct, publicProps, publicContext, updateQueue);
-
-      var renderedElement = void 0;
-
-      // Support functional components
-      if (!doConstruct && (inst == null || inst.render == null)) {
-        renderedElement = inst;
-        warnIfInvalidElement(Component, renderedElement);
-        (0, _invariant2.default)(inst === null || inst === false || _ReactElement2.default.isValidElement(inst), '%s(...): A valid React element (or null) must be returned. You may have ' + 'returned undefined, an array or some other invalid object.', Component.displayName || Component.name || 'Component');
-        inst = new StatelessComponent(Component);
-        this._compositeType = CompositeTypes.StatelessFunctional;
-      } else if (isPureComponent(Component)) {
-        this._compositeType = CompositeTypes.PureClass;
-      } else {
-        this._compositeType = CompositeTypes.ImpureClass;
-      }
-
-      if (process.env.NODE_ENV !== 'production') {
-        // This will throw later in _renderValidatedComponent, but add an early
-        // warning now to help debugging
-        if (!inst.render) {
-          (0, _warning2.default)(false, '%s(...): No `render` method found on the returned component ' + 'instance: you may have forgotten to define `render`.', Component.displayName || Component.name || 'Component');
-        }
-
-        var propsMutated = inst.props !== publicProps;
-        var componentName = Component.displayName || Component.name || 'Component';
-
-        (0, _warning2.default)(inst.props === undefined || !propsMutated, '%s(...): When calling super() in `%s`, make sure to pass ' + 'up the same props that your component\'s constructor was passed.', componentName, componentName);
-      }
-
-      // These should be set up in the constructor, but as a convenience for
-      // simpler class abstractions, we set them up after the fact.
-      inst.props = publicProps;
-      inst.context = publicContext;
-      inst.refs = _emptyObject2.default;
-      inst.updater = updateQueue;
-
-      this._instance = inst;
-
-      // Store a reference from the instance back to the internal representation
-      _ReactInstanceMap2.default.set(inst, this);
-
-      if (process.env.NODE_ENV !== 'production') {
-        // Since plain JS classes are defined without any special initialization
-        // logic, we can not catch common errors early. Therefore, we have to
-        // catch them here, at initialization time, instead.
-        (0, _warning2.default)(!inst.getInitialState || inst.getInitialState.isReactClassApproved, 'getInitialState was defined on %s, a plain JavaScript class. ' + 'This is only supported for classes created using React.createClass. ' + 'Did you mean to define a state property instead?', this.getName() || 'a component');
-        (0, _warning2.default)(!inst.getDefaultProps || inst.getDefaultProps.isReactClassApproved, 'getDefaultProps was defined on %s, a plain JavaScript class. ' + 'This is only supported for classes created using React.createClass. ' + 'Use a static property to define defaultProps instead.', this.getName() || 'a component');
-        (0, _warning2.default)(!inst.propTypes, 'propTypes was defined as an instance property on %s. Use a static ' + 'property to define propTypes instead.', this.getName() || 'a component');
-        (0, _warning2.default)(!inst.contextTypes, 'contextTypes was defined as an instance property on %s. Use a ' + 'static property to define contextTypes instead.', this.getName() || 'a component');
-        (0, _warning2.default)(typeof inst.componentShouldUpdate !== 'function', '%s has a method called ' + 'componentShouldUpdate(). Did you mean shouldComponentUpdate()? ' + 'The name is phrased as a question because the function is ' + 'expected to return a value.', this.getName() || 'A component');
-        (0, _warning2.default)(typeof inst.componentDidUnmount !== 'function', '%s has a method called ' + 'componentDidUnmount(). But there is no such lifecycle method. ' + 'Did you mean componentWillUnmount()?', this.getName() || 'A component');
-        (0, _warning2.default)(typeof inst.componentWillRecieveProps !== 'function', '%s has a method called ' + 'componentWillRecieveProps(). Did you mean componentWillReceiveProps()?', this.getName() || 'A component');
-      }
-      var initialState = inst.state;
-      if (initialState === undefined) {
-        inst.state = initialState = null;
-      }
-      if (!((typeof initialState === 'undefined' ? 'undefined' : _typeof(initialState)) === 'object' && !Array.isArray(initialState))) {
-        if (process.env.NODE_ENV !== 'production') {
-          (0, _invariant2.default)(false, '%s.state: must be set to an object or null', this.getName() || 'ReactCompositeComponent');
-        } else {
-          (0, _invariant2.default)(false);
-        }
-      }
-
-      this._pendingStateQueue = null;
-      this._pendingReplaceState = false;
-      this._pendingForceUpdate = false;
-
-      var markup = this.performInitialMount(renderedElement, hostParent, hostContainerInfo, transaction, context);
-
-      if (inst.componentDidMount) {
-        if (process.env.NODE_ENV !== 'production') {
-          transaction.getReactMountReady().enqueue(invokeComponentDidMountWithTimer, this);
-        } else {
-          transaction.getReactMountReady().enqueue(inst.componentDidMount, inst);
-        }
-      }
-
-      return markup;
-    }
-  }, {
-    key: '_constructComponent',
-    value: function _constructComponent(doConstruct, publicProps, publicContext, updateQueue) {
-      if (process.env.NODE_ENV !== 'production') {
-        _ReactCurrentOwner2.default.current = this;
-        try {
-          return this._constructComponentWithoutOwner(doConstruct, publicProps, publicContext, updateQueue);
-        } finally {
-          _ReactCurrentOwner2.default.current = null;
-        }
-      } else {
-        return this._constructComponentWithoutOwner(doConstruct, publicProps, publicContext, updateQueue);
-      }
-    }
-  }, {
-    key: '_constructComponentWithoutOwner',
-    value: function _constructComponentWithoutOwner(doConstruct, publicProps, publicContext, updateQueue) {
-      var Component = this._currentElement.type;
-      var instanceOrElement = void 0;
-      if (doConstruct) {
-        if (process.env.NODE_ENV !== 'production') {
-          if (this._debugID !== 0) {
-            _ReactInstrumentation2.default.debugTool.onBeginLifeCycleTimer(this._debugID, 'ctor');
-          }
-        }
-        instanceOrElement = new Component(publicProps, publicContext, updateQueue);
-        if (process.env.NODE_ENV !== 'production') {
-          if (this._debugID !== 0) {
-            _ReactInstrumentation2.default.debugTool.onEndLifeCycleTimer(this._debugID, 'ctor');
-          }
-        }
-      } else {
-        // This can still be an instance in case of factory components
-        // but we'll count this as time spent rendering as the more common case.
-        if (process.env.NODE_ENV !== 'production') {
-          if (this._debugID !== 0) {
-            _ReactInstrumentation2.default.debugTool.onBeginLifeCycleTimer(this._debugID, 'render');
-          }
-        }
-
-        /* eslint-disable new-cap */
-        instanceOrElement = Component(publicProps, publicContext, updateQueue);
-        /* eslint-enable */
-
-        if (process.env.NODE_ENV !== 'production') {
-          if (this._debugID !== 0) {
-            _ReactInstrumentation2.default.debugTool.onEndLifeCycleTimer(this._debugID, 'render');
-          }
-        }
-      }
-      return instanceOrElement;
-    }
-
-    /**
-     * Needs to be overwritten because emptyObject points to another...
-     *
-     * Lazily allocates the refs object and stores `component` as `ref`.
-     *
-     * @param {string} ref Reference name.
-     * @param {*} component Component to store as `ref`.
-     * @final
-     * @private
-     */
-
-  }, {
-    key: 'attachRef',
-    value: function attachRef(ref, component) {
-      var inst = this.getPublicInstance();
-      var refs = inst.refs === _emptyObject2.default ? inst.refs = {} : inst.refs;
-      refs[ref] = component.getPublicInstance();
-    }
-  }]);
-
-  return React3CompositeComponentWrapper;
-}(ReactCompositeComponentMixinImpl);
-
-module.exports = React3CompositeComponentWrapper;
-}).call(this,require('_process'))
-},{"./utils/removeDevTool":344,"_process":203,"fbjs/lib/emptyObject":346,"fbjs/lib/invariant":347,"fbjs/lib/warning":348,"react/lib/ReactCompositeComponent":385,"react/lib/ReactCurrentOwner":386,"react/lib/ReactElement":409,"react/lib/ReactInstanceMap":421,"react/lib/ReactInstrumentation":422}],234:[function(require,module,exports){
-"use strict";
-
-function React3ContainerInfo(topLevelWrapper, instance) {
-  // eslint-disable-line no-unused-vars
-  var info = {
-    _topLevelWrapper: topLevelWrapper,
-    _idCounter: 1
-  };
-
-  return info;
-}
-
-module.exports = React3ContainerInfo;
-},{}],235:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _class, _temp, _initialiseProps;
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _warning = require('fbjs/lib/warning');
-
-var _warning2 = _interopRequireDefault(_warning);
-
-var _ReactUpdates = require('react/lib/ReactUpdates');
-
-var _ReactUpdates2 = _interopRequireDefault(_ReactUpdates);
-
-var _Viewport = require('./Viewport');
-
-var _Viewport2 = _interopRequireDefault(_Viewport);
-
-var _Module = require('./Module');
-
-var _Module2 = _interopRequireDefault(_Module);
-
-var _React3Renderer = require('./React3Renderer');
-
-var _React3Renderer2 = _interopRequireDefault(_React3Renderer);
-
-var _ResourceContainer = require('./Resources/ResourceContainer');
-
-var _ResourceContainer2 = _interopRequireDefault(_ResourceContainer);
-
-var _CameraUtils = require('./utils/CameraUtils');
-
-var _CameraUtils2 = _interopRequireDefault(_CameraUtils);
-
-var _isWebglSupported = require('./utils/isWebglSupported');
-
-var _isWebglSupported2 = _interopRequireDefault(_isWebglSupported);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var rendererProperties = ['gammaInput', 'gammaOutput'];
-
-var React3DInstance = (_temp = _class = function () {
-  function React3DInstance(props, rendererInstance) {
-    var _this = this;
-
-    _classCallCheck(this, React3DInstance);
-
-    _initialiseProps.call(this);
-
-    var mainCamera = props.mainCamera,
-        onAnimate = props.onAnimate,
-        onRecreateCanvas = props.onRecreateCanvas,
-        onRendererUpdated = props.onRendererUpdated,
-        onManualRenderTriggerCreated = props.onManualRenderTriggerCreated,
-        forceManualRender = props.forceManualRender;
-
-
-    this._parameters = _extends({}, props);
-
-    this._rendererInstance = rendererInstance;
-
-    this._mounted = false;
-    this._willUnmount = false;
-    this._scene = null;
-
-    this._mainCameraName = mainCamera;
-    this._viewports = [];
-    /**
-     * @type {Array.<React3Module>}
-     */
-    this._modules = [];
-
-    this._resourceContainers = [];
-    this._recreateCanvasCallback = onRecreateCanvas;
-    this._rendererUpdatedCallback = onRendererUpdated;
-    this._manualRenderTriggerCallback = onManualRenderTriggerCreated;
-    this._forceManualRender = forceManualRender;
-
-    this._warnedAboutManualRendering = false;
-
-    this._canvas = null;
-
-    this._onAnimate = onAnimate;
-    this._objectsByUUID = {};
-    this._materials = [];
-    this._geometries = [];
-    this._textures = [];
-    this._objectsByName = {};
-
-    this._lastRenderMode = null;
-
-    this._renderTrigger = function (renderThisFrame) {
-      if (renderThisFrame) {
-        _this._render();
-      } else if (_this._renderRequest === null) {
-        _this._renderRequest = requestAnimationFrame(_this._render);
-      }
-    };
-
-    this.uuid = _three2.default.Math.generateUUID();
-    this.userData = {};
-
-    if (process.env.NODE_ENV !== 'production' || process.env.ENABLE_REACT_ADDON_HOOKS === 'true') {
-      this._highlightScene = new _three2.default.Scene();
-
-      this._highlightGeometry = new _three2.default.BoxGeometry(1, 1, 1);
-      this._highlightMaterial = new _three2.default.MeshBasicMaterial({
-        color: 0x0000ff,
-        transparent: true,
-        opacity: 0.4
-      });
-
-      this._highlightObjectId = null;
-      this._getHighlightBoundingBox = null;
-
-      this._hideHighlight = function () {
-        _this._highlightObjectId = null;
-        _this._getHighlightBoundingBox = null;
-      };
-
-      this._objectHighlighted = function (info) {
-        var uuid = info.uuid,
-            boundingBoxFunc = info.boundingBoxFunc;
-
-
-        var obj = void 0;
-
-        if (_this._highlightObjectId) {
-          obj = _this._objectsByUUID[_this._highlightObjectId];
-
-          obj.userData.events.removeListener('hideHighlight', _this._hideHighlight);
-        }
-
-        _this._highlightObjectId = uuid;
-        _this._getHighlightBoundingBox = boundingBoxFunc;
-
-        obj = _this._objectsByUUID[uuid];
-
-        obj.userData.events.once('hideHighlight', _this._hideHighlight);
-      };
-    }
-  }
-
-  _createClass(React3DInstance, [{
-    key: '_createRenderer',
-    value: function _createRenderer() {
-      if (!this._canvas) {
-        return;
-      }
-
-      var parameters = this._parameters;
-      var rendererArgs = {
-        canvas: this._canvas,
-        precision: parameters.precision,
-        alpha: parameters.alpha,
-        premultipliedAlpha: parameters.premultipliedAlpha,
-        antialias: parameters.antialias,
-        stencil: parameters.stencil,
-        preserveDrawingBuffer: parameters.preserveDrawingBuffer,
-        depth: parameters.depth,
-        logarithmicDepthBuffer: parameters.logarithmicDepthBuffer
-      };
-
-      this._renderer = (0, _isWebglSupported2.default)() ? new _three2.default.WebGLRenderer(rendererArgs) : new _three2.default.CanvasRenderer(rendererArgs);
-
-      if (this._rendererUpdatedCallback) {
-        this._rendererUpdatedCallback(this._renderer);
-      }
-
-      var renderer = this._renderer;
-
-      if (parameters.hasOwnProperty('pixelRatio')) {
-        renderer.setPixelRatio(parameters.pixelRatio);
-      }
-
-      if (parameters.hasOwnProperty('sortObjects')) {
-        renderer.sortObjects = parameters.sortObjects;
-      }
-
-      var hasClearColor = parameters.hasOwnProperty('clearColor');
-      var hasClearAlpha = parameters.hasOwnProperty('clearAlpha');
-
-      if (hasClearColor || hasClearAlpha) {
-        var clearColor = void 0;
-
-        if (hasClearColor) {
-          clearColor = parameters.clearColor;
-        } else {
-          clearColor = new _three2.default.Color(0x000000); // default clear color
-        }
-
-        if (hasClearAlpha) {
-          if (process.env.NODE_ENV !== 'production') {
-            (0, _warning2.default)(parameters.alpha === true, 'The `clearAlpha` property' + ' requires the `alpha` property to be `true`.');
-          }
-
-          renderer.setClearColor(clearColor, parameters.clearAlpha);
-        } else {
-          renderer.setClearColor(clearColor);
-        }
-      }
-
-      if (parameters.hasOwnProperty('shadowMapEnabled')) {
-        renderer.shadowMap.enabled = parameters.shadowMapEnabled;
-      }
-
-      if (parameters.hasOwnProperty('shadowMapType')) {
-        renderer.shadowMap.type = parameters.shadowMapType;
-      }
-
-      if (parameters.hasOwnProperty('shadowMapCullFace')) {
-        renderer.shadowMap.cullFace = parameters.shadowMapCullFace;
-      }
-
-      if (parameters.hasOwnProperty('shadowMapDebug')) {
-        renderer.shadowMap.debug = parameters.shadowMapDebug;
-      }
-
-      rendererProperties.forEach(function (propertyName) {
-        if (parameters.hasOwnProperty(propertyName)) {
-          renderer[propertyName] = parameters[propertyName];
-        }
-      });
-
-      renderer.setSize(parameters.width, parameters.height);
-    }
-  }, {
-    key: 'initialize',
-    value: function initialize() {
-      this.userData.events.on('animate', this._callOnAnimate);
-
-      if (this._forceManualRender) {
-        if (process.env.NODE_ENV !== 'production') {
-          if (!this._manualRenderTriggerCallback && !this._warnedAboutManualRendering) {
-            this._warnedAboutManualRendering = true;
-
-            (0, _warning2.default)(false, 'The `forceManualRender` property requires the ' + '`onManualRenderTriggerCreated` property to be set.');
-          }
-        }
-
-        this._renderRequest = null;
-      } else {
-        this._renderRequest = requestAnimationFrame(this._render);
-      }
-
-      if (this._manualRenderTriggerCallback) {
-        this._manualRenderTriggerCallback(this._renderTrigger);
-      }
-    }
-  }, {
-    key: 'getObjectsByName',
-    value: function getObjectsByName(objectName) {
-      var objectsByName = this._objectsByName[objectName];
-
-      var result = void 0;
-
-      if (objectsByName) {
-        (function () {
-          var idToObjectMap = objectsByName.values;
-          result = Object.keys(idToObjectMap).map(function (name) {
-            return idToObjectMap[name];
-          });
-        })();
-      } else {
-        result = [];
-      }
-
-      return result;
-    }
-  }, {
-    key: 'addAnimateListener',
-    value: function addAnimateListener(callback) {
-      this.userData.events.on('animate', callback);
-    }
-  }, {
-    key: 'removeAnimateListener',
-    value: function removeAnimateListener(callback) {
-      this.userData.events.removeListener('animate', callback);
-    }
-  }, {
-    key: 'addBeforeRenderListener',
-    value: function addBeforeRenderListener(callback) {
-      this.userData.events.on('preRender', callback);
-    }
-  }, {
-    key: 'removeBeforeRenderListener',
-    value: function removeBeforeRenderListener(callback) {
-      this.userData.events.removeListener('preRender', callback);
-    }
-  }, {
-    key: 'addChildren',
-    value: function addChildren(children) {
-      for (var i = 0; i < children.length; ++i) {
-        var child = children[i];
-
-        if (child instanceof _three2.default.Scene) {
-          this.setScene(child);
-        } else if (child instanceof _Viewport2.default) {
-          this.addViewport(child);
-        } else if (child instanceof _Module2.default) {
-          this.addModule(child);
-        } else if (child instanceof _ResourceContainer2.default) {
-          this.addResourceContainer(child);
-        } else {
-          (0, _invariant2.default)(false, 'The react3 component should only contain ' + '<viewport/>s or <scene/>s or <resources/>.');
-        }
-      }
-    }
-  }, {
-    key: 'removeChild',
-    value: function removeChild(child) {
-      if (child instanceof _three2.default.Scene) {
-        if (this._scene === child) {
-          this.setScene(null);
-        }
-      } else if (child instanceof _Viewport2.default) {
-        this.removeViewport(child);
-      } else if (child instanceof _Module2.default) {
-        this.removeModule(child);
-      } else if (child instanceof _ResourceContainer2.default) {
-        this.removeResourceContainer(child);
-      } else {
-        (0, _invariant2.default)(false, 'The react3 component should only contain ' + '<viewport/>s or <scene/>s, <module/>s or <resources/>.');
-      }
-    }
-  }, {
-    key: '_renderScene',
-    value: function _renderScene(camera) {
-      this._renderer.render(this._scene, camera);
-
-      if (process.env.NODE_ENV !== 'production' || process.env.ENABLE_REACT_ADDON_HOOKS === 'true') {
-        if (this._highlightObjectId !== null) {
-          var boundingBoxes = this._getHighlightBoundingBox();
-
-          var highlightScene = this._highlightScene;
-
-          var diff = highlightScene.children.length - boundingBoxes.length;
-
-          if (diff > 0) {
-            for (var i = 0; i < diff; i++) {
-              highlightScene.remove(highlightScene.children[0]);
-            }
-          } else if (diff < 0) {
-            for (var _i = 0; _i < -diff; _i++) {
-              highlightScene.add(new _three2.default.Mesh(this._highlightGeometry, this._highlightMaterial));
-            }
-          }
-
-          for (var _i2 = 0; _i2 < boundingBoxes.length; ++_i2) {
-            var boundingBox = boundingBoxes[_i2];
-
-            var center = boundingBox.min.clone().add(boundingBox.max).multiplyScalar(0.5);
-
-            var size = boundingBox.max.clone().sub(boundingBox.min);
-
-            var highlightCube = highlightScene.children[_i2];
-
-            highlightCube.position.copy(center);
-            highlightCube.scale.copy(size);
-          }
-
-          var autoClear = this._renderer.autoClear;
-          this._renderer.autoClear = false;
-          this._renderer.render(highlightScene, camera);
-          this._renderer.autoClear = autoClear;
-        }
-      }
-    }
-  }, {
-    key: 'setScene',
-    value: function setScene(scene) {
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(!(this._scene && scene), 'There can only be one scene in <react3/>');
-      }
-
-      this._scene = scene;
-    }
-  }, {
-    key: 'addViewport',
-    value: function addViewport(viewport) {
-      this._viewports.push(viewport);
-    }
-  }, {
-    key: 'removeViewport',
-    value: function removeViewport(viewport) {
-      var index = this._viewports.indexOf(viewport);
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(index !== -1, 'A viewport has been removed from ' + '<react3/> but it was not present in it...');
-      }
-
-      this._viewports.splice(index, 1);
-    }
-  }, {
-    key: 'addResourceContainer',
-    value: function addResourceContainer(resourceContainer) {
-      this._resourceContainers.push(resourceContainer);
-    }
-  }, {
-    key: 'removeResourceContainer',
-    value: function removeResourceContainer(resourceContainer) {
-      var index = this._resourceContainers.indexOf(resourceContainer);
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(index !== -1, 'A resource container has been removed ' + 'from <react3/> but it was not present in it...');
-      }
-
-      this._resourceContainers.splice(index, 1);
-    }
-  }, {
-    key: 'addModule',
-    value: function addModule(module) {
-      this._modules.push(module);
-    }
-  }, {
-    key: 'removeModule',
-    value: function removeModule(module) {
-      var index = this._modules.indexOf(module);
-
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(index !== -1, 'A module has been removed from ' + '<react3/> but it was not present in it...');
-      }
-
-      this._modules.splice(index, 1);
-    }
-  }, {
-    key: 'updateWidth',
-    value: function updateWidth(newWidth) {
-      this._parameters.width = newWidth;
-      if (!this._renderer) {
-        return;
-      }
-
-      this._renderer.setSize(this._parameters.width, this._parameters.height);
-    }
-  }, {
-    key: 'updateOnRecreateCanvas',
-    value: function updateOnRecreateCanvas(threeObject, callback) {
-      this._recreateCanvasCallback = callback;
-    }
-  }, {
-    key: 'updateOnRendererUpdated',
-    value: function updateOnRendererUpdated(callback) {
-      this._rendererUpdatedCallback = callback;
-    }
-  }, {
-    key: 'updateOnManualRenderTriggerCreated',
-    value: function updateOnManualRenderTriggerCreated(callback) {
-      this._manualRenderTriggerCallback = callback;
-
-      if (callback) {
-        this._manualRenderTriggerCallback(this._renderTrigger);
-      }
-    }
-  }, {
-    key: 'updateForceManualRender',
-    value: function updateForceManualRender(forceManualRender) {
-      if (this._forceManualRender === forceManualRender) {
-        return;
-      }
-
-      this._forceManualRender = forceManualRender;
-
-      if (forceManualRender) {
-        // was just set to be forced
-        cancelAnimationFrame(this._renderRequest);
-        this._renderRequest = null;
-      } else {
-        // was just restored
-
-        this._renderRequest = requestAnimationFrame(this._render);
-      }
-    }
-  }, {
-    key: 'updateHeight',
-    value: function updateHeight(newHeight) {
-      this._parameters.height = newHeight;
-      if (!this._renderer) {
-        return;
-      }
-
-      this._renderer.setSize(this._parameters.width, this._parameters.height);
-    }
-  }, {
-    key: 'updatePixelRatio',
-    value: function updatePixelRatio(newPixelRatio) {
-      this._parameters.pixelRatio = newPixelRatio;
-      if (!this._renderer) {
-        return;
-      }
-
-      this._renderer.setPixelRatio(newPixelRatio);
-      this._renderer.setSize(this._parameters.width, this._parameters.height);
-    }
-  }, {
-    key: 'updateSortObjects',
-    value: function updateSortObjects(sortObjects) {
-      this._parameters.sortObjects = sortObjects;
-
-      if (!this._renderer) {
-        return;
-      }
-
-      this._renderer.sortObjects = sortObjects;
-    }
-  }, {
-    key: 'updateAntialias',
-    value: function updateAntialias(antialias) {
-      this._parameters.antialias = antialias;
-      // no renderer, this only happens initially or we're about to recreate it anyway.
-      // unless something broke, then we have bigger problems...
-      if (!this._renderer) {
-        return;
-      }
-
-      this.refreshRenderer();
-    }
-  }, {
-    key: 'updatePrecision',
-    value: function updatePrecision(precision) {
-      this._parameters.precision = precision;
-      if (!this._renderer) {
-        return;
-      }
-
-      this.refreshRenderer();
-    }
-  }, {
-    key: 'updateAlpha',
-    value: function updateAlpha(alpha) {
-      this._parameters.alpha = alpha;
-      if (!this._renderer) {
-        return;
-      }
-
-      this.refreshRenderer();
-    }
-  }, {
-    key: 'updatePremultipliedAlpha',
-    value: function updatePremultipliedAlpha(premultipliedAlpha) {
-      this._parameters.premultipliedAlpha = premultipliedAlpha;
-      if (!this._renderer) {
-        return;
-      }
-
-      this.refreshRenderer();
-    }
-  }, {
-    key: 'updateStencil',
-    value: function updateStencil(stencil) {
-      this._parameters.stencil = stencil;
-      if (!this._renderer) {
-        return;
-      }
-
-      this.refreshRenderer();
-    }
-  }, {
-    key: 'updatePreserveDrawingBuffer',
-    value: function updatePreserveDrawingBuffer(preserveDrawingBuffer) {
-      this._parameters.preserveDrawingBuffer = preserveDrawingBuffer;
-      if (!this._renderer) {
-        return;
-      }
-
-      this.refreshRenderer();
-    }
-  }, {
-    key: 'updateDepth',
-    value: function updateDepth(depth) {
-      this._parameters.depth = depth;
-      if (!this._renderer) {
-        return;
-      }
-
-      this.refreshRenderer();
-    }
-  }, {
-    key: 'updateLogarithmicDepthBuffer',
-    value: function updateLogarithmicDepthBuffer(logarithmicDepthBuffer) {
-      this._parameters.logarithmicDepthBuffer = logarithmicDepthBuffer;
-      if (!this._renderer) {
-        return;
-      }
-
-      this.refreshRenderer();
-    }
-  }, {
-    key: 'updateShadowMapEnabled',
-    value: function updateShadowMapEnabled(shadowMapEnabled) {
-      this._parameters.shadowMapEnabled = shadowMapEnabled;
-
-      if (!this._renderer) {
-        return;
-      }
-
-      this._renderer.shadowMap.enabled = shadowMapEnabled;
-      this.allMaterialsNeedUpdate(true);
-    }
-  }, {
-    key: 'updateShadowMapType',
-    value: function updateShadowMapType(shadowMapType) {
-      this._parameters.shadowMapType = shadowMapType;
-
-      if (!this._renderer) {
-        return;
-      }
-
-      this._renderer.shadowMap.type = shadowMapType;
-      this.allMaterialsNeedUpdate(true);
-    }
-  }, {
-    key: 'updateShadowMapCullFace',
-    value: function updateShadowMapCullFace(shadowMapCullFace) {
-      this._parameters.shadowMapCullFace = shadowMapCullFace;
-
-      if (!this._renderer) {
-        return;
-      }
-
-      this._renderer.shadowMap.cullFace = shadowMapCullFace;
-      this.allMaterialsNeedUpdate(true);
-    }
-  }, {
-    key: 'updateShadowMapDebug',
-    value: function updateShadowMapDebug(shadowMapDebug) {
-      this._parameters.shadowMapDebug = shadowMapDebug;
-
-      if (!this._renderer) {
-        return;
-      }
-
-      this._renderer.shadowMap.debug = shadowMapDebug;
-      this.allMaterialsNeedUpdate(true);
-    }
-  }, {
-    key: 'updateCanvas',
-    value: function updateCanvas(canvas) {
-      this._canvas = canvas;
-
-      if (this._renderer) {
-        this.disposeResourcesAndRenderer();
-
-        var contextLossExtension = this._renderer.extensions.get('WEBGL_lose_context');
-        if (contextLossExtension) {
-          // noinspection JSUnresolvedFunction
-          contextLossExtension.loseContext();
-        }
-      }
-
-      this._createRenderer();
-    }
-  }, {
-    key: 'updateGammaInput',
-    value: function updateGammaInput(gammaInput) {
-      this._parameters.gammaInput = gammaInput;
-
-      if (!this._renderer) {
-        return;
-      }
-
-      this._renderer.gammaInput = gammaInput;
-      this.allMaterialsNeedUpdate(true);
-    }
-  }, {
-    key: 'updateGammaOutput',
-    value: function updateGammaOutput(gammaOutput) {
-      this._parameters.gammaOutput = gammaOutput;
-
-      if (!this._renderer) {
-        return;
-      }
-
-      this._renderer.gammaOutput = gammaOutput;
-      this.allMaterialsNeedUpdate(true);
-    }
-  }, {
-    key: 'updateContext',
-    value: function updateContext(context) {
-      this._parameters.context = context;
-    }
-  }, {
-    key: 'updateMainCamera',
-    value: function updateMainCamera(mainCamera) {
-      this._parameters.mainCamera = mainCamera;
-
-      this._mainCameraName = mainCamera;
-    }
-  }, {
-    key: 'updateOnAnimate',
-    value: function updateOnAnimate(onAnimate) {
-      this._parameters.onAnimate = onAnimate;
-
-      this._onAnimate = onAnimate;
-    }
-  }, {
-    key: 'updateClearColor',
-    value: function updateClearColor(clearColor) {
-      this._parameters.clearColor = clearColor;
-
-      if (!this._renderer) {
-        return;
-      }
-
-      if (this._parameters.hasOwnProperty('clearAlpha')) {
-        this._renderer.setClearColor(clearColor, this._parameters.clearAlpha);
-      } else {
-        this._renderer.setClearColor(clearColor);
-      }
-    }
-  }, {
-    key: 'updateClearAlpha',
-    value: function updateClearAlpha(clearAlpha) {
-      var parameters = this._parameters;
-
-      if (clearAlpha === undefined) {
-        delete parameters.clearAlpha;
-      } else {
-        parameters.clearAlpha = clearAlpha;
-      }
-
-      if (!this._renderer) {
-        return;
-      }
-
-      var clearColor = void 0;
-
-      if (parameters.hasOwnProperty('clearColor')) {
-        clearColor = parameters.clearColor;
-      } else {
-        clearColor = new _three2.default.Color(0x000000); // default clear color
-      }
-
-      if (clearAlpha !== undefined) {
-        this._renderer.setClearColor(clearColor, clearAlpha);
-      } else {
-        this._renderer.setClearColor(clearColor);
-      }
-    }
-  }, {
-    key: 'refreshRenderer',
-    value: function refreshRenderer() {
-      this.disposeResourcesAndRenderer();
-
-      var contextLossExtension = this._renderer.extensions.get('WEBGL_lose_context');
-
-      delete this._renderer;
-      if (this._rendererUpdatedCallback) {
-        this._rendererUpdatedCallback(null);
-      }
-
-      this.userData.events.removeListener('animate', this._callOnAnimate);
-      this.userData.events.removeAllListeners();
-
-      if (this._renderRequest !== null) {
-        cancelAnimationFrame(this._renderRequest);
-        this._renderRequest = null;
-      }
-
-      if (contextLossExtension && this._canvas) {
-        // noinspection JSUnresolvedFunction
-        contextLossExtension.loseContext();
-
-        this._recreateCanvasCallback();
-      } else {
-        this._recreateCanvasCallback();
-      }
-    }
-  }, {
-    key: 'disposeResourcesAndRenderer',
-    value: function disposeResourcesAndRenderer() {
-      for (var i = 0; i < this._materials.length; ++i) {
-        var material = this._materials[i];
-        material.dispose();
-      }
-
-      for (var _i3 = 0; _i3 < this._geometries.length; ++_i3) {
-        var geometry = this._geometries[_i3];
-        geometry.dispose();
-      }
-
-      for (var _i4 = 0; _i4 < this._textures.length; ++_i4) {
-        var texture = this._textures[_i4];
-        texture.dispose();
-      }
-
-      this._renderer.dispose();
-    }
-  }, {
-    key: 'willUnmount',
-    value: function willUnmount() {
-      this._willUnmount = true;
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount() {
-      this._mounted = false;
-
-      if (this._renderRequest !== null) {
-        cancelAnimationFrame(this._renderRequest);
-        this._renderRequest = null;
-      }
-
-      this.userData.events.removeListener('animate', this._callOnAnimate);
-      this.userData.events.removeAllListeners();
-      delete this._rendererInstance;
-
-      if (this._renderer) {
-        var contextLossExtension = this._renderer.extensions.get('WEBGL_lose_context');
-
-        if (contextLossExtension) {
-          // noinspection JSUnresolvedFunction
-          contextLossExtension.loseContext();
-        }
-
-        this.disposeResourcesAndRenderer();
-
-        delete this._renderer;
-
-        if (this._rendererUpdatedCallback) {
-          this._rendererUpdatedCallback(null);
-        }
-      }
-
-      delete this._parameters;
-
-      (0, _invariant2.default)(Object.keys(this._objectsByUUID).length === 0, 'Failed to cleanup some child objects for React3DInstance');
-
-      delete this._objectsByUUID;
-      delete this._viewports;
-      delete this._scene;
-
-      if (process.env.NODE_ENV !== 'production' || process.env.ENABLE_REACT_ADDON_HOOKS === 'true') {
-        delete this._highlightScene;
-        delete this._highlightObjectId;
-        delete this._getHighlightBoundingBox;
-      }
-    }
-  }, {
-    key: 'objectMounted',
-    value: function objectMounted(object) {
-      (0, _invariant2.default)(!this._objectsByUUID[object.uuid], 'There already is an object with this uuid in the react 3d instance.');
-
-      this._objectsByUUID[object.uuid] = object;
-
-      object.userData.markup._rootInstance = this;
-
-      this._addObjectWithName(object.name, object);
-
-      if (process.env.NODE_ENV !== 'production' || process.env.ENABLE_REACT_ADDON_HOOKS === 'true') {
-        object.userData.events.on('highlight', this._objectHighlighted);
-      }
-
-      object.userData.events.emit('addedIntoRoot', object);
-
-      var current = object;
-
-      var childrenMarkup = current.userData.markup.childrenMarkup;
-
-      if (object instanceof _three2.default.Material) {
-        this._materials.push(object);
-      }
-
-      if (object instanceof _three2.default.Geometry || object instanceof _three2.default.BufferGeometry) {
-        this._geometries.push(object);
-      }
-
-      if (object instanceof _three2.default.Texture) {
-        this._textures.push(object);
-      }
-
-      for (var i = 0; i < childrenMarkup.length; ++i) {
-        var childMarkup = childrenMarkup[i];
-
-        this.objectMounted(childMarkup.threeObject);
-      }
-    }
-  }, {
-    key: 'allMaterialsNeedUpdate',
-    value: function allMaterialsNeedUpdate(dispose) {
-      this._materials.forEach(function (material) {
-        if (dispose) {
-          material.dispose();
-        } else {
-          material.needsUpdate = true;
-        }
-      });
-    }
-  }, {
-    key: 'objectRenamed',
-    value: function objectRenamed(object, oldName, nextName) {
-      this._removeObjectWithName(oldName, object);
-      this._addObjectWithName(nextName, object);
-    }
-  }, {
-    key: '_addObjectWithName',
-    value: function _addObjectWithName(objectName, object) {
-      if (!this._objectsByName[objectName]) {
-        this._objectsByName[objectName] = {
-          count: 0,
-          values: {}
-        };
-      }
-
-      this._objectsByName[objectName].values[object.uuid] = object;
-      this._objectsByName[objectName].count++;
-    }
-  }, {
-    key: '_removeObjectWithName',
-    value: function _removeObjectWithName(objectName, object) {
-      (0, _invariant2.default)(this._objectsByName[objectName] && this._objectsByName[objectName].values[object.uuid] === object, 'The object\'s name changed somehow?\'');
-
-      delete this._objectsByName[objectName].values[object.uuid];
-      this._objectsByName[objectName].count--;
-
-      if (this._objectsByName[objectName].count === 0) {
-        delete this._objectsByName[objectName];
-      }
-    }
-  }, {
-    key: 'objectRemoved',
-    value: function objectRemoved(object) {
-      (0, _invariant2.default)(this._objectsByUUID[object.uuid] === object, 'The removed object does not belong here!?');
-
-      if (process.env.NODE_ENV !== 'production' || process.env.ENABLE_REACT_ADDON_HOOKS === 'true') {
-        if (this._highlightObjectId === object.uuid) {
-          this._highlightObjectId = null;
-        }
-
-        object.userData.events.removeListener('highlight', this._objectHighlighted);
-        object.userData.events.removeListener('hideHighlight', this._hideHighlight);
-      }
-
-      delete this._objectsByUUID[object.uuid];
-
-      if (object instanceof _three2.default.Material) {
-        this._materials.splice(this._materials.indexOf(object), 1);
-      }
-      if (object instanceof _three2.default.Geometry || object instanceof _three2.default.BufferGeometry) {
-        this._geometries.splice(this._geometries.indexOf(object), 1);
-      }
-      if (object instanceof _three2.default.Texture) {
-        this._textures.splice(this._textures.indexOf(object), 1);
-      }
-
-      this._removeObjectWithName(object.name, object);
-
-      delete object.userData.markup._rootInstance;
-    }
-  }, {
-    key: 'mountedIntoRoot',
-    value: function mountedIntoRoot() {
-      this._mounted = true;
-      this.objectMounted(this);
-    }
-  }]);
-
-  return React3DInstance;
-}(), _initialiseProps = function _initialiseProps() {
-  var _this2 = this;
-
-  this._callOnAnimate = function () {
-    if (_this2._onAnimate) {
-      _ReactUpdates2.default.batchedUpdates(_this2._onAnimate);
-    }
-  };
-
-  this._render = function () {
-    for (var i = 0; i < _this2._modules.length; ++i) {
-      _this2._modules[i].update();
-    }
-
-    if (_this2._forceManualRender) {
-      _this2._renderRequest = null;
-    } else {
-      _this2._renderRequest = requestAnimationFrame(_this2._render);
-    }
-
-    _this2.userData.events.emit('animate');
-
-    // the scene can be destroyed within the 'animate' event
-    if (!_this2._scene || !_this2._mounted || !_this2._renderer) {
-      return;
-    }
-
-    var mainCamera = null;
-
-    if (_this2._mainCameraName) {
-      var objectsWithMainCameraName = _this2._objectsByName[_this2._mainCameraName];
-
-      if (objectsWithMainCameraName) {
-        if (process.env.NODE_ENV !== 'production') {
-          (0, _warning2.default)(objectsWithMainCameraName.count < 2, 'There are multiple objects with name ' + _this2._mainCameraName);
-        }
-
-        if (objectsWithMainCameraName.count > 0) {
-          var values = objectsWithMainCameraName.values;
-          mainCamera = values[Object.keys(values)[0]];
-        }
-      }
-    }
-
-    if (mainCamera) {
-      if (_this2._lastRenderMode !== 'camera') {
-        _this2._renderer.autoClear = true;
-        _this2._renderer.setViewport(0, 0, _this2._parameters.width, _this2._parameters.height);
-        _this2._lastRenderMode = 'camera';
-      }
-      _CameraUtils2.default.current = mainCamera;
-      _this2.userData.events.emit('preRender');
-      _this2._renderScene(mainCamera);
-      _CameraUtils2.default.current = null;
-    } else if (_this2._viewports.length > 0) {
-      if (_this2._lastRenderMode !== 'viewport') {
-        _this2._renderer.autoClear = false;
-        _this2._lastRenderMode = 'viewport';
-      }
-
-      _this2._renderer.clear();
-      _this2._viewports.forEach(function (viewport) {
-        var viewportCamera = null;
-
-        if (viewport.cameraName) {
-          var objectsWithViewportCameraName = _this2._objectsByName[viewport.cameraName];
-
-          if (objectsWithViewportCameraName) {
-            if (process.env.NODE_ENV !== 'production') {
-              (0, _warning2.default)(objectsWithViewportCameraName.count < 2, 'There are multiple objects with name ' + viewport.cameraName);
-            }
-
-            if (objectsWithViewportCameraName.count > 0) {
-              var _values = objectsWithViewportCameraName.values;
-              viewportCamera = _values[Object.keys(_values)[0]];
-            }
-          }
-        }
-
-        if (!viewportCamera) {
-          return;
-        }
-
-        if (viewport.onBeforeRender) {
-          _ReactUpdates2.default.batchedUpdates(viewport.onBeforeRender);
-        }
-
-        _this2._renderer.setViewport(viewport.x, viewport.y, viewport.width, viewport.height);
-        _CameraUtils2.default.current = viewportCamera;
-        _this2.userData.events.emit('preRender');
-        _this2._renderScene(viewportCamera);
-        _CameraUtils2.default.current = null;
-      });
-    }
-  };
-}, _temp);
-
-
-module.exports = React3DInstance;
-}).call(this,require('_process'))
-},{"./Module":229,"./React3Renderer":236,"./Resources/ResourceContainer":237,"./Viewport":251,"./utils/CameraUtils":338,"./utils/isWebglSupported":342,"_process":203,"fbjs/lib/invariant":347,"fbjs/lib/warning":348,"react/lib/ReactUpdates":442,"three":529}],236:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _class, _temp, _class2, _temp2;
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactElement = require('react/lib/ReactElement');
-
-var _ReactElement2 = _interopRequireDefault(_ReactElement);
-
-var _ReactInstanceMap = require('react/lib/ReactInstanceMap');
-
-var _ReactInstanceMap2 = _interopRequireDefault(_ReactInstanceMap);
-
-var _ReactInstanceHandles = require('react/lib/ReactInstanceHandles');
-
-var _ReactInstanceHandles2 = _interopRequireDefault(_ReactInstanceHandles);
-
-var _ReactReconciler = require('react/lib/ReactReconciler');
-
-var _ReactReconciler2 = _interopRequireDefault(_ReactReconciler);
-
-var _ReactUpdates = require('react/lib/ReactUpdates');
-
-var _ReactUpdates2 = _interopRequireDefault(_ReactUpdates);
-
-var _ReactCurrentOwner = require('react/lib/ReactCurrentOwner');
-
-var _ReactCurrentOwner2 = _interopRequireDefault(_ReactCurrentOwner);
-
-var _ReactUpdateQueue = require('react/lib/ReactUpdateQueue');
-
-var _ReactUpdateQueue2 = _interopRequireDefault(_ReactUpdateQueue);
-
-var _ReactComponent2 = require('react/lib/ReactComponent');
-
-var _ReactComponent3 = _interopRequireDefault(_ReactComponent2);
-
-var _ReactInjection = require('react/lib/ReactInjection');
-
-var _ReactInjection2 = _interopRequireDefault(_ReactInjection);
-
-var _ReactReconcileTransaction = require('react/lib/ReactReconcileTransaction');
-
-var _ReactReconcileTransaction2 = _interopRequireDefault(_ReactReconcileTransaction);
-
-var _ReactDefaultBatchingStrategy = require('react/lib/ReactDefaultBatchingStrategy');
-
-var _ReactDefaultBatchingStrategy2 = _interopRequireDefault(_ReactDefaultBatchingStrategy);
-
-var _KeyEscapeUtils = require('react/lib/KeyEscapeUtils');
-
-var _KeyEscapeUtils2 = _interopRequireDefault(_KeyEscapeUtils);
-
-var _traverseAllChildren = require('react/lib/traverseAllChildren');
-
-var _traverseAllChildren2 = _interopRequireDefault(_traverseAllChildren);
-
-var _getHostComponentFromComposite = require('react/lib/getHostComponentFromComposite');
-
-var _getHostComponentFromComposite2 = _interopRequireDefault(_getHostComponentFromComposite);
-
-var _shouldUpdateReactComponent = require('react/lib/shouldUpdateReactComponent');
-
-var _shouldUpdateReactComponent2 = _interopRequireDefault(_shouldUpdateReactComponent);
-
-var _ReactInstrumentation = require('react/lib/ReactInstrumentation');
-
-var _ReactInstrumentation2 = _interopRequireDefault(_ReactInstrumentation);
-
-var _emptyObject = require('fbjs/lib/emptyObject');
-
-var _emptyObject2 = _interopRequireDefault(_emptyObject);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _warning = require('fbjs/lib/warning');
-
-var _warning2 = _interopRequireDefault(_warning);
-
-var _React3ContainerInfo = require('./React3ContainerInfo');
-
-var _React3ContainerInfo2 = _interopRequireDefault(_React3ContainerInfo);
-
-var _EventDispatcher = require('./utils/EventDispatcher');
-
-var _EventDispatcher2 = _interopRequireDefault(_EventDispatcher);
-
-var _InternalComponent = require('./InternalComponent');
-
-var _InternalComponent2 = _interopRequireDefault(_InternalComponent);
-
-var _React3ComponentTree = require('./React3ComponentTree');
-
-var _React3ComponentTree2 = _interopRequireDefault(_React3ComponentTree);
-
-var _ElementDescriptorContainer = require('./ElementDescriptorContainer');
-
-var _ElementDescriptorContainer2 = _interopRequireDefault(_ElementDescriptorContainer);
-
-var _React3CompositeComponentWrapper = require('./React3CompositeComponentWrapper');
-
-var _React3CompositeComponentWrapper2 = _interopRequireDefault(_React3CompositeComponentWrapper);
-
-var _idPropertyName = require('./utils/idPropertyName');
-
-var _idPropertyName2 = _interopRequireDefault(_idPropertyName);
-
-var _removeDevTool = require('./utils/removeDevTool');
-
-var _removeDevTool2 = _interopRequireDefault(_removeDevTool);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var getDeclarationErrorAddendum = void 0;
-var staticDebugIdHack = void 0;
-var ReactComponentTreeHook = void 0;
-
-if (process.env.NODE_ENV !== 'production') {
-  /* eslint-disable global-require */
-
-  if (!ReactComponentTreeHook) {
-    ReactComponentTreeHook = require('react/lib/ReactComponentTreeHook');
-  }
-
-  /* eslint-enable global-require */
-}
-
-if (process.env.NODE_ENV !== 'production') {
-  staticDebugIdHack = 0;
-  // prop type helpers
-  // the warnings for propTypes will not say <anonymous>.
-  // Some performance is sacrificed for this.
-
-  // TODO: could have an env variable to disable this?
-  if (!_three2.default._renamed) {
-    _three2.default._renamed = true;
-
-    _three2.default.Vector2.displayName = 'THREE.Vector2';
-    _three2.default.Vector3.displayName = 'THREE.Vector3';
-    _three2.default.Quaternion.displayName = 'THREE.Quaternion';
-    _three2.default.Color.displayName = 'THREE.Color';
-    _three2.default.Shape.displayName = 'THREE.Shape';
-    _three2.default.Euler.displayName = 'THREE.Euler';
-    _three2.default.Fog.displayName = 'THREE.Fog';
-  }
-
-  getDeclarationErrorAddendum = function getDeclarationErrorAddendum(owner) {
-    if (owner) {
-      var name = owner.getName();
-      if (name) {
-        return ' Check the render method of `' + name + '`.';
-      }
-    }
-    return '';
-  };
-}
-
-/**
- * Unmounts a component and removes it from the DOM.
- *
- * @param {ReactComponent} instance React component instance.
- * @param {*} container DOM element to unmount from.
- * @param {bool} safely
- * @final
- * @internal
- * @see {ReactMount.unmountComponentAtNode}
- */
-function unmountComponentFromNode(instance, container, safely) {
-  if (process.env.NODE_ENV !== 'production') {
-    _ReactInstrumentation2.default.debugTool.onBeginFlush();
-  }
-
-  _ReactReconciler2.default.unmountComponent(instance, safely);
-
-  if (process.env.NODE_ENV !== 'production') {
-    _ReactInstrumentation2.default.debugTool.onEndFlush();
-  }
-}
-
-/* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */
-
-var TopLevelWrapper = (_temp = _class = function (_ReactComponent) {
-  _inherits(TopLevelWrapper, _ReactComponent);
-
-  function TopLevelWrapper() {
-    _classCallCheck(this, TopLevelWrapper);
-
-    return _possibleConstructorReturn(this, (TopLevelWrapper.__proto__ || Object.getPrototypeOf(TopLevelWrapper)).apply(this, arguments));
-  }
-
-  _createClass(TopLevelWrapper, [{
-    key: 'render',
-    value: function render() {
-      // this.props is actually a ReactElement
-      return this.props;
-    }
-  }]);
-
-  return TopLevelWrapper;
-}(_ReactComponent3.default), _class.isReactComponent = {}, _temp);
-
-
-if (process.env.NODE_ENV !== 'production') {
-  TopLevelWrapper.displayName = 'TopLevelWrapper';
-}
-
-function internalGetID(markup) {
-  return markup && markup[_idPropertyName2.default] || '';
-}
-
-// see ReactMount.js:getReactRootElementInContainer
-/**
- * @param {THREE.Object3D|HTMLCanvasElement} container That may contain
- * a React component
- * @return {?*} The markup that may have the reactRoot ID, or null.
- */
-function getReactRootMarkupInContainer(container) {
-  if (!container) {
-    return null;
-  }
-
-  // in ReactMount this is container.firstChild.
-
-  return container.userData && container.userData.markup && container.userData.markup.childrenMarkup[0] || null;
-}
-
-/**
- * Check if the type reference is a known internal type. I.e. not a user
- * provided composite type.
- *
- * @param {function} type
- * @return {boolean} Returns true if this is a valid internal type.
- */
-function isInternalComponentType(type) {
-  return typeof type === 'function' && typeof type.prototype !== 'undefined' && typeof type.prototype.mountComponent === 'function' && typeof type.prototype.receiveComponent === 'function';
-}
-
-var React3Renderer = (_temp2 = _class2 = function () {
-  _createClass(React3Renderer, [{
-    key: 'updateChildren',
-
-
-    /**
-     * @see ReactChildReconciler.updateChildren
-     *
-     * Cloned because it uses
-     * @see React3Renderer.instantiateReactComponent
-     *
-     * Updates the rendered children and returns a new set of children.
-     *
-     * @param {?object} prevChildren Previously initialized set of children.
-     * @param {?object} nextChildren Flat child element maps.
-     * @param mountImages
-     * @param {?object} removedMarkups The map for removed nodes.
-     * @param {ReactReconcileTransaction} transaction
-     * @param hostParent
-     * @param hostContainerInfo
-     * @param {object} context
-     * @param selfDebugID
-     * @return {?object} A new set of child instances.
-     * @internal
-     */
-    value: function updateChildren(prevChildren, nextChildren, mountImages, removedMarkups, transaction, hostParent, hostContainerInfo, context, selfDebugID // 0 in production and for roots
-    ) {
-      // We currently don't have a way to track moves here but if we use iterators
-      // instead of for..in we can zip the iterators and check if an item has
-      // moved.
-      // TODO: If nothing has changed, return the prevChildren object so that we
-      // can quickly bailout.
-      if (!nextChildren && !prevChildren) {
-        return null;
-      }
-
-      if (nextChildren) {
-        var nextChildrenKeys = Object.keys(nextChildren);
-
-        for (var i = 0; i < nextChildrenKeys.length; ++i) {
-          var childName = nextChildrenKeys[i];
-
-          var prevChild = prevChildren && prevChildren[childName];
-          var prevElement = prevChild && prevChild._currentElement;
-          var nextElement = nextChildren[childName];
-          if (prevChild !== null && prevChild !== undefined && (0, _shouldUpdateReactComponent2.default)(prevElement, nextElement)) {
-            _ReactReconciler2.default.receiveComponent(prevChild, nextElement, transaction, context);
-
-            if (prevChild._forceRemountOfComponent) {
-              removedMarkups[childName] = prevChild.getHostMarkup();
-
-              _ReactReconciler2.default.unmountComponent(prevChild, false);
-              var nextChildInstance = this.instantiateReactComponent(nextElement, true);
-              nextChildren[childName] = nextChildInstance;
-
-              // Creating mount image now ensures refs are resolved in right order
-              // (see https://github.com/facebook/react/pull/7101 for explanation).
-              var nextChildMountImage = _ReactReconciler2.default.mountComponent(nextChildInstance, transaction, hostParent, hostContainerInfo, context, selfDebugID);
-
-              mountImages.push(nextChildMountImage);
-            } else {
-              nextChildren[childName] = prevChild;
-            }
-          } else {
-            if (prevChild) {
-              removedMarkups[childName] = prevChild.getHostMarkup();
-
-              _ReactReconciler2.default.unmountComponent(prevChild, false);
-            }
-            // The child must be instantiated before it's mounted.
-            var _nextChildInstance = this.instantiateReactComponent(nextElement, true);
-
-            nextChildren[childName] = _nextChildInstance;
-
-            // Creating mount image now ensures refs are resolved in right order
-            // (see https://github.com/facebook/react/pull/7101 for explanation).
-            var _nextChildMountImage = _ReactReconciler2.default.mountComponent(_nextChildInstance, transaction, hostParent, hostContainerInfo, context, selfDebugID /* parentDebugID */
-            );
-
-            mountImages.push(_nextChildMountImage);
-          }
-        }
-      }
-
-      if (prevChildren) {
-        // Unmount children that are no longer present.
-        var prevChildrenKeys = Object.keys(prevChildren);
-        for (var _i = 0; _i < prevChildrenKeys.length; ++_i) {
-          var _childName = prevChildrenKeys[_i];
-
-          if (!(nextChildren && nextChildren.hasOwnProperty(_childName))) {
-            var _prevChild = prevChildren[_childName];
-
-            removedMarkups[_childName] = _prevChild.getHostMarkup();
-
-            _ReactReconciler2.default.unmountComponent(_prevChild, false);
-          }
-        }
-      }
-
-      return nextChildren;
-    }
-  }, {
-    key: 'getElementDescriptor',
-    value: function getElementDescriptor(name) {
-      return this.threeElementDescriptors[name];
-    }
-  }], [{
-    key: 'findTHREEObject',
-
-
-    /**
-     * Returns the THREE.js object rendered by this element.
-     *
-     * @param {React.Component|THREE.Object3D|HTMLCanvasElement} componentOrElement
-     * @return {?THREE.Object3D} The root node of this element.
-     */
-    value: function findTHREEObject(componentOrElement) {
-      if (process.env.NODE_ENV !== 'production') {
-        var owner = _ReactCurrentOwner2.default.current;
-        if (owner !== null) {
-          if (process.env.NODE_ENV !== 'production') {
-            (0, _warning2.default)(owner._warnedAboutRefsInRender, '%s is accessing findDOMNode inside its render(). ' + 'render() should be a pure function of props and state. It should ' + 'never access something that requires stale data from the previous ' + 'render, such as refs. Move this logic to componentDidMount and ' + 'componentDidUpdate instead.', owner.getName() || 'A component');
-          }
-          owner._warnedAboutRefsInRender = true;
-        }
-      }
-
-      if (componentOrElement === null) {
-        return null;
-      }
-
-      if (componentOrElement instanceof _three2.default.Object3D || componentOrElement instanceof HTMLCanvasElement) {
-        return componentOrElement;
-      }
-
-      if (_ReactInstanceMap2.default.has(componentOrElement)) {
-        var instance = _ReactInstanceMap2.default.get(componentOrElement);
-
-        instance = (0, _getHostComponentFromComposite2.default)(instance);
-
-        return instance ? _React3ComponentTree2.default.getMarkupFromInstance(instance).threeObject : null;
-      }
-
-      if (!(componentOrElement.render === null || typeof componentOrElement.render !== 'function')) {
-        if (process.env.NODE_ENV !== 'production') {
-          (0, _invariant2.default)(false, 'Component (with keys: %s) contains `render` method ' + 'but is not mounted', Object.keys(componentOrElement));
-        } else {
-          (0, _invariant2.default)(false);
-        }
-      }
-
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(false, 'Element appears to be neither ReactComponent, ' + 'a THREE.js object, nor a HTMLCanvasElement (keys: %s)', Object.keys(componentOrElement));
-      } else {
-        (0, _invariant2.default)(false);
-      }
-
-      return null;
-    }
-    // to be used by modules e.g. mouse input ( see examples )
-
-  }]);
-
-  function React3Renderer() {
-    var _this2 = this;
-
-    _classCallCheck(this, React3Renderer);
-
-    this.instantiateChild = function (childInstances, child, name, selfDebugID) {
-      // We found a component instance.
-      var keyUnique = childInstances[name] === undefined;
-      if (process.env.NODE_ENV !== 'production') {
-        if (!keyUnique) {
-          (0, _warning2.default)(false, 'flattenChildren(...): Encountered two children with the same key, ' + '`%s`. Child keys must be unique; when two children share a key, only ' + 'the first child will be used.%s', _KeyEscapeUtils2.default.unescape(name), ReactComponentTreeHook.getStackAddendumByID(selfDebugID));
-        }
-      }
-
-      if (child !== null && keyUnique) {
-        childInstances[name] = _this2.instantiateReactComponent(child, true);
-      }
-    };
-
-    this.findNodeHandle = function (instance) {
-      var inst = _React3ComponentTree2.default.getRenderedHostOrTextFromComponent(instance);
-
-      if (!inst || !inst._threeObject) {
-        return null;
-      }
-
-      var markup = _React3ComponentTree2.default.getMarkupFromInstance(inst);
-
-      _this2._highlightCache = markup;
-      return _this2._highlightElement;
-    };
-
-    this.nativeTagToRootNodeID = function () {
-      return 0;
-    };
-
-    this.hostTagToRootNodeID = function () {
-      return 0;
-    };
-
-    this.batchedMountComponentIntoNode = function (componentInstance, container, shouldReuseMarkup, context) {
-      var transaction = _ReactUpdates2.default.ReactReconcileTransaction.getPooled(!shouldReuseMarkup);
-      transaction.perform(_this2.mountComponentIntoNode, null, componentInstance, container, transaction, shouldReuseMarkup, context);
-      _ReactUpdates2.default.ReactReconcileTransaction.release(transaction);
-    };
-
-    this.mountComponentIntoNode = function (wrapperInstance, container, transaction, shouldReuseMarkup, context) {
-      var markup = _ReactReconciler2.default.mountComponent(wrapperInstance, transaction, null, (0, _React3ContainerInfo2.default)(wrapperInstance, container), context, 0 /* parentDebugID */
-      );
-
-      wrapperInstance._renderedComponent._topLevelWrapper = wrapperInstance;
-      _this2._mountImageIntoNode(markup, container, wrapperInstance, shouldReuseMarkup, transaction);
-    };
-
-    this._instancesByReactRootID = {};
-    if (process.env.NODE_ENV !== 'production') {
-      this.rootMarkupsByReactRootID = {};
-    }
-    this.nextMountID = 1;
-    this.globalIdCounter = 1;
-    this.nextReactRootIndex = 0;
-
-    this.threeElementDescriptors = new _ElementDescriptorContainer2.default(this).descriptors;
-
-    this._highlightElement = document.createElement('div');
-    this._highlightCache = null;
-
-    if (process.env.NODE_ENV !== 'production') {
-      this._nextDebugID = 1;
-      this._debugIdPrefix = staticDebugIdHack++;
-    }
-
-    if (process.env.NODE_ENV !== 'production' || process.env.ENABLE_REACT_ADDON_HOOKS === 'true') {
-      this._agent = null;
-
-      this._onHideHighlightFromInspector = function () {
-        if (_this2._highlightCache && _this2._highlightCache.threeObject.userData.react3internalComponent) {
-          var internalComponent = _this2._highlightCache.threeObject.userData.react3internalComponent;
-
-          internalComponent.hideHighlight();
-
-          _this2._highlightCache = null;
-        }
-      };
-
-      this._onHighlightFromInspector = function (highlightInfo) {
-        if (highlightInfo.node === _this2._highlightElement) {
-          if (_this2._highlightCache && _this2._highlightCache.threeObject.userData.react3internalComponent) {
-            var internalComponent = _this2._highlightCache.threeObject.userData.react3internalComponent;
-
-            internalComponent.highlightComponent();
-          }
-        }
-      };
-
-      this._hookAgent = function (agent) {
-        _this2._agent = agent;
-
-        // agent.on('startInspecting', (...args) => {
-        //   console.log('start inspecting?', args);
-        // });
-        // agent.on('setSelection', (...args) => {
-        //   console.log('set selection?', args);
-        // });
-        // agent.on('selected', (...args) => {
-        //   console.log('selected?', args);
-        // });
-        agent.on('highlight', _this2._onHighlightFromInspector);
-        agent.on('hideHighlight', _this2._onHideHighlightFromInspector);
-        // agent.on('highlightMany', (...args) => {
-        //   console.log('highlightMany?', args);
-        // });
-      };
-
-      // Inject the runtime into a devtools global hook regardless of browser.
-      // Allows for debugging when the hook is injected on the page.
-      if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== 'undefined' && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.inject === 'function') {
-        this._devToolsRendererDefinition = {
-          CurrentOwner: _ReactCurrentOwner2.default,
-          InstanceHandles: _ReactInstanceHandles2.default,
-          Mount: this,
-          Reconciler: _ReactReconciler2.default,
-          TextComponent: _InternalComponent2.default
-        };
-
-        var rendererListener = function rendererListener(info) {
-          _this2._reactDevtoolsRendererId = info.id;
-          _this2._rendererListenerCleanup();
-
-          delete _this2._rendererListenerCleanup;
-        };
-
-        this._rendererListenerCleanup = __REACT_DEVTOOLS_GLOBAL_HOOK__.sub('renderer', rendererListener);
-        __REACT_DEVTOOLS_GLOBAL_HOOK__.inject(this._devToolsRendererDefinition);
-
-        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.reactDevtoolsAgent !== 'undefined' && __REACT_DEVTOOLS_GLOBAL_HOOK__.reactDevtoolsAgent) {
-          var agent = __REACT_DEVTOOLS_GLOBAL_HOOK__.reactDevtoolsAgent;
-          this._hookAgent(agent);
-        } else {
-          this._devtoolsCallbackCleanup = __REACT_DEVTOOLS_GLOBAL_HOOK__.sub('react-devtools', function (agent) {
-            _this2._devtoolsCallbackCleanup();
-
-            _this2._hookAgent(agent);
-          });
-        }
-      }
-    }
-  }
-
-  /**
-   * @see ReactChildReconciler.instantiateChild
-   * Cloned because it uses
-   * @see React3Renderer.instantiateReactComponent
-   *
-   * @param childInstances
-   * @param child
-   * @param name
-   * @param selfDebugID
-   */
-
-
-  _createClass(React3Renderer, [{
-    key: 'instantiateChildren',
-
-
-    /**
-     * @see ReactChildReconciler.instantiateChildren
-     * Cloned because it uses
-     * @see React3Renderer.instantiateChild
-     *
-     * Generates a "mount image" for each of the supplied children. In the case
-     * of `ReactDOMComponent`, a mount image is a string of markup.
-     *
-     * @param {?object} nestedChildNodes Nested child maps.
-     * @param transaction
-     * @param context
-     * @param selfDebugID
-     * @return {?object} A set of child instances.
-     * @internal
-     */
-    value: function instantiateChildren(nestedChildNodes, transaction, context, selfDebugID // 0 in production and for roots
-    ) {
-      var _this3 = this;
-
-      if (nestedChildNodes === null) {
-        return null;
-      }
-
-      var childInstances = {};
-
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _traverseAllChildren2.default)(nestedChildNodes, function (childInsts, child, name) {
-          return _this3.instantiateChild(childInsts, child, name, selfDebugID);
-        }, childInstances);
-      } else {
-        (0, _traverseAllChildren2.default)(nestedChildNodes, this.instantiateChild, childInstances);
-      }
-
-      return childInstances;
-    }
-  }, {
-    key: 'containsChild',
-    value: function containsChild(container, markup) {
-      var childrenMarkup = container.userData.markup.childrenMarkup;
-      for (var i = 0; i < childrenMarkup.length; i++) {
-        if (childrenMarkup[i] === markup) {
-          return true;
-        }
-      }
-
-      return false;
-    }
-
-    // DO NOT RENAME
-    // used by react devtools!
-
-
-    // used by react devtools
-
-  }, {
-    key: '_mountImageIntoNode',
-    value: function _mountImageIntoNode(markup, container, instance, shouldReuseMarkup, transaction) {
-      // eslint-disable-line no-unused-vars
-      // TODO try to do server-side rendering for THREE
-
-      if (!container.userData) {
-        // it has to be a HTMLCanvasElement I guess?
-        (0, _invariant2.default)(container instanceof HTMLCanvasElement, 'The root container can only be a THREE.js object ' + '(with an userData property) or HTMLCanvasElement.');
-        container.userData = {
-          _createdByReact3: true
-        };
-      }
-
-      var rootImage = markup;
-
-      var rootMarkup = {
-        threeObject: container,
-        parentMarkup: null,
-        childrenMarkup: [rootImage],
-        toJSON: function toJSON() {
-          return '---MARKUP---';
-        }
-      };
-
-      Object.assign(container.userData, {
-        object3D: container,
-        toJSON: function toJSON() {
-          return '---USERDATA---';
-        },
-        markup: rootMarkup
-      });
-
-      rootImage.parentMarkup = rootMarkup;
-
-      var descriptorForChild = this.threeElementDescriptors[rootImage.elementType];
-      descriptorForChild.setParent(rootImage.threeObject, rootMarkup.threeObject);
-
-      // all objects now added can be marked as added to scene now!
-
-      rootImage.threeObject.mountedIntoRoot();
-
-      var firstChild = container.userData.markup.childrenMarkup[0];
-      _React3ComponentTree2.default.precacheMarkup(instance, firstChild);
-
-      if (process.env.NODE_ENV !== 'production') {
-        var hostInstance = _React3ComponentTree2.default.getInstanceFromMarkup(firstChild);
-        if (hostInstance._debugID !== 0) {
-          _ReactInstrumentation2.default.debugTool.onHostOperation(hostInstance._debugID, 'mount', markup.toString());
-        }
-      }
-    }
-
-    /**
-     *
-     * @param nextElement A react element
-     * @param container A canvas or a THREE.js object
-     * @param callback The callback function
-     * @returns {*}
-     */
-
-  }, {
-    key: 'render',
-    value: function render(nextElement, container, callback) {
-      return this._renderSubtreeIntoContainer(null, nextElement, container, callback);
-    }
-  }, {
-    key: 'getHostRootInstanceInContainer',
-    value: function getHostRootInstanceInContainer(container) {
-      var rootMarkup = getReactRootMarkupInContainer(container);
-      var prevHostInstance = rootMarkup && _React3ComponentTree2.default.getInstanceFromMarkup(rootMarkup);
-      return prevHostInstance && !prevHostInstance._hostParent ? prevHostInstance : null;
-    }
-  }, {
-    key: 'getTopLevelWrapperInContainer',
-    value: function getTopLevelWrapperInContainer(container) {
-      var root = this.getHostRootInstanceInContainer(container);
-      if (root) {
-        (0, _invariant2.default)(!!root._hostContainerInfo, 'Root should have native container info %s', ' but it does not');
-      }
-      return root ? root._hostContainerInfo._topLevelWrapper : null;
-    }
-  }, {
-    key: '_renderSubtreeIntoContainer',
-    value: function _renderSubtreeIntoContainer(parentComponent, nextElement, container, callback) {
-      var _this4 = this;
-
-      if (!_ReactElement2.default.isValidElement(nextElement)) {
-        if (process.env.NODE_ENV !== 'production') {
-          if (typeof nextElement === 'string') {
-            (0, _invariant2.default)(false, 'React3Renderer.render(): Invalid component element.%s', ' Instead of passing an element string, make sure to instantiate ' + 'it by passing it to React.createElement.');
-          } else if (typeof nextElement === 'function') {
-            (0, _invariant2.default)(false, 'React3Renderer.render(): Invalid component element.%s', ' Instead of passing a component class, make sure to instantiate ' + 'it by passing it to React.createElement.');
-          } else if (nextElement !== null && nextElement.props !== undefined) {
-            (0, _invariant2.default)(false, 'React3Renderer.render(): Invalid component element.%s', ' This may be caused by unintentionally loading two independent ' + 'copies of React.');
-          } else {
-            (0, _invariant2.default)(false, 'React3Renderer.render(): Invalid component element.');
-          }
-        } else {
-          (0, _invariant2.default)(false);
-        }
-      }
-
-      var nextWrappedElement = (0, _ReactElement2.default)(TopLevelWrapper, null, null, null, null, null, nextElement);
-
-      var nextContext = void 0;
-      if (parentComponent) {
-        var parentInst = _ReactInstanceMap2.default.get(parentComponent);
-        nextContext = parentInst._processChildContext(parentInst._context);
-      } else {
-        nextContext = _emptyObject2.default;
-      }
-
-      var prevComponent = this.getTopLevelWrapperInContainer(container);
-
-      if (prevComponent) {
-        var prevWrappedElement = prevComponent._currentElement;
-        var prevElement = prevWrappedElement.props;
-        if ((0, _shouldUpdateReactComponent2.default)(prevElement, nextElement)) {
-          var _ret = function () {
-            var publicInst = prevComponent._renderedComponent.getPublicInstance();
-            var updatedCallback = callback && function () {
-              callback.call(publicInst);
-            };
-
-            _this4._updateRootComponent(prevComponent, nextWrappedElement, nextContext, container, updatedCallback);
-
-            return {
-              v: publicInst
-            };
-          }();
-
-          if ((typeof _ret === 'undefined' ? 'undefined' : _typeof(_ret)) === "object") return _ret.v;
-        }
-
-        this.unmountComponentAtNode(container);
-      }
-
-      // aka first child
-      var reactRootMarkup = getReactRootMarkupInContainer(container);
-      var containerHasReactMarkup = reactRootMarkup && !!internalGetID(reactRootMarkup);
-
-      // containerHasNonRootReactChild not implemented
-
-      var shouldReuseMarkup = containerHasReactMarkup && !prevComponent;
-
-      var component = this._renderNewRootComponent(nextWrappedElement, container, shouldReuseMarkup, nextContext)._renderedComponent.getPublicInstance();
-
-      if (callback) {
-        callback.call(component);
-      }
-
-      return component;
-    }
-  }, {
-    key: 'dispose',
-    value: function dispose() {
-      var rootIds = Object.keys(this._instancesByReactRootID);
-
-      for (var i = 0; i < rootIds.length; ++i) {
-        this.unmountComponentAtNode(this._instancesByReactRootID[rootIds[i]].getHostMarkup().parentMarkup.threeObject);
-      }
-
-      delete this._instancesByReactRootID;
-      if (process.env.NODE_ENV !== 'production') {
-        delete this.rootMarkupsByReactRootID;
-      }
-      delete this._highlightElement;
-      this.nextMountID = 1;
-      this.nextReactRootIndex = 0;
-
-      if (process.env.NODE_ENV !== 'production' || process.env.ENABLE_REACT_ADDON_HOOKS === 'true') {
-        if (this._devtoolsCallbackCleanup) {
-          this._devtoolsCallbackCleanup();
-
-          delete this._devtoolsCallbackCleanup;
-        }
-
-        if (this._rendererListenerCleanup) {
-          this._rendererListenerCleanup();
-
-          delete this._rendererListenerCleanup;
-        }
-
-        if (this._devToolsRendererDefinition) {
-          if (this._agent) {
-            this._agent.onUnmounted(this._devToolsRendererDefinition);
-            this._agent.removeListener('highlight', this._onHighlightFromInspector);
-            this._agent.removeListener('hideHighlight', this._onHideHighlightFromInspector);
-          }
-
-          if (this._reactDevtoolsRendererId) {
-            delete __REACT_DEVTOOLS_GLOBAL_HOOK__._renderers[this._reactDevtoolsRendererId];
-            delete this._reactDevtoolsRendererId;
-          }
-
-          delete this._devToolsRendererDefinition;
-          delete this._agent;
-        }
-
-        delete this._onHighlightFromInspector;
-        delete this._onHideHighlightFromInspector;
-        delete this._hookAgent;
-      }
-    }
-  }, {
-    key: '_updateRootComponent',
-    value: function _updateRootComponent(prevComponent, nextElement, nextContext, container, callback) {
-      _ReactUpdateQueue2.default.enqueueElementInternal(prevComponent, nextElement, nextContext);
-      if (callback) {
-        _ReactUpdateQueue2.default.enqueueCallbackInternal(prevComponent, callback);
-      }
-
-      return prevComponent;
-    }
-
-    /**
-     * True if the supplied DOM node has a direct React-rendered child that is
-     * not a React root element. Useful for warning in `render`,
-     * `unmountComponentAtNode`, etc.
-     *
-     * @param {?*} container The container.
-     * @return {boolean} True if the DOM element contains a direct child that was
-     * rendered by React but is not a root element.
-     * @internal
-     */
-
-  }, {
-    key: 'hasNonRootReactChild',
-    value: function hasNonRootReactChild(container) {
-      var rootMarkup = getReactRootMarkupInContainer(container);
-      if (rootMarkup) {
-        var inst = _React3ComponentTree2.default.getInstanceFromMarkup(rootMarkup);
-        return !!(inst && inst._hostParent);
-      }
-
-      return false;
-    }
-  }, {
-    key: 'unmountComponentAtNode',
-    value: function unmountComponentAtNode(container) {
-      // Various parts of our code (such as ReactCompositeComponent's
-      // _renderValidatedComponent) assume that calls to render aren't nested;
-      // verify that that's the case. (Strictly speaking, unmounting won't cause a
-      // render but we still don't expect to be in a render call here.)
-
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _warning2.default)(_ReactCurrentOwner2.default.current === null, 'unmountComponentAtNode(): Render methods should be a pure function ' + 'of props and state; triggering nested component updates from render ' + 'is not allowed. If necessary, trigger nested updates in ' + 'componentDidUpdate. Check the render method of %s.', _ReactCurrentOwner2.default.current && _ReactCurrentOwner2.default.current.getName() || 'ReactCompositeComponent');
-      }
-
-      var prevComponent = this.getTopLevelWrapperInContainer(container);
-      if (!prevComponent) {
-        // Check if the node being unmounted was rendered by React, but isn't a
-        // root node.
-        var containerHasNonRootReactChild = this.hasNonRootReactChild(container);
-
-        // Check if the container itself is a React root node.
-        var isContainerReactRoot = !!(container && container.userData && container.userData.markup && container.userData.markup[_idPropertyName2.default]);
-
-        if (process.env.NODE_ENV !== 'production') {
-          (0, _warning2.default)(!containerHasNonRootReactChild, 'unmountComponentAtNode(): The node you\'re attempting to unmount ' + 'was rendered by React and is not a top-level container. %s', isContainerReactRoot ? 'You may have accidentally passed in a React root node instead ' + 'of its container.' : 'Instead, have the parent component update its state and ' + 'rerender in order to remove this component.');
-        }
-
-        return false;
-      }
-
-      delete this._instancesByReactRootID[prevComponent._instance.rootID];
-
-      _ReactUpdates2.default.batchedUpdates(unmountComponentFromNode, prevComponent, container, false);
-
-      if (container && container.userData && container.userData._createdByReact3) {
-        delete container.userData;
-      }
-
-      return true;
-    }
-
-    /**
-     * @param {THREE.Object3D|HTMLCanvasElement} container THREE Object
-     *   or HTML Canvas Element that may contain a React component.
-     * @return {?string} A "reactRoot" ID, if a React component is rendered.
-     */
-
-  }, {
-    key: 'getReactRootID',
-    value: function getReactRootID(container) {
-      var rootMarkup = getReactRootMarkupInContainer(container);
-      return rootMarkup && this.getID(rootMarkup);
-    }
-
-    // see instantiateReactComponent.js
-    /**
-     * @see #instantiateReactComponent
-     *
-     * Cloned because it uses
-     * @see InternalComponent
-     *
-     * @param _node ( from createElement )
-     * @param {boolean} shouldHaveDebugID
-     * @return {object} A new instance of the element's constructor.
-     */
-
-  }, {
-    key: 'instantiateReactComponent',
-    value: function instantiateReactComponent(_node, shouldHaveDebugID) {
-      var instance = void 0;
-
-      var node = _node;
-
-      var isEmptyNode = node === null || node === false;
-
-      if (isEmptyNode) {
-        // Create an object3D node so that empty components can be added anywhere
-        instance = new _InternalComponent2.default(_ReactElement2.default.createElement('object3D', {
-          visible: false
-        }), this);
-        // original: instance = new ReactDOMEmptyComponent(this.instantiateReactComponent);
-      } else if ((typeof node === 'undefined' ? 'undefined' : _typeof(node)) === 'object') {
-        var _element = node;
-
-        if (!(_element && (typeof _element.type === 'function' || typeof _element.type === 'string'))) {
-          if (process.env.NODE_ENV !== 'production') {
-            if (_element.type == null) {
-              (0, _invariant2.default)(false, 'Element type is invalid:' + ' expected a string (for built-in components)' + ' or a class/function (for composite components)' + ' but got: %s.%s', _element.type, getDeclarationErrorAddendum(_element._owner));
-            } else {
-              (0, _invariant2.default)(false, 'Element type is invalid:' + ' expected a string (for built-in components)' + ' or a class/function (for composite components)' + ' but got: %s.%s', _typeof(_element.type), getDeclarationErrorAddendum(_element._owner));
-            }
-          } else if (_element.type == null) {
-            (0, _invariant2.default)(_element.type, getDeclarationErrorAddendum(_element._owner));
-          } else {
-            (0, _invariant2.default)(_typeof(_element.type), getDeclarationErrorAddendum(_element._owner));
-          }
-        }
-
-        // Special case string values
-        if (typeof _element.type === 'string') {
-          // original: instance = ReactHostComponent.createInternalComponent(element);
-          instance = new _InternalComponent2.default(_element, this);
-        } else if (isInternalComponentType(_element.type)) {
-          // This is temporarily available for custom components that are not string
-          // representations. I.e. ART. Once those are updated to use the string
-          // representation, we can drop this code path.
-          var Constructor = _element.type;
-
-          instance = new Constructor(_element);
-
-          // We renamed this. Allow the old name for compat. :(
-          if (!instance.getHostNode) {
-            instance.getHostNode = instance.getNativeNode;
-          }
-        } else {
-          instance = new _React3CompositeComponentWrapper2.default(_element, this);
-        }
-      } else if (typeof node === 'string' || typeof node === 'number') {
-        // TODO create instance for text
-        if (process.env.NODE_ENV !== 'production') {
-          (0, _invariant2.default)(false, 'Encountered invalid React node of type %s : %s', typeof node === 'undefined' ? 'undefined' : _typeof(node), node);
-        } else {
-          (0, _invariant2.default)(false);
-        }
-      } else if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(false, 'Encountered invalid React node of type %s', typeof element === 'undefined' ? 'undefined' : _typeof(element));
-      } else {
-        (0, _invariant2.default)(false);
-      }
-
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _warning2.default)(typeof instance.mountComponent === 'function' && typeof instance.receiveComponent === 'function' && typeof instance.getHostMarkup === 'function' && typeof instance.unmountComponent === 'function', 'Only React 3 Components can be mounted.');
-      }
-
-      // These two fields are used by the DOM and ART diffing algorithms
-      // respectively. Instead of using expandos on components, we should be
-      // storing the state needed by the diffing algorithms elsewhere.
-      instance._mountIndex = 0;
-      instance._mountImage = null;
-
-      if (process.env.NODE_ENV !== 'production') {
-        if (shouldHaveDebugID) {
-          var debugID = 'r3r' + this._debugIdPrefix + '-' + this._nextDebugID++;
-          instance._debugID = debugID;
-        } else {
-          instance._debugID = 0;
-        }
-      }
-
-      // Internal instances should fully constructed at this point, so they should
-      // not get any new fields added to them at this point.
-      if (process.env.NODE_ENV !== 'production') {
-        if (Object.preventExtensions) {
-          Object.preventExtensions(instance);
-        }
-      }
-
-      return instance;
-    }
-
-    /**
-     * @see ReactMount._renderNewRootComponent
-     *
-     * Cloned because it uses
-     * @see React3Renderer.instantiateReactComponent
-     *
-     * @param nextElement
-     * @param {THREE.Object3D | HTMLCanvasElement} container
-     * @param shouldReuseMarkup
-     * @param context
-     * @returns {*}
-     * @private
-     */
-
-  }, {
-    key: '_renderNewRootComponent',
-    value: function _renderNewRootComponent(nextElement, container, shouldReuseMarkup, context) {
-      // Various parts of our code (such as ReactCompositeComponent's
-      // _renderValidatedComponent) assume that calls to render aren't nested;
-      // verify that that's the case.
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _warning2.default)(_ReactCurrentOwner2.default.current === null, '_renderNewRootComponent(): Render methods should be a pure function ' + 'of props and state; triggering nested component updates from ' + 'render is not allowed. If necessary, trigger nested updates in ' + 'componentDidUpdate. Check the render method of %s.', _ReactCurrentOwner2.default.current && _ReactCurrentOwner2.default.current.getName() || 'ReactCompositeComponent');
-      }
-
-      var componentInstance = this.instantiateReactComponent(nextElement, false);
-
-      if (!_ReactUpdates2.default.ReactReconcileTransaction) {
-        // If the ReactReconcileTransaction has not been injected
-        // let's just use the defaults from ReactMount.
-        _ReactInjection2.default.Updates.injectReconcileTransaction(_ReactReconcileTransaction2.default);
-        _ReactInjection2.default.Updates.injectBatchingStrategy(_ReactDefaultBatchingStrategy2.default);
-      }
-
-      var devToolRemoved = void 0;
-      if (process.env.NODE_ENV !== 'production') {
-        devToolRemoved = (0, _removeDevTool2.default)();
-      }
-
-      // The initial render is synchronous but any updates that happen during
-      // rendering, in componentWillMount or componentDidMount, will be batched
-      // according to the current batching strategy.
-
-      _ReactUpdates2.default.batchedUpdates(this.batchedMountComponentIntoNode, componentInstance, container, shouldReuseMarkup, context);
-
-      if (process.env.NODE_ENV !== 'production') {
-        if (devToolRemoved) {
-          _removeDevTool2.default.restore();
-        }
-      }
-
-      var wrapperID = componentInstance._instance.rootID;
-      this._instancesByReactRootID[wrapperID] = componentInstance;
-
-      return componentInstance;
-    }
-
-    /**
-     * Batched mount.
-     *
-     * @param {ReactComponent} componentInstance The instance to mount.
-     * @param {*} container Container.
-     * @param {boolean} shouldReuseMarkup If true, do not insert markup
-     * @param {*} context que?
-     */
-
-
-    /**
-     * @see #mountComponentIntoNode
-     *
-     * Mounts this component and inserts it into the DOM.
-     *
-     * @param {ReactComponent} wrapperInstance The instance to mount.
-     * @param {*} container container to mount into.
-     * @param {ReactReconcileTransaction} transaction
-     * @param {boolean} shouldReuseMarkup If true, do not insert markup
-     * @param {*} context
-     */
-
-  }, {
-    key: 'createReactRootID',
-    value: function createReactRootID() {
-      return this.nextReactRootIndex++;
-    }
-  }, {
-    key: 'getID',
-    value: function getID(markup) {
-      return internalGetID(markup);
-    }
-  }]);
-
-  return React3Renderer;
-}(), _class2.eventDispatcher = new _EventDispatcher2.default(), _temp2);
-
-
-module.exports = React3Renderer;
-}).call(this,require('_process'))
-},{"./ElementDescriptorContainer":227,"./InternalComponent":228,"./React3ComponentTree":232,"./React3CompositeComponentWrapper":233,"./React3ContainerInfo":234,"./utils/EventDispatcher":339,"./utils/idPropertyName":341,"./utils/removeDevTool":344,"_process":203,"fbjs/lib/emptyObject":346,"fbjs/lib/invariant":347,"fbjs/lib/warning":348,"react/lib/KeyEscapeUtils":371,"react/lib/ReactComponent":380,"react/lib/ReactComponentTreeHook":383,"react/lib/ReactCurrentOwner":386,"react/lib/ReactDefaultBatchingStrategy":407,"react/lib/ReactElement":409,"react/lib/ReactInjection":418,"react/lib/ReactInstanceHandles":420,"react/lib/ReactInstanceMap":421,"react/lib/ReactInstrumentation":422,"react/lib/ReactReconcileTransaction":436,"react/lib/ReactReconciler":437,"react/lib/ReactUpdateQueue":441,"react/lib/ReactUpdates":442,"react/lib/getHostComponentFromComposite":476,"react/lib/shouldUpdateReactComponent":491,"react/lib/traverseAllChildren":492,"three":529}],237:[function(require,module,exports){
-'use strict';
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ResourceContainer = function (_THREE$Object3D) {
-  _inherits(ResourceContainer, _THREE$Object3D);
-
-  function ResourceContainer() {
-    _classCallCheck(this, ResourceContainer);
-
-    var _this = _possibleConstructorReturn(this, (ResourceContainer.__proto__ || Object.getPrototypeOf(ResourceContainer)).call(this));
-
-    _this.visible = false;
-
-    _this.resourceMap = {};
-    _this.resourceIds = [];
-    return _this;
-  }
-
-  return ResourceContainer;
-}(_three2.default.Object3D);
-
-module.exports = ResourceContainer;
-},{"three":529}],238:[function(require,module,exports){
-'use strict';
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var ResourceReference = function ResourceReference(resourceId) {
-  _classCallCheck(this, ResourceReference);
-
-  this.uuid = _three2.default.Math.generateUUID();
-
-  this.resourceId = resourceId;
-  this.userData = {};
-};
-
-module.exports = ResourceReference;
-},{"three":529}],239:[function(require,module,exports){
-'use strict';
-
-var _ResourceReference2 = require('./ResourceReference');
-
-var _ResourceReference3 = _interopRequireDefault(_ResourceReference2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-// all logic handled within ExtrudeGeometryDescriptor
-// TODO implement here instead
-var ShapeResourceReference = function (_ResourceReference) {
-  _inherits(ShapeResourceReference, _ResourceReference);
-
-  function ShapeResourceReference() {
-    _classCallCheck(this, ShapeResourceReference);
-
-    return _possibleConstructorReturn(this, (ShapeResourceReference.__proto__ || Object.getPrototypeOf(ShapeResourceReference)).apply(this, arguments));
-  }
-
-  return ShapeResourceReference;
-}(_ResourceReference3.default);
-
-module.exports = ShapeResourceReference;
-},{"./ResourceReference":238}],240:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ShapeAction2 = require('./ShapeAction');
-
-var _ShapeAction3 = _interopRequireDefault(_ShapeAction2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var AbsArcAction = function (_ShapeAction) {
-  _inherits(AbsArcAction, _ShapeAction);
-
-  function AbsArcAction(x, y, radius, startAngle, endAngle, clockwise) {
-    _classCallCheck(this, AbsArcAction);
-
-    var _this = _possibleConstructorReturn(this, (AbsArcAction.__proto__ || Object.getPrototypeOf(AbsArcAction)).call(this));
-
-    _this.x = x;
-    _this.y = y;
-    _this.radius = radius;
-    _this.startAngle = startAngle;
-    _this.endAngle = endAngle;
-    _this.clockwise = clockwise;
-    return _this;
-  }
-
-  _createClass(AbsArcAction, [{
-    key: 'performAction',
-    value: function performAction(shape) {
-      shape.absarc(this.x, this.y, this.radius, this.startAngle, this.endAngle, this.clockwise);
-    }
-  }]);
-
-  return AbsArcAction;
-}(_ShapeAction3.default);
-
-module.exports = AbsArcAction;
-},{"./ShapeAction":247,"three":529}],241:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ShapeAction2 = require('./ShapeAction');
-
-var _ShapeAction3 = _interopRequireDefault(_ShapeAction2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var AbsEllipseAction = function (_ShapeAction) {
-  _inherits(AbsEllipseAction, _ShapeAction);
-
-  function AbsEllipseAction(x, y, xRadius, yRadius, startAngle, endAngle, clockwise, rotation) {
-    _classCallCheck(this, AbsEllipseAction);
-
-    var _this = _possibleConstructorReturn(this, (AbsEllipseAction.__proto__ || Object.getPrototypeOf(AbsEllipseAction)).call(this));
-
-    _this.x = x;
-    _this.y = y;
-    _this.xRadius = xRadius;
-    _this.yRadius = yRadius;
-    _this.startAngle = startAngle;
-    _this.endAngle = endAngle;
-    _this.clockwise = clockwise;
-    _this.rotation = rotation;
-    return _this;
-  }
-
-  _createClass(AbsEllipseAction, [{
-    key: 'performAction',
-    value: function performAction(shape) {
-      shape.absellipse(this.x, this.y, this.xRadius, this.yRadius, this.startAngle, this.endAngle, this.clockwise, this.rotation);
-    }
-  }]);
-
-  return AbsEllipseAction;
-}(_ShapeAction3.default);
-
-module.exports = AbsEllipseAction;
-},{"./ShapeAction":247,"three":529}],242:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ShapeAction2 = require('./ShapeAction');
-
-var _ShapeAction3 = _interopRequireDefault(_ShapeAction2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var BezierCurveToAction = function (_ShapeAction) {
-  _inherits(BezierCurveToAction, _ShapeAction);
-
-  function BezierCurveToAction(cp1X, cp1Y, cp2X, cp2Y, aX, aY) {
-    _classCallCheck(this, BezierCurveToAction);
-
-    var _this = _possibleConstructorReturn(this, (BezierCurveToAction.__proto__ || Object.getPrototypeOf(BezierCurveToAction)).call(this));
-
-    _this.cp1X = cp1X;
-    _this.cp1Y = cp1Y;
-    _this.cp2X = cp2X;
-    _this.cp2Y = cp2Y;
-    _this.aX = aX;
-    _this.aY = aY;
-    return _this;
-  }
-
-  _createClass(BezierCurveToAction, [{
-    key: 'performAction',
-    value: function performAction(shape) {
-      shape.bezierCurveTo(this.cp1X, this.cp1Y, this.cp2X, this.cp2Y, this.aX, this.aY);
-    }
-  }]);
-
-  return BezierCurveToAction;
-}(_ShapeAction3.default);
-
-module.exports = BezierCurveToAction;
-},{"./ShapeAction":247,"three":529}],243:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ShapeAction2 = require('./ShapeAction');
-
-var _ShapeAction3 = _interopRequireDefault(_ShapeAction2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var HoleAction = function (_ShapeAction) {
-  _inherits(HoleAction, _ShapeAction);
-
-  function HoleAction() {
-    _classCallCheck(this, HoleAction);
-
-    var _this = _possibleConstructorReturn(this, (HoleAction.__proto__ || Object.getPrototypeOf(HoleAction)).call(this));
-
-    _this.path = new _three2.default.Path();
-    return _this;
-  }
-
-  _createClass(HoleAction, [{
-    key: 'performAction',
-    value: function performAction(shape) {
-      shape.holes.push(this.path);
-    }
-  }]);
-
-  return HoleAction;
-}(_ShapeAction3.default);
-
-module.exports = HoleAction;
-},{"./ShapeAction":247,"three":529}],244:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ShapeAction2 = require('./ShapeAction');
-
-var _ShapeAction3 = _interopRequireDefault(_ShapeAction2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var LineToAction = function (_ShapeAction) {
-  _inherits(LineToAction, _ShapeAction);
-
-  function LineToAction(x, y) {
-    _classCallCheck(this, LineToAction);
-
-    var _this = _possibleConstructorReturn(this, (LineToAction.__proto__ || Object.getPrototypeOf(LineToAction)).call(this));
-
-    _this.x = x;
-    _this.y = y;
-    return _this;
-  }
-
-  _createClass(LineToAction, [{
-    key: 'performAction',
-    value: function performAction(shape) {
-      shape.lineTo(this.x, this.y);
-    }
-  }]);
-
-  return LineToAction;
-}(_ShapeAction3.default);
-
-module.exports = LineToAction;
-},{"./ShapeAction":247,"three":529}],245:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ShapeAction2 = require('./ShapeAction');
-
-var _ShapeAction3 = _interopRequireDefault(_ShapeAction2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MoveToAction = function (_ShapeAction) {
-  _inherits(MoveToAction, _ShapeAction);
-
-  function MoveToAction(x, y) {
-    _classCallCheck(this, MoveToAction);
-
-    var _this = _possibleConstructorReturn(this, (MoveToAction.__proto__ || Object.getPrototypeOf(MoveToAction)).call(this));
-
-    _this.x = x;
-    _this.y = y;
-    return _this;
-  }
-
-  _createClass(MoveToAction, [{
-    key: 'performAction',
-    value: function performAction(shape) {
-      shape.moveTo(this.x, this.y);
-    }
-  }]);
-
-  return MoveToAction;
-}(_ShapeAction3.default);
-
-module.exports = MoveToAction;
-},{"./ShapeAction":247,"three":529}],246:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ShapeAction2 = require('./ShapeAction');
-
-var _ShapeAction3 = _interopRequireDefault(_ShapeAction2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var QuadraticCurveToAction = function (_ShapeAction) {
-  _inherits(QuadraticCurveToAction, _ShapeAction);
-
-  function QuadraticCurveToAction(cpX, cpY, x, y) {
-    _classCallCheck(this, QuadraticCurveToAction);
-
-    var _this = _possibleConstructorReturn(this, (QuadraticCurveToAction.__proto__ || Object.getPrototypeOf(QuadraticCurveToAction)).call(this));
-
-    _this.cpX = cpX;
-    _this.cpY = cpY;
-    _this.x = x;
-    _this.y = y;
-    return _this;
-  }
-
-  _createClass(QuadraticCurveToAction, [{
-    key: 'performAction',
-    value: function performAction(shape) {
-      shape.quadraticCurveTo(this.cpX, this.cpY, this.x, this.y);
-    }
-  }]);
-
-  return QuadraticCurveToAction;
-}(_ShapeAction3.default);
-
-module.exports = QuadraticCurveToAction;
-},{"./ShapeAction":247,"three":529}],247:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-/**
- * @abstract
- */
-var ShapeAction = function () {
-  function ShapeAction() {
-    _classCallCheck(this, ShapeAction);
-
-    this.uuid = _three2.default.Math.generateUUID();
-
-    this.userData = {};
-  }
-
-  _createClass(ShapeAction, [{
-    key: 'performAction',
-    value: function performAction(shape) {// eslint-disable-line no-unused-vars
-      // to be done by subclasses
-    }
-  }]);
-
-  return ShapeAction;
-}();
-
-module.exports = ShapeAction;
-},{"three":529}],248:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ShapeAction2 = require('./ShapeAction');
-
-var _ShapeAction3 = _interopRequireDefault(_ShapeAction2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SplineThruAction = function (_ShapeAction) {
-  _inherits(SplineThruAction, _ShapeAction);
-
-  function SplineThruAction(points) {
-    _classCallCheck(this, SplineThruAction);
-
-    var _this = _possibleConstructorReturn(this, (SplineThruAction.__proto__ || Object.getPrototypeOf(SplineThruAction)).call(this));
-
-    _this.points = points;
-    return _this;
-  }
-
-  _createClass(SplineThruAction, [{
-    key: 'performAction',
-    value: function performAction(shape) {
-      shape.splineThru(this.points);
-    }
-  }]);
-
-  return SplineThruAction;
-}(_ShapeAction3.default);
-
-module.exports = SplineThruAction;
-},{"./ShapeAction":247,"three":529}],249:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var Uniform = function () {
-  function Uniform() {
-    _classCallCheck(this, Uniform);
-
-    this.userData = {};
-    this.name = null;
-    this.value = null;
-    this.type = null;
-    this.uuid = _three2.default.Math.generateUUID();
-  }
-
-  _createClass(Uniform, [{
-    key: 'setValue',
-    value: function setValue(value) {
-      this.value = value;
-
-      this.userData.events.emit('valueChanged', value);
-    }
-  }]);
-
-  return Uniform;
-}();
-
-module.exports = Uniform;
-},{"three":529}],250:[function(require,module,exports){
-'use strict';
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var UniformContainer = function UniformContainer() {
-  _classCallCheck(this, UniformContainer);
-
-  this.userData = {};
-  this.uniforms = {};
-  this.uuid = _three2.default.Math.generateUUID();
-};
-
-module.exports = UniformContainer;
-},{"three":529}],251:[function(require,module,exports){
-'use strict';
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var Viewport = function Viewport(props) {
-  _classCallCheck(this, Viewport);
-
-  this.userData = {};
-
-  this.uuid = _three2.default.Math.generateUUID();
-
-  this.x = props.x;
-  this.y = props.y;
-  this.width = props.width;
-  this.height = props.height;
-  this.cameraName = props.cameraName;
-  this.onBeforeRender = props.onBeforeRender;
-};
-
-module.exports = Viewport;
-},{"three":529}],252:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var BoxGeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(BoxGeometryDescriptor, _GeometryDescriptorBa);
-
-  function BoxGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, BoxGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (BoxGeometryDescriptor.__proto__ || Object.getPrototypeOf(BoxGeometryDescriptor)).call(this, react3RendererInstance));
-
-    ['width', 'height', 'depth'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number.isRequired,
-        update: _this.triggerRemount,
-        default: 1
-      });
-    });
-
-    ['widthSegments', 'heightSegments', 'depthSegments'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: _this.triggerRemount,
-        default: 1
-      });
-    });
-    return _this;
-  }
-
-  _createClass(BoxGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var width = props.width,
-          height = props.height,
-          depth = props.depth,
-          widthSegments = props.widthSegments,
-          heightSegments = props.heightSegments,
-          depthSegments = props.depthSegments;
-
-
-      return new _three2.default.BoxGeometry(width, height, depth, widthSegments, heightSegments, depthSegments);
-    }
-  }]);
-
-  return BoxGeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = BoxGeometryDescriptor;
-},{"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],253:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-var _propTypeInstanceOf = require('../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var BufferGeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(BufferGeometryDescriptor, _GeometryDescriptorBa);
-
-  function BufferGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, BufferGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (BufferGeometryDescriptor.__proto__ || Object.getPrototypeOf(BufferGeometryDescriptor)).call(this, react3RendererInstance));
-
-    ['vertices', 'colors', 'faceVertexUvs', 'faces', 'dynamic'].forEach(function (propName) {
-      _this.removeProp(propName);
-    });
-
-    ['position', 'normal', 'color'].forEach(function (attributeName) {
-      _this.hasProp(attributeName, {
-        type: _ReactPropTypes2.default.oneOfType([(0, _propTypeInstanceOf2.default)(_three2.default.BufferAttribute), (0, _propTypeInstanceOf2.default)(_three2.default.InterleavedBufferAttribute)]),
-        update: function update(threeObject, attributeValue) {
-          if (attributeValue) {
-            threeObject.addAttribute(attributeName, attributeValue);
-          } else {
-            threeObject.removeAttribute(attributeName);
-          }
-        },
-
-        updateInitial: true,
-        default: undefined
-      });
-    });
-
-    _this.hasProp('index', {
-      type: _ReactPropTypes2.default.oneOfType([(0, _propTypeInstanceOf2.default)(_three2.default.BufferAttribute), (0, _propTypeInstanceOf2.default)(_three2.default.InterleavedBufferAttribute)]),
-      update: function update(threeObject, attributeValue) {
-        threeObject.setIndex(attributeValue);
-      },
-
-      updateInitial: true,
-      default: undefined
-    });
-    return _this;
-  }
-
-  _createClass(BufferGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct() {
-      return new _three2.default.BufferGeometry();
-    }
-  }]);
-
-  return BufferGeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = BufferGeometryDescriptor;
-},{"../../utils/propTypeInstanceOf":343,"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],254:[function(require,module,exports){
-'use strict';
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var BufferGeometryDescriptorBase = function (_GeometryDescriptorBa) {
-  _inherits(BufferGeometryDescriptorBase, _GeometryDescriptorBa);
-
-  function BufferGeometryDescriptorBase() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, BufferGeometryDescriptorBase);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = BufferGeometryDescriptorBase.__proto__ || Object.getPrototypeOf(BufferGeometryDescriptorBase)).call.apply(_ref, [this].concat(args))), _this), _this.updateCacheAndReplace = function (propName, threeObject, newValue) {
-      threeObject.userData._propsCache[propName] = newValue;
-      threeObject.userData._wantPropertyOverwrite = true;
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(BufferGeometryDescriptorBase, [{
-    key: 'beginPropertyUpdates',
-    value: function beginPropertyUpdates(threeObject) {
-      _get(BufferGeometryDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(BufferGeometryDescriptorBase.prototype), 'beginPropertyUpdates', this).call(this, threeObject);
-
-      threeObject.userData._wantPropertyOverwrite = false;
-    }
-  }, {
-    key: 'completePropertyUpdates',
-    value: function completePropertyUpdates(threeObject) {
-      _get(BufferGeometryDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(BufferGeometryDescriptorBase.prototype), 'completePropertyUpdates', this).call(this, threeObject);
-
-      if (threeObject.userData._wantPropertyOverwrite) {
-        threeObject.userData._wantPropertyOverwrite = false;
-
-        threeObject.copy(this.construct(threeObject.userData._propsCache));
-      }
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(BufferGeometryDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(BufferGeometryDescriptorBase.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      threeObject.userData._propsCache = _extends({}, props);
-    }
-  }]);
-
-  return BufferGeometryDescriptorBase;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = BufferGeometryDescriptorBase;
-},{"./GeometryDescriptorBase":261}],255:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _BufferGeometryDescriptorBase = require('./BufferGeometryDescriptorBase');
-
-var _BufferGeometryDescriptorBase2 = _interopRequireDefault(_BufferGeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var CircleBufferGeometryDescriptor = function (_BufferGeometryDescri) {
-  _inherits(CircleBufferGeometryDescriptor, _BufferGeometryDescri);
-
-  function CircleBufferGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, CircleBufferGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (CircleBufferGeometryDescriptor.__proto__ || Object.getPrototypeOf(CircleBufferGeometryDescriptor)).call(this, react3RendererInstance));
-
-    ['radius', 'segments', 'thetaStart', 'thetaLength'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: _this.updateCacheAndReplace.bind(_this, propName),
-        default: undefined
-      });
-    });
-    return _this;
-  }
-
-  _createClass(CircleBufferGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var radius = props.radius,
-          segments = props.segments,
-          thetaStart = props.thetaStart,
-          thetaLength = props.thetaLength;
-
-
-      return new _three2.default.CircleBufferGeometry(radius, segments, thetaStart, thetaLength);
-    }
-  }]);
-
-  return CircleBufferGeometryDescriptor;
-}(_BufferGeometryDescriptorBase2.default);
-
-module.exports = CircleBufferGeometryDescriptor;
-},{"./BufferGeometryDescriptorBase":254,"react/lib/ReactPropTypes":433,"three":529}],256:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var CircleGeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(CircleGeometryDescriptor, _GeometryDescriptorBa);
-
-  function CircleGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, CircleGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (CircleGeometryDescriptor.__proto__ || Object.getPrototypeOf(CircleGeometryDescriptor)).call(this, react3RendererInstance));
-
-    ['radius', 'segments', 'thetaStart', 'thetaLength'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: _this.triggerRemount,
-        default: undefined
-      });
-    });
-    return _this;
-  }
-
-  _createClass(CircleGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var radius = props.radius,
-          segments = props.segments,
-          thetaStart = props.thetaStart,
-          thetaLength = props.thetaLength;
-
-
-      return new _three2.default.CircleGeometry(radius, segments, thetaStart, thetaLength);
-    }
-  }]);
-
-  return CircleGeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = CircleGeometryDescriptor;
-},{"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],257:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var CylinderGeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(CylinderGeometryDescriptor, _GeometryDescriptorBa);
-
-  function CylinderGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, CylinderGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (CylinderGeometryDescriptor.__proto__ || Object.getPrototypeOf(CylinderGeometryDescriptor)).call(this, react3RendererInstance));
-
-    ['radiusTop', 'radiusBottom', 'height', 'radialSegments', 'heightSegments', 'openEnded', 'thetaStart', 'thetaLength'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: _this.triggerRemount,
-        default: undefined
-      });
-    });
-    return _this;
-  }
-
-  _createClass(CylinderGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var radiusTop = props.radiusTop,
-          radiusBottom = props.radiusBottom,
-          height = props.height,
-          radialSegments = props.radialSegments,
-          heightSegments = props.heightSegments,
-          openEnded = props.openEnded,
-          thetaStart = props.thetaStart,
-          thetaLength = props.thetaLength;
-
-
-      return new _three2.default.CylinderGeometry(radiusTop, radiusBottom, height, radialSegments, heightSegments, openEnded, thetaStart, thetaLength);
-    }
-  }]);
-
-  return CylinderGeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = CylinderGeometryDescriptor;
-},{"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],258:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var DodecahedronGeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(DodecahedronGeometryDescriptor, _GeometryDescriptorBa);
-
-  function DodecahedronGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, DodecahedronGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (DodecahedronGeometryDescriptor.__proto__ || Object.getPrototypeOf(DodecahedronGeometryDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasProp('radius', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.triggerRemount,
-      default: 1
-    });
-
-    _this.hasProp('detail', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.triggerRemount,
-      default: 0
-    });
-    return _this;
-  }
-
-  _createClass(DodecahedronGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      // props from http://threejs.org/docs/index.html#Reference/Extras.Geometries/DodecahedronGeometry:
-      var radius = props.radius,
-          detail = props.detail;
-
-
-      return new _three2.default.DodecahedronGeometry(radius, detail);
-    }
-  }]);
-
-  return DodecahedronGeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = DodecahedronGeometryDescriptor;
-},{"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],259:[function(require,module,exports){
-'use strict';
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryWithShapesDescriptor = require('./GeometryWithShapesDescriptor');
-
-var _GeometryWithShapesDescriptor2 = _interopRequireDefault(_GeometryWithShapesDescriptor);
-
-var _propTypeInstanceOf = require('../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ExtrudeGeometryDescriptor = function (_GeometryWithShapesDe) {
-  _inherits(ExtrudeGeometryDescriptor, _GeometryWithShapesDe);
-
-  function ExtrudeGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, ExtrudeGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (ExtrudeGeometryDescriptor.__proto__ || Object.getPrototypeOf(ExtrudeGeometryDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasProp('settings', {
-      type: _ReactPropTypes2.default.any,
-      update: function update(threeObject, settings) {
-        threeObject.userData._settings = settings;
-      },
-
-      updateInitial: true,
-      default: undefined
-    });
-
-    ['steps', 'amount', 'bevelThickness', 'bevelSize', 'bevelSegments', 'extrudeMaterial'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: function update(threeObject, value) {
-          if (value === undefined) {
-            delete threeObject.userData._options[propName];
-          } else {
-            threeObject.userData._options[propName] = value;
-          }
-
-          threeObject.userData._needsToRefreshGeometry = true;
-        },
-        default: undefined
-      });
-    });
-
-    var extraNames = ['bevelEnabled', 'extrudePath', 'frames'];
-
-    var extraTypes = [_ReactPropTypes2.default.bool, // bevelEnabled
-    (0, _propTypeInstanceOf2.default)(_three2.default.CurvePath), // extrudePath
-    (0, _propTypeInstanceOf2.default)(_three2.default.TubeGeometry.FrenetFrames)];
-
-    extraNames.forEach(function (propName, i) {
-      _this.hasProp(propName, {
-        type: extraTypes[i],
-        update: function update(threeObject, value) {
-          if (value === undefined) {
-            delete threeObject.userData._options[propName];
-          } else {
-            threeObject.userData._options[propName] = value;
-          }
-
-          threeObject.userData._needsToRefreshGeometry = true;
-        },
-        default: undefined
-      });
-    });
-    return _this;
-  }
-
-  // noinspection JSMethodCanBeStatic
-
-
-  _createClass(ExtrudeGeometryDescriptor, [{
-    key: 'refreshGeometry',
-    value: function refreshGeometry(threeObject) {
-      var shapes = threeObject.userData._shapeCache.filter(function (shape) {
-        return !!shape;
-      }).concat(threeObject.userData._shapesFromProps);
-
-      threeObject.fromGeometry(new _three2.default.ExtrudeGeometry(shapes, _extends({}, threeObject.userData._options, threeObject.userData._settings)));
-    }
-  }, {
-    key: 'getOptions',
-    value: function getOptions(props) {
-      var options = _get(ExtrudeGeometryDescriptor.prototype.__proto__ || Object.getPrototypeOf(ExtrudeGeometryDescriptor.prototype), 'getOptions', this).call(this, props);
-
-      ['steps', 'amount', 'bevelEnabled', 'bevelThickness', 'bevelSize', 'bevelSegments', 'extrudePath', 'frames', 'extrudeMaterial'].forEach(function (propName) {
-        if (props.hasOwnProperty(propName)) {
-          options[propName] = props[propName];
-        }
-      });
-
-      return options;
-    }
-  }]);
-
-  return ExtrudeGeometryDescriptor;
-}(_GeometryWithShapesDescriptor2.default);
-
-module.exports = ExtrudeGeometryDescriptor;
-},{"../../utils/propTypeInstanceOf":343,"./GeometryWithShapesDescriptor":262,"react/lib/ReactPropTypes":433,"three":529}],260:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-var _propTypeInstanceOf = require('../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var GeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(GeometryDescriptor, _GeometryDescriptorBa);
-
-  function GeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, GeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (GeometryDescriptor.__proto__ || Object.getPrototypeOf(GeometryDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasProp('vertices', {
-      override: true,
-      type: _ReactPropTypes2.default.arrayOf((0, _propTypeInstanceOf2.default)(_three2.default.Vector3)).isRequired,
-      update: function update(threeObject, vertices) {
-        if (threeObject.vertices !== vertices) {
-          threeObject.vertices = vertices;
-
-          threeObject.verticesNeedUpdate = true;
-        }
-      },
-
-      updateInitial: true,
-      default: []
-    });
-    return _this;
-  }
-
-  _createClass(GeometryDescriptor, [{
-    key: 'construct',
-    value: function construct() {
-      return new _three2.default.Geometry();
-    }
-  }]);
-
-  return GeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = GeometryDescriptor;
-},{"../../utils/propTypeInstanceOf":343,"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],261:[function(require,module,exports){
-'use strict';
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _class;
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _THREEElementDescriptor = require('../THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-var _resource = require('../decorators/resource');
-
-var _resource2 = _interopRequireDefault(_resource);
-
-var _propTypeInstanceOf = require('../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var GeometryDescriptorBase = (0, _resource2.default)(_class = function (_THREEElementDescript) {
-  _inherits(GeometryDescriptorBase, _THREEElementDescript);
-
-  function GeometryDescriptorBase(react3RendererInstance) {
-    _classCallCheck(this, GeometryDescriptorBase);
-
-    var _this = _possibleConstructorReturn(this, (GeometryDescriptorBase.__proto__ || Object.getPrototypeOf(GeometryDescriptorBase)).call(this, react3RendererInstance));
-
-    _this.hasName();
-
-    _this.hasProp('vertices', {
-      type: _ReactPropTypes2.default.arrayOf((0, _propTypeInstanceOf2.default)(_three2.default.Vector3)),
-      update: function update(threeObject, vertices, hasProp) {
-        if (hasProp) {
-          if (threeObject.vertices !== vertices) {
-            threeObject.vertices = vertices;
-
-            threeObject.verticesNeedUpdate = true;
-          }
-        }
-      },
-
-      updateInitial: true,
-      default: []
-    });
-
-    _this.hasProp('colors', {
-      type: _ReactPropTypes2.default.arrayOf((0, _propTypeInstanceOf2.default)(_three2.default.Color)),
-      update: function update(threeObject, colors, hasProp) {
-        if (hasProp) {
-          if (threeObject.colors !== colors) {
-            threeObject.colors = colors;
-
-            threeObject.colorsNeedUpdate = true;
-          }
-        }
-      },
-
-      updateInitial: true,
-      default: []
-    });
-
-    _this.hasProp('faceVertexUvs', {
-      type: _ReactPropTypes2.default.arrayOf(_ReactPropTypes2.default.arrayOf(_ReactPropTypes2.default.arrayOf(_three2.default.Vector2))),
-      update: function update(threeObject, faceVertexUvs, hasProp) {
-        if (hasProp) {
-          if (threeObject.faceVertexUvs !== faceVertexUvs) {
-            threeObject.faceVertexUvs = faceVertexUvs;
-
-            threeObject.uvsNeedUpdate = true;
-          }
-        }
-      },
-
-      updateInitial: true,
-      default: []
-    });
-
-    _this.hasProp('faces', {
-      type: _ReactPropTypes2.default.arrayOf((0, _propTypeInstanceOf2.default)(_three2.default.Face3)),
-      update: function update(threeObject, faces, hasProp) {
-        if (hasProp) {
-          if (threeObject.faces !== faces) {
-            threeObject.faces = faces;
-
-            threeObject.verticesNeedUpdate = true;
-            threeObject.elementsNeedUpdate = true;
-          }
-        }
-      },
-
-      updateInitial: true,
-      default: []
-    });
-
-    _this.hasProp('dynamic', {
-      type: _ReactPropTypes2.default.bool,
-      update: function update(threeObject, dynamic) {
-        threeObject.dynamic = !!dynamic;
-      },
-
-      default: false
-    });
-    return _this;
-  }
-
-  _createClass(GeometryDescriptorBase, [{
-    key: 'setParent',
-    value: function setParent(geometry, parentObject3D) {
-      (0, _invariant2.default)(parentObject3D instanceof _three2.default.Mesh || parentObject3D instanceof _three2.default.Points || parentObject3D instanceof _three2.default.Line, 'Parent is not a mesh');
-      (0, _invariant2.default)(parentObject3D.geometry === undefined, 'Parent already has a geometry');
-
-      _get(GeometryDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(GeometryDescriptorBase.prototype), 'setParent', this).call(this, geometry, parentObject3D);
-
-      parentObject3D.geometry = geometry;
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      // ensure the userData is created
-      threeObject.userData = _extends({}, threeObject.userData);
-
-      if (props.hasOwnProperty('dynamic')) {
-        threeObject.dynamic = !!props.dynamic;
-      }
-
-      threeObject.userData._remountAfterPropsUpdate = false;
-
-      _get(GeometryDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(GeometryDescriptorBase.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(geometry) {
-      var parent = geometry.userData.markup.parentMarkup.threeObject;
-
-      // could either be a resource description or an actual geometry
-      if (parent instanceof _three2.default.Mesh || parent instanceof _three2.default.Points) {
-        if (parent.geometry === geometry) {
-          parent.geometry = undefined;
-        }
-      }
-
-      geometry.dispose();
-
-      _get(GeometryDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(GeometryDescriptorBase.prototype), 'unmount', this).call(this, geometry);
-    }
-  }, {
-    key: 'highlight',
-    value: function highlight(threeObject) {
-      var ownerMesh = threeObject.userData.markup.parentMarkup.threeObject;
-      threeObject.userData.events.emit('highlight', {
-        uuid: threeObject.uuid,
-        boundingBoxFunc: function boundingBoxFunc() {
-          var boundingBox = new _three2.default.Box3();
-
-          boundingBox.setFromObject(ownerMesh);
-
-          return [boundingBox];
-        }
-      });
-    }
-  }, {
-    key: 'getBoundingBoxes',
-    value: function getBoundingBoxes(threeObject) {
-      var ownerMesh = threeObject.userData.markup.parentMarkup.threeObject;
-
-      var boundingBox = new _three2.default.Box3();
-
-      boundingBox.setFromObject(ownerMesh);
-
-      return [boundingBox];
-    }
-  }, {
-    key: 'hideHighlight',
-    value: function hideHighlight(threeObject) {
-      threeObject.userData.events.emit('hideHighlight');
-    }
-  }]);
-
-  return GeometryDescriptorBase;
-}(_THREEElementDescriptor2.default)) || _class;
-
-module.exports = GeometryDescriptorBase;
-},{"../../utils/propTypeInstanceOf":343,"../THREEElementDescriptor":335,"../decorators/resource":337,"fbjs/lib/invariant":347,"react/lib/ReactPropTypes":433,"three":529}],262:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-var _ShapeResourceReference = require('../../Resources/ShapeResourceReference');
-
-var _ShapeResourceReference2 = _interopRequireDefault(_ShapeResourceReference);
-
-var _propTypeInstanceOf = require('../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var GeometryWithShapesDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(GeometryWithShapesDescriptor, _GeometryDescriptorBa);
-
-  function GeometryWithShapesDescriptor(react3RendererInstance) {
-    _classCallCheck(this, GeometryWithShapesDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (GeometryWithShapesDescriptor.__proto__ || Object.getPrototypeOf(GeometryWithShapesDescriptor)).call(this, react3RendererInstance));
-
-    _this._invalidChild = function (child) {
-      return !(child instanceof _three2.default.Shape || child instanceof _ShapeResourceReference2.default);
-    };
-
-    _this.hasProp('shapes', {
-      type: _ReactPropTypes2.default.arrayOf((0, _propTypeInstanceOf2.default)(_three2.default.Shape)),
-      updateInitial: true,
-      update: function update(threeObject, shapes) {
-        threeObject.userData._shapesFromProps = shapes || [];
-
-        threeObject.userData._needsToRefreshGeometry = true;
-      },
-      default: []
-    });
-
-    var optionNames = ['curveSegments', 'material', 'UVGenerator'];
-
-    var optionTypes = [_ReactPropTypes2.default.number, _ReactPropTypes2.default.number, _ReactPropTypes2.default.shape({
-      generateTopUV: _ReactPropTypes2.default.func,
-      generateSideWallUV: _ReactPropTypes2.default.func
-    })];
-
-    optionNames.forEach(function (propName, i) {
-      _this.hasProp(propName, {
-        type: optionTypes[i],
-        update: function update(threeObject, value) {
-          if (value === undefined) {
-            delete threeObject.userData._options[propName];
-          } else {
-            threeObject.userData._options[propName] = value;
-          }
-
-          threeObject.userData._needsToRefreshGeometry = true;
-        },
-        default: undefined
-      });
-    });
-    return _this;
-  }
-
-  _createClass(GeometryWithShapesDescriptor, [{
-    key: 'completePropertyUpdates',
-    value: function completePropertyUpdates(threeObject) {
-      if (threeObject.userData._needsToRefreshGeometry) {
-        this.refreshGeometry(threeObject);
-
-        threeObject.userData._needsToRefreshGeometry = false;
-      }
-    }
-  }, {
-    key: 'construct',
-    value: function construct() {
-      return new _three2.default.BufferGeometry();
-    }
-  }, {
-    key: 'getOptions',
-    value: function getOptions(props) {
-      var options = {};
-
-      ['curveSegments', 'material', 'UVGenerator'].forEach(function (propName) {
-        if (props.hasOwnProperty(propName)) {
-          options[propName] = props[propName];
-        }
-      });
-
-      return options;
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(GeometryWithShapesDescriptor.prototype.__proto__ || Object.getPrototypeOf(GeometryWithShapesDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      threeObject.userData._shapeCache = [];
-      threeObject.userData._options = this.getOptions(props);
-      threeObject.userData._resourceListenerCleanupFunctions = [];
-      threeObject.userData._needsToRefreshGeometry = false;
-
-      if (!props.children) {
-        // will use shapes only from props
-        this.refreshGeometry(threeObject);
-      }
-    }
-  }, {
-    key: 'addChildren',
-    value: function addChildren(threeObject, children) {
-      var _this2 = this;
-
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(children.filter(this._invalidChild).length === 0, 'shape-based geometry children' + ' can only be shapes!');
-      } else {
-        (0, _invariant2.default)(children.filter(this._invalidChild).length === 0, false);
-      }
-
-      var shapeCache = [];
-
-      children.forEach(function (child) {
-        if (child instanceof _ShapeResourceReference2.default) {
-          (function () {
-            var shapeIndex = shapeCache.length;
-
-            var resourceListener = function resourceListener(shape) {
-              threeObject.userData._shapeCache[shapeIndex] = shape;
-
-              _this2.refreshGeometry(threeObject);
-            };
-
-            resourceListener.target = child;
-
-            var cleanupFunction = function cleanupFunction() {
-              child.userData.events.removeListener('resource.set', resourceListener);
-
-              threeObject.userData._resourceListenerCleanupFunctions.splice(threeObject.userData._resourceListenerCleanupFunctions.indexOf(cleanupFunction), 1);
-            };
-
-            threeObject.userData._resourceListenerCleanupFunctions.push(cleanupFunction);
-
-            child.userData.events.on('resource.set', resourceListener);
-            child.userData.events.once('dispose', function () {
-              cleanupFunction();
-            });
-
-            shapeCache.push(null);
-          })();
-        } else {
-          shapeCache.push(child);
-        }
-      });
-
-      threeObject.userData._shapeCache = shapeCache;
-
-      this.refreshGeometry(threeObject);
-    }
-  }, {
-    key: 'addChild',
-    value: function addChild(threeObject) {
-      // new shape was added
-      // TODO optimize
-
-      this.triggerRemount(threeObject);
-    }
-  }, {
-    key: 'moveChild',
-    value: function moveChild(threeObject) {
-      // a shape was moved
-      // TODO optimize
-
-      this.triggerRemount(threeObject);
-    }
-  }, {
-    key: 'removeChild',
-    value: function removeChild(threeObject) {
-      // shape was removed
-      // TODO optimize
-
-      this.triggerRemount(threeObject);
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(geometry) {
-      geometry.userData._resourceListenerCleanupFunctions.forEach(function (listener) {
-        listener();
-      });
-
-      delete geometry.userData._options;
-      delete geometry.userData._resourceListenerCleanupFunctions;
-      delete geometry.userData._shapesFromProps;
-
-      return _get(GeometryWithShapesDescriptor.prototype.__proto__ || Object.getPrototypeOf(GeometryWithShapesDescriptor.prototype), 'unmount', this).call(this, geometry);
-    }
-  }]);
-
-  return GeometryWithShapesDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = GeometryWithShapesDescriptor;
-}).call(this,require('_process'))
-},{"../../Resources/ShapeResourceReference":239,"../../utils/propTypeInstanceOf":343,"./GeometryDescriptorBase":261,"_process":203,"fbjs/lib/invariant":347,"react/lib/ReactPropTypes":433,"three":529}],263:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _PolyhedronGeometryDescriptorBase = require('./PolyhedronGeometryDescriptorBase');
-
-var _PolyhedronGeometryDescriptorBase2 = _interopRequireDefault(_PolyhedronGeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var IcosahedronGeometryDescriptor = function (_PolyhedronGeometryDe) {
-  _inherits(IcosahedronGeometryDescriptor, _PolyhedronGeometryDe);
-
-  function IcosahedronGeometryDescriptor() {
-    _classCallCheck(this, IcosahedronGeometryDescriptor);
-
-    return _possibleConstructorReturn(this, (IcosahedronGeometryDescriptor.__proto__ || Object.getPrototypeOf(IcosahedronGeometryDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(IcosahedronGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var radius = props.radius,
-          detail = props.detail;
-
-
-      return new _three2.default.IcosahedronGeometry(radius, detail);
-    }
-  }]);
-
-  return IcosahedronGeometryDescriptor;
-}(_PolyhedronGeometryDescriptorBase2.default);
-
-module.exports = IcosahedronGeometryDescriptor;
-},{"./PolyhedronGeometryDescriptorBase":270,"three":529}],264:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-var _propTypeInstanceOf = require('../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var LatheGeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(LatheGeometryDescriptor, _GeometryDescriptorBa);
-
-  function LatheGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, LatheGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (LatheGeometryDescriptor.__proto__ || Object.getPrototypeOf(LatheGeometryDescriptor)).call(this, react3RendererInstance));
-
-    ['segments', 'phiStart', 'phiLength'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: _this.triggerRemount,
-        default: undefined
-      });
-    });
-
-    _this.hasProp('points', {
-      type: _ReactPropTypes2.default.arrayOf((0, _propTypeInstanceOf2.default)(_three2.default.Vector2)).isRequired,
-      update: _this.triggerRemount,
-      default: undefined
-    });
-    return _this;
-  }
-
-  _createClass(LatheGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var points = props.points,
-          segments = props.segments,
-          phiStart = props.phiStart,
-          phiLength = props.phiLength;
-
-
-      return new _three2.default.LatheGeometry(points, segments, phiStart, phiLength);
-    }
-  }]);
-
-  return LatheGeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = LatheGeometryDescriptor;
-},{"../../utils/propTypeInstanceOf":343,"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],265:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _PolyhedronGeometryDescriptorBase = require('./PolyhedronGeometryDescriptorBase');
-
-var _PolyhedronGeometryDescriptorBase2 = _interopRequireDefault(_PolyhedronGeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var OctahedronGeometryDescriptor = function (_PolyhedronGeometryDe) {
-  _inherits(OctahedronGeometryDescriptor, _PolyhedronGeometryDe);
-
-  function OctahedronGeometryDescriptor() {
-    _classCallCheck(this, OctahedronGeometryDescriptor);
-
-    return _possibleConstructorReturn(this, (OctahedronGeometryDescriptor.__proto__ || Object.getPrototypeOf(OctahedronGeometryDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(OctahedronGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var radius = props.radius,
-          detail = props.detail;
-
-
-      return new _three2.default.OctahedronGeometry(radius, detail);
-    }
-  }]);
-
-  return OctahedronGeometryDescriptor;
-}(_PolyhedronGeometryDescriptorBase2.default);
-
-module.exports = OctahedronGeometryDescriptor;
-},{"./PolyhedronGeometryDescriptorBase":270,"three":529}],266:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ParametricGeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(ParametricGeometryDescriptor, _GeometryDescriptorBa);
-
-  function ParametricGeometryDescriptor(react3Instance) {
-    _classCallCheck(this, ParametricGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (ParametricGeometryDescriptor.__proto__ || Object.getPrototypeOf(ParametricGeometryDescriptor)).call(this, react3Instance));
-
-    ['slices', 'stacks'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number.isRequired,
-        update: _this.triggerRemount,
-        default: undefined
-      });
-    });
-
-    _this.hasProp('parametricFunction', {
-      type: _ReactPropTypes2.default.func.isRequired,
-      update: _this.triggerRemount,
-      default: undefined
-    });
-    return _this;
-  }
-
-  _createClass(ParametricGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var parametricFunction = props.parametricFunction,
-          slices = props.slices,
-          stacks = props.stacks;
-
-
-      return new _three2.default.ParametricGeometry(parametricFunction, slices, stacks);
-    }
-  }]);
-
-  return ParametricGeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = ParametricGeometryDescriptor;
-},{"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],267:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _BufferGeometryDescriptorBase = require('./BufferGeometryDescriptorBase');
-
-var _BufferGeometryDescriptorBase2 = _interopRequireDefault(_BufferGeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var PlaneBufferGeometryDescriptor = function (_BufferGeometryDescri) {
-  _inherits(PlaneBufferGeometryDescriptor, _BufferGeometryDescri);
-
-  function PlaneBufferGeometryDescriptor(react3Instance) {
-    _classCallCheck(this, PlaneBufferGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (PlaneBufferGeometryDescriptor.__proto__ || Object.getPrototypeOf(PlaneBufferGeometryDescriptor)).call(this, react3Instance));
-
-    ['width', 'height'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number.isRequired,
-        update: _this.updateCacheAndReplace.bind(_this, propName),
-        default: 1
-      });
-    });
-
-    ['widthSegments', 'heightSegments'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: _this.triggerRemount,
-        default: 1
-      });
-    });
-    return _this;
-  }
-
-  _createClass(PlaneBufferGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var width = props.width,
-          height = props.height,
-          widthSegments = props.widthSegments,
-          heightSegments = props.heightSegments;
-
-
-      return new _three2.default.PlaneBufferGeometry(width, height, widthSegments, heightSegments);
-    }
-  }]);
-
-  return PlaneBufferGeometryDescriptor;
-}(_BufferGeometryDescriptorBase2.default);
-
-module.exports = PlaneBufferGeometryDescriptor;
-},{"./BufferGeometryDescriptorBase":254,"react/lib/ReactPropTypes":433,"three":529}],268:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var PlaneGeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(PlaneGeometryDescriptor, _GeometryDescriptorBa);
-
-  function PlaneGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, PlaneGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (PlaneGeometryDescriptor.__proto__ || Object.getPrototypeOf(PlaneGeometryDescriptor)).call(this, react3RendererInstance));
-
-    ['width', 'height'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number.isRequired,
-        update: _this.triggerRemount,
-        default: undefined
-      });
-    });
-
-    ['widthSegments', 'heightSegments'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: _this.triggerRemount,
-        default: 1
-      });
-    });
-    return _this;
-  }
-
-  _createClass(PlaneGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var width = props.width,
-          height = props.height,
-          widthSegments = props.widthSegments,
-          heightSegments = props.heightSegments;
-
-
-      return new _three2.default.PlaneGeometry(width, height, widthSegments, heightSegments);
-    }
-  }]);
-
-  return PlaneGeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = PlaneGeometryDescriptor;
-},{"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],269:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _PolyhedronGeometryDescriptorBase = require('./PolyhedronGeometryDescriptorBase');
-
-var _PolyhedronGeometryDescriptorBase2 = _interopRequireDefault(_PolyhedronGeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var PolyhedronGeometryDescriptor = function (_PolyhedronGeometryDe) {
-  _inherits(PolyhedronGeometryDescriptor, _PolyhedronGeometryDe);
-
-  function PolyhedronGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, PolyhedronGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (PolyhedronGeometryDescriptor.__proto__ || Object.getPrototypeOf(PolyhedronGeometryDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasProp('vertices', {
-      override: true,
-      type: _ReactPropTypes2.default.arrayOf(_ReactPropTypes2.default.number).isRequired,
-      update: _this.triggerRemount,
-      default: undefined
-    });
-
-    _this.hasProp('indices', {
-      type: _ReactPropTypes2.default.arrayOf(_ReactPropTypes2.default.number).isRequired,
-      update: _this.triggerRemount,
-      default: undefined
-    });
-    return _this;
-  }
-
-  _createClass(PolyhedronGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var vertices = props.vertices,
-          indices = props.indices,
-          radius = props.radius,
-          detail = props.detail;
-
-
-      return new _three2.default.PolyhedronGeometry(vertices, indices, radius, detail);
-    }
-  }]);
-
-  return PolyhedronGeometryDescriptor;
-}(_PolyhedronGeometryDescriptorBase2.default);
-
-module.exports = PolyhedronGeometryDescriptor;
-},{"./PolyhedronGeometryDescriptorBase":270,"react/lib/ReactPropTypes":433,"three":529}],270:[function(require,module,exports){
-'use strict';
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var PolyhedronGeometryDescriptorBase = function (_GeometryDescriptorBa) {
-  _inherits(PolyhedronGeometryDescriptorBase, _GeometryDescriptorBa);
-
-  function PolyhedronGeometryDescriptorBase(react3RendererInstance) {
-    _classCallCheck(this, PolyhedronGeometryDescriptorBase);
-
-    var _this = _possibleConstructorReturn(this, (PolyhedronGeometryDescriptorBase.__proto__ || Object.getPrototypeOf(PolyhedronGeometryDescriptorBase)).call(this, react3RendererInstance));
-
-    ['radius', 'detail'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number.isRequired,
-        update: _this.triggerRemount,
-        default: undefined
-      });
-    });
-    return _this;
-  }
-
-  return PolyhedronGeometryDescriptorBase;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = PolyhedronGeometryDescriptorBase;
-},{"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433}],271:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var RingGeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(RingGeometryDescriptor, _GeometryDescriptorBa);
-
-  function RingGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, RingGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (RingGeometryDescriptor.__proto__ || Object.getPrototypeOf(RingGeometryDescriptor)).call(this, react3RendererInstance));
-
-    ['innerRadius', 'outerRadius', 'thetaSegments', 'phiSegments', 'thetaStart', 'thetaLength'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: _this.triggerRemount,
-        default: undefined
-      });
-    });
-    return _this;
-  }
-
-  _createClass(RingGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var innerRadius = props.innerRadius,
-          outerRadius = props.outerRadius,
-          thetaSegments = props.thetaSegments,
-          phiSegments = props.phiSegments,
-          thetaStart = props.thetaStart,
-          thetaLength = props.thetaLength;
-
-
-      return new _three2.default.RingGeometry(innerRadius, outerRadius, thetaSegments, phiSegments, thetaStart, thetaLength);
-    }
-  }]);
-
-  return RingGeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = RingGeometryDescriptor;
-},{"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],272:[function(require,module,exports){
-'use strict';
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _GeometryWithShapesDescriptor = require('./GeometryWithShapesDescriptor');
-
-var _GeometryWithShapesDescriptor2 = _interopRequireDefault(_GeometryWithShapesDescriptor);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ShapeGeometryDescriptor = function (_GeometryWithShapesDe) {
-  _inherits(ShapeGeometryDescriptor, _GeometryWithShapesDe);
-
-  function ShapeGeometryDescriptor() {
-    _classCallCheck(this, ShapeGeometryDescriptor);
-
-    return _possibleConstructorReturn(this, (ShapeGeometryDescriptor.__proto__ || Object.getPrototypeOf(ShapeGeometryDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(ShapeGeometryDescriptor, [{
-    key: 'refreshGeometry',
-
-    // noinspection JSMethodCanBeStatic
-    value: function refreshGeometry(threeObject) {
-      var shapes = threeObject.userData._shapeCache.filter(function (shape) {
-        return !!shape;
-      }).concat(threeObject.userData._shapesFromProps);
-
-      threeObject.fromGeometry(new _three2.default.ShapeGeometry(shapes, _extends({}, threeObject.userData._options)));
-    }
-  }]);
-
-  return ShapeGeometryDescriptor;
-}(_GeometryWithShapesDescriptor2.default);
-
-module.exports = ShapeGeometryDescriptor;
-},{"./GeometryWithShapesDescriptor":262,"three":529}],273:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _ShapeActionDescriptorBase = require('./ShapeActionDescriptorBase');
-
-var _ShapeActionDescriptorBase2 = _interopRequireDefault(_ShapeActionDescriptorBase);
-
-var _AbsArcAction = require('../../../Shapes/AbsArcAction');
-
-var _AbsArcAction2 = _interopRequireDefault(_AbsArcAction);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var AbsArcDescriptor = function (_ShapeActionDescripto) {
-  _inherits(AbsArcDescriptor, _ShapeActionDescripto);
-
-  function AbsArcDescriptor(react3RendererInstance) {
-    _classCallCheck(this, AbsArcDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (AbsArcDescriptor.__proto__ || Object.getPrototypeOf(AbsArcDescriptor)).call(this, react3RendererInstance));
-
-    ['x', 'y', 'radius', 'startAngle', 'endAngle'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number.isRequired,
-        update: _this.triggerRemount,
-        default: 0
-      });
-    });
-
-    _this.hasProp('clockwise', {
-      type: _ReactPropTypes2.default.bool.isRequired,
-      update: _this.triggerRemount,
-      default: false
-    });
-    return _this;
-  }
-
-  _createClass(AbsArcDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var x = props.x,
-          y = props.y,
-          radius = props.radius,
-          startAngle = props.startAngle,
-          endAngle = props.endAngle,
-          clockwise = props.clockwise;
-
-
-      return new _AbsArcAction2.default(x, y, radius, startAngle, endAngle, clockwise);
-    }
-  }]);
-
-  return AbsArcDescriptor;
-}(_ShapeActionDescriptorBase2.default);
-
-module.exports = AbsArcDescriptor;
-},{"../../../Shapes/AbsArcAction":240,"./ShapeActionDescriptorBase":281,"react/lib/ReactPropTypes":433}],274:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _ShapeActionDescriptorBase = require('./ShapeActionDescriptorBase');
-
-var _ShapeActionDescriptorBase2 = _interopRequireDefault(_ShapeActionDescriptorBase);
-
-var _AbsEllipseAction = require('../../../Shapes/AbsEllipseAction');
-
-var _AbsEllipseAction2 = _interopRequireDefault(_AbsEllipseAction);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var AbsEllipseDescriptor = function (_ShapeActionDescripto) {
-  _inherits(AbsEllipseDescriptor, _ShapeActionDescripto);
-
-  function AbsEllipseDescriptor(react3RendererInstance) {
-    _classCallCheck(this, AbsEllipseDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (AbsEllipseDescriptor.__proto__ || Object.getPrototypeOf(AbsEllipseDescriptor)).call(this, react3RendererInstance));
-
-    ['x', 'y', 'xRadius', 'yRadius', 'startAngle', 'endAngle'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number.isRequired,
-        update: _this.triggerRemount,
-        default: 0
-      });
-    });
-
-    _this.hasProp('clockwise', {
-      type: _ReactPropTypes2.default.bool,
-      update: _this.triggerRemount,
-      default: false
-    });
-
-    _this.hasProp('rotation', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.triggerRemount,
-      default: 0
-    });
-    return _this;
-  }
-
-  _createClass(AbsEllipseDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var x = props.x,
-          y = props.y,
-          xRadius = props.xRadius,
-          yRadius = props.yRadius,
-          startAngle = props.startAngle,
-          endAngle = props.endAngle,
-          clockwise = props.clockwise,
-          rotation = props.rotation;
-
-
-      return new _AbsEllipseAction2.default(x, y, xRadius, yRadius, startAngle, endAngle, clockwise, rotation);
-    }
-  }]);
-
-  return AbsEllipseDescriptor;
-}(_ShapeActionDescriptorBase2.default);
-
-module.exports = AbsEllipseDescriptor;
-},{"../../../Shapes/AbsEllipseAction":241,"./ShapeActionDescriptorBase":281,"react/lib/ReactPropTypes":433}],275:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _ShapeActionDescriptorBase = require('./ShapeActionDescriptorBase');
-
-var _ShapeActionDescriptorBase2 = _interopRequireDefault(_ShapeActionDescriptorBase);
-
-var _BezierCurveToAction = require('../../../Shapes/BezierCurveToAction');
-
-var _BezierCurveToAction2 = _interopRequireDefault(_BezierCurveToAction);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var BezierCurveToDescriptor = function (_ShapeActionDescripto) {
-  _inherits(BezierCurveToDescriptor, _ShapeActionDescripto);
-
-  function BezierCurveToDescriptor(react3RendererInstance) {
-    _classCallCheck(this, BezierCurveToDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (BezierCurveToDescriptor.__proto__ || Object.getPrototypeOf(BezierCurveToDescriptor)).call(this, react3RendererInstance));
-
-    ['cp1X', 'cp1Y', 'cp2X', 'cp2Y', 'aX', 'aY'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number.isRequired,
-        update: _this.triggerRemount,
-        default: 0
-      });
-    });
-    return _this;
-  }
-
-  _createClass(BezierCurveToDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var cp1X = props.cp1X,
-          cp1Y = props.cp1Y,
-          cp2X = props.cp2X,
-          cp2Y = props.cp2Y,
-          aX = props.aX,
-          aY = props.aY;
-
-
-      return new _BezierCurveToAction2.default(cp1X, cp1Y, cp2X, cp2Y, aX, aY);
-    }
-  }]);
-
-  return BezierCurveToDescriptor;
-}(_ShapeActionDescriptorBase2.default);
-
-module.exports = BezierCurveToDescriptor;
-},{"../../../Shapes/BezierCurveToAction":242,"./ShapeActionDescriptorBase":281,"react/lib/ReactPropTypes":433}],276:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _PathDescriptorBase2 = require('./PathDescriptorBase');
-
-var _PathDescriptorBase3 = _interopRequireDefault(_PathDescriptorBase2);
-
-var _HoleAction = require('../../../Shapes/HoleAction');
-
-var _HoleAction2 = _interopRequireDefault(_HoleAction);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var HoleDescriptor = function (_PathDescriptorBase) {
-  _inherits(HoleDescriptor, _PathDescriptorBase);
-
-  function HoleDescriptor() {
-    _classCallCheck(this, HoleDescriptor);
-
-    return _possibleConstructorReturn(this, (HoleDescriptor.__proto__ || Object.getPrototypeOf(HoleDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(HoleDescriptor, [{
-    key: 'construct',
-    value: function construct() {
-      return new _HoleAction2.default();
-    }
-  }, {
-    key: 'performChildAction',
-    value: function performChildAction(threeObject, child) {
-      child.performAction(threeObject.path);
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(threeObject, parentObject3D) {
-      (0, _invariant2.default)(parentObject3D instanceof _three2.default.Shape, 'Holes can only be added to shapes.');
-
-      return _get(HoleDescriptor.prototype.__proto__ || Object.getPrototypeOf(HoleDescriptor.prototype), 'setParent', this).call(this, threeObject, parentObject3D);
-    }
-  }]);
-
-  return HoleDescriptor;
-}(_PathDescriptorBase3.default);
-
-module.exports = HoleDescriptor;
-},{"../../../Shapes/HoleAction":243,"./PathDescriptorBase":279,"fbjs/lib/invariant":347,"three":529}],277:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _ShapeActionDescriptorBase = require('./ShapeActionDescriptorBase');
-
-var _ShapeActionDescriptorBase2 = _interopRequireDefault(_ShapeActionDescriptorBase);
-
-var _LineToAction = require('../../../Shapes/LineToAction');
-
-var _LineToAction2 = _interopRequireDefault(_LineToAction);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var LineToDescriptor = function (_ShapeActionDescripto) {
-  _inherits(LineToDescriptor, _ShapeActionDescripto);
-
-  function LineToDescriptor(react3RendererInstance) {
-    _classCallCheck(this, LineToDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (LineToDescriptor.__proto__ || Object.getPrototypeOf(LineToDescriptor)).call(this, react3RendererInstance));
-
-    ['x', 'y'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number.isRequired,
-        update: _this.triggerRemount,
-        default: 0
-      });
-    });
-    return _this;
-  }
-
-  _createClass(LineToDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      return new _LineToAction2.default(props.x, props.y);
-    }
-  }]);
-
-  return LineToDescriptor;
-}(_ShapeActionDescriptorBase2.default);
-
-module.exports = LineToDescriptor;
-},{"../../../Shapes/LineToAction":244,"./ShapeActionDescriptorBase":281,"react/lib/ReactPropTypes":433}],278:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _ShapeActionDescriptorBase = require('./ShapeActionDescriptorBase');
-
-var _ShapeActionDescriptorBase2 = _interopRequireDefault(_ShapeActionDescriptorBase);
-
-var _MoveToAction = require('../../../Shapes/MoveToAction');
-
-var _MoveToAction2 = _interopRequireDefault(_MoveToAction);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MoveToDescriptor = function (_ShapeActionDescripto) {
-  _inherits(MoveToDescriptor, _ShapeActionDescripto);
-
-  function MoveToDescriptor(react3RendererInstance) {
-    _classCallCheck(this, MoveToDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (MoveToDescriptor.__proto__ || Object.getPrototypeOf(MoveToDescriptor)).call(this, react3RendererInstance));
-
-    ['x', 'y'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number.isRequired,
-        update: _this.triggerRemount,
-        default: 0
-      });
-    });
-    return _this;
-  }
-
-  _createClass(MoveToDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      return new _MoveToAction2.default(props.x, props.y);
-    }
-  }]);
-
-  return MoveToDescriptor;
-}(_ShapeActionDescriptorBase2.default);
-
-module.exports = MoveToDescriptor;
-},{"../../../Shapes/MoveToAction":245,"./ShapeActionDescriptorBase":281,"react/lib/ReactPropTypes":433}],279:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _THREEElementDescriptor = require('../../THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-var _ShapeAction = require('../../../Shapes/ShapeAction');
-
-var _ShapeAction2 = _interopRequireDefault(_ShapeAction);
-
-var _propTypeInstanceOf = require('../../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var PathDescriptorBase = function (_THREEElementDescript) {
-  _inherits(PathDescriptorBase, _THREEElementDescript);
-
-  function PathDescriptorBase(react3RendererInstance) {
-    _classCallCheck(this, PathDescriptorBase);
-
-    var _this = _possibleConstructorReturn(this, (PathDescriptorBase.__proto__ || Object.getPrototypeOf(PathDescriptorBase)).call(this, react3RendererInstance));
-
-    _this._invalidChild = function (child) {
-      var invalid = !(child instanceof _ShapeAction2.default);
-
-      return invalid;
-    };
-
-    _this.hasProp('points', {
-      type: _ReactPropTypes2.default.arrayOf((0, _propTypeInstanceOf2.default)(_three2.default.Vector2)),
-      update: _this.triggerRemount,
-      default: []
-    });
-    return _this;
-  }
-
-  _createClass(PathDescriptorBase, [{
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      threeObject.userData = _extends({}, threeObject.userData);
-
-      // paths don't have uuids
-      threeObject.uuid = _three2.default.Math.generateUUID();
-
-      return _get(PathDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(PathDescriptorBase.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-    }
-  }, {
-    key: 'addChildren',
-    value: function addChildren(threeObject, children) {
-      var _this2 = this;
-
-      // TODO: create paths here
-
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(children.filter(this._invalidChild).length === 0, 'Shape children can only be shape actions!');
-      } else {
-        (0, _invariant2.default)(children.filter(this._invalidChild).length === 0, false);
-      }
-
-      // apply all actions in order
-      children.forEach(function (child) {
-        _this2.performChildAction(threeObject, child);
-      });
-    }
-  }, {
-    key: 'performChildAction',
-    value: function performChildAction(threeObject, child) {
-      child.performAction(threeObject);
-    }
-  }, {
-    key: 'addChild',
-    value: function addChild(threeObject) {
-      this.triggerRemount(threeObject);
-    }
-  }, {
-    key: 'moveChild',
-    value: function moveChild(threeObject) {
-      this.triggerRemount(threeObject);
-    }
-  }, {
-    key: 'removeChild',
-    value: function removeChild(threeObject) {
-      this.triggerRemount(threeObject);
-    }
-  }, {
-    key: 'highlight',
-    value: function highlight(threeObject) {
-      var parentObject = threeObject.userData.markup.parentMarkup.threeObject;
-
-      parentObject.userData._descriptor.highlight(parentObject);
-    }
-  }, {
-    key: 'getBoundingBoxes',
-    value: function getBoundingBoxes(threeObject) {
-      var parentObject = threeObject.userData.markup.parentMarkup.threeObject;
-
-      return parentObject.userData._descriptor.getBoundingBoxes(parentObject);
-    }
-  }]);
-
-  return PathDescriptorBase;
-}(_THREEElementDescriptor2.default);
-
-module.exports = PathDescriptorBase;
-}).call(this,require('_process'))
-},{"../../../Shapes/ShapeAction":247,"../../../utils/propTypeInstanceOf":343,"../../THREEElementDescriptor":335,"_process":203,"fbjs/lib/invariant":347,"react/lib/ReactPropTypes":433,"three":529}],280:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _ShapeActionDescriptorBase = require('./ShapeActionDescriptorBase');
-
-var _ShapeActionDescriptorBase2 = _interopRequireDefault(_ShapeActionDescriptorBase);
-
-var _QuadraticCurveToAction = require('../../../Shapes/QuadraticCurveToAction');
-
-var _QuadraticCurveToAction2 = _interopRequireDefault(_QuadraticCurveToAction);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var QuadraticCurveToDescriptor = function (_ShapeActionDescripto) {
-  _inherits(QuadraticCurveToDescriptor, _ShapeActionDescripto);
-
-  function QuadraticCurveToDescriptor(react3RendererInstance) {
-    _classCallCheck(this, QuadraticCurveToDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (QuadraticCurveToDescriptor.__proto__ || Object.getPrototypeOf(QuadraticCurveToDescriptor)).call(this, react3RendererInstance));
-
-    ['cpX', 'cpY', 'x', 'y'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number.isRequired,
-        update: _this.triggerRemount,
-        default: 0
-      });
-    });
-    return _this;
-  }
-
-  _createClass(QuadraticCurveToDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var cpX = props.cpX,
-          cpY = props.cpY,
-          x = props.x,
-          y = props.y;
-
-
-      return new _QuadraticCurveToAction2.default(cpX, cpY, x, y);
-    }
-  }]);
-
-  return QuadraticCurveToDescriptor;
-}(_ShapeActionDescriptorBase2.default);
-
-module.exports = QuadraticCurveToDescriptor;
-},{"../../../Shapes/QuadraticCurveToAction":246,"./ShapeActionDescriptorBase":281,"react/lib/ReactPropTypes":433}],281:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _THREEElementDescriptor = require('../../THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-var _HoleAction = require('../../../Shapes/HoleAction');
-
-var _HoleAction2 = _interopRequireDefault(_HoleAction);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ShapeActionDescriptorBase = function (_THREEElementDescript) {
-  _inherits(ShapeActionDescriptorBase, _THREEElementDescript);
-
-  function ShapeActionDescriptorBase() {
-    _classCallCheck(this, ShapeActionDescriptorBase);
-
-    return _possibleConstructorReturn(this, (ShapeActionDescriptorBase.__proto__ || Object.getPrototypeOf(ShapeActionDescriptorBase)).apply(this, arguments));
-  }
-
-  _createClass(ShapeActionDescriptorBase, [{
-    key: 'setParent',
-    value: function setParent(threeObject, parentObject3D) {
-      (0, _invariant2.default)(parentObject3D instanceof _three2.default.Path || parentObject3D instanceof _HoleAction2.default, 'Shape action commands (%s) can only be added to shapes, paths or holes.', this.constructor.name);
-
-      _get(ShapeActionDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(ShapeActionDescriptorBase.prototype), 'setParent', this).call(this, threeObject, parentObject3D);
-    }
-  }, {
-    key: 'highlight',
-    value: function highlight(threeObject) {
-      var parentObject = threeObject.userData.markup.parentMarkup.threeObject;
-
-      parentObject.userData._descriptor.highlight(parentObject);
-    }
-  }, {
-    key: 'getBoundingBoxes',
-    value: function getBoundingBoxes(threeObject) {
-      var parentObject = threeObject.userData.markup.parentMarkup.threeObject;
-
-      return parentObject.userData._descriptor.getBoundingBoxes(parentObject);
-    }
-  }]);
-
-  return ShapeActionDescriptorBase;
-}(_THREEElementDescriptor2.default);
-
-module.exports = ShapeActionDescriptorBase;
-},{"../../../Shapes/HoleAction":243,"../../THREEElementDescriptor":335,"fbjs/lib/invariant":347,"three":529}],282:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _class;
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _PathDescriptorBase2 = require('./PathDescriptorBase');
-
-var _PathDescriptorBase3 = _interopRequireDefault(_PathDescriptorBase2);
-
-var _resource = require('../../decorators/resource');
-
-var _resource2 = _interopRequireDefault(_resource);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ShapeDescriptor = (0, _resource2.default)(_class = function (_PathDescriptorBase) {
-  _inherits(ShapeDescriptor, _PathDescriptorBase);
-
-  function ShapeDescriptor() {
-    _classCallCheck(this, ShapeDescriptor);
-
-    return _possibleConstructorReturn(this, (ShapeDescriptor.__proto__ || Object.getPrototypeOf(ShapeDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(ShapeDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      if (props.hasOwnProperty('points')) {
-        return new _three2.default.Shape(props.points);
-      }
-
-      return new _three2.default.Shape();
-    }
-  }]);
-
-  return ShapeDescriptor;
-}(_PathDescriptorBase3.default)) || _class;
-
-module.exports = ShapeDescriptor;
-},{"../../decorators/resource":337,"./PathDescriptorBase":279,"three":529}],283:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _ShapeActionDescriptorBase = require('./ShapeActionDescriptorBase');
-
-var _ShapeActionDescriptorBase2 = _interopRequireDefault(_ShapeActionDescriptorBase);
-
-var _SplineThruAction = require('../../../Shapes/SplineThruAction');
-
-var _SplineThruAction2 = _interopRequireDefault(_SplineThruAction);
-
-var _propTypeInstanceOf = require('../../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SplineThruDescriptor = function (_ShapeActionDescripto) {
-  _inherits(SplineThruDescriptor, _ShapeActionDescripto);
-
-  function SplineThruDescriptor(react3RendererInstance) {
-    _classCallCheck(this, SplineThruDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (SplineThruDescriptor.__proto__ || Object.getPrototypeOf(SplineThruDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasProp('points', {
-      type: _ReactPropTypes2.default.arrayOf((0, _propTypeInstanceOf2.default)(_three2.default.Vector2)).isRequired,
-      update: _this.triggerRemount,
-      default: []
-    });
-    return _this;
-  }
-
-  _createClass(SplineThruDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      return new _SplineThruAction2.default(props.points);
-    }
-  }]);
-
-  return SplineThruDescriptor;
-}(_ShapeActionDescriptorBase2.default);
-
-module.exports = SplineThruDescriptor;
-},{"../../../Shapes/SplineThruAction":248,"../../../utils/propTypeInstanceOf":343,"./ShapeActionDescriptorBase":281,"react/lib/ReactPropTypes":433,"three":529}],284:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _BufferGeometryDescriptorBase = require('./BufferGeometryDescriptorBase');
-
-var _BufferGeometryDescriptorBase2 = _interopRequireDefault(_BufferGeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SphereGeometryDescriptor = function (_BufferGeometryDescri) {
-  _inherits(SphereGeometryDescriptor, _BufferGeometryDescri);
-
-  function SphereGeometryDescriptor(react3Instance) {
-    _classCallCheck(this, SphereGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (SphereGeometryDescriptor.__proto__ || Object.getPrototypeOf(SphereGeometryDescriptor)).call(this, react3Instance));
-
-    _this.hasProp('radius', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.updateCacheAndReplace.bind(_this, 'radius'),
-      default: undefined
-    });
-
-    ['widthSegments', 'heightSegments'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: _this.triggerRemount,
-        default: undefined
-      });
-    });
-
-    ['phiStart', 'phiLength', 'thetaStart', 'thetaLength'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: _this.updateCacheAndReplace.bind(_this, propName),
-        default: undefined
-      });
-    });
-    return _this;
-  }
-
-  _createClass(SphereGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var radius = props.radius,
-          widthSegments = props.widthSegments,
-          heightSegments = props.heightSegments,
-          phiStart = props.phiStart,
-          phiLength = props.phiLength,
-          thetaStart = props.thetaStart,
-          thetaLength = props.thetaLength;
-
-
-      return new _three2.default.SphereBufferGeometry(radius, widthSegments, heightSegments, phiStart, phiLength, thetaStart, thetaLength);
-    }
-  }]);
-
-  return SphereGeometryDescriptor;
-}(_BufferGeometryDescriptorBase2.default);
-
-module.exports = SphereGeometryDescriptor;
-},{"./BufferGeometryDescriptorBase":254,"react/lib/ReactPropTypes":433,"three":529}],285:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _PolyhedronGeometryDescriptorBase = require('./PolyhedronGeometryDescriptorBase');
-
-var _PolyhedronGeometryDescriptorBase2 = _interopRequireDefault(_PolyhedronGeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var TetrahedronGeometryDescriptor = function (_PolyhedronGeometryDe) {
-  _inherits(TetrahedronGeometryDescriptor, _PolyhedronGeometryDe);
-
-  function TetrahedronGeometryDescriptor() {
-    _classCallCheck(this, TetrahedronGeometryDescriptor);
-
-    return _possibleConstructorReturn(this, (TetrahedronGeometryDescriptor.__proto__ || Object.getPrototypeOf(TetrahedronGeometryDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(TetrahedronGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var radius = props.radius,
-          detail = props.detail;
-
-
-      return new _three2.default.TetrahedronGeometry(radius, detail);
-    }
-  }]);
-
-  return TetrahedronGeometryDescriptor;
-}(_PolyhedronGeometryDescriptorBase2.default);
-
-module.exports = TetrahedronGeometryDescriptor;
-},{"./PolyhedronGeometryDescriptorBase":270,"three":529}],286:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var TextGeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(TextGeometryDescriptor, _GeometryDescriptorBa);
-
-  function TextGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, TextGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (TextGeometryDescriptor.__proto__ || Object.getPrototypeOf(TextGeometryDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasProp('text', {
-      type: _ReactPropTypes2.default.string.isRequired,
-      update: _this.triggerRemount,
-      default: 'TEXT MISSING'
-    });
-
-    _this.hasProp('font', {
-      type: _ReactPropTypes2.default.instanceOf(_three2.default.Font).isRequired,
-      update: _this.triggerRemount
-    });
-
-    _this.hasProp('size', {
-      type: _ReactPropTypes2.default.number.isRequired,
-      update: _this.triggerRemount
-    });
-
-    _this.hasProp('height', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.triggerRemount,
-      default: 50
-    });
-
-    _this.hasProp('curveSegments', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.triggerRemount,
-      default: 12
-    });
-
-    _this.hasProp('bevelEnabled', {
-      type: _ReactPropTypes2.default.bool,
-      update: _this.triggerRemount,
-      default: false
-    });
-
-    _this.hasProp('bevelThickness', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.triggerRemount,
-      default: 10
-    });
-
-    _this.hasProp('bevelSize', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.triggerRemount,
-      default: 8
-    });
-    return _this;
-  }
-
-  _createClass(TextGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      // props from http://threejs.org/docs/#Reference/Extras.Geometries/TextGeometry:
-      var text = props.text,
-          font = props.font,
-          size = props.size,
-          height = props.height,
-          curveSegments = props.curveSegments,
-          bevelEnabled = props.bevelEnabled,
-          bevelThickness = props.bevelThickness,
-          bevelSize = props.bevelSize;
-
-
-      return new _three2.default.TextGeometry(text, {
-        font: font,
-        size: size,
-        height: height,
-        curveSegments: curveSegments,
-        bevelEnabled: bevelEnabled,
-        bevelThickness: bevelThickness,
-        bevelSize: bevelSize
-      });
-    }
-  }]);
-
-  return TextGeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = TextGeometryDescriptor;
-},{"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],287:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var TorusGeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(TorusGeometryDescriptor, _GeometryDescriptorBa);
-
-  function TorusGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, TorusGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (TorusGeometryDescriptor.__proto__ || Object.getPrototypeOf(TorusGeometryDescriptor)).call(this, react3RendererInstance));
-
-    ['radius', 'tube', 'radialSegments', 'tubularSegments', 'arc'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: _this.triggerRemount,
-        default: undefined
-      });
-    });
-    return _this;
-  }
-
-  _createClass(TorusGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var radius = props.radius,
-          tube = props.tube,
-          radialSegments = props.radialSegments,
-          tubularSegments = props.tubularSegments,
-          arc = props.arc;
-
-
-      return new _three2.default.TorusGeometry(radius, tube, radialSegments, tubularSegments, arc);
-    }
-  }]);
-
-  return TorusGeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = TorusGeometryDescriptor;
-},{"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],288:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var TorusKnotGeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(TorusKnotGeometryDescriptor, _GeometryDescriptorBa);
-
-  function TorusKnotGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, TorusKnotGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (TorusKnotGeometryDescriptor.__proto__ || Object.getPrototypeOf(TorusKnotGeometryDescriptor)).call(this, react3RendererInstance));
-
-    ['radius', 'tube', 'tubularSegments', 'radialSegments', 'p', 'q', 'heightScale'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: _this.triggerRemount,
-        default: undefined
-      });
-    });
-    return _this;
-  }
-
-  _createClass(TorusKnotGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var radius = props.radius,
-          tube = props.tube,
-          tubularSegments = props.tubularSegments,
-          radialSegments = props.radialSegments,
-          p = props.p,
-          q = props.q,
-          heightScale = props.heightScale;
-
-
-      return new _three2.default.TorusKnotGeometry(radius, tube, tubularSegments, radialSegments, p, q, heightScale);
-    }
-  }]);
-
-  return TorusKnotGeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = TorusKnotGeometryDescriptor;
-},{"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],289:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _GeometryDescriptorBase = require('./GeometryDescriptorBase');
-
-var _GeometryDescriptorBase2 = _interopRequireDefault(_GeometryDescriptorBase);
-
-var _propTypeInstanceOf = require('../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var TubeGeometryDescriptor = function (_GeometryDescriptorBa) {
-  _inherits(TubeGeometryDescriptor, _GeometryDescriptorBa);
-
-  function TubeGeometryDescriptor(react3RendererInstance) {
-    _classCallCheck(this, TubeGeometryDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (TubeGeometryDescriptor.__proto__ || Object.getPrototypeOf(TubeGeometryDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasProp('path', {
-      type: (0, _propTypeInstanceOf2.default)(_three2.default.Curve).isRequired,
-      update: _this.triggerRemount
-    });
-
-    _this.hasProp('segments', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.triggerRemount,
-      default: 64
-    });
-
-    _this.hasProp('radius', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.triggerRemount,
-      default: 1
-    });
-
-    _this.hasProp('radiusSegments', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.triggerRemount,
-      default: 8
-    });
-
-    _this.hasProp('closed', {
-      type: _ReactPropTypes2.default.bool,
-      update: _this.triggerRemount,
-      default: false
-    });
-    return _this;
-  }
-
-  _createClass(TubeGeometryDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      // props from http://threejs.org/docs/#Reference/Extras.Geometries/TubeGeometry:
-      var path = props.path,
-          segments = props.segments,
-          radius = props.radius,
-          radiusSegments = props.radiusSegments,
-          closed = props.closed;
-
-
-      return new _three2.default.TubeGeometry(path, segments, radius, radiusSegments, closed);
-    }
-  }]);
-
-  return TubeGeometryDescriptor;
-}(_GeometryDescriptorBase2.default);
-
-module.exports = TubeGeometryDescriptor;
-},{"../../utils/propTypeInstanceOf":343,"./GeometryDescriptorBase":261,"react/lib/ReactPropTypes":433,"three":529}],290:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _LightDescriptorBase2 = require('./LightDescriptorBase');
-
-var _LightDescriptorBase3 = _interopRequireDefault(_LightDescriptorBase2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var AmbientLightDescriptor = function (_LightDescriptorBase) {
-  _inherits(AmbientLightDescriptor, _LightDescriptorBase);
-
-  function AmbientLightDescriptor(react3Instance) {
-    _classCallCheck(this, AmbientLightDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (AmbientLightDescriptor.__proto__ || Object.getPrototypeOf(AmbientLightDescriptor)).call(this, react3Instance));
-
-    _this.hasProp('intensity', {
-      type: _ReactPropTypes2.default.number,
-      simple: true,
-      default: 1
-    });
-
-    _this.hasColor();
-    return _this;
-  }
-
-  _createClass(AmbientLightDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var color = props.color,
-          intensity = props.intensity;
-
-
-      return new _three2.default.AmbientLight(color, intensity);
-    }
-  }]);
-
-  return AmbientLightDescriptor;
-}(_LightDescriptorBase3.default);
-
-module.exports = AmbientLightDescriptor;
-},{"./LightDescriptorBase":292,"react/lib/ReactPropTypes":433,"three":529}],291:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _class, _temp;
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _LightDescriptorBase2 = require('./LightDescriptorBase');
-
-var _LightDescriptorBase3 = _interopRequireDefault(_LightDescriptorBase2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var DirectionalLightDescriptor = (_temp = _class = function (_LightDescriptorBase) {
-  _inherits(DirectionalLightDescriptor, _LightDescriptorBase);
-
-  function DirectionalLightDescriptor(react3Instance) {
-    _classCallCheck(this, DirectionalLightDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (DirectionalLightDescriptor.__proto__ || Object.getPrototypeOf(DirectionalLightDescriptor)).call(this, react3Instance));
-
-    _this.hasProp('intensity', {
-      type: _ReactPropTypes2.default.number,
-      simple: true,
-      default: 1
-    });
-
-    _this.hasProp('shadowCameraLeft', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, value, hasProp) {
-        if (hasProp) {
-          threeObject.shadow.camera.left = value;
-        }
-      },
-
-      default: DirectionalLightDescriptor.defaultShadowCameraLeft
-    });
-
-    _this.hasProp('shadowCameraBottom', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, value, hasProp) {
-        if (hasProp) {
-          threeObject.shadow.camera.bottom = value;
-        }
-      },
-
-      default: DirectionalLightDescriptor.defaultShadowCameraBottom
-    });
-
-    _this.hasProp('shadowCameraRight', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, value, hasProp) {
-        if (hasProp) {
-          threeObject.shadow.camera.right = value;
-        }
-      },
-
-      default: DirectionalLightDescriptor.defaultShadowCameraRight
-    });
-
-    _this.hasProp('shadowCameraTop', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, value, hasProp) {
-        if (hasProp) {
-          threeObject.shadow.camera.top = value;
-        }
-      },
-
-      default: DirectionalLightDescriptor.defaultShadowCameraTop
-    });
-
-    _this.hasColor();
-    _this.hasDirection();
-    return _this;
-  }
-
-  _createClass(DirectionalLightDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var color = props.color;
-      var intensity = props.intensity;
-
-      var result = new _three2.default.DirectionalLight(color, intensity);
-
-      result.position.set(0, 0, 0);
-
-      return result;
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(threeObject) {
-      _get(DirectionalLightDescriptor.prototype.__proto__ || Object.getPrototypeOf(DirectionalLightDescriptor.prototype), 'unmount', this).call(this, threeObject);
-    }
-  }]);
-
-  return DirectionalLightDescriptor;
-}(_LightDescriptorBase3.default), _class.defaultShadowCameraLeft = -5, _class.defaultShadowCameraRight = 5, _class.defaultShadowCameraTop = 5, _class.defaultShadowCameraBottom = -5, _temp);
-
-
-module.exports = DirectionalLightDescriptor;
-},{"./LightDescriptorBase":292,"react/lib/ReactPropTypes":433,"three":529}],292:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _class, _temp;
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _warning = require('fbjs/lib/warning');
-
-var _warning2 = _interopRequireDefault(_warning);
-
-var _Object3DDescriptor2 = require('../Object/Object3DDescriptor');
-
-var _Object3DDescriptor3 = _interopRequireDefault(_Object3DDescriptor2);
-
-var _propTypeInstanceOf = require('../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var updateLightTargetFromQuaternion = function () {
-  var lightPositionVector = new _three2.default.Vector3();
-  var forward = new _three2.default.Vector3();
-
-  return function (light) {
-    light.updateMatrixWorld();
-
-    lightPositionVector.setFromMatrixPosition(light.matrixWorld);
-
-    // rotate forward to match the rotation
-    // then set the target position
-    light.target.position.copy(forward.set(0, 0, 1).applyQuaternion(light.quaternion).add(lightPositionVector));
-
-    light.target.updateMatrixWorld();
-  };
-}();
-
-var LightDescriptorBase = (_temp = _class = function (_Object3DDescriptor) {
-  _inherits(LightDescriptorBase, _Object3DDescriptor);
-
-  function LightDescriptorBase(react3Instance) {
-    _classCallCheck(this, LightDescriptorBase);
-
-    var _this = _possibleConstructorReturn(this, (LightDescriptorBase.__proto__ || Object.getPrototypeOf(LightDescriptorBase)).call(this, react3Instance));
-
-    _this.removeProp('receiveShadow');
-
-    _this._hasColor = false;
-    _this._hasDirection = false;
-
-    if (process.env.NODE_ENV !== 'production') {
-      _this._warnedAboutLightMaterialUpdate = false;
-    }
-
-    _this.hasProp('updatesRefreshAllMaterials', {
-      type: _ReactPropTypes2.default.bool,
-      updateInitial: true,
-      update: function update(threeObject, updatesRefreshAllMaterials) {
-        threeObject.userData._updatesRefreshAllMaterials = updatesRefreshAllMaterials;
-      },
-
-      default: false
-    });
-
-    _this.hasProp('shadowBias', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, value, hasProp) {
-        if (hasProp) {
-          threeObject.shadow.bias = value;
-        }
-      },
-
-      default: LightDescriptorBase.defaultShadowBias
-    });
-
-    _this.hasProp('shadowDarkness', {
-      type: _ReactPropTypes2.default.number,
-      simple: true,
-      default: 0.5
-    });
-
-    _this.hasProp('shadowMapWidth', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, value, hasProp) {
-        if (hasProp) {
-          threeObject.shadow.mapSize.x = value;
-        }
-      },
-
-      default: 512
-    });
-
-    _this.hasProp('shadowMapHeight', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, value, hasProp) {
-        if (hasProp) {
-          threeObject.shadow.mapSize.y = value;
-        }
-      },
-
-      default: 512
-    });
-
-    _this.hasProp('shadowCameraNear', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, value, hasProp) {
-        if (hasProp) {
-          threeObject.shadow.camera.near = value;
-        }
-      },
-
-      default: LightDescriptorBase.defaultShadowCameraNear
-    });
-
-    _this.hasProp('shadowCameraFar', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, value, hasProp) {
-        if (hasProp) {
-          threeObject.shadow.camera.far = value;
-        }
-      },
-
-      default: LightDescriptorBase.defaultShadowCameraFar
-    });
-
-    _this.hasProp('castShadow', {
-      override: true,
-      type: _ReactPropTypes2.default.bool,
-      update: _this.triggerRemount,
-      default: false
-    });
-    return _this;
-  }
-
-  _createClass(LightDescriptorBase, [{
-    key: 'hasDirection',
-    value: function hasDirection() {
-      this._hasDirection = true;
-
-      // recreate the props to use target
-      this.removeProp('position');
-      this.removeProp('rotation');
-      this.removeProp('quaternion');
-      this.removeProp('lookAt');
-
-      this.hasProp('position', {
-        type: (0, _propTypeInstanceOf2.default)(_three2.default.Vector3),
-        update: function update(threeObject, position) {
-          threeObject.position.copy(position);
-
-          if (threeObject.userData._lookAt) {
-            threeObject.lookAt(threeObject.userData._lookAt);
-          }
-
-          threeObject.userData._needsDirectionUpdate = true;
-        },
-
-        default: new _three2.default.Vector3()
-      });
-
-      this.hasProp('rotation', {
-        type: (0, _propTypeInstanceOf2.default)(_three2.default.Euler),
-        update: function update(light, rotation) {
-          light.rotation.copy(rotation);
-
-          light.userData._needsDirectionUpdate = true;
-        },
-
-        default: new _three2.default.Euler()
-      });
-
-      this.hasProp('quaternion', {
-        type: (0, _propTypeInstanceOf2.default)(_three2.default.Quaternion),
-        update: function update(light, quaternion) {
-          light.quaternion.copy(quaternion);
-
-          light.userData._needsDirectionUpdate = true;
-        },
-
-        default: new _three2.default.Quaternion()
-      });
-
-      this.hasProp('lookAt', {
-        type: (0, _propTypeInstanceOf2.default)(_three2.default.Vector3),
-        update: function update(threeObject, lookAt) {
-          threeObject.userData._lookAt = lookAt;
-
-          if (lookAt) {
-            threeObject.lookAt(lookAt);
-
-            threeObject.userData._needsDirectionUpdate = true;
-          }
-        },
-
-        default: undefined
-      });
-    }
-  }, {
-    key: 'completePropertyUpdates',
-    value: function completePropertyUpdates(threeObject) {
-      _get(LightDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(LightDescriptorBase.prototype), 'completePropertyUpdates', this).call(this, threeObject);
-
-      if (threeObject.userData._needsDirectionUpdate) {
-        threeObject.userData._needsDirectionUpdate = false;
-        updateLightTargetFromQuaternion(threeObject);
-      }
-    }
-  }, {
-    key: 'hasColor',
-    value: function hasColor() {
-      this._hasColor = true;
-
-      this.hasProp('color', {
-        type: _ReactPropTypes2.default.oneOfType([(0, _propTypeInstanceOf2.default)(_three2.default.Color), _ReactPropTypes2.default.number, _ReactPropTypes2.default.string]),
-        update: function update(threeObject, newColor) {
-          threeObject.color.set(newColor);
-        },
-
-        default: 0xffffff
-      });
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(LightDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(LightDescriptorBase.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      if (props.hasOwnProperty('castShadow')) {
-        threeObject.castShadow = props.castShadow;
-      }
-
-      if (this._hasDirection) {
-        threeObject.userData._needsDirectionUpdate = false;
-
-        if (props.position || props.lookAt || props.rotation || props.quaternion) {
-          updateLightTargetFromQuaternion(threeObject);
-        }
-      }
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(threeObject) {
-      this.updateAllMaterials(threeObject);
-
-      _get(LightDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(LightDescriptorBase.prototype), 'unmount', this).call(this, threeObject);
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(threeObject, parentObject3d) {
-      _get(LightDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(LightDescriptorBase.prototype), 'setParent', this).call(this, threeObject, parentObject3d);
-
-      this.updateAllMaterials(threeObject);
-    }
-  }, {
-    key: 'updateAllMaterials',
-    value: function updateAllMaterials(threeObject) {
-      var rootInstance = threeObject.userData.markup._rootInstance;
-      if (rootInstance && !rootInstance._willUnmount) {
-        if (process.env.NODE_ENV !== 'production') {
-          if (!this._warnedAboutLightMaterialUpdate && !threeObject.userData._updatesRefreshAllMaterials) {
-            var owner = threeObject.userData.react3internalComponent._currentElement._owner;
-
-            var elementType = threeObject.userData.react3internalComponent._elementType;
-
-            (0, _warning2.default)(this._warnedAboutLightMaterialUpdate, LightDescriptorBase.getDynamicWarningMessage(elementType, owner));
-            this._warnedAboutLightMaterialUpdate = true;
-          }
-        }
-
-        rootInstance.allMaterialsNeedUpdate();
-      }
-    }
-  }]);
-
-  return LightDescriptorBase;
-}(_Object3DDescriptor3.default), _class.defaultShadowCameraNear = 0.5, _class.defaultShadowCameraFar = 500, _class.defaultShadowBias = 0, _temp);
-
-
-if (process.env.NODE_ENV !== 'production') {
-  LightDescriptorBase.getDynamicWarningMessage = function (elementType, owner) {
-    return '<' + elementType + '/> has been updated which triggered a refresh of all materials.\nThis is a potentially expensive operation.\nThis can happen when you add or remove a light, or add or remove any component\nbefore any lights without keys e.g.\n<object3d>\n  {/* new or removed component here */}\n  <ambientLight/>\n</object3d>, or update some properties of lights.\n\nIf you would like to add components, you should either add the components\nafter the lights (recommended), e.g.\n<object3d>\n  <ambientLight/>\n  {/* new or removed component here */}\n</object3d>, or add a \'key\' property to the lights e.g.\n<object3d>\n  {/* new or removed component here */}\n  <ambientLight key="light"/>\n</object3d>.\n\nIf you have modified a light\'s properties e.g. toggled castShadow,\nthe materials need to be rebuilt as well.\n\nTo acknowledge and remove this message, please add the property \'updatesRefreshAllMaterials\'\n  to <' + elementType + '/> inside the render() of ' + (owner && owner.getName() || 'a component') + '.\n\nFor more information, visit https://github.com/mrdoob/threejs/wiki/Updates .';
-  };
-}
-
-module.exports = LightDescriptorBase;
-}).call(this,require('_process'))
-},{"../../utils/propTypeInstanceOf":343,"../Object/Object3DDescriptor":323,"_process":203,"fbjs/lib/warning":348,"react/lib/ReactPropTypes":433,"three":529}],293:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _class, _temp;
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _LightDescriptorBase2 = require('./LightDescriptorBase');
-
-var _LightDescriptorBase3 = _interopRequireDefault(_LightDescriptorBase2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var PointLightDescriptor = (_temp = _class = function (_LightDescriptorBase) {
-  _inherits(PointLightDescriptor, _LightDescriptorBase);
-
-  function PointLightDescriptor(react3Instance) {
-    _classCallCheck(this, PointLightDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (PointLightDescriptor.__proto__ || Object.getPrototypeOf(PointLightDescriptor)).call(this, react3Instance));
-
-    _this.hasColor();
-
-    ['intensity', 'decay'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        simple: true,
-        default: 1
-      });
-    });
-
-    _this.hasProp('distance', {
-      type: _ReactPropTypes2.default.number,
-      simple: true,
-      default: 0
-    });
-
-    _this.hasProp('shadowCameraFov', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, value, hasProp) {
-        if (hasProp) {
-          threeObject.shadow.camera.fov = value;
-        }
-      },
-
-      default: PointLightDescriptor.defaultShadowCameraFov
-    });
-
-    _this.hasProp('shadowCameraAspect', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, value, hasProp) {
-        if (hasProp) {
-          threeObject.shadow.camera.aspect = value;
-        }
-      },
-
-      default: PointLightDescriptor.defaultShadowCameraAspect
-    });
-
-    _this.removeProp('lookAt');
-    _this.removeProp('rotation');
-    _this.removeProp('quaternion');
-    return _this;
-  }
-
-  _createClass(PointLightDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var color = props.color,
-          intensity = props.intensity,
-          distance = props.distance,
-          decay = props.decay;
-
-
-      return new _three2.default.PointLight(color, intensity, distance, decay);
-    }
-  }]);
-
-  return PointLightDescriptor;
-}(_LightDescriptorBase3.default), _class.defaultShadowCameraFov = 90, _class.defaultShadowCameraAspect = 1, _temp);
-
-
-module.exports = PointLightDescriptor;
-},{"./LightDescriptorBase":292,"react/lib/ReactPropTypes":433,"three":529}],294:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _LightDescriptorBase2 = require('./LightDescriptorBase');
-
-var _LightDescriptorBase3 = _interopRequireDefault(_LightDescriptorBase2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SpotLightDescriptor = function (_LightDescriptorBase) {
-  _inherits(SpotLightDescriptor, _LightDescriptorBase);
-
-  function SpotLightDescriptor(react3Instance) {
-    _classCallCheck(this, SpotLightDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (SpotLightDescriptor.__proto__ || Object.getPrototypeOf(SpotLightDescriptor)).call(this, react3Instance));
-
-    var defaults = [1, // intensity
-    0, // distance
-    Math.PI / 3, // angle
-    10, // exponent
-    1, // decay
-    0];
-
-    ['intensity', 'distance', 'angle', 'exponent', 'decay', 'penumbra'].forEach(function (propName, i) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        simple: true,
-        default: defaults[i]
-      });
-    });
-
-    _this.hasProp('shadowCameraFov', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, value, hasProp) {
-        if (hasProp) {
-          threeObject.shadow.camera.fov = value;
-        }
-      },
-
-      default: 50
-    });
-
-    _this.hasColor();
-    _this.hasDirection();
-    return _this;
-  }
-
-  _createClass(SpotLightDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var color = props.color,
-          intensity = props.intensity,
-          distance = props.distance,
-          angle = props.angle,
-          exponent = props.exponent,
-          decay = props.decay;
-
-
-      return new _three2.default.SpotLight(color, intensity, distance, angle, exponent, decay);
-    }
-  }]);
-
-  return SpotLightDescriptor;
-}(_LightDescriptorBase3.default);
-
-module.exports = SpotLightDescriptor;
-},{"./LightDescriptorBase":292,"react/lib/ReactPropTypes":433,"three":529}],295:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _MaterialDescriptorBase = require('./MaterialDescriptorBase');
-
-var _MaterialDescriptorBase2 = _interopRequireDefault(_MaterialDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var LineBasicMaterialDescriptor = function (_MaterialDescriptorBa) {
-  _inherits(LineBasicMaterialDescriptor, _MaterialDescriptorBa);
-
-  function LineBasicMaterialDescriptor(react3RendererInstance) {
-    _classCallCheck(this, LineBasicMaterialDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (LineBasicMaterialDescriptor.__proto__ || Object.getPrototypeOf(LineBasicMaterialDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasColor();
-
-    _this.hasProp('linewidth', {
-      type: _ReactPropTypes2.default.number,
-      simple: true,
-      default: 1
-    });
-
-    // what are these properties used for?
-    ['linecap', 'linejoin'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.oneOf(['round']),
-        simple: true,
-        default: 'round'
-      });
-    });
-
-    _this.hasProp('vertexColors', {
-      type: _ReactPropTypes2.default.oneOf([_three2.default.NoColors, _three2.default.FaceColors, _three2.default.VertexColors]),
-      simple: true,
-      default: _three2.default.NoColors
-    });
-
-    _this.hasProp('fog', {
-      type: _ReactPropTypes2.default.bool,
-      update: function update(threeObject, fog, existsInProps) {
-        if (existsInProps) {
-          threeObject.fog = fog;
-        }
-        threeObject.needsUpdate = true;
-      },
-
-      updateInitial: true,
-      default: true
-    });
-    return _this;
-  }
-
-  _createClass(LineBasicMaterialDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var materialDescription = this.getMaterialDescription(props);
-
-      return new _three2.default.LineBasicMaterial(materialDescription);
-    }
-  }]);
-
-  return LineBasicMaterialDescriptor;
-}(_MaterialDescriptorBase2.default);
-
-module.exports = LineBasicMaterialDescriptor;
-},{"./MaterialDescriptorBase":297,"react/lib/ReactPropTypes":433,"three":529}],296:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _MaterialDescriptorBase = require('./MaterialDescriptorBase');
-
-var _MaterialDescriptorBase2 = _interopRequireDefault(_MaterialDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var LineDashedMaterialDescriptor = function (_MaterialDescriptorBa) {
-  _inherits(LineDashedMaterialDescriptor, _MaterialDescriptorBa);
-
-  function LineDashedMaterialDescriptor(react3RendererInstance) {
-    _classCallCheck(this, LineDashedMaterialDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (LineDashedMaterialDescriptor.__proto__ || Object.getPrototypeOf(LineDashedMaterialDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasColor();
-
-    ['linewidth', 'scale', 'gapSize'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        simple: true,
-        default: 1
-      });
-    });
-
-    _this.hasProp('dashSize', {
-      type: _ReactPropTypes2.default.number,
-      simple: true,
-      default: 3
-    });
-
-    // what are these properties used for?
-    ['linecap', 'linejoin'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.oneOf(['round']),
-        simple: true,
-        default: 'round'
-      });
-    });
-
-    _this.hasProp('vertexColors', {
-      type: _ReactPropTypes2.default.oneOf([_three2.default.NoColors, _three2.default.FaceColors, _three2.default.VertexColors]),
-      simple: true,
-      default: _three2.default.NoColors
-    });
-
-    _this.hasProp('fog', {
-      type: _ReactPropTypes2.default.bool,
-      update: function update(threeObject, fog, existsInProps) {
-        if (existsInProps) {
-          threeObject.fog = fog;
-        }
-        threeObject.needsUpdate = true;
-      },
-
-      updateInitial: true,
-      default: true
-    });
-    return _this;
-  }
-
-  _createClass(LineDashedMaterialDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var materialDescription = this.getMaterialDescription(props);
-
-      return new _three2.default.LineDashedMaterial(materialDescription);
-    }
-  }]);
-
-  return LineDashedMaterialDescriptor;
-}(_MaterialDescriptorBase2.default);
-
-module.exports = LineDashedMaterialDescriptor;
-},{"./MaterialDescriptorBase":297,"react/lib/ReactPropTypes":433,"three":529}],297:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _class;
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _THREEElementDescriptor = require('../THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-var _resource = require('../decorators/resource');
-
-var _resource2 = _interopRequireDefault(_resource);
-
-var _ResourceReference = require('../../Resources/ResourceReference');
-
-var _ResourceReference2 = _interopRequireDefault(_ResourceReference);
-
-var _propTypeInstanceOf = require('../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MaterialDescriptorBase = (0, _resource2.default)(_class = function (_THREEElementDescript) {
-  _inherits(MaterialDescriptorBase, _THREEElementDescript);
-
-  function MaterialDescriptorBase(react3Instance) {
-    _classCallCheck(this, MaterialDescriptorBase);
-
-    var _this = _possibleConstructorReturn(this, (MaterialDescriptorBase.__proto__ || Object.getPrototypeOf(MaterialDescriptorBase)).call(this, react3Instance));
-
-    _this._invalidChild = function (child) {
-      return _this.invalidChildInternal(child);
-    };
-
-    _this.hasProp('slot', {
-      type: _ReactPropTypes2.default.string,
-      updateInitial: true,
-      update: function update(threeObject, slot, hasProperty) {
-        if (hasProperty) {
-          threeObject.userData._materialSlot = slot;
-        } else {
-          threeObject.userData._materialSlot = 'material';
-        }
-      },
-      default: 'material'
-    });
-
-    _this.hasProp('transparent', {
-      type: _ReactPropTypes2.default.bool,
-      simple: true
-    });
-
-    _this.hasProp('alphaTest', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, alphaTest) {
-        threeObject.alphaTest = alphaTest;
-        threeObject.needsUpdate = true;
-      },
-      default: 0
-    });
-
-    _this.hasProp('side', {
-      type: _ReactPropTypes2.default.oneOf([_three2.default.FrontSide, _three2.default.BackSide, _three2.default.DoubleSide]),
-      updateInitial: true,
-      update: function update(threeObject, side) {
-        threeObject.side = side;
-      },
-      default: _three2.default.FrontSide
-    });
-
-    _this.hasProp('opacity', {
-      type: _ReactPropTypes2.default.number,
-      simple: true
-    });
-
-    _this.hasProp('visible', {
-      type: _ReactPropTypes2.default.bool,
-      simple: true,
-      default: true
-    });
-
-    _this._colors = [];
-    return _this;
-  }
-
-  _createClass(MaterialDescriptorBase, [{
-    key: 'getMaterialDescription',
-    value: function getMaterialDescription(props) {
-      var materialDescription = {};
-
-      this._colors.forEach(function (colorPropName) {
-        if (props.hasOwnProperty(colorPropName)) {
-          materialDescription[colorPropName] = props[colorPropName];
-        }
-      });
-
-      if (props.hasOwnProperty('side')) {
-        materialDescription.side = props.side;
-      }
-
-      return materialDescription;
-    }
-  }, {
-    key: 'hasColor',
-    value: function hasColor() {
-      var propName = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'color';
-      var defaultVal = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0xffffff;
-
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(this._colors.indexOf(propName) === -1, 'This color is already defined for %s.', this.constructor.name);
-      }
-
-      this._colors.push(propName);
-
-      this.hasProp(propName, {
-        type: _ReactPropTypes2.default.oneOfType([(0, _propTypeInstanceOf2.default)(_three2.default.Color), _ReactPropTypes2.default.number, _ReactPropTypes2.default.string]),
-        update: function update(threeObject, value) {
-          threeObject[propName].set(value);
-        },
-        default: defaultVal
-      });
-    }
-  }, {
-    key: 'hasWireframe',
-    value: function hasWireframe() {
-      this.hasProp('wireframe', {
-        type: _ReactPropTypes2.default.bool,
-        simple: true,
-        default: false
-      });
-
-      this.hasProp('wireframeLinewidth', {
-        type: _ReactPropTypes2.default.number,
-        simple: true,
-        default: 1
-      });
-    }
-  }, {
-    key: 'construct',
-    value: function construct() {
-      return new _three2.default.Material({});
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      threeObject.userData = _extends({}, threeObject.userData);
-
-      _get(MaterialDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(MaterialDescriptorBase.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(material, parentObject3D) {
-      (0, _invariant2.default)(parentObject3D instanceof _three2.default.Mesh || parentObject3D instanceof _three2.default.Points || parentObject3D instanceof _three2.default.Sprite || parentObject3D instanceof _three2.default.Line, 'Parent is not a mesh');
-      (0, _invariant2.default)(parentObject3D[material.userData._materialSlot] === undefined || parentObject3D[material.userData._materialSlot] === null, 'Parent already has a ' + material.userData._materialSlot + ' defined');
-      _get(MaterialDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(MaterialDescriptorBase.prototype), 'setParent', this).call(this, material, parentObject3D);
-
-      parentObject3D[material.userData._materialSlot] = material;
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(material) {
-      var parent = material.userData.markup.parentMarkup.threeObject;
-
-      // could either be a resource description or an actual material
-      if (parent instanceof _three2.default.Mesh || parent instanceof _three2.default.Sprite || parent instanceof _three2.default.Line || parent instanceof _three2.default.Points) {
-        var slot = material.userData._materialSlot;
-
-        if (parent[slot] === material) {
-          // TODO: set material slot to null rather than undefined
-
-          parent[slot] = undefined;
-        }
-      }
-
-      material.dispose();
-
-      _get(MaterialDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(MaterialDescriptorBase.prototype), 'unmount', this).call(this, material);
-    }
-  }, {
-    key: 'highlight',
-    value: function highlight(threeObject) {
-      var ownerMesh = threeObject.userData.markup.parentMarkup.threeObject;
-
-      threeObject.userData.events.emit('highlight', {
-        uuid: threeObject.uuid,
-        boundingBoxFunc: function boundingBoxFunc() {
-          var boundingBox = new _three2.default.Box3();
-
-          if (ownerMesh && ownerMesh.geometry && ownerMesh.geometry.computeBoundingBox) {
-            ownerMesh.geometry.computeBoundingBox();
-          }
-
-          boundingBox.setFromObject(ownerMesh);
-
-          return [boundingBox];
-        }
-      });
-    }
-  }, {
-    key: 'getBoundingBoxes',
-    value: function getBoundingBoxes(threeObject) {
-      var boundingBox = new _three2.default.Box3();
-
-      var ownerMesh = threeObject.userData.markup.parentMarkup.threeObject;
-
-      if (ownerMesh && ownerMesh.geometry && ownerMesh.geometry.computeBoundingBox) {
-        ownerMesh.geometry.computeBoundingBox();
-      }
-
-      boundingBox.setFromObject(ownerMesh);
-
-      return [boundingBox];
-    }
-  }, {
-    key: 'hideHighlight',
-    value: function hideHighlight(threeObject) {
-      threeObject.userData.events.emit('hideHighlight');
-    }
-  }, {
-    key: 'addChildren',
-    value: function addChildren(threeObject, children) {
-      (0, _invariant2.default)(children.filter(this._invalidChild).length === 0, 'Material children can only be textures or texture resource references!');
-    }
-  }, {
-    key: 'addChild',
-    value: function addChild(threeObject, child) {
-      this.addChildren(threeObject, [child]);
-    }
-  }, {
-    key: 'moveChild',
-    value: function moveChild() {
-      // doesn't matter
-    }
-  }, {
-    key: 'removeChild',
-    value: function removeChild() {
-      // doesn't matter since the texture will take care of things on unmount
-    }
-  }, {
-    key: 'invalidChildInternal',
-    value: function invalidChildInternal(child) {
-      var invalid = !(child instanceof _three2.default.Texture || child instanceof _ResourceReference2.default);
-
-      return invalid;
-    }
-  }]);
-
-  return MaterialDescriptorBase;
-}(_THREEElementDescriptor2.default)) || _class;
-
-module.exports = MaterialDescriptorBase;
-}).call(this,require('_process'))
-},{"../../Resources/ResourceReference":238,"../../utils/propTypeInstanceOf":343,"../THREEElementDescriptor":335,"../decorators/resource":337,"_process":203,"fbjs/lib/invariant":347,"react/lib/ReactPropTypes":433,"three":529}],298:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _MaterialDescriptorBase = require('./MaterialDescriptorBase');
-
-var _MaterialDescriptorBase2 = _interopRequireDefault(_MaterialDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MeshBasicMaterialDescriptor = function (_MaterialDescriptorBa) {
-  _inherits(MeshBasicMaterialDescriptor, _MaterialDescriptorBa);
-
-  function MeshBasicMaterialDescriptor(react3RendererInstance) {
-    _classCallCheck(this, MeshBasicMaterialDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (MeshBasicMaterialDescriptor.__proto__ || Object.getPrototypeOf(MeshBasicMaterialDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasColor();
-    _this.hasWireframe();
-    return _this;
-  }
-
-  _createClass(MeshBasicMaterialDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var materialDescription = this.getMaterialDescription(props);
-
-      if (props.hasOwnProperty('map')) {
-        materialDescription.map = props.map;
-      }
-
-      return new _three2.default.MeshBasicMaterial(materialDescription);
-    }
-  }]);
-
-  return MeshBasicMaterialDescriptor;
-}(_MaterialDescriptorBase2.default);
-
-module.exports = MeshBasicMaterialDescriptor;
-},{"./MaterialDescriptorBase":297,"three":529}],299:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _MaterialDescriptorBase = require('./MaterialDescriptorBase');
-
-var _MaterialDescriptorBase2 = _interopRequireDefault(_MaterialDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MeshDepthMaterialDescriptor = function (_MaterialDescriptorBa) {
-  _inherits(MeshDepthMaterialDescriptor, _MaterialDescriptorBa);
-
-  function MeshDepthMaterialDescriptor(react3RendererInstance) {
-    _classCallCheck(this, MeshDepthMaterialDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (MeshDepthMaterialDescriptor.__proto__ || Object.getPrototypeOf(MeshDepthMaterialDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasWireframe();
-    return _this;
-  }
-
-  _createClass(MeshDepthMaterialDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var materialDescription = this.getMaterialDescription(props);
-
-      return new _three2.default.MeshDepthMaterial(materialDescription);
-    }
-  }]);
-
-  return MeshDepthMaterialDescriptor;
-}(_MaterialDescriptorBase2.default);
-
-module.exports = MeshDepthMaterialDescriptor;
-},{"./MaterialDescriptorBase":297,"three":529}],300:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _MaterialDescriptorBase = require('./MaterialDescriptorBase');
-
-var _MaterialDescriptorBase2 = _interopRequireDefault(_MaterialDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MeshLambertMaterialDescriptor = function (_MaterialDescriptorBa) {
-  _inherits(MeshLambertMaterialDescriptor, _MaterialDescriptorBa);
-
-  function MeshLambertMaterialDescriptor(react3RendererInstance) {
-    _classCallCheck(this, MeshLambertMaterialDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (MeshLambertMaterialDescriptor.__proto__ || Object.getPrototypeOf(MeshLambertMaterialDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasColor();
-    _this.hasColor('emissive', 0);
-    _this.hasWireframe();
-    return _this;
-  }
-
-  _createClass(MeshLambertMaterialDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var materialDescription = this.getMaterialDescription(props);
-
-      return new _three2.default.MeshLambertMaterial(materialDescription);
-    }
-  }, {
-    key: 'getMaterialDescription',
-    value: function getMaterialDescription(props) {
-      var materialDescription = _get(MeshLambertMaterialDescriptor.prototype.__proto__ || Object.getPrototypeOf(MeshLambertMaterialDescriptor.prototype), 'getMaterialDescription', this).call(this, props);
-
-      if (props.hasOwnProperty('shininess')) {
-        materialDescription.shininess = props.shininess;
-      }
-
-      if (props.hasOwnProperty('map')) {
-        materialDescription.map = props.map;
-      }
-
-      return materialDescription;
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(MeshLambertMaterialDescriptor.prototype.__proto__ || Object.getPrototypeOf(MeshLambertMaterialDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      if (!props.hasOwnProperty('map')) {
-        threeObject.map = undefined;
-      }
-    }
-  }]);
-
-  return MeshLambertMaterialDescriptor;
-}(_MaterialDescriptorBase2.default);
-
-module.exports = MeshLambertMaterialDescriptor;
-},{"./MaterialDescriptorBase":297,"three":529}],301:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _MaterialDescriptorBase = require('./MaterialDescriptorBase');
-
-var _MaterialDescriptorBase2 = _interopRequireDefault(_MaterialDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MeshNormalMaterialDescriptor = function (_MaterialDescriptorBa) {
-  _inherits(MeshNormalMaterialDescriptor, _MaterialDescriptorBa);
-
-  function MeshNormalMaterialDescriptor(react3RendererInstance) {
-    _classCallCheck(this, MeshNormalMaterialDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (MeshNormalMaterialDescriptor.__proto__ || Object.getPrototypeOf(MeshNormalMaterialDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasWireframe();
-    return _this;
-  }
-
-  _createClass(MeshNormalMaterialDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var materialDescription = this.getMaterialDescription(props);
-
-      return new _three2.default.MeshNormalMaterial(materialDescription);
-    }
-  }]);
-
-  return MeshNormalMaterialDescriptor;
-}(_MaterialDescriptorBase2.default);
-
-module.exports = MeshNormalMaterialDescriptor;
-},{"./MaterialDescriptorBase":297,"three":529}],302:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _MaterialDescriptorBase = require('./MaterialDescriptorBase');
-
-var _MaterialDescriptorBase2 = _interopRequireDefault(_MaterialDescriptorBase);
-
-var _propTypeInstanceOf = require('../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MeshPhongMaterialDescriptor = function (_MaterialDescriptorBa) {
-  _inherits(MeshPhongMaterialDescriptor, _MaterialDescriptorBa);
-
-  function MeshPhongMaterialDescriptor(react3RendererInstance) {
-    _classCallCheck(this, MeshPhongMaterialDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (MeshPhongMaterialDescriptor.__proto__ || Object.getPrototypeOf(MeshPhongMaterialDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasColor();
-    _this.hasColor('specular', 0x111111);
-    _this.hasColor('emissive', 0x000000);
-    _this.hasWireframe();
-
-    _this.hasProp('shininess', {
-      type: _ReactPropTypes2.default.number,
-      simple: true,
-      default: 30
-    });
-
-    _this.hasProp('metal', {
-      type: _ReactPropTypes2.default.bool,
-      update: function update(threeObject, metal) {
-        threeObject.metal = metal;
-        threeObject.needsUpdate = true;
-      },
-      default: false
-    });
-
-    ['lightMapIntensity', 'aoMapIntensity', 'emissiveIntensity', 'bumpScale', 'displacementScale', 'reflectivity'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: function update(threeObject, propValue) {
-          threeObject[propName] = propValue;
-          threeObject.needsUpdate = true;
-        },
-
-        default: 1
-      });
-    });
-
-    ['displacementBias'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: function update(threeObject, propValue) {
-          threeObject[propName] = propValue;
-          threeObject.needsUpdate = true;
-        },
-
-        default: 0
-      });
-    });
-
-    ['refractionRatio'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number,
-        update: function update(threeObject, propValue) {
-          threeObject[propName] = propValue;
-          threeObject.needsUpdate = true;
-        },
-
-        default: 0.98
-      });
-    });
-
-    _this.hasProp('normalScale', {
-      type: (0, _propTypeInstanceOf2.default)(_three2.default.Vector2),
-      update: function update(threeObject, normalScale) {
-        threeObject.normalScale.copy(normalScale);
-        threeObject.needsUpdate = true;
-      },
-
-      default: new _three2.default.Vector2(1, 1)
-    });
-
-    _this.hasProp('shading', {
-      type: _ReactPropTypes2.default.oneOf([_three2.default.FlatShading, _three2.default.SmoothShading]),
-      update: function update(threeObject, shading) {
-        threeObject.shading = shading;
-        threeObject.needsUpdate = true;
-      },
-
-      default: _three2.default.SmoothShading
-    });
-
-    ['skinning', 'morphTargets', 'morphNormals'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.bool,
-        update: function update(threeObject, propValue) {
-          threeObject[propName] = propValue;
-          threeObject.needsUpdate = true;
-        },
-
-        default: false
-      });
-    });
-    return _this;
-  }
-
-  _createClass(MeshPhongMaterialDescriptor, [{
-    key: 'getMaterialDescription',
-    value: function getMaterialDescription(props) {
-      var materialDescription = _get(MeshPhongMaterialDescriptor.prototype.__proto__ || Object.getPrototypeOf(MeshPhongMaterialDescriptor.prototype), 'getMaterialDescription', this).call(this, props);
-
-      ['shininess', 'lightMapIntensity', 'aoMapIntensity', 'emissiveIntensity', 'bumpScale', 'displacementScale', 'reflectivity', 'displacementBias', 'refractionRatio', 'normalScale', 'shading', 'skinning', 'morphTargets', 'morphNormals'].forEach(function (propName) {
-        if (props.hasOwnProperty(propName)) {
-          materialDescription[propName] = props[propName];
-        }
-      });
-
-      return materialDescription;
-    }
-  }, {
-    key: 'construct',
-    value: function construct(props) {
-      var materialDescription = this.getMaterialDescription(props);
-
-      return new _three2.default.MeshPhongMaterial(materialDescription);
-    }
-  }]);
-
-  return MeshPhongMaterialDescriptor;
-}(_MaterialDescriptorBase2.default);
-
-module.exports = MeshPhongMaterialDescriptor;
-},{"../../utils/propTypeInstanceOf":343,"./MaterialDescriptorBase":297,"react/lib/ReactPropTypes":433,"three":529}],303:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _MaterialDescriptorBase = require('./MaterialDescriptorBase');
-
-var _MaterialDescriptorBase2 = _interopRequireDefault(_MaterialDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var PointsMaterialDescriptor = function (_MaterialDescriptorBa) {
-  _inherits(PointsMaterialDescriptor, _MaterialDescriptorBa);
-
-  function PointsMaterialDescriptor(react3RendererInstance) {
-    _classCallCheck(this, PointsMaterialDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (PointsMaterialDescriptor.__proto__ || Object.getPrototypeOf(PointsMaterialDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasColor();
-
-    _this.hasProp('size', {
-      type: _ReactPropTypes2.default.number,
-      simple: true,
-      default: 1
-    });
-
-    _this.hasProp('sizeAttenuation', {
-      type: _ReactPropTypes2.default.bool,
-      update: function update(threeObject, sizeAttenuation, existsInProps) {
-        if (existsInProps) {
-          threeObject.sizeAttenuation = sizeAttenuation;
-        }
-        threeObject.needsUpdate = true;
-      },
-
-      updateInitial: true,
-      default: true
-    });
-
-    _this.hasProp('fog', {
-      type: _ReactPropTypes2.default.bool,
-      update: function update(threeObject, fog, existsInProps) {
-        if (existsInProps) {
-          threeObject.fog = fog;
-        }
-        threeObject.needsUpdate = true;
-      },
-
-      updateInitial: true,
-      default: true
-    });
-
-    _this.hasProp('vertexColors', {
-      type: _ReactPropTypes2.default.oneOf([_three2.default.NoColors, _three2.default.FaceColors, _three2.default.VertexColors]),
-      simple: true,
-      default: _three2.default.NoColors
-    });
-    return _this;
-  }
-
-  _createClass(PointsMaterialDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var materialDescription = this.getMaterialDescription(props);
-
-      return new _three2.default.PointsMaterial(materialDescription);
-    }
-  }]);
-
-  return PointsMaterialDescriptor;
-}(_MaterialDescriptorBase2.default);
-
-module.exports = PointsMaterialDescriptor;
-},{"./MaterialDescriptorBase":297,"react/lib/ReactPropTypes":433,"three":529}],304:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ShaderMaterialDescriptor = require('./ShaderMaterialDescriptor');
-
-var _ShaderMaterialDescriptor2 = _interopRequireDefault(_ShaderMaterialDescriptor);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var RawShaderMaterialDescriptor = function (_ShaderMaterialDescri) {
-  _inherits(RawShaderMaterialDescriptor, _ShaderMaterialDescri);
-
-  function RawShaderMaterialDescriptor(react3RendererInstance) {
-    _classCallCheck(this, RawShaderMaterialDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (RawShaderMaterialDescriptor.__proto__ || Object.getPrototypeOf(RawShaderMaterialDescriptor)).call(this, react3RendererInstance));
-
-    ['alphaTest'].forEach(function (propName) {
-      _this.removeProp(propName);
-    });
-    return _this;
-  }
-
-  _createClass(RawShaderMaterialDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var materialDescription = this.getMaterialDescription(props);
-
-      return new _three2.default.RawShaderMaterial(materialDescription);
-    }
-  }]);
-
-  return RawShaderMaterialDescriptor;
-}(_ShaderMaterialDescriptor2.default);
-
-module.exports = RawShaderMaterialDescriptor;
-},{"./ShaderMaterialDescriptor":305,"three":529}],305:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _MaterialDescriptorBase = require('./MaterialDescriptorBase');
-
-var _MaterialDescriptorBase2 = _interopRequireDefault(_MaterialDescriptorBase);
-
-var _UniformContainer = require('../../UniformContainer');
-
-var _UniformContainer2 = _interopRequireDefault(_UniformContainer);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ShaderMaterialDescriptor = function (_MaterialDescriptorBa) {
-  _inherits(ShaderMaterialDescriptor, _MaterialDescriptorBa);
-
-  function ShaderMaterialDescriptor(react3RendererInstance) {
-    _classCallCheck(this, ShaderMaterialDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (ShaderMaterialDescriptor.__proto__ || Object.getPrototypeOf(ShaderMaterialDescriptor)).call(this, react3RendererInstance));
-
-    ['vertexShader', 'fragmentShader'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.string.isRequired,
-        update: _this.triggerRemount
-      });
-    });
-
-    _this.hasProp('uniforms', {
-      type: _ReactPropTypes2.default.any,
-      simple: true,
-      default: undefined
-    });
-
-    _this.hasWireframe();
-    return _this;
-  }
-
-  _createClass(ShaderMaterialDescriptor, [{
-    key: 'getMaterialDescription',
-    value: function getMaterialDescription(props) {
-      var materialDescription = _get(ShaderMaterialDescriptor.prototype.__proto__ || Object.getPrototypeOf(ShaderMaterialDescriptor.prototype), 'getMaterialDescription', this).call(this, props);
-
-      if (props.hasOwnProperty('uniforms')) {
-        materialDescription.uniforms = props.uniforms;
-      }
-
-      if (props.hasOwnProperty('vertexShader')) {
-        materialDescription.vertexShader = props.vertexShader;
-      }
-
-      if (props.hasOwnProperty('fragmentShader')) {
-        materialDescription.fragmentShader = props.fragmentShader;
-      }
-
-      return materialDescription;
-    }
-  }, {
-    key: 'construct',
-    value: function construct(props) {
-      var materialDescription = this.getMaterialDescription(props);
-
-      return new _three2.default.ShaderMaterial(materialDescription);
-    }
-  }, {
-    key: 'invalidChildInternal',
-    value: function invalidChildInternal(child) {
-      var invalid = !(child instanceof _UniformContainer2.default || _get(ShaderMaterialDescriptor.prototype.__proto__ || Object.getPrototypeOf(ShaderMaterialDescriptor.prototype), 'invalidChildInternal', this).call(this, child));
-
-      return invalid;
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(ShaderMaterialDescriptor.prototype.__proto__ || Object.getPrototypeOf(ShaderMaterialDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      if (!props.hasOwnProperty('uniforms')) {
-        threeObject.uniforms = undefined;
-      }
-    }
-  }]);
-
-  return ShaderMaterialDescriptor;
-}(_MaterialDescriptorBase2.default);
-
-module.exports = ShaderMaterialDescriptor;
-},{"../../UniformContainer":250,"./MaterialDescriptorBase":297,"react/lib/ReactPropTypes":433,"three":529}],306:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _MaterialDescriptorBase = require('./MaterialDescriptorBase');
-
-var _MaterialDescriptorBase2 = _interopRequireDefault(_MaterialDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SpriteMaterialDescriptor = function (_MaterialDescriptorBa) {
-  _inherits(SpriteMaterialDescriptor, _MaterialDescriptorBa);
-
-  function SpriteMaterialDescriptor(react3RendererInstance) {
-    _classCallCheck(this, SpriteMaterialDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (SpriteMaterialDescriptor.__proto__ || Object.getPrototypeOf(SpriteMaterialDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasColor();
-
-    _this.hasProp('rotation', {
-      type: _ReactPropTypes2.default.number,
-      simple: true,
-      default: 0
-    });
-
-    _this.hasProp('fog', {
-      type: _ReactPropTypes2.default.bool,
-      update: function update(threeObject, fog, existsInProps) {
-        if (existsInProps) {
-          threeObject.fog = fog;
-        }
-        threeObject.needsUpdate = true;
-      },
-
-      updateInitial: true,
-      default: false
-    });
-    return _this;
-  }
-
-  _createClass(SpriteMaterialDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var materialDescription = this.getMaterialDescription(props);
-
-      return new _three2.default.SpriteMaterial(materialDescription);
-    }
-  }]);
-
-  return SpriteMaterialDescriptor;
-}(_MaterialDescriptorBase2.default);
-
-module.exports = SpriteMaterialDescriptor;
-},{"./MaterialDescriptorBase":297,"react/lib/ReactPropTypes":433,"three":529}],307:[function(require,module,exports){
-'use strict';
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _class;
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _resource = require('../decorators/resource');
-
-var _resource2 = _interopRequireDefault(_resource);
-
-var _THREEElementDescriptor = require('../THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-var _Uniform = require('../../Uniform');
-
-var _Uniform2 = _interopRequireDefault(_Uniform);
-
-var _React3Renderer = require('../../React3Renderer');
-
-var _React3Renderer2 = _interopRequireDefault(_React3Renderer);
-
-var _propTypeInstanceOf = require('../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var TextureDescriptor = (0, _resource2.default)(_class = function (_THREEElementDescript) {
-  _inherits(TextureDescriptor, _THREEElementDescript);
-
-  function TextureDescriptor(react3RendererInstance) {
-    _classCallCheck(this, TextureDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (TextureDescriptor.__proto__ || Object.getPrototypeOf(TextureDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasProp('repeat', {
-      type: (0, _propTypeInstanceOf2.default)(_three2.default.Vector2),
-      updateInitial: true,
-      update: function update(threeObject, repeat) {
-        if (repeat) {
-          threeObject.repeat.copy(repeat);
-        } else {
-          threeObject.repeat.set(1, 1);
-        }
-      },
-
-      default: new _three2.default.Vector2(1, 1)
-    });
-
-    _this.hasProp('offset', {
-      type: (0, _propTypeInstanceOf2.default)(_three2.default.Vector2),
-      updateInitial: true,
-      update: function update(threeObject, offset) {
-        if (offset) {
-          threeObject.offset.copy(offset);
-        } else {
-          threeObject.offset.set(0, 0);
-        }
-      },
-
-      default: new _three2.default.Vector2(0, 0)
-    });
-
-    ['wrapS', 'wrapT'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.oneOf([_three2.default.RepeatWrapping, _three2.default.ClampToEdgeWrapping, _three2.default.MirroredRepeatWrapping]),
-        updateInitial: true,
-        update: function update(threeObject, value) {
-          threeObject[propName] = value;
-          if (threeObject.image) {
-            threeObject.needsUpdate = true;
-          }
-        },
-
-        default: _three2.default.ClampToEdgeWrapping
-      });
-    });
-
-    _this.hasProp('anisotropy', {
-      type: _ReactPropTypes2.default.number,
-      updateInitial: true,
-      update: function update(threeObject, value) {
-        threeObject.anisotropy = value;
-        if (threeObject.image) {
-          threeObject.needsUpdate = true;
-        }
-      },
-
-      default: 1
-    });
-
-    _this.hasProp('url', {
-      type: _ReactPropTypes2.default.string.isRequired,
-      update: _this.triggerRemount,
-      default: ''
-    });
-
-    _this.hasProp('crossOrigin', {
-      type: _ReactPropTypes2.default.string,
-      update: _this.triggerRemount,
-      default: undefined
-    });
-
-    ['onLoad', 'onProgress', 'onError'].forEach(function (eventName) {
-      _this.hasProp(eventName, {
-        type: _ReactPropTypes2.default.func,
-        update: function update() {
-          // do nothing because these props are only used for initial loading callbacks
-        },
-
-        default: undefined
-      });
-    });
-
-    _this.hasProp('magFilter', {
-      type: _ReactPropTypes2.default.oneOf([_three2.default.LinearFilter, _three2.default.NearestFilter]),
-      update: function update(texture, magFilter) {
-        texture.magFilter = magFilter;
-        if (texture.image) {
-          texture.needsUpdate = true;
-        }
-      },
-
-      default: _three2.default.LinearFilter
-    });
-
-    _this.hasProp('minFilter', {
-      type: _ReactPropTypes2.default.oneOf([_three2.default.LinearMipMapLinearFilter, _three2.default.NearestFilter, _three2.default.NearestMipMapNearestFilter, _three2.default.NearestMipMapLinearFilter, _three2.default.LinearFilter, _three2.default.LinearMipMapNearestFilter]),
-      update: function update(texture, magFilter) {
-        texture.magFilter = magFilter;
-        if (texture.image) {
-          texture.needsUpdate = true;
-        }
-      },
-
-      default: _three2.default.LinearMipMapLinearFilter
-    });
-    return _this;
-  }
-
-  _createClass(TextureDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var result = void 0;
-
-      if (props.hasOwnProperty('url')) {
-        var textureLoader = new _three2.default.TextureLoader();
-
-        if (props.hasOwnProperty('crossOrigin')) {
-          textureLoader.crossOrigin = props.crossOrigin;
-        }
-
-        var onLoad = void 0;
-        var onProgress = void 0;
-        var onError = void 0;
-
-        if (props.hasOwnProperty('onLoad')) {
-          onLoad = props.onLoad;
-        }
-
-        if (props.hasOwnProperty('onProgress')) {
-          onProgress = props.onProgress;
-        }
-
-        if (props.hasOwnProperty('onError')) {
-          onError = props.onError;
-        }
-
-        result = textureLoader.load(props.url, onLoad, onProgress, onError);
-      } else {
-        (0, _invariant2.default)(false, 'The texture needs a url property.');
-      }
-
-      return result;
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(texture, parentObject3D) {
-      (0, _invariant2.default)(parentObject3D instanceof _three2.default.Material || parentObject3D instanceof _Uniform2.default, 'Parent is not a material or a uniform');
-
-      if (parentObject3D instanceof _three2.default.Material) {
-        (0, _invariant2.default)(parentObject3D.map === null || parentObject3D.map === undefined, 'Parent already has a texture');
-        parentObject3D.map = texture;
-        // dispose to force a recreate
-        parentObject3D.needsUpdate = true;
-      } else {
-        // Uniform as per the assert above
-        parentObject3D.setValue(texture);
-      }
-
-      _get(TextureDescriptor.prototype.__proto__ || Object.getPrototypeOf(TextureDescriptor.prototype), 'setParent', this).call(this, texture, parentObject3D);
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      threeObject.userData = _extends({}, threeObject.userData);
-
-      _get(TextureDescriptor.prototype.__proto__ || Object.getPrototypeOf(TextureDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(texture) {
-      var parent = texture.userData.markup.parentMarkup.threeObject;
-
-      // could either be a resource description or an actual texture
-      if (parent instanceof _three2.default.Material) {
-        if (parent.map === texture) {
-          parent.map = null;
-          // dispose to force a recreate
-          parent.needsUpdate = true;
-        }
-      } else if (parent instanceof _Uniform2.default) {
-        if (parent.value === texture) {
-          parent.setValue(null);
-        }
-      }
-
-      texture.dispose();
-
-      _get(TextureDescriptor.prototype.__proto__ || Object.getPrototypeOf(TextureDescriptor.prototype), 'unmount', this).call(this, texture);
-    }
-  }, {
-    key: 'highlight',
-    value: function highlight(threeObject) {
-      var parent = threeObject.userData.markup.parentMarkup.threeObject;
-      parent.userData._descriptor.highlight(parent);
-    }
-  }, {
-    key: 'hideHighlight',
-    value: function hideHighlight(threeObject) {
-      var parent = threeObject.userData.markup.parentMarkup.threeObject;
-      parent.userData._descriptor.hideHighlight(parent);
-    }
-  }]);
-
-  return TextureDescriptor;
-}(_THREEElementDescriptor2.default)) || _class;
-
-module.exports = TextureDescriptor;
-},{"../../React3Renderer":236,"../../Uniform":249,"../../utils/propTypeInstanceOf":343,"../THREEElementDescriptor":335,"../decorators/resource":337,"fbjs/lib/invariant":347,"react/lib/ReactPropTypes":433,"three":529}],308:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _Uniform = require('../../Uniform');
-
-var _Uniform2 = _interopRequireDefault(_Uniform);
-
-var _UniformContainer = require('../../UniformContainer');
-
-var _UniformContainer2 = _interopRequireDefault(_UniformContainer);
-
-var _ResourceReference = require('../../Resources/ResourceReference');
-
-var _ResourceReference2 = _interopRequireDefault(_ResourceReference);
-
-var _THREEElementDescriptor = require('../THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var UniformDescriptor = function (_THREEElementDescript) {
-  _inherits(UniformDescriptor, _THREEElementDescript);
-
-  function UniformDescriptor(react3Instance) {
-    _classCallCheck(this, UniformDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (UniformDescriptor.__proto__ || Object.getPrototypeOf(UniformDescriptor)).call(this, react3Instance));
-
-    _this._invalidChild = function (child) {
-      return _this.invalidChildInternal(child);
-    };
-
-    _this.hasProp('type', {
-      type: _ReactPropTypes2.default.string.isRequired,
-      simple: true
-    });
-
-    _this.hasProp('value', {
-      type: _ReactPropTypes2.default.any,
-      update: function update(threeObject, value) {
-        threeObject.setValue(value);
-      },
-
-      default: null
-    });
-
-    _this.hasProp('name', {
-      type: _ReactPropTypes2.default.string.isRequired,
-      update: _this.triggerRemount
-    });
-    return _this;
-  }
-
-  _createClass(UniformDescriptor, [{
-    key: 'construct',
-    value: function construct() {
-      return new _Uniform2.default();
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(UniformDescriptor.prototype.__proto__ || Object.getPrototypeOf(UniformDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      (0, _invariant2.default)(props.hasOwnProperty('name'), 'The <uniform/> should have a \'name\' property');
-      threeObject.name = props.name;
-      threeObject.value = props.value;
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(threeObject, parentObject3D) {
-      (0, _invariant2.default)(parentObject3D instanceof _UniformContainer2.default, 'Parent is not a Uniform Container (<uniforms/>)');
-
-      var name = threeObject.name;
-
-      (0, _invariant2.default)(parentObject3D[name] === undefined, 'Parent already has uniforms');
-
-      _get(UniformDescriptor.prototype.__proto__ || Object.getPrototypeOf(UniformDescriptor.prototype), 'setParent', this).call(this, threeObject, parentObject3D);
-
-      parentObject3D.uniforms[name] = {
-        type: threeObject.type,
-        value: threeObject.value
-      };
-
-      threeObject.userData._onValueChanged = function (newValue) {
-        parentObject3D.uniforms[name].value = newValue;
-      };
-
-      threeObject.userData.events.on('valueChanged', threeObject.userData._onValueChanged);
-    }
-  }, {
-    key: 'addChildren',
-    value: function addChildren(threeObject, children) {
-      (0, _invariant2.default)(children.filter(this._invalidChild).length === 0, 'Uniform children can only be textures or resource references');
-    }
-  }, {
-    key: 'addChild',
-    value: function addChild(threeObject, child) {
-      this.addChildren(threeObject, [child]);
-    }
-  }, {
-    key: 'removeChild',
-    value: function removeChild() {
-      // do nothing
-    }
-  }, {
-    key: 'invalidChildInternal',
-    value: function invalidChildInternal(child) {
-      var invalid = !(child instanceof _three2.default.Texture || child instanceof _ResourceReference2.default);
-
-      return invalid;
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(threeObject) {
-      threeObject.userData.events.removeListener('valueChanged', threeObject.userData._onValueChanged);
-
-      delete threeObject.userData._onValueChanged;
-
-      _get(UniformDescriptor.prototype.__proto__ || Object.getPrototypeOf(UniformDescriptor.prototype), 'unmount', this).call(this, threeObject);
-    }
-  }, {
-    key: 'highlight',
-    value: function highlight(threeObject) {
-      var parent = threeObject.userData.markup.parentMarkup.threeObject;
-      parent.userData._descriptor.highlight(parent);
-    }
-  }, {
-    key: 'getBoundingBoxes',
-    value: function getBoundingBoxes(threeObject) {
-      var parent = threeObject.userData.markup.parentMarkup.threeObject;
-      return parent.userData._descriptor.getBoundingBoxes(parent);
-    }
-  }, {
-    key: 'hideHighlight',
-    value: function hideHighlight(threeObject) {
-      var parent = threeObject.userData.markup.parentMarkup.threeObject;
-      parent.userData._descriptor.hideHighlight(parent);
-    }
-  }]);
-
-  return UniformDescriptor;
-}(_THREEElementDescriptor2.default);
-
-module.exports = UniformDescriptor;
-},{"../../Resources/ResourceReference":238,"../../Uniform":249,"../../UniformContainer":250,"../THREEElementDescriptor":335,"fbjs/lib/invariant":347,"react/lib/ReactPropTypes":433,"three":529}],309:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _THREEElementDescriptor = require('../THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-var _UniformContainer = require('../../UniformContainer');
-
-var _UniformContainer2 = _interopRequireDefault(_UniformContainer);
-
-var _Uniform = require('../../Uniform');
-
-var _Uniform2 = _interopRequireDefault(_Uniform);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var UniformsDescriptor = function (_THREEElementDescript) {
-  _inherits(UniformsDescriptor, _THREEElementDescript);
-
-  function UniformsDescriptor() {
-    _classCallCheck(this, UniformsDescriptor);
-
-    return _possibleConstructorReturn(this, (UniformsDescriptor.__proto__ || Object.getPrototypeOf(UniformsDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(UniformsDescriptor, [{
-    key: 'construct',
-    value: function construct() {
-      return new _UniformContainer2.default();
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(threeObject, parentObject3D) {
-      (0, _invariant2.default)(parentObject3D instanceof _three2.default.ShaderMaterial, 'Parent of <uniforms/> is not a shader material');
-      (0, _invariant2.default)(parentObject3D.uniforms === undefined, 'Parent already has uniforms');
-
-      _get(UniformsDescriptor.prototype.__proto__ || Object.getPrototypeOf(UniformsDescriptor.prototype), 'setParent', this).call(this, threeObject, parentObject3D);
-
-      parentObject3D.uniforms = threeObject.uniforms;
-    }
-  }, {
-    key: 'addChildren',
-    value: function addChildren(threeObject, children) {
-      children.forEach(function (child) {
-        (0, _invariant2.default)(child instanceof _Uniform2.default, 'The <uniforms/> component can only have <uniform/> elements as children.');
-      });
-    }
-  }, {
-    key: 'highlight',
-    value: function highlight(threeObject) {
-      var parent = threeObject.userData.markup.parentMarkup.threeObject;
-      parent.userData._descriptor.highlight(parent);
-    }
-  }, {
-    key: 'getBoundingBoxes',
-    value: function getBoundingBoxes(threeObject) {
-      var parent = threeObject.userData.markup.parentMarkup.threeObject;
-      return parent.userData._descriptor.getBoundingBoxes(parent);
-    }
-  }, {
-    key: 'hideHighlight',
-    value: function hideHighlight(threeObject) {
-      var parent = threeObject.userData.markup.parentMarkup.threeObject;
-      parent.userData._descriptor.hideHighlight(parent);
-    }
-  }]);
-
-  return UniformsDescriptor;
-}(_THREEElementDescriptor2.default);
-
-module.exports = UniformsDescriptor;
-},{"../../Uniform":249,"../../UniformContainer":250,"../THREEElementDescriptor":335,"fbjs/lib/invariant":347,"three":529}],310:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _ReactPropTypeLocationNames = require('react/lib/ReactPropTypeLocationNames');
-
-var _ReactPropTypeLocationNames2 = _interopRequireDefault(_ReactPropTypeLocationNames);
-
-var _THREEElementDescriptor = require('./THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-var _Module = require('../Module');
-
-var _Module2 = _interopRequireDefault(_Module);
-
-var _PropTypeError = require('../utils/PropTypeError');
-
-var _PropTypeError2 = _interopRequireDefault(_PropTypeError);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-// Returns class name of the object, if any.
-// Used for the subclass proptype checker
-function getClassName(propValue) {
-  if (!propValue.constructor || !propValue.constructor.name) {
-    return '<<anonymous>>';
-  }
-  return propValue.constructor.name;
-}
-
-var ModuleDescriptor = function (_THREEElementDescript) {
-  _inherits(ModuleDescriptor, _THREEElementDescript);
-
-  function ModuleDescriptor(react3RendererInstance) {
-    _classCallCheck(this, ModuleDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (ModuleDescriptor.__proto__ || Object.getPrototypeOf(ModuleDescriptor)).call(this, react3RendererInstance));
-
-    var moduleSubclassValidator = function moduleSubclassValidator(props, propName, componentName, location, propFullName) {
-      var locationName = _ReactPropTypeLocationNames2.default[location];
-
-      if (!props[propName]) {
-        return new _PropTypeError2.default('Required ' + locationName + ' `' + propFullName + '` ' + ('was not specified in `' + componentName + '`.'));
-      }
-
-      if (!(props[propName].prototype instanceof _Module2.default)) {
-        var actualClassName = getClassName(props[propName]);
-
-        return new _PropTypeError2.default('Invalid ' + locationName + ' `' + propFullName + '` ' + ('of type `' + actualClassName + '` supplied to `' + componentName + '`, ') + 'expected subclass of `Module`.');
-      }
-
-      // success returns undefined
-      return undefined;
-    };
-
-    moduleSubclassValidator.toString = function () {
-      return '```' + ' subclass of ReactThreeRenderer.Module ' + '```' + ' *' + '```' + ' required ' + '```' + '*';
-    };
-
-    _this.hasProp('descriptor', {
-      type: moduleSubclassValidator,
-      update: _this.triggerRemount,
-      default: undefined
-    });
-    return _this;
-  }
-
-  _createClass(ModuleDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      // going insane here but... let's... just do this.
-      var ModuleClass = props.descriptor;
-      return new ModuleClass();
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(ModuleDescriptor.prototype.__proto__ || Object.getPrototypeOf(ModuleDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      threeObject.setup(this.react3RendererInstance);
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(threeObject) {
-      threeObject.dispose();
-
-      _get(ModuleDescriptor.prototype.__proto__ || Object.getPrototypeOf(ModuleDescriptor.prototype), 'unmount', this).call(this, threeObject);
-    }
-  }]);
-
-  return ModuleDescriptor;
-}(_THREEElementDescriptor2.default);
-
-module.exports = ModuleDescriptor;
-},{"../Module":229,"../utils/PropTypeError":340,"./THREEElementDescriptor":335,"react/lib/ReactPropTypeLocationNames":431}],311:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _Object3DDescriptor2 = require('../Object3DDescriptor');
-
-var _Object3DDescriptor3 = _interopRequireDefault(_Object3DDescriptor2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var CameraDescriptorBase = function (_Object3DDescriptor) {
-  _inherits(CameraDescriptorBase, _Object3DDescriptor);
-
-  function CameraDescriptorBase() {
-    _classCallCheck(this, CameraDescriptorBase);
-
-    return _possibleConstructorReturn(this, (CameraDescriptorBase.__proto__ || Object.getPrototypeOf(CameraDescriptorBase)).apply(this, arguments));
-  }
-
-  _createClass(CameraDescriptorBase, [{
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(CameraDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(CameraDescriptorBase.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(camera, parentObject3D) {
-      _get(CameraDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(CameraDescriptorBase.prototype), 'setParent', this).call(this, camera, parentObject3D);
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(threeObject) {
-      _get(CameraDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(CameraDescriptorBase.prototype), 'unmount', this).call(this, threeObject);
-    }
-  }, {
-    key: 'beginPropertyUpdates',
-    value: function beginPropertyUpdates(threeObject) {
-      _get(CameraDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(CameraDescriptorBase.prototype), 'beginPropertyUpdates', this).call(this, threeObject);
-
-      threeObject.userData._needsProjectionMatrixUpdate = false;
-    }
-
-    /**
-     * @param {THREE.PerspectiveCamera | THREE.OrthographicCamera} threeObject
-     */
-
-  }, {
-    key: 'completePropertyUpdates',
-    value: function completePropertyUpdates(threeObject) {
-      _get(CameraDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(CameraDescriptorBase.prototype), 'completePropertyUpdates', this).call(this, threeObject);
-
-      if (threeObject.userData._needsProjectionMatrixUpdate) {
-        threeObject.userData._needsProjectionMatrixUpdate = false;
-
-        threeObject.updateProjectionMatrix();
-        threeObject.userData.events.emit('updateProjectionMatrix');
-      }
-    }
-  }]);
-
-  return CameraDescriptorBase;
-}(_Object3DDescriptor3.default);
-
-module.exports = CameraDescriptorBase;
-},{"../Object3DDescriptor":323,"three":529}],312:[function(require,module,exports){
-'use strict';
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _Object3DDescriptor2 = require('../Object3DDescriptor');
-
-var _Object3DDescriptor3 = _interopRequireDefault(_Object3DDescriptor2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var CubeCameraDescriptor = function (_Object3DDescriptor) {
-  _inherits(CubeCameraDescriptor, _Object3DDescriptor);
-
-  function CubeCameraDescriptor(react3Instance) {
-    _classCallCheck(this, CubeCameraDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (CubeCameraDescriptor.__proto__ || Object.getPrototypeOf(CubeCameraDescriptor)).call(this, react3Instance));
-
-    _this.propTypes = _extends({}, _this.propTypes, {
-
-      near: _ReactPropTypes2.default.number,
-      far: _ReactPropTypes2.default.number,
-      cubeResolution: _ReactPropTypes2.default.number.isRequired
-    });
-    return _this;
-  }
-
-  _createClass(CubeCameraDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      return new _three2.default.CubeCamera(props.near, props.far, props.cubeResolution);
-    }
-  }]);
-
-  return CubeCameraDescriptor;
-}(_Object3DDescriptor3.default);
-
-module.exports = CubeCameraDescriptor;
-},{"../Object3DDescriptor":323,"react/lib/ReactPropTypes":433,"three":529}],313:[function(require,module,exports){
-'use strict';
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _CameraDescriptorBase2 = require('./CameraDescriptorBase');
-
-var _CameraDescriptorBase3 = _interopRequireDefault(_CameraDescriptorBase2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var OrthographicCameraDescriptor = function (_CameraDescriptorBase) {
-  _inherits(OrthographicCameraDescriptor, _CameraDescriptorBase);
-
-  function OrthographicCameraDescriptor(react3Instance) {
-    _classCallCheck(this, OrthographicCameraDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (OrthographicCameraDescriptor.__proto__ || Object.getPrototypeOf(OrthographicCameraDescriptor)).call(this, react3Instance));
-
-    _this.propTypes = _extends({}, _this.propTypes, {
-
-      left: _ReactPropTypes2.default.number.isRequired,
-      right: _ReactPropTypes2.default.number.isRequired,
-      top: _ReactPropTypes2.default.number.isRequired,
-      bottom: _ReactPropTypes2.default.number.isRequired,
-      near: _ReactPropTypes2.default.number,
-      far: _ReactPropTypes2.default.number
-    });
-
-    _this.propUpdates = _extends({}, _this.propUpdates, {
-
-      left: _this._updateAndRefreshProjection.bind(_this, 'left'),
-      right: _this._updateAndRefreshProjection.bind(_this, 'right'),
-      top: _this._updateAndRefreshProjection.bind(_this, 'top'),
-      bottom: _this._updateAndRefreshProjection.bind(_this, 'bottom'),
-      fov: _this._updateFov,
-      far: _this._updateFar
-    });
-    return _this;
-  }
-
-  _createClass(OrthographicCameraDescriptor, [{
-    key: '_updateFov',
-    value: function _updateFov(threeObject, fov) {
-      threeObject.fov = fov;
-
-      threeObject.userData._needsProjectionMatrixUpdate = true;
-    }
-  }, {
-    key: '_updateFar',
-    value: function _updateFar(threeObject, far) {
-      threeObject.far = far;
-
-      threeObject.userData._needsProjectionMatrixUpdate = true;
-    }
-  }, {
-    key: 'construct',
-    value: function construct(props) {
-      return new _three2.default.OrthographicCamera(props.left, props.right, props.top, props.bottom, props.near, props.far);
-    }
-  }, {
-    key: '_updateAndRefreshProjection',
-    value: function _updateAndRefreshProjection(propName, camera, value) {
-      camera[propName] = value;
-
-      camera.userData._needsProjectionMatrixUpdate = true;
-    }
-  }]);
-
-  return OrthographicCameraDescriptor;
-}(_CameraDescriptorBase3.default);
-
-module.exports = OrthographicCameraDescriptor;
-},{"./CameraDescriptorBase":311,"react/lib/ReactPropTypes":433,"three":529}],314:[function(require,module,exports){
-'use strict';
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _CameraDescriptorBase2 = require('./CameraDescriptorBase');
-
-var _CameraDescriptorBase3 = _interopRequireDefault(_CameraDescriptorBase2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var PerspectiveCameraDescriptor = function (_CameraDescriptorBase) {
-  _inherits(PerspectiveCameraDescriptor, _CameraDescriptorBase);
-
-  function PerspectiveCameraDescriptor(react3Instance) {
-    _classCallCheck(this, PerspectiveCameraDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (PerspectiveCameraDescriptor.__proto__ || Object.getPrototypeOf(PerspectiveCameraDescriptor)).call(this, react3Instance));
-
-    _this.propTypes = _extends({}, _this.propTypes, {
-
-      fov: _ReactPropTypes2.default.number,
-      aspect: _ReactPropTypes2.default.number,
-      near: _ReactPropTypes2.default.number,
-      far: _ReactPropTypes2.default.number
-    });
-
-    _this.propUpdates = _extends({}, _this.propUpdates, {
-      aspect: _this._updateAspect,
-      fov: _this._updateFov,
-      far: _this._updateFar,
-      near: _this._updateNear
-    });
-    return _this;
-  }
-
-  _createClass(PerspectiveCameraDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      return new _three2.default.PerspectiveCamera(props.fov, props.aspect, props.near, props.far);
-    }
-  }, {
-    key: '_updateFov',
-    value: function _updateFov(threeObject, fov) {
-      threeObject.fov = fov;
-
-      threeObject.userData._needsProjectionMatrixUpdate = true;
-    }
-  }, {
-    key: '_updateNear',
-    value: function _updateNear(threeObject, near) {
-      threeObject.near = near;
-
-      threeObject.userData._needsProjectionMatrixUpdate = true;
-    }
-  }, {
-    key: '_updateFar',
-    value: function _updateFar(threeObject, far) {
-      threeObject.far = far;
-
-      threeObject.userData._needsProjectionMatrixUpdate = true;
-    }
-
-    /**
-     * @param {THREE.PerspectiveCamera} threeObject
-     * @param newAspect
-     * @private
-     */
-
-  }, {
-    key: '_updateAspect',
-    value: function _updateAspect(threeObject, newAspect) {
-      threeObject.aspect = newAspect;
-
-      threeObject.userData._needsProjectionMatrixUpdate = true;
-    }
-  }]);
-
-  return PerspectiveCameraDescriptor;
-}(_CameraDescriptorBase3.default);
-
-module.exports = PerspectiveCameraDescriptor;
-},{"./CameraDescriptorBase":311,"react/lib/ReactPropTypes":433,"three":529}],315:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _Object3DDescriptor2 = require('./Object3DDescriptor');
-
-var _Object3DDescriptor3 = _interopRequireDefault(_Object3DDescriptor2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var GroupDescriptor = function (_Object3DDescriptor) {
-  _inherits(GroupDescriptor, _Object3DDescriptor);
-
-  function GroupDescriptor() {
-    _classCallCheck(this, GroupDescriptor);
-
-    return _possibleConstructorReturn(this, (GroupDescriptor.__proto__ || Object.getPrototypeOf(GroupDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(GroupDescriptor, [{
-    key: 'construct',
-    value: function construct() {
-      return new _three2.default.Group();
-    }
-  }]);
-
-  return GroupDescriptor;
-}(_Object3DDescriptor3.default);
-
-module.exports = GroupDescriptor;
-},{"./Object3DDescriptor":323,"three":529}],316:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _Object3DDescriptor2 = require('../Object3DDescriptor');
-
-var _Object3DDescriptor3 = _interopRequireDefault(_Object3DDescriptor2);
-
-var _propTypeInstanceOf = require('../../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ArrowHelperDescriptor = function (_Object3DDescriptor) {
-  _inherits(ArrowHelperDescriptor, _Object3DDescriptor);
-
-  function ArrowHelperDescriptor(react3Instance) {
-    _classCallCheck(this, ArrowHelperDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (ArrowHelperDescriptor.__proto__ || Object.getPrototypeOf(ArrowHelperDescriptor)).call(this, react3Instance));
-
-    _this.hasProp('origin', {
-      type: (0, _propTypeInstanceOf2.default)(_three2.default.Vector3).isRequired,
-      update: function update(threeObject, origin) {
-        threeObject.position.copy(origin);
-      },
-
-      default: undefined
-    });
-
-    _this.hasProp('dir', {
-      type: (0, _propTypeInstanceOf2.default)(_three2.default.Vector3).isRequired,
-      update: function update(threeObject, newDir) {
-        threeObject.setDirection(newDir);
-      },
-
-      default: undefined
-    });
-
-    _this.hasProp('color', {
-      type: _ReactPropTypes2.default.oneOfType([(0, _propTypeInstanceOf2.default)(_three2.default.Color), _ReactPropTypes2.default.number, _ReactPropTypes2.default.string]),
-      update: function update(threeObject, newColor) {
-        threeObject.setColor(newColor);
-      },
-
-      default: 0xffff00
-    });
-
-    _this.hasProp('length', {
-      type: _ReactPropTypes2.default.number,
-      update: function update(threeObject, length) {
-        threeObject.userData.lengthProps.length = length;
-
-        threeObject.userData.lengthsChanged = true;
-      },
-
-      default: 1
-    });
-
-    _this.hasProp('headLength', {
-      type: _ReactPropTypes2.default.number,
-      update: function update(threeObject, headLength) {
-        threeObject.userData.lengthProps.headLength = headLength;
-
-        threeObject.userData.lengthsChanged = true;
-      },
-      default: undefined
-    });
-
-    _this.hasProp('headWidth', {
-      type: _ReactPropTypes2.default.number,
-      update: function update(threeObject, headWidth) {
-        threeObject.userData.lengthProps.headWidth = headWidth;
-
-        threeObject.userData.lengthsChanged = true;
-      },
-      default: undefined
-    });
-    return _this;
-  }
-
-  _createClass(ArrowHelperDescriptor, [{
-    key: 'beginPropertyUpdates',
-    value: function beginPropertyUpdates(threeObject) {
-      threeObject.userData.lengthsChanged = false;
-    }
-  }, {
-    key: 'completePropertyUpdates',
-    value: function completePropertyUpdates(threeObject) {
-      if (threeObject.userData.lengthsChanged) {
-        threeObject.userData.lengthsChanged = false;
-
-        var length = threeObject.userData.lengthProps.length;
-        var _threeObject$userData = threeObject.userData.lengthProps,
-            headLength = _threeObject$userData.headLength,
-            headWidth = _threeObject$userData.headWidth;
-
-
-        if (headLength === undefined) {
-          headLength = 0.2 * length;
-        }
-
-        if (headWidth === undefined) {
-          headWidth = 0.2 * headLength;
-        }
-
-        threeObject.setLength(length, headLength, headWidth);
-      }
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(ArrowHelperDescriptor.prototype.__proto__ || Object.getPrototypeOf(ArrowHelperDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      var length = props.length,
-          headLength = props.headLength,
-          headWidth = props.headWidth;
-
-
-      threeObject.userData.lengthProps = {
-        length: length,
-        headLength: headLength,
-        headWidth: headWidth
-      };
-    }
-  }, {
-    key: 'construct',
-    value: function construct(props) {
-      var dir = props.dir,
-          origin = props.origin,
-          length = props.length,
-          color = props.color,
-          headLength = props.headLength,
-          headWidth = props.headWidth;
-
-
-      return new _three2.default.ArrowHelper(dir, origin, length, color, headLength, headWidth);
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(threeObject) {
-      if (threeObject.line) {
-        threeObject.line.geometry.dispose();
-        threeObject.line.material.dispose();
-      }
-
-      if (threeObject.cone) {
-        threeObject.cone.geometry.dispose();
-        threeObject.cone.material.dispose();
-      }
-
-      _get(ArrowHelperDescriptor.prototype.__proto__ || Object.getPrototypeOf(ArrowHelperDescriptor.prototype), 'unmount', this).call(this, threeObject);
-    }
-  }]);
-
-  return ArrowHelperDescriptor;
-}(_Object3DDescriptor3.default);
-
-module.exports = ArrowHelperDescriptor;
-},{"../../../utils/propTypeInstanceOf":343,"../Object3DDescriptor":323,"react/lib/ReactPropTypes":433,"three":529}],317:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _Object3DDescriptor2 = require('../Object3DDescriptor');
-
-var _Object3DDescriptor3 = _interopRequireDefault(_Object3DDescriptor2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var AxisHelperDescriptor = function (_Object3DDescriptor) {
-  _inherits(AxisHelperDescriptor, _Object3DDescriptor);
-
-  function AxisHelperDescriptor(react3Instance) {
-    _classCallCheck(this, AxisHelperDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (AxisHelperDescriptor.__proto__ || Object.getPrototypeOf(AxisHelperDescriptor)).call(this, react3Instance));
-
-    _this.hasProp('size', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.triggerRemount,
-      default: 1
-    });
-    return _this;
-  }
-
-  _createClass(AxisHelperDescriptor, [{
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(AxisHelperDescriptor.prototype.__proto__ || Object.getPrototypeOf(AxisHelperDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-    }
-  }, {
-    key: 'construct',
-    value: function construct(props) {
-      var size = props.size;
-
-      return new _three2.default.AxisHelper(size);
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(threeObject) {
-      threeObject.geometry.dispose();
-      threeObject.material.dispose();
-
-      _get(AxisHelperDescriptor.prototype.__proto__ || Object.getPrototypeOf(AxisHelperDescriptor.prototype), 'unmount', this).call(this, threeObject);
-    }
-  }]);
-
-  return AxisHelperDescriptor;
-}(_Object3DDescriptor3.default);
-
-module.exports = AxisHelperDescriptor;
-},{"../Object3DDescriptor":323,"react/lib/ReactPropTypes":433,"three":529}],318:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _Object3DDescriptor2 = require('../Object3DDescriptor');
-
-var _Object3DDescriptor3 = _interopRequireDefault(_Object3DDescriptor2);
-
-var _CameraUtils = require('../../../utils/CameraUtils.js');
-
-var _CameraUtils2 = _interopRequireDefault(_CameraUtils);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var CameraHelperDescriptor = function (_Object3DDescriptor) {
-  _inherits(CameraHelperDescriptor, _Object3DDescriptor);
-
-  function CameraHelperDescriptor(react3Instance) {
-    _classCallCheck(this, CameraHelperDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (CameraHelperDescriptor.__proto__ || Object.getPrototypeOf(CameraHelperDescriptor)).call(this, react3Instance));
-
-    _this.hasProp('visible', {
-      type: _ReactPropTypes2.default.bool,
-      override: true,
-      update: function update(threeObject, visible) {
-        threeObject.userData._visible = visible;
-
-        threeObject.visible = threeObject.userData._hasCamera && visible;
-      },
-
-      updateInitial: true,
-      default: true
-    });
-
-    _this.hasProp('cameraName', {
-      type: _ReactPropTypes2.default.string.isRequired,
-      update: function update(threeObject, cameraName) {
-        _this._clearCameraEvents(threeObject);
-
-        threeObject.userData._cameraName = cameraName;
-
-        _this._startCameraFinder(threeObject);
-      },
-      default: undefined
-    });
-    return _this;
-  }
-
-  _createClass(CameraHelperDescriptor, [{
-    key: 'construct',
-    value: function construct() {
-      return new _three2.default.CameraHelper(new _three2.default.PerspectiveCamera());
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(cameraHelper, props) {
-      var _this2 = this;
-
-      _get(CameraHelperDescriptor.prototype.__proto__ || Object.getPrototypeOf(CameraHelperDescriptor.prototype), 'applyInitialProps', this).call(this, cameraHelper, props);
-
-      cameraHelper.userData._onCameraProjectionUpdate = function () {
-        cameraHelper.update();
-      };
-
-      cameraHelper.userData._onCameraDispose = function () {
-        _this2._startCameraFinder(cameraHelper);
-      };
-
-      cameraHelper.userData._onCameraRename = function (payload) {
-        if (payload.oldName === cameraHelper.userData._cameraName) {
-          _this2._startCameraFinder(cameraHelper);
-        }
-      };
-
-      cameraHelper.userData._onBeforeRender = function () {
-        cameraHelper.visible = cameraHelper.userData._hasCamera && cameraHelper.userData._visible && _CameraUtils2.default.current !== cameraHelper.userData._camera;
-      };
-
-      cameraHelper.userData._cameraName = props.cameraName;
-      cameraHelper.userData._visible = props.hasOwnProperty('visible') ? props.visible : true;
-
-      cameraHelper.userData.events.once('addedIntoRoot', function () {
-        var rootInstance = cameraHelper.userData.markup._rootInstance;
-
-        rootInstance.addBeforeRenderListener(cameraHelper.userData._onBeforeRender);
-
-        _this2._startCameraFinder(cameraHelper);
-      });
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(threeObject) {
-      this._clearCameraEvents(threeObject);
-
-      delete threeObject.userData._onCameraProjectionUpdate;
-
-      return _get(CameraHelperDescriptor.prototype.__proto__ || Object.getPrototypeOf(CameraHelperDescriptor.prototype), 'unmount', this).call(this, threeObject);
-    }
-  }, {
-    key: '_getCamera',
-    value: function _getCamera(rootInstance, cameraName) {
-      var camera = null;
-
-      if (cameraName) {
-        var camerasByName = rootInstance.getObjectsByName(cameraName).filter(function (obj) {
-          return obj instanceof _three2.default.Camera;
-        });
-
-        if (camerasByName.length > 0) {
-          camera = camerasByName[0];
-        }
-      }
-
-      return camera;
-    }
-  }, {
-    key: '_clearCameraEvents',
-    value: function _clearCameraEvents(helper) {
-      if (helper.userData._hasCamera) {
-        helper.userData._camera.userData.events.removeListener('updateProjectionMatrix', helper.userData._onCameraProjectionUpdate);
-        helper.userData._camera.userData.events.removeListener('dispose', helper.userData._onCameraDispose);
-        helper.userData._camera.userData.events.removeListener('rename', helper.userData._onCameraRename);
-      }
-    }
-  }, {
-    key: '_setCamera',
-    value: function _setCamera(helper, camera) {
-      var userData = helper.userData;
-
-      if (userData._camera === camera) {
-        return;
-      }
-
-      this._clearCameraEvents(helper);
-
-      userData._hasCamera = true;
-      userData._camera = camera;
-      helper.camera = camera;
-      helper.matrix = camera.matrixWorld;
-      helper.update();
-      helper.visible = userData._visible;
-      var cameraEvents = helper.userData._camera.userData.events;
-
-      cameraEvents.on('rename', userData._onCameraRename);
-      cameraEvents.on('updateProjectionMatrix', userData._onCameraProjectionUpdate);
-      cameraEvents.once('dispose', userData._onCameraDispose);
-    }
-  }, {
-    key: '_startCameraFinder',
-    value: function _startCameraFinder(helper) {
-      var _this3 = this;
-
-      this._clearCameraEvents(helper);
-
-      var rootInstance = helper.userData.markup && helper.userData.markup._rootInstance;
-
-      if (!rootInstance) {
-        return;
-      }
-
-      helper.userData._hasCamera = false;
-      helper.userData._camera = null;
-      helper.camera = new _three2.default.PerspectiveCamera();
-      helper.visible = false;
-
-      var camera = this._getCamera(rootInstance, helper.userData._cameraName);
-
-      if (camera) {
-        this._setCamera(helper, camera);
-      } else {
-        (function () {
-          // try to find camera before renders
-          var findCamera = function findCamera() {
-            var foundCamera = _this3._getCamera(rootInstance, helper.userData._cameraName);
-
-            if (foundCamera) {
-              rootInstance.removeAnimateListener(findCamera);
-
-              _this3._setCamera(helper, foundCamera);
-            }
-          };
-
-          rootInstance.addAnimateListener(findCamera);
-        })();
-      }
-    }
-  }]);
-
-  return CameraHelperDescriptor;
-}(_Object3DDescriptor3.default);
-
-module.exports = CameraHelperDescriptor;
-},{"../../../utils/CameraUtils.js":338,"../Object3DDescriptor":323,"react/lib/ReactPropTypes":433,"three":529}],319:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _Object3DDescriptor2 = require('../Object3DDescriptor');
-
-var _Object3DDescriptor3 = _interopRequireDefault(_Object3DDescriptor2);
-
-var _propTypeInstanceOf = require('../../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var GridHelperDescriptor = function (_Object3DDescriptor) {
-  _inherits(GridHelperDescriptor, _Object3DDescriptor);
-
-  function GridHelperDescriptor(react3Instance) {
-    _classCallCheck(this, GridHelperDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (GridHelperDescriptor.__proto__ || Object.getPrototypeOf(GridHelperDescriptor)).call(this, react3Instance));
-
-    _this.hasProp('size', {
-      type: _ReactPropTypes2.default.number.isRequired,
-      update: _this.triggerRemount,
-      default: 1
-    });
-
-    _this.hasProp('step', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.triggerRemount,
-      default: 1
-    });
-
-    _this.hasProp('colorCenterLine', {
-      type: _ReactPropTypes2.default.oneOfType([(0, _propTypeInstanceOf2.default)(_three2.default.Color), _ReactPropTypes2.default.number, _ReactPropTypes2.default.string]),
-      update: _this.triggerRemount,
-      default: 0x444444
-    });
-
-    _this.hasProp('colorGrid', {
-      type: _ReactPropTypes2.default.oneOfType([(0, _propTypeInstanceOf2.default)(_three2.default.Color), _ReactPropTypes2.default.number, _ReactPropTypes2.default.string]),
-      update: _this.triggerRemount,
-      default: 0x888888
-    });
-    return _this;
-  }
-
-  _createClass(GridHelperDescriptor, [{
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(GridHelperDescriptor.prototype.__proto__ || Object.getPrototypeOf(GridHelperDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-    }
-  }, {
-    key: 'construct',
-    value: function construct(props) {
-      var size = props.size,
-          step = props.step;
-
-      return new _three2.default.GridHelper(size, step);
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(threeObject) {
-      threeObject.geometry.dispose();
-      threeObject.material.dispose();
-
-      _get(GridHelperDescriptor.prototype.__proto__ || Object.getPrototypeOf(GridHelperDescriptor.prototype), 'unmount', this).call(this, threeObject);
-    }
-  }]);
-
-  return GridHelperDescriptor;
-}(_Object3DDescriptor3.default);
-
-module.exports = GridHelperDescriptor;
-},{"../../../utils/propTypeInstanceOf":343,"../Object3DDescriptor":323,"react/lib/ReactPropTypes":433,"three":529}],320:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _MeshDescriptor2 = require('./MeshDescriptor');
-
-var _MeshDescriptor3 = _interopRequireDefault(_MeshDescriptor2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var LineDescriptor = function (_MeshDescriptor) {
-  _inherits(LineDescriptor, _MeshDescriptor);
-
-  function LineDescriptor() {
-    _classCallCheck(this, LineDescriptor);
-
-    return _possibleConstructorReturn(this, (LineDescriptor.__proto__ || Object.getPrototypeOf(LineDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(LineDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var geometry = props.hasOwnProperty('geometry') ? props.geometry : undefined;
-      var material = props.hasOwnProperty('material') ? props.material : undefined;
-
-      var mesh = new _three2.default.Line(geometry, material);
-
-      if (!geometry) {
-        mesh.geometry.dispose();
-        mesh.geometry = undefined;
-      }
-
-      if (!material) {
-        mesh.material.dispose();
-        mesh.material = undefined;
-      }
-
-      return mesh;
-    }
-  }]);
-
-  return LineDescriptor;
-}(_MeshDescriptor3.default);
-
-module.exports = LineDescriptor;
-},{"./MeshDescriptor":322,"three":529}],321:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _MeshDescriptor2 = require('./MeshDescriptor');
-
-var _MeshDescriptor3 = _interopRequireDefault(_MeshDescriptor2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var LineSegmentDescriptor = function (_MeshDescriptor) {
-  _inherits(LineSegmentDescriptor, _MeshDescriptor);
-
-  function LineSegmentDescriptor() {
-    _classCallCheck(this, LineSegmentDescriptor);
-
-    return _possibleConstructorReturn(this, (LineSegmentDescriptor.__proto__ || Object.getPrototypeOf(LineSegmentDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(LineSegmentDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var geometry = props.hasOwnProperty('geometry') ? props.geometry : undefined;
-      var material = props.hasOwnProperty('material') ? props.material : undefined;
-
-      var mesh = new _three2.default.LineSegments(geometry, material);
-
-      if (!geometry) {
-        mesh.geometry.dispose();
-        mesh.geometry = undefined;
-      }
-
-      if (!material) {
-        mesh.material.dispose();
-        mesh.material = undefined;
-      }
-
-      return mesh;
-    }
-  }]);
-
-  return LineSegmentDescriptor;
-}(_MeshDescriptor3.default);
-
-module.exports = LineSegmentDescriptor;
-},{"./MeshDescriptor":322,"three":529}],322:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ResourceReference = require('../../Resources/ResourceReference');
-
-var _ResourceReference2 = _interopRequireDefault(_ResourceReference);
-
-var _Object3DDescriptor2 = require('./Object3DDescriptor');
-
-var _Object3DDescriptor3 = _interopRequireDefault(_Object3DDescriptor2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MeshDescriptor = function (_Object3DDescriptor) {
-  _inherits(MeshDescriptor, _Object3DDescriptor);
-
-  function MeshDescriptor() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, MeshDescriptor);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = MeshDescriptor.__proto__ || Object.getPrototypeOf(MeshDescriptor)).call.apply(_ref, [this].concat(args))), _this), _this._invalidChild = function (child) {
-      var invalid = !(child instanceof _three2.default.Material || child instanceof _ResourceReference2.default || child instanceof _three2.default.Geometry || child instanceof _three2.default.BufferGeometry);
-
-      return invalid;
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(MeshDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var geometry = props.hasOwnProperty('geometry') ? props.geometry : undefined;
-      var material = props.hasOwnProperty('material') ? props.material : undefined;
-
-      var mesh = new _three2.default.Mesh(geometry, material);
-
-      if (!geometry) {
-        mesh.geometry.dispose();
-        mesh.geometry = undefined;
-      }
-
-      if (!material) {
-        mesh.material.dispose();
-        mesh.material = undefined;
-      }
-
-      return mesh;
-    }
-  }, {
-    key: 'addChildren',
-    value: function addChildren(threeObject, children) {
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(children.filter(this._invalidChild).length === 0, 'Mesh children can only be materials or geometries!');
-      } else {
-        (0, _invariant2.default)(children.filter(this._invalidChild).length === 0, false);
-      }
-    }
-  }, {
-    key: 'addChild',
-    value: function addChild(threeObject, child) {
-      this.addChildren(threeObject, [child]);
-    }
-  }, {
-    key: 'moveChild',
-    value: function moveChild() {
-      // doesn't matter
-    }
-  }, {
-    key: 'getBoundingBoxes',
-    value: function getBoundingBoxes(threeObject) {
-      // recompute bounding box for highlighting from a fresh update
-      if (threeObject.geometry && threeObject.geometry.computeBoundingBox) {
-        threeObject.geometry.computeBoundingBox();
-      }
-
-      return _get(MeshDescriptor.prototype.__proto__ || Object.getPrototypeOf(MeshDescriptor.prototype), 'getBoundingBoxes', this).call(this, threeObject);
-    }
-  }]);
-
-  return MeshDescriptor;
-}(_Object3DDescriptor3.default);
-
-module.exports = MeshDescriptor;
-}).call(this,require('_process'))
-},{"../../Resources/ResourceReference":238,"./Object3DDescriptor":323,"_process":203,"fbjs/lib/invariant":347,"three":529}],323:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _THREEElementDescriptor = require('../THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-var _propTypeInstanceOf = require('../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function _arrayMove(array, oldIndex, newIndex) {
-  array.splice(newIndex, 0, array.splice(oldIndex, 1)[0]);
-}
-
-var Object3DDescriptor = function (_THREEElementDescript) {
-  _inherits(Object3DDescriptor, _THREEElementDescript);
-
-  function Object3DDescriptor(react3Instance) {
-    _classCallCheck(this, Object3DDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (Object3DDescriptor.__proto__ || Object.getPrototypeOf(Object3DDescriptor)).call(this, react3Instance));
-
-    _this.hasName();
-
-    function copyUpdate(propName) {
-      return function (threeObject, value) {
-        threeObject[propName].copy(value);
-      };
-    }
-
-    _this.hasProp('position', {
-      type: (0, _propTypeInstanceOf2.default)(_three2.default.Vector3),
-      update: function update(threeObject, position) {
-        threeObject.position.copy(position);
-
-        if (threeObject.userData._lookAt) {
-          threeObject.lookAt(threeObject.userData._lookAt);
-        }
-      },
-
-      default: new _three2.default.Vector3()
-    });
-
-    _this.hasProp('rotation', {
-      type: (0, _propTypeInstanceOf2.default)(_three2.default.Euler),
-      update: function update(threeObject, rotation) {
-        threeObject.rotation.copy(rotation);
-      },
-
-      default: new _three2.default.Euler()
-    });
-
-    _this.hasProp('quaternion', {
-      type: (0, _propTypeInstanceOf2.default)(_three2.default.Quaternion),
-      update: copyUpdate('quaternion'),
-      default: new _three2.default.Quaternion()
-    });
-
-    _this.hasProp('scale', {
-      type: (0, _propTypeInstanceOf2.default)(_three2.default.Vector3),
-      update: copyUpdate('scale'),
-      default: new _three2.default.Vector3(1, 1, 1)
-    });
-
-    _this.hasProp('lookAt', {
-      type: (0, _propTypeInstanceOf2.default)(_three2.default.Vector3),
-      update: function update(threeObject, lookAt) {
-        threeObject.userData._lookAt = lookAt;
-
-        if (lookAt) {
-          threeObject.lookAt(lookAt);
-        }
-      },
-
-      default: undefined
-    });
-
-    ['frustumCulled', 'visible'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.bool,
-        simple: true,
-        default: true
-      });
-    });
-
-    _this.hasProp('renderOrder', {
-      type: _ReactPropTypes2.default.number,
-      simple: true
-    });
-
-    _this.hasProp('castShadow', {
-      type: _ReactPropTypes2.default.bool,
-      simple: true,
-      default: false
-    });
-
-    _this.hasProp('receiveShadow', {
-      type: _ReactPropTypes2.default.bool,
-      updateInitial: true,
-      update: function update(threeObject, receiveShadow) {
-        threeObject.receiveShadow = receiveShadow;
-
-        if (threeObject.material) {
-          threeObject.material.needsUpdate = true;
-        }
-      },
-
-      default: false
-    });
-    return _this;
-  }
-
-  _createClass(Object3DDescriptor, [{
-    key: 'construct',
-    value: function construct() {
-      return new _three2.default.Object3D();
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(Object3DDescriptor.prototype.__proto__ || Object.getPrototypeOf(Object3DDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      if (props.position) {
-        threeObject.position.copy(props.position);
-      }
-
-      if (props.scale) {
-        threeObject.scale.copy(props.scale);
-      }
-
-      if (props.rotation) {
-        threeObject.rotation.copy(props.rotation);
-      }
-
-      if (props.quaternion) {
-        threeObject.quaternion.copy(props.quaternion);
-      }
-
-      if (props.lookAt) {
-        threeObject.userData._lookAt = props.lookAt;
-        threeObject.lookAt(props.lookAt);
-      }
-    }
-
-    /**
-     * @param threeObject
-     * @param {Array} children
-     */
-
-  }, {
-    key: 'addChildren',
-    value: function addChildren(threeObject, children) {
-      children.forEach(function (child) {
-        threeObject.add(child);
-      });
-    }
-  }, {
-    key: 'addChild',
-    value: function addChild(threeObject, child, mountIndex) {
-      threeObject.add(child);
-
-      this.moveChild(threeObject, child, mountIndex, threeObject.children.length - 1);
-    }
-
-    /**
-     * @param {THREE.Object3D} threeObject
-     * @param child
-     */
-
-  }, {
-    key: 'removeChild',
-    value: function removeChild(threeObject, child) {
-      threeObject.remove(child);
-    }
-  }, {
-    key: 'moveChild',
-    value: function moveChild(threeObject, childObject, toIndex, lastIndex) {
-      // eslint-disable-line no-unused-vars
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(toIndex >= 0 && threeObject.children.length > toIndex, 'Cannot move a child to that index');
-      }
-      _arrayMove(threeObject.children, threeObject.children.indexOf(childObject), toIndex);
-    }
-  }, {
-    key: 'highlight',
-    value: function highlight(threeObject) {
-      var _this2 = this;
-
-      threeObject.userData.events.emit('highlight', {
-        uuid: threeObject.uuid,
-        boundingBoxFunc: function boundingBoxFunc() {
-          return _this2.getBoundingBoxes(threeObject);
-        }
-      });
-    }
-  }, {
-    key: 'getBoundingBoxes',
-    value: function getBoundingBoxes(threeObject) {
-      var boundingBox = new _three2.default.Box3();
-
-      boundingBox.setFromObject(threeObject);
-
-      return [boundingBox];
-    }
-  }, {
-    key: 'hideHighlight',
-    value: function hideHighlight(threeObject) {
-      threeObject.userData.events.emit('hideHighlight');
-    }
-  }]);
-
-  return Object3DDescriptor;
-}(_THREEElementDescriptor2.default);
-
-module.exports = Object3DDescriptor;
-}).call(this,require('_process'))
-},{"../../utils/propTypeInstanceOf":343,"../THREEElementDescriptor":335,"_process":203,"fbjs/lib/invariant":347,"react/lib/ReactPropTypes":433,"three":529}],324:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _MeshDescriptor2 = require('./MeshDescriptor');
-
-var _MeshDescriptor3 = _interopRequireDefault(_MeshDescriptor2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var PointsDescriptor = function (_MeshDescriptor) {
-    _inherits(PointsDescriptor, _MeshDescriptor);
-
-    function PointsDescriptor() {
-        _classCallCheck(this, PointsDescriptor);
-
-        return _possibleConstructorReturn(this, (PointsDescriptor.__proto__ || Object.getPrototypeOf(PointsDescriptor)).apply(this, arguments));
-    }
-
-    _createClass(PointsDescriptor, [{
-        key: 'construct',
-        value: function construct() {
-            var points = new _three2.default.Points();
-
-            points.geometry.dispose();
-            points.material.dispose();
-
-            points.geometry = undefined;
-            points.material = undefined;
-
-            return points;
-        }
-    }]);
-
-    return PointsDescriptor;
-}(_MeshDescriptor3.default);
-
-module.exports = PointsDescriptor;
-},{"./MeshDescriptor":322,"three":529}],325:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _Object3DDescriptor2 = require('./Object3DDescriptor');
-
-var _Object3DDescriptor3 = _interopRequireDefault(_Object3DDescriptor2);
-
-var _propTypeInstanceOf = require('../../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SceneDescriptor = function (_Object3DDescriptor) {
-  _inherits(SceneDescriptor, _Object3DDescriptor);
-
-  function SceneDescriptor(react3Instance) {
-    _classCallCheck(this, SceneDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (SceneDescriptor.__proto__ || Object.getPrototypeOf(SceneDescriptor)).call(this, react3Instance));
-
-    _this.hasProp('fog', {
-      type: (0, _propTypeInstanceOf2.default)(_three2.default.Fog),
-      simple: true,
-      default: undefined
-    });
-    return _this;
-  }
-
-  _createClass(SceneDescriptor, [{
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(SceneDescriptor.prototype.__proto__ || Object.getPrototypeOf(SceneDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-    }
-  }, {
-    key: 'construct',
-    value: function construct() {
-      return new _three2.default.Scene();
-    }
-  }]);
-
-  return SceneDescriptor;
-}(_Object3DDescriptor3.default);
-
-module.exports = SceneDescriptor;
-},{"../../utils/propTypeInstanceOf":343,"./Object3DDescriptor":323,"three":529}],326:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _Object3DDescriptor2 = require('./Object3DDescriptor');
-
-var _Object3DDescriptor3 = _interopRequireDefault(_Object3DDescriptor2);
-
-var _ResourceReference = require('../../Resources/ResourceReference');
-
-var _ResourceReference2 = _interopRequireDefault(_ResourceReference);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SpriteDescriptor = function (_Object3DDescriptor) {
-  _inherits(SpriteDescriptor, _Object3DDescriptor);
-
-  function SpriteDescriptor() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, SpriteDescriptor);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = SpriteDescriptor.__proto__ || Object.getPrototypeOf(SpriteDescriptor)).call.apply(_ref, [this].concat(args))), _this), _this._invalidChild = function (child) {
-      var invalid = !(child instanceof _three2.default.SpriteMaterial || child instanceof _ResourceReference2.default);
-
-      return invalid;
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(SpriteDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      var material = props.hasOwnProperty('material') ? props.material : undefined;
-      var sprite = new _three2.default.Sprite(material);
-
-      if (!material) {
-        sprite.material.dispose();
-        sprite.material = undefined;
-      }
-
-      return sprite;
-    }
-  }, {
-    key: 'addChildren',
-    value: function addChildren(threeObject, children) {
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _invariant2.default)(children.filter(this._invalidChild).length === 0, 'Sprite children can only be materials!');
-      } else {
-        (0, _invariant2.default)(children.filter(this._invalidChild).length === 0, false);
-      }
-    }
-  }, {
-    key: 'addChild',
-    value: function addChild(threeObject, child) {
-      this.addChildren(threeObject, [child]);
-    }
-  }, {
-    key: 'moveChild',
-    value: function moveChild() {
-      // doesn't matter
-    }
-  }]);
-
-  return SpriteDescriptor;
-}(_Object3DDescriptor3.default);
-
-module.exports = SpriteDescriptor;
-}).call(this,require('_process'))
-},{"../../Resources/ResourceReference":238,"./Object3DDescriptor":323,"_process":203,"fbjs/lib/invariant":347,"three":529}],327:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _warning = require('fbjs/lib/warning');
-
-var _warning2 = _interopRequireDefault(_warning);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _THREEElementDescriptor = require('./THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-var _React3Instance = require('../React3Instance');
-
-var _React3Instance2 = _interopRequireDefault(_React3Instance);
-
-var _propTypeInstanceOf = require('../utils/propTypeInstanceOf');
-
-var _propTypeInstanceOf2 = _interopRequireDefault(_propTypeInstanceOf);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var propProxy = {
-  gammaInput: {
-    type: _ReactPropTypes2.default.bool,
-    default: false
-  },
-  gammaOutput: {
-    type: _ReactPropTypes2.default.bool,
-    default: false
-  },
-  sortObjects: {
-    type: _ReactPropTypes2.default.bool,
-    default: true
-  },
-  context: {
-    type: _ReactPropTypes2.default.oneOf(['2d', '3d']).isRequired,
-    default: '3d'
-  },
-  mainCamera: {
-    type: _ReactPropTypes2.default.string,
-    default: undefined
-  },
-  onAnimate: {
-    type: _ReactPropTypes2.default.func,
-    default: undefined
-  },
-  clearColor: {
-    type: _ReactPropTypes2.default.oneOfType([(0, _propTypeInstanceOf2.default)(_three2.default.Color), _ReactPropTypes2.default.number, _ReactPropTypes2.default.string]),
-    default: 0x000000
-  },
-  clearAlpha: {
-    type: _ReactPropTypes2.default.number,
-    default: undefined
-  },
-  alpha: {
-    type: _ReactPropTypes2.default.bool,
-    default: false
-  },
-  shadowMapEnabled: {
-    type: _ReactPropTypes2.default.bool,
-    default: false
-  },
-  shadowMapType: {
-    type: _ReactPropTypes2.default.oneOf([_three2.default.BasicShadowMap, _three2.default.PCFShadowMap, _three2.default.PCFSoftShadowMap]),
-    default: _three2.default.PCFShadowMap
-  },
-  shadowMapCullFace: {
-    type: _ReactPropTypes2.default.oneOf([_three2.default.CullFaceNone, _three2.default.CullFaceBack, _three2.default.CullFaceFront, _three2.default.CullFaceFrontBack]),
-    default: _three2.default.CullFaceFront
-  },
-  shadowMapDebug: {
-    type: _ReactPropTypes2.default.bool,
-    default: false
-  },
-  onRecreateCanvas: {
-    type: _ReactPropTypes2.default.func.isRequired,
-    default: undefined
-  },
-  pixelRatio: {
-    type: _ReactPropTypes2.default.number,
-    default: 1
-  },
-  width: {
-    type: _ReactPropTypes2.default.number.isRequired,
-    default: 1
-  },
-  height: {
-    type: _ReactPropTypes2.default.number.isRequired,
-    default: 1
-  },
-  precision: {
-    type: _ReactPropTypes2.default.oneOf(['highp', 'mediump', 'lowp']),
-    default: 'highp'
-  },
-  premultipliedAlpha: {
-    type: _ReactPropTypes2.default.bool,
-    default: true
-  },
-  antialias: {
-    type: _ReactPropTypes2.default.oneOfType([_ReactPropTypes2.default.bool, _ReactPropTypes2.default.number]),
-    default: false
-  },
-  stencil: {
-    type: _ReactPropTypes2.default.bool,
-    default: true
-  },
-  preserveDrawingBuffer: {
-    type: _ReactPropTypes2.default.bool,
-    default: false
-  },
-  depth: {
-    type: _ReactPropTypes2.default.bool,
-    default: true
-  },
-  logarithmicDepthBuffer: {
-    type: _ReactPropTypes2.default.bool,
-    default: false
-  },
-  onRendererUpdated: {
-    type: _ReactPropTypes2.default.func,
-    default: undefined
-  },
-  forceManualRender: {
-    type: _ReactPropTypes2.default.bool,
-    default: false
-  },
-  onManualRenderTriggerCreated: {
-    type: _ReactPropTypes2.default.func,
-    default: undefined
-  }
-};
-
-var React3Descriptor = function (_THREEElementDescript) {
-  _inherits(React3Descriptor, _THREEElementDescript);
-
-  function React3Descriptor(react3RendererInstance) {
-    _classCallCheck(this, React3Descriptor);
-
-    var _this = _possibleConstructorReturn(this, (React3Descriptor.__proto__ || Object.getPrototypeOf(React3Descriptor)).call(this, react3RendererInstance));
-
-    Object.keys(propProxy).forEach(function (propName) {
-      var info = propProxy[propName];
-      var propNameFirstLetterCapital = propName[0].toUpperCase() + propName.substr(1);
-
-      var updateFunctionName = 'update' + propNameFirstLetterCapital;
-
-      if (process.env.NODE_ENV !== 'production') {
-        (0, _warning2.default)(_React3Instance2.default.prototype.hasOwnProperty(updateFunctionName), 'Missing function %s in React3DInstance class.', updateFunctionName);
-      }
-
-      var propInfo = {
-        type: info.type,
-        update: function update(threeObject, newValue) {
-          threeObject[updateFunctionName](newValue);
-        }
-      };
-
-      if (info.hasOwnProperty('default')) {
-        propInfo.default = info.default;
-      }
-
-      _this.hasProp(propName, propInfo);
-    });
-    return _this;
-  }
-
-  _createClass(React3Descriptor, [{
-    key: 'completePropertyUpdates',
-    value: function completePropertyUpdates(threeObject) {
-      if (process.env.NODE_ENV !== 'production') {
-        if (!threeObject._warnedAboutManualRendering) {
-          if (threeObject._forceManualRender && !threeObject._manualRenderTriggerCallback) {
-            threeObject._warnedAboutManualRendering = true;
-            (0, _warning2.default)(false, 'The `React3` component has `forceManualRender` property set, but not' + ' `onManualRenderTriggerCreated`. You will not be able to update the view.');
-          }
-        }
-      }
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(threeObject, parentObject3D) {
-      (0, _invariant2.default)(parentObject3D instanceof HTMLCanvasElement, 'The `react3` element can only be rendered into a canvas.');
-
-      _get(React3Descriptor.prototype.__proto__ || Object.getPrototypeOf(React3Descriptor.prototype), 'setParent', this).call(this, threeObject, parentObject3D);
-
-      threeObject.updateCanvas(parentObject3D);
-    }
-  }, {
-    key: 'construct',
-    value: function construct(props) {
-      return new _React3Instance2.default(props, this.react3RendererInstance);
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(React3Descriptor.prototype.__proto__ || Object.getPrototypeOf(React3Descriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      threeObject.initialize();
-    }
-
-    // gets called every time there are children to be added
-    // this can be called multiple times as more children are added.
-
-  }, {
-    key: 'addChildren',
-    value: function addChildren(threeObject, children) {
-      threeObject.addChildren(children);
-    }
-  }, {
-    key: 'addChild',
-    value: function addChild(threeObject, child) {
-      threeObject.addChildren([child]);
-    }
-  }, {
-    key: 'moveChild',
-    value: function moveChild() {
-      // do nothing
-    }
-  }, {
-    key: 'removeChild',
-    value: function removeChild(threeObject, child) {
-      threeObject.removeChild(child);
-    }
-  }, {
-    key: '_updateOnRecreateCanvas',
-    value: function _updateOnRecreateCanvas(threeObject, callback) {
-      threeObject.updateOnRecreateCanvas(callback);
-    }
-  }, {
-    key: '_updateHeight',
-    value: function _updateHeight(threeObject, newHeight) {
-      threeObject.updateHeight(newHeight);
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(threeObject) {
-      // call super unmount first so react3instance can clean itself up
-      _get(React3Descriptor.prototype.__proto__ || Object.getPrototypeOf(React3Descriptor.prototype), 'unmount', this).call(this, threeObject);
-
-      threeObject.unmount();
-    }
-  }, {
-    key: 'componentWillUnmount',
-    value: function componentWillUnmount(threeObject) {
-      threeObject.willUnmount();
-
-      return _get(React3Descriptor.prototype.__proto__ || Object.getPrototypeOf(React3Descriptor.prototype), 'componentWillUnmount', this).call(this, threeObject);
-    }
-  }]);
-
-  return React3Descriptor;
-}(_THREEElementDescriptor2.default);
-
-module.exports = React3Descriptor;
-}).call(this,require('_process'))
-},{"../React3Instance":235,"../utils/propTypeInstanceOf":343,"./THREEElementDescriptor":335,"_process":203,"fbjs/lib/invariant":347,"fbjs/lib/warning":348,"react/lib/ReactPropTypes":433,"three":529}],328:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ResourceDescriptorBase = require('./ResourceDescriptorBase');
-
-var _ResourceDescriptorBase2 = _interopRequireDefault(_ResourceDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var GeometryResourceDescriptor = function (_ResourceDescriptorBa) {
-  _inherits(GeometryResourceDescriptor, _ResourceDescriptorBa);
-
-  function GeometryResourceDescriptor() {
-    _classCallCheck(this, GeometryResourceDescriptor);
-
-    return _possibleConstructorReturn(this, (GeometryResourceDescriptor.__proto__ || Object.getPrototypeOf(GeometryResourceDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(GeometryResourceDescriptor, [{
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(GeometryResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(GeometryResourceDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      threeObject.userData._propertySlot = 'geometry';
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(threeObject, parentObject3D) {
-      (0, _invariant2.default)(parentObject3D instanceof _three2.default.Mesh || parentObject3D instanceof _three2.default.Points || parentObject3D instanceof _three2.default.Line, 'Parent is not a mesh');
-
-      _get(GeometryResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(GeometryResourceDescriptor.prototype), 'setParent', this).call(this, threeObject, parentObject3D);
-    }
-  }]);
-
-  return GeometryResourceDescriptor;
-}(_ResourceDescriptorBase2.default);
-
-module.exports = GeometryResourceDescriptor;
-},{"./ResourceDescriptorBase":330,"fbjs/lib/invariant":347,"three":529}],329:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ResourceDescriptorBase = require('./ResourceDescriptorBase');
-
-var _ResourceDescriptorBase2 = _interopRequireDefault(_ResourceDescriptorBase);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MaterialResourceDescriptor = function (_ResourceDescriptorBa) {
-  _inherits(MaterialResourceDescriptor, _ResourceDescriptorBa);
-
-  function MaterialResourceDescriptor() {
-    _classCallCheck(this, MaterialResourceDescriptor);
-
-    return _possibleConstructorReturn(this, (MaterialResourceDescriptor.__proto__ || Object.getPrototypeOf(MaterialResourceDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(MaterialResourceDescriptor, [{
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(MaterialResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(MaterialResourceDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      if (props.hasOwnProperty('slot')) {
-        threeObject.userData._propertySlot = props.slot;
-      } else {
-        threeObject.userData._propertySlot = 'material';
-      }
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(threeObject, parentObject3D) {
-      (0, _invariant2.default)(parentObject3D instanceof _three2.default.Mesh || parentObject3D instanceof _three2.default.Points || parentObject3D instanceof _three2.default.Line, 'Parent is not a mesh');
-
-      _get(MaterialResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(MaterialResourceDescriptor.prototype), 'setParent', this).call(this, threeObject, parentObject3D);
-    }
-  }]);
-
-  return MaterialResourceDescriptor;
-}(_ResourceDescriptorBase2.default);
-
-module.exports = MaterialResourceDescriptor;
-},{"./ResourceDescriptorBase":330,"fbjs/lib/invariant":347,"three":529}],330:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _THREEElementDescriptor = require('../THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-var _ResourceReference = require('../../Resources/ResourceReference');
-
-var _ResourceReference2 = _interopRequireDefault(_ResourceReference);
-
-var _React3Renderer = require('../../React3Renderer');
-
-var _React3Renderer2 = _interopRequireDefault(_React3Renderer);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ResourceDescriptorBase = function (_THREEElementDescript) {
-  _inherits(ResourceDescriptorBase, _THREEElementDescript);
-
-  function ResourceDescriptorBase(react3RendererInstance) {
-    _classCallCheck(this, ResourceDescriptorBase);
-
-    var _this = _possibleConstructorReturn(this, (ResourceDescriptorBase.__proto__ || Object.getPrototypeOf(ResourceDescriptorBase)).call(this, react3RendererInstance));
-
-    _this._addedIntoRoot = function (threeObject) {
-      var currentParentMarkup = threeObject.userData.markup.parentMarkup;
-
-      var distance = 0;
-
-      while (currentParentMarkup) {
-        var parentResources = currentParentMarkup.threeObject.userData._resources;
-
-        if (parentResources) {
-          var resourceId = threeObject.resourceId;
-          var resourceInParent = parentResources.resourceMap[resourceId];
-
-          if (resourceInParent) {
-            _this._addResource(threeObject, {
-              id: resourceId,
-              distance: distance,
-              resource: resourceInParent
-            });
-          }
-        }
-
-        distance++;
-        currentParentMarkup = currentParentMarkup.threeObject.userData.markup.parentMarkup;
-      }
-
-      _this._updateResource(threeObject);
-    };
-
-    _this.hasProp('resourceId', {
-      type: _ReactPropTypes2.default.string.isRequired,
-      update: _this.triggerRemount,
-      default: ''
-    });
-    return _this;
-  }
-
-  _createClass(ResourceDescriptorBase, [{
-    key: 'construct',
-    value: function construct(props) {
-      (0, _invariant2.default)(props.hasOwnProperty('resourceId'), 'A resource type must have a property named "resourceId"!');
-
-      return new _ResourceReference2.default(props.resourceId);
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(ResourceDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(ResourceDescriptorBase.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      threeObject.userData.resourceMap = [];
-      threeObject.userData._eventCleanupQueue = [];
-      threeObject.userData._chosenResource = undefined;
-      threeObject.userData._debug = props.debug || false;
-
-      threeObject.userData.events.once('addedIntoRoot', this._addedIntoRoot);
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(threeObject) {
-      threeObject.userData._eventCleanupQueue.forEach(function (cleanup) {
-        cleanup();
-      });
-
-      delete threeObject.userData._eventCleanupQueue;
-      delete threeObject.userData.resourceMap;
-
-      this.updateChosenResource(threeObject, null);
-
-      _get(ResourceDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(ResourceDescriptorBase.prototype), 'unmount', this).call(this, threeObject);
-    }
-  }, {
-    key: 'updateChosenResource',
-    value: function updateChosenResource(threeObject, chosenResource) {
-      var oldResource = threeObject.userData._chosenResource;
-      if (oldResource !== chosenResource) {
-        threeObject.userData._chosenResource = chosenResource;
-
-        this.resourceUpdated(threeObject, chosenResource, oldResource);
-      }
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(threeObject, parentObject3D) {
-      var existingValueInSlot = parentObject3D[threeObject.userData._propertySlot];
-      (0, _invariant2.default)(existingValueInSlot === undefined || existingValueInSlot === null, 'Parent already has a ' + threeObject.userData._propertySlot + ' defined');
-      (0, _invariant2.default)(threeObject.userData._eventCleanupQueue.length === 0, 'Changing parents?');
-
-      _get(ResourceDescriptorBase.prototype.__proto__ || Object.getPrototypeOf(ResourceDescriptorBase.prototype), 'setParent', this).call(this, threeObject, parentObject3D);
-
-      var currentParentMarkup = parentObject3D.userData.markup;
-
-      var onResourceAdded = this._onResourceAdded.bind(this, threeObject);
-      var onResourceRemoved = this._onResourceRemoved.bind(this, threeObject);
-
-      var parentEvents = currentParentMarkup.threeObject.userData.events;
-      parentEvents.on('resource.added', onResourceAdded);
-      parentEvents.on('resource.removed', onResourceRemoved);
-
-      threeObject.userData._eventCleanupQueue.push(function () {
-        parentEvents.removeListener('resource.added', onResourceAdded);
-        parentEvents.removeListener('resource.removed', onResourceRemoved);
-      });
-    }
-  }, {
-    key: '_onResourceAdded',
-    value: function _onResourceAdded(threeObject, resourceInfo) {
-      if (threeObject.resourceId !== resourceInfo.id) {
-        return;
-      }
-
-      this._addResource(threeObject, resourceInfo);
-
-      this._updateResource(threeObject);
-    }
-  }, {
-    key: '_addResource',
-    value: function _addResource(threeObject, resourceInfo) {
-      var resourceMap = threeObject.userData.resourceMap;
-
-      var i = void 0;
-
-      for (i = 0; i < resourceMap.length; ++i) {
-        if (resourceMap[i].distance === resourceInfo.distance) {
-          if (resourceMap[i].resource !== resourceInfo.resource) {
-            resourceMap[i].resource = resourceInfo.resource;
-          }
-
-          return;
-        }
-
-        if (resourceMap[i].distance > resourceInfo.distance) {
-          break;
-        }
-      }
-
-      resourceMap.splice(i, 0, {
-        distance: resourceInfo.distance,
-        resource: resourceInfo.resource
-      });
-    }
-  }, {
-    key: '_onResourceRemoved',
-    value: function _onResourceRemoved(threeObject, resourceInfo) {
-      if (threeObject.resourceId !== resourceInfo.id) {
-        return;
-      }
-
-      var resourceMap = threeObject.userData.resourceMap;
-
-      for (var i = 0; i < resourceMap.length; ++i) {
-        if (resourceMap[i].distance === resourceInfo.distance) {
-          if (resourceMap[i].resource === resourceInfo.resource) {
-            resourceMap.splice(i, 1);
-
-            this._updateResource(threeObject);
-          }
-          return;
-        }
-      }
-
-      (0, _invariant2.default)(false, 'This resource was not in this map?');
-    }
-  }, {
-    key: 'applyToSlot',
-    value: function applyToSlot(threeObject, parentObject, newResource) {
-      var propertySlot = threeObject.userData._propertySlot;
-      parentObject[propertySlot] = newResource;
-    }
-  }, {
-    key: 'resourceUpdated',
-    value: function resourceUpdated(threeObject, newResource, oldResource) {
-      var parentObject = threeObject.userData.markup.parentMarkup && threeObject.userData.markup.parentMarkup.threeObject || undefined;
-
-      if (parentObject) {
-        this.applyToSlot(threeObject, parentObject, newResource);
-
-        if (newResource === null) {
-          // invariant(false, 'Could not find resource named ' + threeObject.resourceId);
-        } else {
-          newResource.userData._references.push(parentObject);
-        }
-
-        if (oldResource) {
-          var removalIndex = oldResource.userData._references.indexOf(parentObject);
-
-          (0, _invariant2.default)(removalIndex !== -1, 'Bad reference count for resource');
-
-          oldResource.userData._references.splice(removalIndex, 1);
-        }
-      }
-    }
-  }, {
-    key: '_updateResource',
-    value: function _updateResource(threeObject) {
-      var resourceMap = threeObject.userData.resourceMap;
-
-      var chosenResource = null;
-
-      if (resourceMap.length > 0) {
-        chosenResource = resourceMap[0].resource;
-      }
-
-      this.updateChosenResource(threeObject, chosenResource);
-    }
-  }, {
-    key: 'highlight',
-    value: function highlight(threeObject) {
-      var ownerObject = threeObject.userData.markup.parentMarkup.threeObject;
-      ownerObject.userData._descriptor.highlight(ownerObject);
-    }
-  }, {
-    key: 'hideHighlight',
-    value: function hideHighlight(threeObject) {
-      var ownerObject = threeObject.userData.markup.parentMarkup.threeObject;
-      ownerObject.userData._descriptor.hideHighlight(ownerObject);
-    }
-  }]);
-
-  return ResourceDescriptorBase;
-}(_THREEElementDescriptor2.default);
-
-module.exports = ResourceDescriptorBase;
-},{"../../React3Renderer":236,"../../Resources/ResourceReference":238,"../THREEElementDescriptor":335,"fbjs/lib/invariant":347,"react/lib/ReactPropTypes":433}],331:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _THREEElementDescriptor = require('../THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-var _ResourceContainer = require('../../Resources/ResourceContainer');
-
-var _ResourceContainer2 = _interopRequireDefault(_ResourceContainer);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ResourcesDescriptor = function (_THREEElementDescript) {
-  _inherits(ResourcesDescriptor, _THREEElementDescript);
-
-  function ResourcesDescriptor() {
-    _classCallCheck(this, ResourcesDescriptor);
-
-    return _possibleConstructorReturn(this, (ResourcesDescriptor.__proto__ || Object.getPrototypeOf(ResourcesDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(ResourcesDescriptor, [{
-    key: 'construct',
-    value: function construct() {
-      return new _ResourceContainer2.default();
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(threeObject) {
-      var parentMarkup = threeObject.userData.markup.parentMarkup;
-      var parentEvents = parentMarkup.threeObject.userData.events;
-
-      threeObject.resourceIds.forEach(function (id) {
-        parentEvents.emit('resource.removed', {
-          id: id,
-          distance: 0,
-          resource: threeObject.resourceMap[id]
-        });
-      });
-
-      _get(ResourcesDescriptor.prototype.__proto__ || Object.getPrototypeOf(ResourcesDescriptor.prototype), 'unmount', this).call(this, threeObject);
-    }
-  }, {
-    key: 'addChildren',
-    value: function addChildren(threeObject, children) {
-      children.forEach(function (child) {
-        var resourceId = child.userData._resourceId;
-
-        if (process.env.NODE_ENV !== 'production') {
-          (0, _invariant2.default)(!!resourceId, 'Resource container can only hold resources. ' + 'Found children without `resourceId` properties:' + (' ' + children.filter(function (currentChild) {
-            return !currentChild.userData._resourceId;
-          }).map(function (currentChild) {
-            return '<' + currentChild.userData.react3internalComponent._elementType + '/>';
-          }).join(', ') + '.'));
-        } else {
-          (0, _invariant2.default)(!!resourceId);
-        }
-
-        threeObject.resourceIds.push(resourceId);
-
-        threeObject.resourceMap[resourceId] = child;
-
-        var parentMarkup = threeObject.userData.markup.parentMarkup;
-        if (parentMarkup) {
-          parentMarkup.threeObject.userData.events.emit('resource.added', {
-            id: resourceId,
-            distance: 0,
-            resource: child
-          });
-        }
-      });
-    }
-  }, {
-    key: 'addChild',
-    value: function addChild(threeObject, child) {
-      this.addChildren(threeObject, [child]);
-    }
-  }, {
-    key: 'removeChild',
-    value: function removeChild(threeObject, child) {
-      var resourceId = child.userData._resourceId;
-
-      delete threeObject.resourceIds[resourceId];
-
-      var parentMarkup = threeObject.userData.markup.parentMarkup;
-      if (parentMarkup) {
-        parentMarkup.threeObject.userData.events.emit('resource.removed', {
-          id: resourceId,
-          distance: 0,
-          resource: child
-        });
-      }
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(threeObject, parentObject) {
-      _get(ResourcesDescriptor.prototype.__proto__ || Object.getPrototypeOf(ResourcesDescriptor.prototype), 'setParent', this).call(this, threeObject, parentObject);
-
-      var parentEvents = parentObject.userData.events;
-
-      parentObject.userData._resources = threeObject;
-
-      threeObject.resourceIds.forEach(function (id) {
-        parentEvents.emit('resource.added', {
-          id: id,
-          distance: 0,
-          resource: threeObject.resourceMap[id]
-        });
-      });
-    }
-  }, {
-    key: 'highlight',
-    value: function highlight(threeObject) {
-      var ownerObject = threeObject.userData.markup.parentMarkup.threeObject;
-
-      if (!(ownerObject.updateMatrixWorld && ownerObject.traverse)) {
-        return;
-      }
-
-      threeObject.userData.events.emit('highlight', {
-        uuid: threeObject.uuid,
-        boundingBoxFunc: function boundingBoxFunc() {
-          var boundingBox = new _three2.default.Box3();
-
-          boundingBox.setFromObject(ownerObject);
-
-          return [boundingBox];
-        }
-      });
-    }
-  }, {
-    key: 'hideHighlight',
-    value: function hideHighlight(threeObject) {
-      threeObject.userData.events.emit('hideHighlight');
-    }
-  }, {
-    key: 'moveChild',
-    value: function moveChild() {
-      // child order doesn't matter
-    }
-  }]);
-
-  return ResourcesDescriptor;
-}(_THREEElementDescriptor2.default);
-
-module.exports = ResourcesDescriptor;
-}).call(this,require('_process'))
-},{"../../Resources/ResourceContainer":237,"../THREEElementDescriptor":335,"_process":203,"fbjs/lib/invariant":347,"three":529}],332:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _GeometryResourceDescriptor = require('./GeometryResourceDescriptor');
-
-var _GeometryResourceDescriptor2 = _interopRequireDefault(_GeometryResourceDescriptor);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ShapeGeometryResourceDescriptor = function (_GeometryResourceDesc) {
-  _inherits(ShapeGeometryResourceDescriptor, _GeometryResourceDesc);
-
-  function ShapeGeometryResourceDescriptor(react3RendererInstance) {
-    _classCallCheck(this, ShapeGeometryResourceDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (ShapeGeometryResourceDescriptor.__proto__ || Object.getPrototypeOf(ShapeGeometryResourceDescriptor)).call(this, react3RendererInstance));
-
-    _this.hasProp('type', {
-      type: _ReactPropTypes2.default.oneOf(['points', 'spacedPoints', 'shape']).isRequired,
-      update: _this.triggerRemount,
-      default: ''
-    });
-
-    _this.hasProp('divisions', {
-      type: _ReactPropTypes2.default.number,
-      update: _this.triggerRemount,
-      default: 5
-    });
-    return _this;
-  }
-
-  _createClass(ShapeGeometryResourceDescriptor, [{
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(ShapeGeometryResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(ShapeGeometryResourceDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      threeObject.userData._divisions = props.divisions;
-
-      threeObject.userData._type = props.type;
-    }
-  }, {
-    key: 'applyToSlot',
-    value: function applyToSlot(threeObject, parentObject, shape) {
-      if (!shape) {
-        return _get(ShapeGeometryResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(ShapeGeometryResourceDescriptor.prototype), 'applyToSlot', this).call(this, threeObject, parentObject, null);
-      }
-
-      var geometry = void 0;
-
-      switch (threeObject.userData._type) {
-        case 'points':
-          geometry = shape.createPointsGeometry();
-          break;
-        case 'spacedPoints':
-          geometry = shape.createSpacedPointsGeometry(threeObject.userData._divisions);
-          break;
-        case 'shape':
-          // TODO shapeGeometryDescriptor
-          geometry = new _three2.default.ShapeGeometry(shape);
-          break;
-        default:
-          break;
-      }
-
-      return _get(ShapeGeometryResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(ShapeGeometryResourceDescriptor.prototype), 'applyToSlot', this).call(this, threeObject, parentObject, geometry);
-    }
-  }]);
-
-  return ShapeGeometryResourceDescriptor;
-}(_GeometryResourceDescriptor2.default);
-
-module.exports = ShapeGeometryResourceDescriptor;
-},{"./GeometryResourceDescriptor":328,"react/lib/ReactPropTypes":433,"three":529}],333:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ResourceDescriptorBase = require('./ResourceDescriptorBase');
-
-var _ResourceDescriptorBase2 = _interopRequireDefault(_ResourceDescriptorBase);
-
-var _ShapeResourceReference = require('../../Resources/ShapeResourceReference');
-
-var _ShapeResourceReference2 = _interopRequireDefault(_ShapeResourceReference);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ShapeResourceDescriptor = function (_ResourceDescriptorBa) {
-  _inherits(ShapeResourceDescriptor, _ResourceDescriptorBa);
-
-  function ShapeResourceDescriptor() {
-    _classCallCheck(this, ShapeResourceDescriptor);
-
-    return _possibleConstructorReturn(this, (ShapeResourceDescriptor.__proto__ || Object.getPrototypeOf(ShapeResourceDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(ShapeResourceDescriptor, [{
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(ShapeResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(ShapeResourceDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      threeObject.userData._remountOnUpdate = true;
-    }
-  }, {
-    key: 'construct',
-    value: function construct(props) {
-      return new _ShapeResourceReference2.default(props.resourceId);
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(threeObject, parentObject3D) {
-      (0, _invariant2.default)(parentObject3D instanceof _three2.default.ExtrudeGeometry || parentObject3D instanceof _three2.default.BufferGeometry, 'Parent is not an extrude geometry');
-
-      _get(ShapeResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(ShapeResourceDescriptor.prototype), 'setParent', this).call(this, threeObject, parentObject3D);
-    }
-  }, {
-    key: 'applyToSlot',
-    value: function applyToSlot(threeObject, parentObject, newResource) {
-      threeObject.userData.events.emit('resource.set', newResource);
-    }
-  }]);
-
-  return ShapeResourceDescriptor;
-}(_ResourceDescriptorBase2.default);
-
-module.exports = ShapeResourceDescriptor;
-},{"../../Resources/ShapeResourceReference":239,"./ResourceDescriptorBase":330,"fbjs/lib/invariant":347,"three":529}],334:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ResourceDescriptorBase = require('./ResourceDescriptorBase');
-
-var _ResourceDescriptorBase2 = _interopRequireDefault(_ResourceDescriptorBase);
-
-var _Uniform = require('../../Uniform');
-
-var _Uniform2 = _interopRequireDefault(_Uniform);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var TextureResourceDescriptor = function (_ResourceDescriptorBa) {
-  _inherits(TextureResourceDescriptor, _ResourceDescriptorBa);
-
-  function TextureResourceDescriptor() {
-    _classCallCheck(this, TextureResourceDescriptor);
-
-    return _possibleConstructorReturn(this, (TextureResourceDescriptor.__proto__ || Object.getPrototypeOf(TextureResourceDescriptor)).apply(this, arguments));
-  }
-
-  _createClass(TextureResourceDescriptor, [{
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      _get(TextureResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(TextureResourceDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-
-      threeObject.userData._propertySlot = 'map';
-    }
-  }, {
-    key: 'applyToSlot',
-    value: function applyToSlot(threeObject, parentObject3D, newResource) {
-      if (parentObject3D instanceof _three2.default.Material) {
-        _get(TextureResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(TextureResourceDescriptor.prototype), 'applyToSlot', this).call(this, threeObject, parentObject3D, newResource);
-        parentObject3D.dispose();
-      } else if (parentObject3D instanceof _Uniform2.default) {
-        parentObject3D.setValue(newResource);
-      } else {
-        (0, _invariant2.default)(false, 'Parent is not a material or a uniform');
-      }
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(threeObject, parentObject3D) {
-      if (parentObject3D instanceof _three2.default.Material) {
-        _get(TextureResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(TextureResourceDescriptor.prototype), 'setParent', this).call(this, threeObject, parentObject3D);
-      } else if (parentObject3D instanceof _Uniform2.default) {
-        threeObject.userData._propertySlot = 'value';
-        _get(TextureResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(TextureResourceDescriptor.prototype), 'setParent', this).call(this, threeObject, parentObject3D);
-      } else {
-        (0, _invariant2.default)(false, 'Parent is not a material or a uniform');
-      }
-    }
-  }]);
-
-  return TextureResourceDescriptor;
-}(_ResourceDescriptorBase2.default);
-
-module.exports = TextureResourceDescriptor;
-},{"../../Uniform":249,"./ResourceDescriptorBase":330,"fbjs/lib/invariant":347,"three":529}],335:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _ReactPropTypeLocations = require('react/lib/ReactPropTypeLocations');
-
-var _ReactPropTypeLocations2 = _interopRequireDefault(_ReactPropTypeLocations);
-
-var _warning = require('fbjs/lib/warning');
-
-var _warning2 = _interopRequireDefault(_warning);
-
-var _events = require('events');
-
-var _events2 = _interopRequireDefault(_events);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _checkReactTypeSpec = require('react/lib/checkReactTypeSpec');
-
-var _checkReactTypeSpec2 = _interopRequireDefault(_checkReactTypeSpec);
-
-var _React3Instance = require('../React3Instance');
-
-var _React3Instance2 = _interopRequireDefault(_React3Instance);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var EventEmitter = _events2.default.EventEmitter;
-
-/**
- * @abstract
- */
-
-var THREEElementDescriptor = function () {
-  function THREEElementDescriptor(react3RendererInstance) {
-    _classCallCheck(this, THREEElementDescriptor);
-
-    this.react3RendererInstance = react3RendererInstance;
-    this.propUpdates = {};
-    this.propDeletes = {};
-    this.propDefaults = {};
-    this._initialOnly = {};
-    this._updateInitial = [];
-    this._simpleProperties = [];
-
-    this.propTypes = {};
-
-    this._hasName = false;
-  }
-
-  _createClass(THREEElementDescriptor, [{
-    key: 'hasEvent',
-    value: function hasEvent(name) {
-      this._hasEvents = true;
-
-      this.hasProp(name, {
-        type: _ReactPropTypes2.default.func,
-        updateInitial: true,
-        update: function update(threeObject, callback) {
-          threeObject.userData._eventCallbacks[name] = callback;
-        },
-
-        default: null
-      });
-    }
-  }, {
-    key: 'removeProp',
-    value: function removeProp(name) {
-      (0, _invariant2.default)(this.propTypes.hasOwnProperty(name), 'The property %s has not been defined', name);
-
-      var simpleIndex = this._simpleProperties.indexOf(name);
-      if (simpleIndex !== -1) {
-        this._simpleProperties.splice(simpleIndex, 1);
-      }
-
-      delete this.propTypes[name];
-      delete this.propDeletes[name];
-      delete this.propUpdates[name];
-      delete this.propDefaults[name];
-
-      var updateInitialIndex = this._updateInitial.indexOf(name);
-      if (updateInitialIndex !== -1) {
-        this._updateInitial.splice(updateInitialIndex, 1);
-      }
-
-      delete this._initialOnly[name];
-    }
-  }, {
-    key: 'hasProp',
-    value: function hasProp(name, info) {
-      var _this = this;
-
-      (0, _invariant2.default)(info.hasOwnProperty('type'), 'The information should include a `type` property');
-      (0, _invariant2.default)(!this.propTypes.hasOwnProperty(name) || info.override, 'The property %s has already been defined', name);
-
-      if (info.override) {
-        // clean up simple prop
-        var simpleIndex = this._simpleProperties.indexOf(name);
-        if (simpleIndex !== -1) {
-          this._simpleProperties.splice(simpleIndex, 1);
-        }
-      }
-
-      this.propTypes[name] = info.type;
-
-      if (info.hasOwnProperty('simple')) {
-        this.registerSimpleProperties([name]);
-
-        if (info.hasOwnProperty('default')) {
-          this.propDeletes[name] = function (threeObject) {
-            _this.propUpdates[name](threeObject, info.default, true);
-          };
-
-          this.propDefaults[name] = info.default;
-        }
-      } else {
-        if (info.hasOwnProperty('update')) {
-          this.propUpdates[name] = info.update;
-        }
-
-        if (info.hasOwnProperty('default')) {
-          (0, _invariant2.default)(info.hasOwnProperty('update'), 'The information should include a `update` property ' + 'if it has a `default` property');
-
-          this.propDeletes[name] = function (threeObject) {
-            info.update(threeObject, info.default, true);
-          };
-
-          this.propDefaults[name] = info.default;
-        } else {
-          (0, _invariant2.default)(info.update === this.triggerRemount, 'The type information for ' + this.constructor.name + '.' + name + ' ' + 'should include a `default` property if it\'s not going to trigger remount');
-        }
-
-        if (info.hasOwnProperty('remove')) {
-          (0, _invariant2.default)(false, 'Bad \'remove\' info for ' + this.constructor.name + '.' + name);
-        }
-
-        if (info.hasOwnProperty('updateInitial')) {
-          (0, _invariant2.default)(info.hasOwnProperty('update'), 'The information should include a ' + '`update` property if it has a`updateInitial` property');
-
-          if (process.env.NODE_ENV !== 'production') {
-            (0, _invariant2.default)(info.hasOwnProperty('default') || this.propUpdates[name].length === 3 || this.propUpdates[name] === this.triggerRemount, 'Prop info for ' + this.constructor.name + '.' + name + ' has \'updateInitial\', ' + 'but no \'default\', and ' + ('the update function accepts ' + this.propUpdates[name].length) + ' parameters instead of 3.');
-          }
-
-          if (this._updateInitial.indexOf(name) === -1) {
-            this._updateInitial.push(name);
-          }
-        }
-
-        if (info.initialOnly) {
-          (0, _invariant2.default)(info.hasOwnProperty('updateInitial'), 'The information should include a ' + '`updateInitial` property if it has an `initialOnly` property');
-        }
-
-        this._initialOnly[name] = info.initialOnly;
-      }
-    }
-  }, {
-    key: 'hasName',
-    value: function hasName() {
-      var _this2 = this;
-
-      this._hasName = true;
-
-      this.hasProp('name', {
-        type: _ReactPropTypes2.default.string,
-        update: function update(threeObject, name) {
-          _this2._updateName(threeObject, name);
-        },
-        default: ''
-      });
-    }
-  }, {
-    key: '_updateName',
-    value: function _updateName(threeObject, nextName) {
-      var oldName = threeObject.name;
-
-      threeObject.name = nextName;
-
-      threeObject.userData.events.emit('rename', {
-        oldName: oldName,
-        nextName: nextName
-      });
-
-      var markup = threeObject.userData.markup;
-
-      if (markup._rootInstance) {
-        markup._rootInstance.objectRenamed(threeObject, oldName, nextName);
-      }
-    }
-  }, {
-    key: 'placeRemountTrigger',
-    value: function placeRemountTrigger(threeObject, triggerRemount) {
-      threeObject.userData._triggerRemount = triggerRemount;
-    }
-  }, {
-    key: 'applyInitialProps',
-    value: function applyInitialProps(threeObject, props) {
-      var _this3 = this;
-
-      // do nothing for now
-
-      var eventsForObject = new EventEmitter();
-
-      if (this._hasName && props.name) {
-        threeObject.name = props.name;
-      }
-
-      if (this._hasEvents) {
-        threeObject.userData._eventCallbacks = {};
-      }
-
-      // pass down resources
-
-      eventsForObject.on('resource.added', function (data) {
-        var childrenMarkup = threeObject.userData.markup.childrenMarkup;
-
-        var increasedDistance = _extends({}, data, {
-          distance: data.distance + 1
-        });
-
-        childrenMarkup.forEach(function (childMarkup) {
-          return childMarkup.threeObject.userData.events.emit('resource.added', increasedDistance);
-        });
-      });
-
-      eventsForObject.on('resource.removed', function (data) {
-        var childrenMarkup = threeObject.userData.markup.childrenMarkup;
-
-        var increasedDistance = _extends({}, data, {
-          distance: data.distance + 1
-        });
-
-        childrenMarkup.forEach(function (childMarkup) {
-          return childMarkup.threeObject.userData.events.emit('resource.removed', increasedDistance);
-        });
-      });
-
-      threeObject.userData.events = eventsForObject;
-      threeObject.userData._descriptor = this;
-
-      this._updateInitial.forEach(function (propertyName) {
-        if (props.hasOwnProperty(propertyName)) {
-          _this3.propUpdates[propertyName](threeObject, props[propertyName], true);
-        } else {
-          var originalValue = void 0;
-
-          if (_this3.propDefaults.hasOwnProperty(propertyName)) {
-            originalValue = _this3.propDefaults[propertyName];
-          }
-
-          _this3.propUpdates[propertyName](threeObject, originalValue, false);
-        }
-      });
-
-      this._simpleProperties.forEach(function (propertyName) {
-        if (props.hasOwnProperty(propertyName)) {
-          threeObject[propertyName] = props[propertyName];
-        }
-      });
-    }
-  }, {
-    key: 'construct',
-    value: function construct(props) {
-      // eslint-disable-line no-unused-vars
-      (0, _invariant2.default)(false, 'Missing constructor!');
-    }
-
-    // noinspection JSUnusedLocalSymbols
-
-  }, {
-    key: 'addChildren',
-    value: function addChildren(threeObject, children) {
-      // eslint-disable-line no-unused-vars
-      (0, _invariant2.default)(false, 'Cannot add children to ' + this.constructor.name + '!');
-    }
-
-    // noinspection JSUnusedLocalSymbols
-
-  }, {
-    key: 'addChild',
-    value: function addChild(threeObject, child, mountIndex) {
-      // eslint-disable-line no-unused-vars
-      (0, _invariant2.default)(false, 'Cannot add child to ' + this.constructor.name + '!');
-    }
-  }, {
-    key: 'moveChild',
-    value: function moveChild() {
-      (0, _invariant2.default)(false, 'Cannot move children in ' + this.constructor.name + '!');
-    }
-  }, {
-    key: 'removeChild',
-    value: function removeChild(threeObject, child) {
-      // eslint-disable-line no-unused-vars
-      (0, _invariant2.default)(false, 'Cannot remove children in ' + this.constructor.name + '!');
-    }
-  }, {
-    key: 'setParent',
-    value: function setParent(threeObject, parentObject3D) {
-      var parentMarkup = parentObject3D.userData.markup;
-
-      if (parentMarkup && parentMarkup._rootInstance) {
-        parentMarkup._rootInstance.objectMounted(threeObject);
-      }
-    }
-  }, {
-    key: 'componentWillUnmount',
-    value: function componentWillUnmount(threeObject) {// eslint-disable-line no-unused-vars
-
-    }
-  }, {
-    key: 'unmount',
-    value: function unmount(threeObject) {
-      var markup = threeObject.userData.markup;
-
-      if (markup._rootInstance) {
-        markup._rootInstance.objectRemoved(threeObject);
-      }
-
-      if (this._hasEvents) {
-        delete threeObject.userData._eventCallbacks;
-      }
-
-      threeObject.userData.events.emit('dispose', {
-        object: threeObject
-      });
-
-      threeObject.userData.events.removeAllListeners();
-    }
-  }, {
-    key: 'removedFromParent',
-    value: function removedFromParent(threeObject) {
-      delete threeObject.userData.events;
-    }
-
-    // noinspection JSUnusedLocalSymbols
-
-  }, {
-    key: 'deleteProperty',
-    value: function deleteProperty(threeObject, propKey) {
-      // eslint-disable-line no-unused-vars
-      if (this.propDeletes[propKey]) {
-        this.propDeletes[propKey](threeObject);
-      } else if (process.env.NODE_ENV !== 'production') {
-        (0, _warning2.default)(false, 'Cannot delete property %s from ' + this.constructor.name, propKey);
-      }
-    }
-  }, {
-    key: 'updateProperty',
-    value: function updateProperty(threeObject, propKey, nextProp) {
-      if (!this._initialOnly[propKey]) {
-        if (this.propUpdates[propKey]) {
-          this.propUpdates[propKey](threeObject, nextProp, true);
-        } else {
-          (0, _warning2.default)(false, 'updating prop ' + propKey + ' ( ' + nextProp + ' ) for ' + this.constructor.name);
-          this.triggerRemount(threeObject);
-        }
-      } else {
-        this.triggerRemount(threeObject);
-      }
-    }
-  }, {
-    key: 'highlight',
-    value: function highlight(threeObject) {// eslint-disable-line no-unused-vars
-      // no highlighting by default!
-    }
-  }, {
-    key: 'hideHighlight',
-    value: function hideHighlight(threeObject) {} // eslint-disable-line no-unused-vars
-    // no highlighting by default!
-
-
-    /**
-     * @protected
-     * @param names
-     */
-
-  }, {
-    key: 'useSimpleUpdates',
-    value: function useSimpleUpdates(names) {
-      for (var index = 0; index < names.length; ++index) {
-        var propName = names[index];
-        this.propUpdates[propName] = this._updateSimple.bind(this, propName);
-      }
-    }
-  }, {
-    key: '_updateSimple',
-    value: function _updateSimple(propName, threeObject, propValue) {
-      threeObject[propName] = propValue;
-    }
-  }, {
-    key: 'registerSimpleProperties',
-    value: function registerSimpleProperties(propertyNames) {
-      var _this4 = this;
-
-      propertyNames.forEach(function (propName) {
-        if (_this4._simpleProperties.indexOf(propName) === -1) {
-          _this4._simpleProperties.push(propName);
-        }
-      });
-
-      this.useSimpleUpdates(propertyNames);
-    }
-  }, {
-    key: 'getBoundingBoxes',
-    value: function getBoundingBoxes(threeObject) {
-      // eslint-disable-line no-unused-vars
-      return [];
-    }
-  }, {
-    key: 'triggerRemount',
-    value: function triggerRemount(threeObject) {
-      if (threeObject.userData._triggerRemount) {
-        threeObject.userData._triggerRemount();
-
-        delete threeObject.userData._triggerRemount;
-      }
-    }
-  }, {
-    key: 'beginPropertyUpdates',
-    value: function beginPropertyUpdates(threeObject) {// eslint-disable-line no-unused-vars
-    }
-  }, {
-    key: 'completePropertyUpdates',
-    value: function completePropertyUpdates(threeObject) {// eslint-disable-line no-unused-vars
-    }
-  }, {
-    key: 'beginChildUpdates',
-    value: function beginChildUpdates(threeObject) {// eslint-disable-line no-unused-vars
-    }
-  }, {
-    key: 'completeChildUpdates',
-    value: function completeChildUpdates(threeObject) {// eslint-disable-line no-unused-vars
-    }
-  }]);
-
-  return THREEElementDescriptor;
-}();
-
-if (process.env.NODE_ENV !== 'production') {
-  (function () {
-    // @see ReactElementValidator
-
-    var loggedTypeFailures = {};
-
-    var getDeclarationErrorAddendum = function getDeclarationErrorAddendum(owner) {
-      if (owner) {
-        var name = owner.getName();
-        if (name) {
-          return ' Check the render method of `' + name + '`.';
-        }
-      }
-      return '';
-    };
-
-    /**
-     * Assert that the props are valid
-     * @private
-     */
-    var _checkPropTypes = function _checkPropTypes(componentName, propTypes, props, location, owner, element, debugID) {
-      var propNames = Object.keys(props);
-      for (var i = 0; i < propNames.length; ++i) {
-        var propName = propNames[i];
-
-        if (propName === 'children') {
-          continue;
-        }
-
-        if (!propTypes.hasOwnProperty(propName)) {
-          var errorMessage = 'Foreign prop ' + propName + ' found in ' + componentName + '.';
-
-          if (!(errorMessage in loggedTypeFailures)) {
-            var addendum = getDeclarationErrorAddendum(owner);
-
-            // Only monitor this failure once because there tends to be a lot of the
-            // same error.
-            loggedTypeFailures[errorMessage] = true;
-
-            (0, _warning2.default)(false, '' + errorMessage + addendum);
-          }
-        }
-      }
-
-      (0, _checkReactTypeSpec2.default)(propTypes, props, location, componentName, element, debugID);
-    };
-
-    THREEElementDescriptor.prototype.checkPropTypes = function checkPropTypes(element, owner, debugID, props) {
-      _checkPropTypes(element.type, this.propTypes, props, _ReactPropTypeLocations2.default.prop, owner, element, debugID);
-    };
-  })();
-}
-
-module.exports = THREEElementDescriptor;
-}).call(this,require('_process'))
-},{"../React3Instance":235,"_process":203,"events":200,"fbjs/lib/invariant":347,"fbjs/lib/warning":348,"react/lib/ReactPropTypeLocations":432,"react/lib/ReactPropTypes":433,"react/lib/checkReactTypeSpec":465}],336:[function(require,module,exports){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _Viewport = require('../Viewport');
-
-var _Viewport2 = _interopRequireDefault(_Viewport);
-
-var _THREEElementDescriptor = require('./THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ViewportDescriptor = function (_THREEElementDescript) {
-  _inherits(ViewportDescriptor, _THREEElementDescript);
-
-  function ViewportDescriptor(react3Instance) {
-    _classCallCheck(this, ViewportDescriptor);
-
-    var _this = _possibleConstructorReturn(this, (ViewportDescriptor.__proto__ || Object.getPrototypeOf(ViewportDescriptor)).call(this, react3Instance));
-
-    ['x', 'y', 'width', 'height'].forEach(function (propName) {
-      _this.hasProp(propName, {
-        type: _ReactPropTypes2.default.number.isRequired,
-        simple: true
-      });
-    });
-
-    _this.hasProp('cameraName', {
-      type: _ReactPropTypes2.default.string.isRequired,
-      simple: true
-    });
-    return _this;
-  }
-
-  _createClass(ViewportDescriptor, [{
-    key: 'construct',
-    value: function construct(props) {
-      return new _Viewport2.default(props);
-    }
-  }]);
-
-  return ViewportDescriptor;
-}(_THREEElementDescriptor2.default);
-
-module.exports = ViewportDescriptor;
-},{"../Viewport":251,"./THREEElementDescriptor":335,"react/lib/ReactPropTypes":433}],337:[function(require,module,exports){
-(function (process){
-'use strict';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _invariant = require('fbjs/lib/invariant');
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _warning = require('fbjs/lib/warning');
-
-var _warning2 = _interopRequireDefault(_warning);
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _ResourceContainer = require('../../Resources/ResourceContainer');
-
-var _ResourceContainer2 = _interopRequireDefault(_ResourceContainer);
-
-var _THREEElementDescriptor = require('../THREEElementDescriptor');
-
-var _THREEElementDescriptor2 = _interopRequireDefault(_THREEElementDescriptor);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * Resource decorator.
- * Allows descriptors to be slotted into the <resources/> component.
- *
- * @param descriptor The descriptor to be patched
- * @returns {ResourceDescriptor} the modified descriptor class
- */
-function resource(descriptor) {
-  var _class, _temp;
-
-  var ResourceDescriptor = (_temp = _class = function (_descriptor) {
-    _inherits(ResourceDescriptor, _descriptor);
-
-    function ResourceDescriptor(react3RendererInstance) {
-      _classCallCheck(this, ResourceDescriptor);
-
-      var _this = _possibleConstructorReturn(this, (ResourceDescriptor.__proto__ || Object.getPrototypeOf(ResourceDescriptor)).call(this, react3RendererInstance));
-
-      _this.isResource = true;
-
-
-      _this.hasProp('resourceId', {
-        type: _ReactPropTypes2.default.string,
-        updateInitial: true,
-        initialOnly: true,
-        update: function update(threeObject, resourceId, hasProp) {
-          if (hasProp) {
-            threeObject.userData._resourceId = resourceId;
-
-            if (!threeObject.userData._hasReferences) {
-              threeObject.userData._hasReferences = true;
-              threeObject.userData._references = [];
-            }
-          }
-        },
-        default: ''
-      });
-      return _this;
-    }
-
-    // used for docs
-
-
-    _createClass(ResourceDescriptor, [{
-      key: 'applyInitialProps',
-      value: function applyInitialProps(threeObject, props) {
-        _get(ResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(ResourceDescriptor.prototype), 'applyInitialProps', this).call(this, threeObject, props);
-      }
-    }, {
-      key: 'setParent',
-      value: function setParent(threeObject, parentObject3D) {
-        if (parentObject3D instanceof _ResourceContainer2.default) {
-          if (process.env.NODE_ENV !== 'production') {
-            (0, _invariant2.default)(!!threeObject.userData._resourceId, 'All resources inside <resources> should have the "resourceId" property. ' + 'Current resource: <${threeObject.userData.react3internalComponent._elementType}>');
-          } else {
-            (0, _invariant2.default)(!!threeObject.userData._resourceId);
-          }
-
-          // still let it be mounted to root
-          _THREEElementDescriptor2.default.prototype.setParent.call(this, threeObject, parentObject3D);
-        } else {
-          if (process.env.NODE_ENV !== 'production') {
-            (0, _warning2.default)(!threeObject.userData._resourceId, 'Found <' + threeObject.userData.react3internalComponent._elementType + '> ' + 'with a resourceId property, ' + 'but it was not placed within a <resources/> element.');
-          }
-          _get(ResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(ResourceDescriptor.prototype), 'setParent', this).call(this, threeObject, parentObject3D);
-        }
-      }
-    }, {
-      key: 'highlight',
-      value: function highlight(threeObject) {
-        var result = void 0;
-
-        if (threeObject.userData._resourceId) {
-          // it's a resource. Let's highlight all references.
-          threeObject.userData.events.emit('highlight', {
-            uuid: threeObject.uuid,
-            boundingBoxFunc: function boundingBoxFunc() {
-              return threeObject.userData._references.reduce(function (boxes, objectWithReference) {
-                var boxesForReference = objectWithReference.userData._descriptor.getBoundingBoxes(objectWithReference);
-                if (process.env.NODE_ENV !== 'production') {
-                  (0, _invariant2.default)(boxesForReference.length > 0, 'No boxes found for resource.');
-                } else {
-                  (0, _invariant2.default)(boxesForReference.length > 0);
-                }
-                return boxes.concat(boxesForReference);
-              }, []);
-            }
-          });
-        } else {
-          result = _get(ResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(ResourceDescriptor.prototype), 'highlight', this).call(this, threeObject);
-        }
-
-        return result;
-      }
-    }, {
-      key: 'hideHighlight',
-      value: function hideHighlight(threeObject) {
-        var result = void 0;
-
-        if (threeObject.userData._resourceId) {
-          threeObject.userData.events.emit('hideHighlight');
-        } else {
-          result = _get(ResourceDescriptor.prototype.__proto__ || Object.getPrototypeOf(ResourceDescriptor.prototype), 'hideHighlight', this).call(this, threeObject);
-        }
-
-        return result;
-      }
-    }]);
-
-    return ResourceDescriptor;
-  }(descriptor), _class.displayName = '' + (descriptor.displayName || descriptor.name), _temp);
-
-
-  return ResourceDescriptor;
-}
-
-module.exports = resource;
-}).call(this,require('_process'))
-},{"../../Resources/ResourceContainer":237,"../THREEElementDescriptor":335,"_process":203,"fbjs/lib/invariant":347,"fbjs/lib/warning":348,"react/lib/ReactPropTypes":433}],338:[function(require,module,exports){
-'use strict';
-
-var _class, _temp;
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var CameraUtils = (_temp = _class = function CameraUtils() {
-  _classCallCheck(this, CameraUtils);
-}, _class.current = null, _temp);
-
-
-module.exports = CameraUtils;
-},{"three":529}],339:[function(require,module,exports){
-"use strict";
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var EventDispatcher = function () {
-  function EventDispatcher() {
-    _classCallCheck(this, EventDispatcher);
-  }
-
-  _createClass(EventDispatcher, [{
-    key: "dispatchEvent",
-    value: function dispatchEvent(threeObject, eventName) {
-      var eventCallbacks = threeObject.userData._eventCallbacks;
-      var callback = eventCallbacks && eventCallbacks[eventName];
-
-      if (callback) {
-        for (var _len = arguments.length, params = Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++) {
-          params[_key - 2] = arguments[_key];
-        }
-
-        callback.apply(undefined, params);
-      }
-    }
-  }]);
-
-  return EventDispatcher;
-}();
-
-module.exports = EventDispatcher;
-},{}],340:[function(require,module,exports){
-'use strict';
-
-/**
- * We use an Error-like object for backward compatibility as people may call
- * PropTypes directly and inspect their output. However we don't use real
- * Errors anymore. We don't inspect their stack anyway, and creating them
- * is prohibitively expensive if they are created too often, such as what
- * happens in oneOfType() for any type before the one that matched.
- */
-function PropTypeError(message) {
-  this.message = message;
-  this.stack = '';
-}
-// Make `instanceof Error` still work for returned errors.
-PropTypeError.prototype = Error.prototype;
-
-module.exports = PropTypeError;
-},{}],341:[function(require,module,exports){
-'use strict';
-
-module.exports = 'data-reactid';
-},{}],342:[function(require,module,exports){
-'use strict';
-
-module.exports = function () {
-  try {
-    var canvas = document.createElement('canvas');
-    return !!(window.WebGLRenderingContext && (canvas.getContext('webgl') || canvas.getContext('experimental-webgl')));
-  } catch (e) {
-    return false;
-  }
-};
-},{}],343:[function(require,module,exports){
-'use strict';
-
-var _ReactPropTypes = require('react/lib/ReactPropTypes');
-
-var _ReactPropTypes2 = _interopRequireDefault(_ReactPropTypes);
-
-var _ReactPropTypeLocationNames = require('react/lib/ReactPropTypeLocationNames');
-
-var _ReactPropTypeLocationNames2 = _interopRequireDefault(_ReactPropTypeLocationNames);
-
-var _PropTypeError = require('./PropTypeError');
-
-var _PropTypeError2 = _interopRequireDefault(_PropTypeError);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ANONYMOUS = '<<anonymous>>';
-
-// Returns class name of the object, if any.
-function getClassName(propValue) {
-  if (!(propValue.constructor && (propValue.constructor.name || propValue.constructor.displayName))) {
-    return ANONYMOUS;
-  }
-  return propValue.constructor.name || propValue.constructor.displayName;
-}
-
-function createChainableTypeChecker(validate) {
-  function checkType(isRequired, props, propName, _componentName, location, _propFullName) {
-    var componentName = _componentName || ANONYMOUS;
-    var propFullName = _propFullName || propName;
-    if (props[propName] === undefined) {
-      var locationName = _ReactPropTypeLocationNames2.default[location];
-      if (isRequired) {
-        return new _PropTypeError2.default('Required ' + locationName + ' `' + propFullName + '`' + (' was not specified in `' + componentName + '`.'));
-      }
-      return null;
-    }
-
-    for (var _len = arguments.length, rest = Array(_len > 6 ? _len - 6 : 0), _key = 6; _key < _len; _key++) {
-      rest[_key - 6] = arguments[_key];
-    }
-
-    return validate.apply(undefined, [props, propName, componentName, location, propFullName].concat(rest));
-  }
-
-  var chainedCheckType = checkType.bind(null, false);
-  chainedCheckType.isRequired = checkType.bind(null, true);
-
-  return chainedCheckType;
-}
-
-function createInstanceTypeChecker(expectedClass) {
-  var originalInstanceOf = _ReactPropTypes2.default.instanceOf(expectedClass);
-
-  function validate(props, propName, componentName, location, propFullName) {
-    for (var _len2 = arguments.length, rest = Array(_len2 > 5 ? _len2 - 5 : 0), _key2 = 5; _key2 < _len2; _key2++) {
-      rest[_key2 - 5] = arguments[_key2];
-    }
-
-    var originalResult = originalInstanceOf.apply(undefined, [props, propName, componentName, location, propFullName].concat(rest));
-
-    if (originalResult !== null) {
-      var locationName = _ReactPropTypeLocationNames2.default[location];
-      var expectedClassName = expectedClass.name || expectedClass.displayName || ANONYMOUS;
-      var actualClassName = getClassName(props[propName]);
-      return new _PropTypeError2.default('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + actualClassName + '` supplied to `' + componentName + '`, expected ') + ('instance of `' + expectedClassName + '`.'));
-    }
-
-    return originalResult;
-  }
-
-  var typeChecker = createChainableTypeChecker(validate);
-
-  var _type = '' + (expectedClass.displayName || expectedClass.name || expectedClass._type || expectedClass);
-
-  typeChecker.toString = function () {
-    return '```' + ' ' + _type + ' ' + '```';
-  };
-
-  typeChecker.isRequired.toString = function () {
-    return typeChecker.toString() + ' *' + '```' + ' required ' + '```' + '*';
-  };
-
-  typeChecker.displayName = _type;
-  typeChecker.isRequired.displayName = _type;
-
-  return typeChecker;
-}
-
-module.exports = createInstanceTypeChecker;
-},{"./PropTypeError":340,"react/lib/ReactPropTypeLocationNames":431,"react/lib/ReactPropTypes":433}],344:[function(require,module,exports){
-'use strict';
-
-var _ReactInstrumentation = require('react/lib/ReactInstrumentation');
-
-var _ReactInstrumentation2 = _interopRequireDefault(_ReactInstrumentation);
-
-var _ReactDOMUnknownPropertyHook = require('react/lib/ReactDOMUnknownPropertyHook');
-
-var _ReactDOMUnknownPropertyHook2 = _interopRequireDefault(_ReactDOMUnknownPropertyHook);
-
-var _ReactDOMNullInputValuePropHook = require('react/lib/ReactDOMNullInputValuePropHook');
-
-var _ReactDOMNullInputValuePropHook2 = _interopRequireDefault(_ReactDOMNullInputValuePropHook);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var devToolRemoved = false;
-
-function removeDevTool() {
-  if (!devToolRemoved) {
-    _ReactInstrumentation2.default.debugTool.removeHook(_ReactDOMUnknownPropertyHook2.default);
-    _ReactInstrumentation2.default.debugTool.removeHook(_ReactDOMNullInputValuePropHook2.default);
-
-    devToolRemoved = true;
-
-    return true;
-  }
-
-  return false;
-}
-
-removeDevTool.restore = function restore() {
-  devToolRemoved = false;
-
-  _ReactInstrumentation2.default.debugTool.addHook(_ReactDOMUnknownPropertyHook2.default);
-  _ReactInstrumentation2.default.debugTool.addHook(_ReactDOMNullInputValuePropHook2.default);
-};
-
-module.exports = removeDevTool;
-},{"react/lib/ReactDOMNullInputValuePropHook":398,"react/lib/ReactDOMUnknownPropertyHook":405,"react/lib/ReactInstrumentation":422}],345:[function(require,module,exports){
-"use strict";
-
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- *
- * 
- */
-
-function makeEmptyFunction(arg) {
-  return function () {
-    return arg;
-  };
-}
-
-/**
- * This function accepts and discards inputs; it has no side effects. This is
- * primarily useful idiomatically for overridable function endpoints which
- * always need to be callable, since JS lacks a null-call idiom ala Cocoa.
- */
-var emptyFunction = function emptyFunction() {};
-
-emptyFunction.thatReturns = makeEmptyFunction;
-emptyFunction.thatReturnsFalse = makeEmptyFunction(false);
-emptyFunction.thatReturnsTrue = makeEmptyFunction(true);
-emptyFunction.thatReturnsNull = makeEmptyFunction(null);
-emptyFunction.thatReturnsThis = function () {
-  return this;
-};
-emptyFunction.thatReturnsArgument = function (arg) {
-  return arg;
-};
-
-module.exports = emptyFunction;
-},{}],346:[function(require,module,exports){
-(function (process){
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- *
- */
-
-'use strict';
-
-var emptyObject = {};
-
-if (process.env.NODE_ENV !== 'production') {
-  Object.freeze(emptyObject);
-}
-
-module.exports = emptyObject;
-}).call(this,require('_process'))
-},{"_process":203}],347:[function(require,module,exports){
-(function (process){
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- *
- */
-
-'use strict';
-
-/**
- * Use invariant() to assert state which your program assumes to be true.
- *
- * Provide sprintf-style format (only %s is supported) and arguments
- * to provide information about what broke and what you were
- * expecting.
- *
- * The invariant message will be stripped in production, but the invariant
- * will remain to ensure logic does not differ in production.
- */
-
-function invariant(condition, format, a, b, c, d, e, f) {
-  if (process.env.NODE_ENV !== 'production') {
-    if (format === undefined) {
-      throw new Error('invariant requires an error message argument');
-    }
-  }
-
-  if (!condition) {
-    var error;
-    if (format === undefined) {
-      error = new Error('Minified exception occurred; use the non-minified dev environment ' + 'for the full error message and additional helpful warnings.');
-    } else {
-      var args = [a, b, c, d, e, f];
-      var argIndex = 0;
-      error = new Error(format.replace(/%s/g, function () {
-        return args[argIndex++];
-      }));
-      error.name = 'Invariant Violation';
-    }
-
-    error.framesToPop = 1; // we don't care about invariant's own frame
-    throw error;
-  }
-}
-
-module.exports = invariant;
-}).call(this,require('_process'))
-},{"_process":203}],348:[function(require,module,exports){
-(function (process){
-/**
- * Copyright 2014-2015, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- *
- */
-
-'use strict';
-
-var emptyFunction = require('./emptyFunction');
-
-/**
- * Similar to invariant but only logs a warning if the condition is not met.
- * This can be used to log issues in development environments in critical
- * paths. Removing the logging code for production environments will keep the
- * same logic and follow the same code paths.
- */
-
-var warning = emptyFunction;
-
-if (process.env.NODE_ENV !== 'production') {
-  (function () {
-    var printWarning = function printWarning(format) {
-      for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-        args[_key - 1] = arguments[_key];
-      }
-
-      var argIndex = 0;
-      var message = 'Warning: ' + format.replace(/%s/g, function () {
-        return args[argIndex++];
-      });
-      if (typeof console !== 'undefined') {
-        console.error(message);
-      }
-      try {
-        // --- Welcome to debugging React ---
-        // This error was thrown as a convenience so that you can use this stack
-        // to find the callsite that caused this warning to fire.
-        throw new Error(message);
-      } catch (x) {}
-    };
-
-    warning = function warning(condition, format) {
-      if (format === undefined) {
-        throw new Error('`warning(condition, format, ...args)` requires a warning ' + 'message argument');
-      }
-
-      if (format.indexOf('Failed Composite propType: ') === 0) {
-        return; // Ignore CompositeComponent proptype check.
-      }
-
-      if (!condition) {
-        for (var _len2 = arguments.length, args = Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
-          args[_key2 - 2] = arguments[_key2];
-        }
-
-        printWarning.apply(undefined, [format].concat(args));
-      }
-    };
-  })();
-}
-
-module.exports = warning;
-}).call(this,require('_process'))
-},{"./emptyFunction":345,"_process":203}],349:[function(require,module,exports){
+},{"react/lib/ReactDOM":264}],227:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -40625,7 +26687,7 @@ var AutoFocusUtils = {
 };
 
 module.exports = AutoFocusUtils;
-},{"./ReactDOMComponentTree":391,"fbjs/lib/focusNode":503}],350:[function(require,module,exports){
+},{"./ReactDOMComponentTree":268,"fbjs/lib/focusNode":378}],228:[function(require,module,exports){
 /**
  * Copyright 2013-present Facebook, Inc.
  * All rights reserved.
@@ -41014,7 +27076,7 @@ var BeforeInputEventPlugin = {
 };
 
 module.exports = BeforeInputEventPlugin;
-},{"./EventConstants":364,"./EventPropagators":368,"./FallbackCompositionState":369,"./SyntheticCompositionEvent":449,"./SyntheticInputEvent":453,"fbjs/lib/ExecutionEnvironment":495,"fbjs/lib/keyOf":513}],351:[function(require,module,exports){
+},{"./EventConstants":242,"./EventPropagators":246,"./FallbackCompositionState":247,"./SyntheticCompositionEvent":325,"./SyntheticInputEvent":329,"fbjs/lib/ExecutionEnvironment":370,"fbjs/lib/keyOf":388}],229:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -41163,7 +27225,7 @@ var CSSProperty = {
 };
 
 module.exports = CSSProperty;
-},{}],352:[function(require,module,exports){
+},{}],230:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -41371,7 +27433,7 @@ var CSSPropertyOperations = {
 
 module.exports = CSSPropertyOperations;
 }).call(this,require('_process'))
-},{"./CSSProperty":351,"./ReactInstrumentation":422,"./dangerousStyleValue":467,"_process":203,"fbjs/lib/ExecutionEnvironment":495,"fbjs/lib/camelizeStyleName":497,"fbjs/lib/hyphenateStyleName":508,"fbjs/lib/memoizeStringOnly":514,"fbjs/lib/warning":518}],353:[function(require,module,exports){
+},{"./CSSProperty":229,"./ReactInstrumentation":298,"./dangerousStyleValue":343,"_process":203,"fbjs/lib/ExecutionEnvironment":370,"fbjs/lib/camelizeStyleName":372,"fbjs/lib/hyphenateStyleName":383,"fbjs/lib/memoizeStringOnly":389,"fbjs/lib/warning":393}],231:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -41480,7 +27542,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 
 module.exports = CallbackQueue;
 }).call(this,require('_process'))
-},{"./PooledClass":373,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509,"object-assign":519}],354:[function(require,module,exports){
+},{"./PooledClass":251,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384,"object-assign":394}],232:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -41806,7 +27868,7 @@ var ChangeEventPlugin = {
 };
 
 module.exports = ChangeEventPlugin;
-},{"./EventConstants":364,"./EventPluginHub":365,"./EventPropagators":368,"./ReactDOMComponentTree":391,"./ReactUpdates":442,"./SyntheticEvent":451,"./getEventTarget":475,"./isEventSupported":482,"./isTextInputElement":483,"fbjs/lib/ExecutionEnvironment":495,"fbjs/lib/keyOf":513}],355:[function(require,module,exports){
+},{"./EventConstants":242,"./EventPluginHub":243,"./EventPropagators":246,"./ReactDOMComponentTree":268,"./ReactUpdates":318,"./SyntheticEvent":327,"./getEventTarget":351,"./isEventSupported":358,"./isTextInputElement":359,"fbjs/lib/ExecutionEnvironment":370,"fbjs/lib/keyOf":388}],233:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -42003,7 +28065,7 @@ var DOMChildrenOperations = {
 
 module.exports = DOMChildrenOperations;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":356,"./Danger":360,"./ReactDOMComponentTree":391,"./ReactInstrumentation":422,"./ReactMultiChildUpdateTypes":427,"./createMicrosoftUnsafeLocalFunction":466,"./setInnerHTML":488,"./setTextContent":489,"_process":203}],356:[function(require,module,exports){
+},{"./DOMLazyTree":234,"./Danger":238,"./ReactDOMComponentTree":268,"./ReactInstrumentation":298,"./ReactMultiChildUpdateTypes":303,"./createMicrosoftUnsafeLocalFunction":342,"./setInnerHTML":364,"./setTextContent":365,"_process":203}],234:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -42122,7 +28184,7 @@ DOMLazyTree.queueHTML = queueHTML;
 DOMLazyTree.queueText = queueText;
 
 module.exports = DOMLazyTree;
-},{"./DOMNamespaces":357,"./createMicrosoftUnsafeLocalFunction":466,"./setInnerHTML":488,"./setTextContent":489}],357:[function(require,module,exports){
+},{"./DOMNamespaces":235,"./createMicrosoftUnsafeLocalFunction":342,"./setInnerHTML":364,"./setTextContent":365}],235:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -42143,7 +28205,7 @@ var DOMNamespaces = {
 };
 
 module.exports = DOMNamespaces;
-},{}],358:[function(require,module,exports){
+},{}],236:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -42352,7 +28414,7 @@ var DOMProperty = {
 
 module.exports = DOMProperty;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509}],359:[function(require,module,exports){
+},{"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384}],237:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -42576,7 +28638,7 @@ var DOMPropertyOperations = {
 
 module.exports = DOMPropertyOperations;
 }).call(this,require('_process'))
-},{"./DOMProperty":358,"./ReactDOMComponentTree":391,"./ReactInstrumentation":422,"./quoteAttributeValueForBrowser":485,"_process":203,"fbjs/lib/warning":518}],360:[function(require,module,exports){
+},{"./DOMProperty":236,"./ReactDOMComponentTree":268,"./ReactInstrumentation":298,"./quoteAttributeValueForBrowser":361,"_process":203,"fbjs/lib/warning":393}],238:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -42627,7 +28689,7 @@ var Danger = {
 
 module.exports = Danger;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":356,"./reactProdInvariant":486,"_process":203,"fbjs/lib/ExecutionEnvironment":495,"fbjs/lib/createNodesFromMarkup":500,"fbjs/lib/emptyFunction":501,"fbjs/lib/invariant":509}],361:[function(require,module,exports){
+},{"./DOMLazyTree":234,"./reactProdInvariant":362,"_process":203,"fbjs/lib/ExecutionEnvironment":370,"fbjs/lib/createNodesFromMarkup":375,"fbjs/lib/emptyFunction":376,"fbjs/lib/invariant":384}],239:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -42655,7 +28717,7 @@ var keyOf = require('fbjs/lib/keyOf');
 var DefaultEventPluginOrder = [keyOf({ ResponderEventPlugin: null }), keyOf({ SimpleEventPlugin: null }), keyOf({ TapEventPlugin: null }), keyOf({ EnterLeaveEventPlugin: null }), keyOf({ ChangeEventPlugin: null }), keyOf({ SelectEventPlugin: null }), keyOf({ BeforeInputEventPlugin: null })];
 
 module.exports = DefaultEventPluginOrder;
-},{"fbjs/lib/keyOf":513}],362:[function(require,module,exports){
+},{"fbjs/lib/keyOf":388}],240:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -42706,7 +28768,7 @@ var DisabledInputUtils = {
 };
 
 module.exports = DisabledInputUtils;
-},{}],363:[function(require,module,exports){
+},{}],241:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -42812,7 +28874,7 @@ var EnterLeaveEventPlugin = {
 };
 
 module.exports = EnterLeaveEventPlugin;
-},{"./EventConstants":364,"./EventPropagators":368,"./ReactDOMComponentTree":391,"./SyntheticMouseEvent":455,"fbjs/lib/keyOf":513}],364:[function(require,module,exports){
+},{"./EventConstants":242,"./EventPropagators":246,"./ReactDOMComponentTree":268,"./SyntheticMouseEvent":331,"fbjs/lib/keyOf":388}],242:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -42910,7 +28972,7 @@ var EventConstants = {
 };
 
 module.exports = EventConstants;
-},{"fbjs/lib/keyMirror":512}],365:[function(require,module,exports){
+},{"fbjs/lib/keyMirror":387}],243:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -43164,7 +29226,7 @@ var EventPluginHub = {
 
 module.exports = EventPluginHub;
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":366,"./EventPluginUtils":367,"./ReactErrorUtils":412,"./accumulateInto":462,"./forEachAccumulated":471,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509}],366:[function(require,module,exports){
+},{"./EventPluginRegistry":244,"./EventPluginUtils":245,"./ReactErrorUtils":289,"./accumulateInto":338,"./forEachAccumulated":347,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384}],244:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -43414,7 +29476,7 @@ var EventPluginRegistry = {
 
 module.exports = EventPluginRegistry;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509}],367:[function(require,module,exports){
+},{"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384}],245:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -43646,7 +29708,7 @@ var EventPluginUtils = {
 
 module.exports = EventPluginUtils;
 }).call(this,require('_process'))
-},{"./EventConstants":364,"./ReactErrorUtils":412,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509,"fbjs/lib/warning":518}],368:[function(require,module,exports){
+},{"./EventConstants":242,"./ReactErrorUtils":289,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384,"fbjs/lib/warning":393}],246:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -43786,7 +29848,7 @@ var EventPropagators = {
 
 module.exports = EventPropagators;
 }).call(this,require('_process'))
-},{"./EventConstants":364,"./EventPluginHub":365,"./EventPluginUtils":367,"./accumulateInto":462,"./forEachAccumulated":471,"_process":203,"fbjs/lib/warning":518}],369:[function(require,module,exports){
+},{"./EventConstants":242,"./EventPluginHub":243,"./EventPluginUtils":245,"./accumulateInto":338,"./forEachAccumulated":347,"_process":203,"fbjs/lib/warning":393}],247:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -43882,7 +29944,7 @@ _assign(FallbackCompositionState.prototype, {
 PooledClass.addPoolingTo(FallbackCompositionState);
 
 module.exports = FallbackCompositionState;
-},{"./PooledClass":373,"./getTextContentAccessor":479,"object-assign":519}],370:[function(require,module,exports){
+},{"./PooledClass":251,"./getTextContentAccessor":355,"object-assign":394}],248:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -44092,7 +30154,7 @@ var HTMLDOMPropertyConfig = {
 };
 
 module.exports = HTMLDOMPropertyConfig;
-},{"./DOMProperty":358}],371:[function(require,module,exports){
+},{"./DOMProperty":236}],249:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -44152,7 +30214,7 @@ var KeyEscapeUtils = {
 };
 
 module.exports = KeyEscapeUtils;
-},{}],372:[function(require,module,exports){
+},{}],250:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -44291,7 +30353,7 @@ var LinkedValueUtils = {
 
 module.exports = LinkedValueUtils;
 }).call(this,require('_process'))
-},{"./ReactPropTypeLocations":432,"./ReactPropTypes":433,"./ReactPropTypesSecret":434,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509,"fbjs/lib/warning":518}],373:[function(require,module,exports){
+},{"./ReactPropTypeLocations":308,"./ReactPropTypes":309,"./ReactPropTypesSecret":310,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384,"fbjs/lib/warning":393}],251:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -44415,7 +30477,7 @@ var PooledClass = {
 
 module.exports = PooledClass;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509}],374:[function(require,module,exports){
+},{"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384}],252:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -44507,7 +30569,7 @@ var React = {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./ReactChildren":377,"./ReactClass":379,"./ReactComponent":380,"./ReactDOMFactories":394,"./ReactElement":409,"./ReactElementValidator":410,"./ReactPropTypes":433,"./ReactPureComponent":435,"./ReactVersion":443,"./onlyChild":484,"_process":203,"fbjs/lib/warning":518,"object-assign":519}],375:[function(require,module,exports){
+},{"./ReactChildren":255,"./ReactClass":257,"./ReactComponent":258,"./ReactDOMFactories":271,"./ReactElement":286,"./ReactElementValidator":287,"./ReactPropTypes":309,"./ReactPureComponent":311,"./ReactVersion":319,"./onlyChild":360,"_process":203,"fbjs/lib/warning":393,"object-assign":394}],253:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -44825,7 +30887,7 @@ var ReactBrowserEventEmitter = _assign({}, ReactEventEmitterMixin, {
 });
 
 module.exports = ReactBrowserEventEmitter;
-},{"./EventConstants":364,"./EventPluginRegistry":366,"./ReactEventEmitterMixin":413,"./ViewportMetrics":461,"./getVendorPrefixedEventName":480,"./isEventSupported":482,"object-assign":519}],376:[function(require,module,exports){
+},{"./EventConstants":242,"./EventPluginRegistry":244,"./ReactEventEmitterMixin":290,"./ViewportMetrics":337,"./getVendorPrefixedEventName":356,"./isEventSupported":358,"object-assign":394}],254:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -44982,7 +31044,7 @@ var ReactChildReconciler = {
 
 module.exports = ReactChildReconciler;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":371,"./ReactComponentTreeHook":383,"./ReactReconciler":437,"./instantiateReactComponent":481,"./shouldUpdateReactComponent":491,"./traverseAllChildren":492,"_process":203,"fbjs/lib/warning":518}],377:[function(require,module,exports){
+},{"./KeyEscapeUtils":249,"./ReactComponentTreeHook":261,"./ReactReconciler":313,"./instantiateReactComponent":357,"./shouldUpdateReactComponent":366,"./traverseAllChildren":367,"_process":203,"fbjs/lib/warning":393}],255:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -45174,7 +31236,7 @@ var ReactChildren = {
 };
 
 module.exports = ReactChildren;
-},{"./PooledClass":373,"./ReactElement":409,"./traverseAllChildren":492,"fbjs/lib/emptyFunction":501}],378:[function(require,module,exports){
+},{"./PooledClass":251,"./ReactElement":286,"./traverseAllChildren":367,"fbjs/lib/emptyFunction":376}],256:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -45231,7 +31293,7 @@ var ReactChildrenMutationWarningHook = {
 
 module.exports = ReactChildrenMutationWarningHook;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeHook":383,"_process":203,"fbjs/lib/warning":518}],379:[function(require,module,exports){
+},{"./ReactComponentTreeHook":261,"_process":203,"fbjs/lib/warning":393}],257:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -45966,7 +32028,7 @@ var ReactClass = {
 
 module.exports = ReactClass;
 }).call(this,require('_process'))
-},{"./ReactComponent":380,"./ReactElement":409,"./ReactNoopUpdateQueue":429,"./ReactPropTypeLocationNames":431,"./ReactPropTypeLocations":432,"./reactProdInvariant":486,"_process":203,"fbjs/lib/emptyObject":502,"fbjs/lib/invariant":509,"fbjs/lib/keyMirror":512,"fbjs/lib/keyOf":513,"fbjs/lib/warning":518,"object-assign":519}],380:[function(require,module,exports){
+},{"./ReactComponent":258,"./ReactElement":286,"./ReactNoopUpdateQueue":305,"./ReactPropTypeLocationNames":307,"./ReactPropTypeLocations":308,"./reactProdInvariant":362,"_process":203,"fbjs/lib/emptyObject":377,"fbjs/lib/invariant":384,"fbjs/lib/keyMirror":387,"fbjs/lib/keyOf":388,"fbjs/lib/warning":393,"object-assign":394}],258:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -46087,7 +32149,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactComponent;
 }).call(this,require('_process'))
-},{"./ReactNoopUpdateQueue":429,"./canDefineProperty":464,"./reactProdInvariant":486,"_process":203,"fbjs/lib/emptyObject":502,"fbjs/lib/invariant":509,"fbjs/lib/warning":518}],381:[function(require,module,exports){
+},{"./ReactNoopUpdateQueue":305,"./canDefineProperty":340,"./reactProdInvariant":362,"_process":203,"fbjs/lib/emptyObject":377,"fbjs/lib/invariant":384,"fbjs/lib/warning":393}],259:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -46118,7 +32180,7 @@ var ReactComponentBrowserEnvironment = {
 };
 
 module.exports = ReactComponentBrowserEnvironment;
-},{"./DOMChildrenOperations":355,"./ReactDOMIDOperations":396}],382:[function(require,module,exports){
+},{"./DOMChildrenOperations":233,"./ReactDOMIDOperations":273}],260:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -46166,7 +32228,7 @@ var ReactComponentEnvironment = {
 
 module.exports = ReactComponentEnvironment;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509}],383:[function(require,module,exports){
+},{"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384}],261:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -46511,56 +32573,7 @@ var ReactComponentTreeHook = {
 
 module.exports = ReactComponentTreeHook;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":386,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509,"fbjs/lib/warning":518}],384:[function(require,module,exports){
-/**
- * Copyright 2013-present, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- *
- * @providesModule ReactComponentWithPureRenderMixin
- */
-
-'use strict';
-
-var shallowCompare = require('./shallowCompare');
-
-/**
- * If your React component's render function is "pure", e.g. it will render the
- * same result given the same props and state, provide this mixin for a
- * considerable performance boost.
- *
- * Most React components have pure render functions.
- *
- * Example:
- *
- *   var ReactComponentWithPureRenderMixin =
- *     require('ReactComponentWithPureRenderMixin');
- *   React.createClass({
- *     mixins: [ReactComponentWithPureRenderMixin],
- *
- *     render: function() {
- *       return <div className={this.props.className}>foo</div>;
- *     }
- *   });
- *
- * Note: This only checks shallow equality for props and state. If these contain
- * complex data structures this mixin may have false-negatives for deeper
- * differences. Only mixin to components which have simple props and state, or
- * use `forceUpdate()` when you know deep data structures have changed.
- *
- * See https://facebook.github.io/react/docs/pure-render-mixin.html
- */
-var ReactComponentWithPureRenderMixin = {
-  shouldComponentUpdate: function (nextProps, nextState) {
-    return shallowCompare(this, nextProps, nextState);
-  }
-};
-
-module.exports = ReactComponentWithPureRenderMixin;
-},{"./shallowCompare":490}],385:[function(require,module,exports){
+},{"./ReactCurrentOwner":263,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384,"fbjs/lib/warning":393}],262:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -47483,7 +33496,7 @@ var ReactCompositeComponent = {
 
 module.exports = ReactCompositeComponent;
 }).call(this,require('_process'))
-},{"./ReactComponentEnvironment":382,"./ReactCurrentOwner":386,"./ReactElement":409,"./ReactErrorUtils":412,"./ReactInstanceMap":421,"./ReactInstrumentation":422,"./ReactNodeTypes":428,"./ReactPropTypeLocations":432,"./ReactReconciler":437,"./checkReactTypeSpec":465,"./reactProdInvariant":486,"./shouldUpdateReactComponent":491,"_process":203,"fbjs/lib/emptyObject":502,"fbjs/lib/invariant":509,"fbjs/lib/shallowEqual":517,"fbjs/lib/warning":518,"object-assign":519}],386:[function(require,module,exports){
+},{"./ReactComponentEnvironment":260,"./ReactCurrentOwner":263,"./ReactElement":286,"./ReactErrorUtils":289,"./ReactInstanceMap":297,"./ReactInstrumentation":298,"./ReactNodeTypes":304,"./ReactPropTypeLocations":308,"./ReactReconciler":313,"./checkReactTypeSpec":341,"./reactProdInvariant":362,"./shouldUpdateReactComponent":366,"_process":203,"fbjs/lib/emptyObject":377,"fbjs/lib/invariant":384,"fbjs/lib/shallowEqual":392,"fbjs/lib/warning":393,"object-assign":394}],263:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -47515,7 +33528,7 @@ var ReactCurrentOwner = {
 };
 
 module.exports = ReactCurrentOwner;
-},{}],387:[function(require,module,exports){
+},{}],264:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -47628,7 +33641,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactDOM;
 }).call(this,require('_process'))
-},{"./ReactDOMComponentTree":391,"./ReactDOMNullInputValuePropHook":398,"./ReactDOMUnknownPropertyHook":405,"./ReactDefaultInjection":408,"./ReactInstrumentation":422,"./ReactMount":425,"./ReactReconciler":437,"./ReactUpdates":442,"./ReactVersion":443,"./findDOMNode":469,"./getHostComponentFromComposite":476,"./renderSubtreeIntoContainer":487,"_process":203,"fbjs/lib/ExecutionEnvironment":495,"fbjs/lib/warning":518}],388:[function(require,module,exports){
+},{"./ReactDOMComponentTree":268,"./ReactDOMNullInputValuePropHook":275,"./ReactDOMUnknownPropertyHook":282,"./ReactDefaultInjection":285,"./ReactInstrumentation":298,"./ReactMount":301,"./ReactReconciler":313,"./ReactUpdates":318,"./ReactVersion":319,"./findDOMNode":345,"./getHostComponentFromComposite":352,"./renderSubtreeIntoContainer":363,"_process":203,"fbjs/lib/ExecutionEnvironment":370,"fbjs/lib/warning":393}],265:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -47653,7 +33666,7 @@ var ReactDOMButton = {
 };
 
 module.exports = ReactDOMButton;
-},{"./DisabledInputUtils":362}],389:[function(require,module,exports){
+},{"./DisabledInputUtils":240}],266:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -48661,7 +34674,7 @@ _assign(ReactDOMComponent.prototype, ReactDOMComponent.Mixin, ReactMultiChild.Mi
 
 module.exports = ReactDOMComponent;
 }).call(this,require('_process'))
-},{"./AutoFocusUtils":349,"./CSSPropertyOperations":352,"./DOMLazyTree":356,"./DOMNamespaces":357,"./DOMProperty":358,"./DOMPropertyOperations":359,"./EventConstants":364,"./EventPluginHub":365,"./EventPluginRegistry":366,"./ReactBrowserEventEmitter":375,"./ReactDOMButton":388,"./ReactDOMComponentFlags":390,"./ReactDOMComponentTree":391,"./ReactDOMInput":397,"./ReactDOMOption":399,"./ReactDOMSelect":400,"./ReactDOMTextarea":403,"./ReactInstrumentation":422,"./ReactMultiChild":426,"./ReactServerRenderingTransaction":439,"./escapeTextContentForBrowser":468,"./isEventSupported":482,"./reactProdInvariant":486,"./validateDOMNesting":493,"_process":203,"fbjs/lib/emptyFunction":501,"fbjs/lib/invariant":509,"fbjs/lib/keyOf":513,"fbjs/lib/shallowEqual":517,"fbjs/lib/warning":518,"object-assign":519}],390:[function(require,module,exports){
+},{"./AutoFocusUtils":227,"./CSSPropertyOperations":230,"./DOMLazyTree":234,"./DOMNamespaces":235,"./DOMProperty":236,"./DOMPropertyOperations":237,"./EventConstants":242,"./EventPluginHub":243,"./EventPluginRegistry":244,"./ReactBrowserEventEmitter":253,"./ReactDOMButton":265,"./ReactDOMComponentFlags":267,"./ReactDOMComponentTree":268,"./ReactDOMInput":274,"./ReactDOMOption":276,"./ReactDOMSelect":277,"./ReactDOMTextarea":280,"./ReactInstrumentation":298,"./ReactMultiChild":302,"./ReactServerRenderingTransaction":315,"./escapeTextContentForBrowser":344,"./isEventSupported":358,"./reactProdInvariant":362,"./validateDOMNesting":368,"_process":203,"fbjs/lib/emptyFunction":376,"fbjs/lib/invariant":384,"fbjs/lib/keyOf":388,"fbjs/lib/shallowEqual":392,"fbjs/lib/warning":393,"object-assign":394}],267:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -48680,7 +34693,7 @@ var ReactDOMComponentFlags = {
 };
 
 module.exports = ReactDOMComponentFlags;
-},{}],391:[function(require,module,exports){
+},{}],268:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -48871,7 +34884,7 @@ var ReactDOMComponentTree = {
 
 module.exports = ReactDOMComponentTree;
 }).call(this,require('_process'))
-},{"./DOMProperty":358,"./ReactDOMComponentFlags":390,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509}],392:[function(require,module,exports){
+},{"./DOMProperty":236,"./ReactDOMComponentFlags":267,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384}],269:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -48907,7 +34920,7 @@ function ReactDOMContainerInfo(topLevelWrapper, node) {
 
 module.exports = ReactDOMContainerInfo;
 }).call(this,require('_process'))
-},{"./validateDOMNesting":493,"_process":203}],393:[function(require,module,exports){
+},{"./validateDOMNesting":368,"_process":203}],270:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -48968,7 +34981,7 @@ _assign(ReactDOMEmptyComponent.prototype, {
 });
 
 module.exports = ReactDOMEmptyComponent;
-},{"./DOMLazyTree":356,"./ReactDOMComponentTree":391,"object-assign":519}],394:[function(require,module,exports){
+},{"./DOMLazyTree":234,"./ReactDOMComponentTree":268,"object-assign":394}],271:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -49141,7 +35154,7 @@ var ReactDOMFactories = {
 
 module.exports = ReactDOMFactories;
 }).call(this,require('_process'))
-},{"./ReactElement":409,"./ReactElementValidator":410,"_process":203}],395:[function(require,module,exports){
+},{"./ReactElement":286,"./ReactElementValidator":287,"_process":203}],272:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -49160,7 +35173,7 @@ var ReactDOMFeatureFlags = {
 };
 
 module.exports = ReactDOMFeatureFlags;
-},{}],396:[function(require,module,exports){
+},{}],273:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -49195,7 +35208,7 @@ var ReactDOMIDOperations = {
 };
 
 module.exports = ReactDOMIDOperations;
-},{"./DOMChildrenOperations":355,"./ReactDOMComponentTree":391}],397:[function(require,module,exports){
+},{"./DOMChildrenOperations":233,"./ReactDOMComponentTree":268}],274:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -49467,7 +35480,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMInput;
 }).call(this,require('_process'))
-},{"./DOMPropertyOperations":359,"./DisabledInputUtils":362,"./LinkedValueUtils":372,"./ReactDOMComponentTree":391,"./ReactUpdates":442,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509,"fbjs/lib/warning":518,"object-assign":519}],398:[function(require,module,exports){
+},{"./DOMPropertyOperations":237,"./DisabledInputUtils":240,"./LinkedValueUtils":250,"./ReactDOMComponentTree":268,"./ReactUpdates":318,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384,"fbjs/lib/warning":393,"object-assign":394}],275:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -49513,7 +35526,7 @@ var ReactDOMNullInputValuePropHook = {
 
 module.exports = ReactDOMNullInputValuePropHook;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeHook":383,"_process":203,"fbjs/lib/warning":518}],399:[function(require,module,exports){
+},{"./ReactComponentTreeHook":261,"_process":203,"fbjs/lib/warning":393}],276:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -49639,7 +35652,7 @@ var ReactDOMOption = {
 
 module.exports = ReactDOMOption;
 }).call(this,require('_process'))
-},{"./ReactChildren":377,"./ReactDOMComponentTree":391,"./ReactDOMSelect":400,"_process":203,"fbjs/lib/warning":518,"object-assign":519}],400:[function(require,module,exports){
+},{"./ReactChildren":255,"./ReactDOMComponentTree":268,"./ReactDOMSelect":277,"_process":203,"fbjs/lib/warning":393,"object-assign":394}],277:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -49843,7 +35856,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMSelect;
 }).call(this,require('_process'))
-},{"./DisabledInputUtils":362,"./LinkedValueUtils":372,"./ReactDOMComponentTree":391,"./ReactUpdates":442,"_process":203,"fbjs/lib/warning":518,"object-assign":519}],401:[function(require,module,exports){
+},{"./DisabledInputUtils":240,"./LinkedValueUtils":250,"./ReactDOMComponentTree":268,"./ReactUpdates":318,"_process":203,"fbjs/lib/warning":393,"object-assign":394}],278:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -50056,7 +36069,7 @@ var ReactDOMSelection = {
 };
 
 module.exports = ReactDOMSelection;
-},{"./getNodeForCharacterOffset":478,"./getTextContentAccessor":479,"fbjs/lib/ExecutionEnvironment":495}],402:[function(require,module,exports){
+},{"./getNodeForCharacterOffset":354,"./getTextContentAccessor":355,"fbjs/lib/ExecutionEnvironment":370}],279:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -50223,7 +36236,7 @@ _assign(ReactDOMTextComponent.prototype, {
 
 module.exports = ReactDOMTextComponent;
 }).call(this,require('_process'))
-},{"./DOMChildrenOperations":355,"./DOMLazyTree":356,"./ReactDOMComponentTree":391,"./escapeTextContentForBrowser":468,"./reactProdInvariant":486,"./validateDOMNesting":493,"_process":203,"fbjs/lib/invariant":509,"object-assign":519}],403:[function(require,module,exports){
+},{"./DOMChildrenOperations":233,"./DOMLazyTree":234,"./ReactDOMComponentTree":268,"./escapeTextContentForBrowser":344,"./reactProdInvariant":362,"./validateDOMNesting":368,"_process":203,"fbjs/lib/invariant":384,"object-assign":394}],280:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -50381,7 +36394,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMTextarea;
 }).call(this,require('_process'))
-},{"./DisabledInputUtils":362,"./LinkedValueUtils":372,"./ReactDOMComponentTree":391,"./ReactUpdates":442,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509,"fbjs/lib/warning":518,"object-assign":519}],404:[function(require,module,exports){
+},{"./DisabledInputUtils":240,"./LinkedValueUtils":250,"./ReactDOMComponentTree":268,"./ReactUpdates":318,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384,"fbjs/lib/warning":393,"object-assign":394}],281:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -50520,7 +36533,7 @@ module.exports = {
   traverseEnterLeave: traverseEnterLeave
 };
 }).call(this,require('_process'))
-},{"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509}],405:[function(require,module,exports){
+},{"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384}],282:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -50635,7 +36648,7 @@ var ReactDOMUnknownPropertyHook = {
 
 module.exports = ReactDOMUnknownPropertyHook;
 }).call(this,require('_process'))
-},{"./DOMProperty":358,"./EventPluginRegistry":366,"./ReactComponentTreeHook":383,"_process":203,"fbjs/lib/warning":518}],406:[function(require,module,exports){
+},{"./DOMProperty":236,"./EventPluginRegistry":244,"./ReactComponentTreeHook":261,"_process":203,"fbjs/lib/warning":393}],283:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -50945,7 +36958,7 @@ if (/[?&]react_perf\b/.test(url)) {
 
 module.exports = ReactDebugTool;
 }).call(this,require('_process'))
-},{"./ReactChildrenMutationWarningHook":378,"./ReactComponentTreeHook":383,"./ReactHostOperationHistoryHook":417,"./ReactInvalidSetStateWarningHook":423,"_process":203,"fbjs/lib/ExecutionEnvironment":495,"fbjs/lib/performanceNow":516,"fbjs/lib/warning":518}],407:[function(require,module,exports){
+},{"./ReactChildrenMutationWarningHook":256,"./ReactComponentTreeHook":261,"./ReactHostOperationHistoryHook":294,"./ReactInvalidSetStateWarningHook":299,"_process":203,"fbjs/lib/ExecutionEnvironment":370,"fbjs/lib/performanceNow":391,"fbjs/lib/warning":393}],284:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -51014,7 +37027,7 @@ var ReactDefaultBatchingStrategy = {
 };
 
 module.exports = ReactDefaultBatchingStrategy;
-},{"./ReactUpdates":442,"./Transaction":460,"fbjs/lib/emptyFunction":501,"object-assign":519}],408:[function(require,module,exports){
+},{"./ReactUpdates":318,"./Transaction":336,"fbjs/lib/emptyFunction":376,"object-assign":394}],285:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -51099,7 +37112,7 @@ function inject() {
 module.exports = {
   inject: inject
 };
-},{"./BeforeInputEventPlugin":350,"./ChangeEventPlugin":354,"./DefaultEventPluginOrder":361,"./EnterLeaveEventPlugin":363,"./HTMLDOMPropertyConfig":370,"./ReactComponentBrowserEnvironment":381,"./ReactDOMComponent":389,"./ReactDOMComponentTree":391,"./ReactDOMEmptyComponent":393,"./ReactDOMTextComponent":402,"./ReactDOMTreeTraversal":404,"./ReactDefaultBatchingStrategy":407,"./ReactEventListener":414,"./ReactInjection":418,"./ReactReconcileTransaction":436,"./SVGDOMPropertyConfig":444,"./SelectEventPlugin":445,"./SimpleEventPlugin":446}],409:[function(require,module,exports){
+},{"./BeforeInputEventPlugin":228,"./ChangeEventPlugin":232,"./DefaultEventPluginOrder":239,"./EnterLeaveEventPlugin":241,"./HTMLDOMPropertyConfig":248,"./ReactComponentBrowserEnvironment":259,"./ReactDOMComponent":266,"./ReactDOMComponentTree":268,"./ReactDOMEmptyComponent":270,"./ReactDOMTextComponent":279,"./ReactDOMTreeTraversal":281,"./ReactDefaultBatchingStrategy":284,"./ReactEventListener":291,"./ReactInjection":295,"./ReactReconcileTransaction":312,"./SVGDOMPropertyConfig":320,"./SelectEventPlugin":321,"./SimpleEventPlugin":322}],286:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -51466,7 +37479,7 @@ ReactElement.REACT_ELEMENT_TYPE = REACT_ELEMENT_TYPE;
 
 module.exports = ReactElement;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":386,"./canDefineProperty":464,"_process":203,"fbjs/lib/warning":518,"object-assign":519}],410:[function(require,module,exports){
+},{"./ReactCurrentOwner":263,"./canDefineProperty":340,"_process":203,"fbjs/lib/warning":393,"object-assign":394}],287:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -51697,7 +37710,7 @@ var ReactElementValidator = {
 
 module.exports = ReactElementValidator;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeHook":383,"./ReactCurrentOwner":386,"./ReactElement":409,"./ReactPropTypeLocations":432,"./canDefineProperty":464,"./checkReactTypeSpec":465,"./getIteratorFn":477,"_process":203,"fbjs/lib/warning":518}],411:[function(require,module,exports){
+},{"./ReactComponentTreeHook":261,"./ReactCurrentOwner":263,"./ReactElement":286,"./ReactPropTypeLocations":308,"./canDefineProperty":340,"./checkReactTypeSpec":341,"./getIteratorFn":353,"_process":203,"fbjs/lib/warning":393}],288:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -51728,7 +37741,7 @@ var ReactEmptyComponent = {
 ReactEmptyComponent.injection = ReactEmptyComponentInjection;
 
 module.exports = ReactEmptyComponent;
-},{}],412:[function(require,module,exports){
+},{}],289:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -51807,7 +37820,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactErrorUtils;
 }).call(this,require('_process'))
-},{"_process":203}],413:[function(require,module,exports){
+},{"_process":203}],290:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -51841,7 +37854,7 @@ var ReactEventEmitterMixin = {
 };
 
 module.exports = ReactEventEmitterMixin;
-},{"./EventPluginHub":365}],414:[function(require,module,exports){
+},{"./EventPluginHub":243}],291:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -51999,7 +38012,7 @@ var ReactEventListener = {
 };
 
 module.exports = ReactEventListener;
-},{"./PooledClass":373,"./ReactDOMComponentTree":391,"./ReactUpdates":442,"./getEventTarget":475,"fbjs/lib/EventListener":494,"fbjs/lib/ExecutionEnvironment":495,"fbjs/lib/getUnboundedScrollPosition":506,"object-assign":519}],415:[function(require,module,exports){
+},{"./PooledClass":251,"./ReactDOMComponentTree":268,"./ReactUpdates":318,"./getEventTarget":351,"fbjs/lib/EventListener":369,"fbjs/lib/ExecutionEnvironment":370,"fbjs/lib/getUnboundedScrollPosition":381,"object-assign":394}],292:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -52022,7 +38035,7 @@ var ReactFeatureFlags = {
 };
 
 module.exports = ReactFeatureFlags;
-},{}],416:[function(require,module,exports){
+},{}],293:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -52101,7 +38114,7 @@ var ReactHostComponent = {
 
 module.exports = ReactHostComponent;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509,"object-assign":519}],417:[function(require,module,exports){
+},{"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384,"object-assign":394}],294:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -52139,7 +38152,7 @@ var ReactHostOperationHistoryHook = {
 };
 
 module.exports = ReactHostOperationHistoryHook;
-},{}],418:[function(require,module,exports){
+},{}],295:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -52176,7 +38189,7 @@ var ReactInjection = {
 };
 
 module.exports = ReactInjection;
-},{"./DOMProperty":358,"./EventPluginHub":365,"./EventPluginUtils":367,"./ReactBrowserEventEmitter":375,"./ReactClass":379,"./ReactComponentEnvironment":382,"./ReactEmptyComponent":411,"./ReactHostComponent":416,"./ReactUpdates":442}],419:[function(require,module,exports){
+},{"./DOMProperty":236,"./EventPluginHub":243,"./EventPluginUtils":245,"./ReactBrowserEventEmitter":253,"./ReactClass":257,"./ReactComponentEnvironment":260,"./ReactEmptyComponent":288,"./ReactHostComponent":293,"./ReactUpdates":318}],296:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -52301,312 +38314,7 @@ var ReactInputSelection = {
 };
 
 module.exports = ReactInputSelection;
-},{"./ReactDOMSelection":401,"fbjs/lib/containsNode":498,"fbjs/lib/focusNode":503,"fbjs/lib/getActiveElement":504}],420:[function(require,module,exports){
-(function (process){
-/**
- * Copyright 2013-present, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- *
- * @providesModule ReactInstanceHandles
- */
-
-'use strict';
-
-var _prodInvariant = require('./reactProdInvariant');
-
-var invariant = require('fbjs/lib/invariant');
-
-var SEPARATOR = '.';
-var SEPARATOR_LENGTH = SEPARATOR.length;
-
-/**
- * Maximum depth of traversals before we consider the possibility of a bad ID.
- */
-var MAX_TREE_DEPTH = 10000;
-
-/**
- * Creates a DOM ID prefix to use when mounting React components.
- *
- * @param {number} index A unique integer
- * @return {string} React root ID.
- * @internal
- */
-function getReactRootIDString(index) {
-  return SEPARATOR + index.toString(36);
-}
-
-/**
- * Checks if a character in the supplied ID is a separator or the end.
- *
- * @param {string} id A React DOM ID.
- * @param {number} index Index of the character to check.
- * @return {boolean} True if the character is a separator or end of the ID.
- * @private
- */
-function isBoundary(id, index) {
-  return id.charAt(index) === SEPARATOR || index === id.length;
-}
-
-/**
- * Checks if the supplied string is a valid React DOM ID.
- *
- * @param {string} id A React DOM ID, maybe.
- * @return {boolean} True if the string is a valid React DOM ID.
- * @private
- */
-function isValidID(id) {
-  return id === '' || id.charAt(0) === SEPARATOR && id.charAt(id.length - 1) !== SEPARATOR;
-}
-
-/**
- * Checks if the first ID is an ancestor of or equal to the second ID.
- *
- * @param {string} ancestorID
- * @param {string} descendantID
- * @return {boolean} True if `ancestorID` is an ancestor of `descendantID`.
- * @internal
- */
-function isAncestorIDOf(ancestorID, descendantID) {
-  return descendantID.indexOf(ancestorID) === 0 && isBoundary(descendantID, ancestorID.length);
-}
-
-/**
- * Gets the parent ID of the supplied React DOM ID, `id`.
- *
- * @param {string} id ID of a component.
- * @return {string} ID of the parent, or an empty string.
- * @private
- */
-function getParentID(id) {
-  return id ? id.substr(0, id.lastIndexOf(SEPARATOR)) : '';
-}
-
-/**
- * Gets the next DOM ID on the tree path from the supplied `ancestorID` to the
- * supplied `destinationID`. If they are equal, the ID is returned.
- *
- * @param {string} ancestorID ID of an ancestor node of `destinationID`.
- * @param {string} destinationID ID of the destination node.
- * @return {string} Next ID on the path from `ancestorID` to `destinationID`.
- * @private
- */
-function getNextDescendantID(ancestorID, destinationID) {
-  !(isValidID(ancestorID) && isValidID(destinationID)) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'getNextDescendantID(%s, %s): Received an invalid React DOM ID.', ancestorID, destinationID) : _prodInvariant('112', ancestorID, destinationID) : void 0;
-  !isAncestorIDOf(ancestorID, destinationID) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'getNextDescendantID(...): React has made an invalid assumption about the DOM hierarchy. Expected `%s` to be an ancestor of `%s`.', ancestorID, destinationID) : _prodInvariant('113', ancestorID, destinationID) : void 0;
-  if (ancestorID === destinationID) {
-    return ancestorID;
-  }
-  // Skip over the ancestor and the immediate separator. Traverse until we hit
-  // another separator or we reach the end of `destinationID`.
-  var start = ancestorID.length + SEPARATOR_LENGTH;
-  var i;
-  for (i = start; i < destinationID.length; i++) {
-    if (isBoundary(destinationID, i)) {
-      break;
-    }
-  }
-  return destinationID.substr(0, i);
-}
-
-/**
- * Gets the nearest common ancestor ID of two IDs.
- *
- * Using this ID scheme, the nearest common ancestor ID is the longest common
- * prefix of the two IDs that immediately preceded a "marker" in both strings.
- *
- * @param {string} oneID
- * @param {string} twoID
- * @return {string} Nearest common ancestor ID, or the empty string if none.
- * @private
- */
-function getFirstCommonAncestorID(oneID, twoID) {
-  var minLength = Math.min(oneID.length, twoID.length);
-  if (minLength === 0) {
-    return '';
-  }
-  var lastCommonMarkerIndex = 0;
-  // Use `<=` to traverse until the "EOL" of the shorter string.
-  for (var i = 0; i <= minLength; i++) {
-    if (isBoundary(oneID, i) && isBoundary(twoID, i)) {
-      lastCommonMarkerIndex = i;
-    } else if (oneID.charAt(i) !== twoID.charAt(i)) {
-      break;
-    }
-  }
-  var longestCommonID = oneID.substr(0, lastCommonMarkerIndex);
-  !isValidID(longestCommonID) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'getFirstCommonAncestorID(%s, %s): Expected a valid React DOM ID: %s', oneID, twoID, longestCommonID) : _prodInvariant('114', oneID, twoID, longestCommonID) : void 0;
-  return longestCommonID;
-}
-
-/**
- * Traverses the parent path between two IDs (either up or down). The IDs must
- * not be the same, and there must exist a parent path between them. If the
- * callback returns `false`, traversal is stopped.
- *
- * @param {?string} start ID at which to start traversal.
- * @param {?string} stop ID at which to end traversal.
- * @param {function} cb Callback to invoke each ID with.
- * @param {*} arg Argument to invoke the callback with.
- * @param {?boolean} skipFirst Whether or not to skip the first node.
- * @param {?boolean} skipLast Whether or not to skip the last node.
- * @private
- */
-function traverseParentPath(start, stop, cb, arg, skipFirst, skipLast) {
-  start = start || '';
-  stop = stop || '';
-  !(start !== stop) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'traverseParentPath(...): Cannot traverse from and to the same ID, `%s`.', start) : _prodInvariant('115', start) : void 0;
-  var traverseUp = isAncestorIDOf(stop, start);
-  !(traverseUp || isAncestorIDOf(start, stop)) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'traverseParentPath(%s, %s, ...): Cannot traverse from two IDs that do not have a parent path.', start, stop) : _prodInvariant('116', start, stop) : void 0;
-  // Traverse from `start` to `stop` one depth at a time.
-  var depth = 0;
-  var traverse = traverseUp ? getParentID : getNextDescendantID;
-  for (var id = start;; /* until break */id = traverse(id, stop)) {
-    var ret;
-    if ((!skipFirst || id !== start) && (!skipLast || id !== stop)) {
-      ret = cb(id, traverseUp, arg);
-    }
-    if (ret === false || id === stop) {
-      // Only break //after// visiting `stop`.
-      break;
-    }
-    !(depth++ < MAX_TREE_DEPTH) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'traverseParentPath(%s, %s, ...): Detected an infinite loop while traversing the React DOM ID tree. This may be due to malformed IDs: %s', start, stop, id) : _prodInvariant('117', start, stop, id) : void 0;
-  }
-}
-
-/**
- * Manages the IDs assigned to DOM representations of React components. This
- * uses a specific scheme in order to traverse the DOM efficiently (e.g. in
- * order to simulate events).
- *
- * @internal
- */
-var ReactInstanceHandles = {
-
-  /**
-   * Constructs a React root ID
-   * @param {number} index A unique integer
-   * @return {string} A React root ID.
-   */
-  createReactRootID: function (index) {
-    return getReactRootIDString(index);
-  },
-
-  /**
-   * Constructs a React ID by joining a root ID with a name.
-   *
-   * @param {string} rootID Root ID of a parent component.
-   * @param {string} name A component's name (as flattened children).
-   * @return {string} A React ID.
-   * @internal
-   */
-  createReactID: function (rootID, name) {
-    return rootID + name;
-  },
-
-  /**
-   * Gets the DOM ID of the React component that is the root of the tree that
-   * contains the React component with the supplied DOM ID.
-   *
-   * @param {string} id DOM ID of a React component.
-   * @return {?string} DOM ID of the React component that is the root.
-   * @internal
-   */
-  getReactRootIDFromNodeID: function (id) {
-    if (id && id.charAt(0) === SEPARATOR && id.length > 1) {
-      var index = id.indexOf(SEPARATOR, 1);
-      return index > -1 ? id.substr(0, index) : id;
-    }
-    return null;
-  },
-
-  /**
-   * Traverses the ID hierarchy and invokes the supplied `cb` on any IDs that
-   * should would receive a `mouseEnter` or `mouseLeave` event.
-   *
-   * NOTE: Does not invoke the callback on the nearest common ancestor because
-   * nothing "entered" or "left" that element.
-   *
-   * @param {string} leaveID ID being left.
-   * @param {string} enterID ID being entered.
-   * @param {function} cb Callback to invoke on each entered/left ID.
-   * @param {*} upArg Argument to invoke the callback with on left IDs.
-   * @param {*} downArg Argument to invoke the callback with on entered IDs.
-   * @internal
-   */
-  traverseEnterLeave: function (leaveID, enterID, cb, upArg, downArg) {
-    var ancestorID = getFirstCommonAncestorID(leaveID, enterID);
-    if (ancestorID !== leaveID) {
-      traverseParentPath(leaveID, ancestorID, cb, upArg, false, true);
-    }
-    if (ancestorID !== enterID) {
-      traverseParentPath(ancestorID, enterID, cb, downArg, true, false);
-    }
-  },
-
-  /**
-   * Simulates the traversal of a two-phase, capture/bubble event dispatch.
-   *
-   * NOTE: This traversal happens on IDs without touching the DOM.
-   *
-   * @param {string} targetID ID of the target node.
-   * @param {function} cb Callback to invoke.
-   * @param {*} arg Argument to invoke the callback with.
-   * @internal
-   */
-  traverseTwoPhase: function (targetID, cb, arg) {
-    if (targetID) {
-      traverseParentPath('', targetID, cb, arg, true, false);
-      traverseParentPath(targetID, '', cb, arg, false, true);
-    }
-  },
-
-  /**
-   * Same as `traverseTwoPhase` but skips the `targetID`.
-   */
-  traverseTwoPhaseSkipTarget: function (targetID, cb, arg) {
-    if (targetID) {
-      traverseParentPath('', targetID, cb, arg, true, true);
-      traverseParentPath(targetID, '', cb, arg, true, true);
-    }
-  },
-
-  /**
-   * Traverse a node ID, calling the supplied `cb` for each ancestor ID. For
-   * example, passing `.0.$row-0.1` would result in `cb` getting called
-   * with `.0`, `.0.$row-0`, and `.0.$row-0.1`.
-   *
-   * NOTE: This traversal happens on IDs without touching the DOM.
-   *
-   * @param {string} targetID ID of the target node.
-   * @param {function} cb Callback to invoke.
-   * @param {*} arg Argument to invoke the callback with.
-   * @internal
-   */
-  traverseAncestors: function (targetID, cb, arg) {
-    traverseParentPath('', targetID, cb, arg, true, false);
-  },
-
-  getFirstCommonAncestorID: getFirstCommonAncestorID,
-
-  /**
-   * Exposed for unit testing.
-   * @private
-   */
-  _getNextDescendantID: getNextDescendantID,
-
-  isAncestorIDOf: isAncestorIDOf,
-
-  SEPARATOR: SEPARATOR
-
-};
-
-module.exports = ReactInstanceHandles;
-}).call(this,require('_process'))
-},{"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509}],421:[function(require,module,exports){
+},{"./ReactDOMSelection":278,"fbjs/lib/containsNode":373,"fbjs/lib/focusNode":378,"fbjs/lib/getActiveElement":379}],297:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -52655,7 +38363,7 @@ var ReactInstanceMap = {
 };
 
 module.exports = ReactInstanceMap;
-},{}],422:[function(require,module,exports){
+},{}],298:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -52679,7 +38387,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = { debugTool: debugTool };
 }).call(this,require('_process'))
-},{"./ReactDebugTool":406,"_process":203}],423:[function(require,module,exports){
+},{"./ReactDebugTool":283,"_process":203}],299:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -52718,7 +38426,7 @@ var ReactInvalidSetStateWarningHook = {
 
 module.exports = ReactInvalidSetStateWarningHook;
 }).call(this,require('_process'))
-},{"_process":203,"fbjs/lib/warning":518}],424:[function(require,module,exports){
+},{"_process":203,"fbjs/lib/warning":393}],300:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -52769,7 +38477,7 @@ var ReactMarkupChecksum = {
 };
 
 module.exports = ReactMarkupChecksum;
-},{"./adler32":463}],425:[function(require,module,exports){
+},{"./adler32":339}],301:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -53306,7 +39014,7 @@ var ReactMount = {
 
 module.exports = ReactMount;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":356,"./DOMProperty":358,"./ReactBrowserEventEmitter":375,"./ReactCurrentOwner":386,"./ReactDOMComponentTree":391,"./ReactDOMContainerInfo":392,"./ReactDOMFeatureFlags":395,"./ReactElement":409,"./ReactFeatureFlags":415,"./ReactInstanceMap":421,"./ReactInstrumentation":422,"./ReactMarkupChecksum":424,"./ReactReconciler":437,"./ReactUpdateQueue":441,"./ReactUpdates":442,"./instantiateReactComponent":481,"./reactProdInvariant":486,"./setInnerHTML":488,"./shouldUpdateReactComponent":491,"_process":203,"fbjs/lib/emptyObject":502,"fbjs/lib/invariant":509,"fbjs/lib/warning":518}],426:[function(require,module,exports){
+},{"./DOMLazyTree":234,"./DOMProperty":236,"./ReactBrowserEventEmitter":253,"./ReactCurrentOwner":263,"./ReactDOMComponentTree":268,"./ReactDOMContainerInfo":269,"./ReactDOMFeatureFlags":272,"./ReactElement":286,"./ReactFeatureFlags":292,"./ReactInstanceMap":297,"./ReactInstrumentation":298,"./ReactMarkupChecksum":300,"./ReactReconciler":313,"./ReactUpdateQueue":317,"./ReactUpdates":318,"./instantiateReactComponent":357,"./reactProdInvariant":362,"./setInnerHTML":364,"./shouldUpdateReactComponent":366,"_process":203,"fbjs/lib/emptyObject":377,"fbjs/lib/invariant":384,"fbjs/lib/warning":393}],302:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -53760,7 +39468,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 }).call(this,require('_process'))
-},{"./ReactChildReconciler":376,"./ReactComponentEnvironment":382,"./ReactCurrentOwner":386,"./ReactInstanceMap":421,"./ReactInstrumentation":422,"./ReactMultiChildUpdateTypes":427,"./ReactReconciler":437,"./flattenChildren":470,"./reactProdInvariant":486,"_process":203,"fbjs/lib/emptyFunction":501,"fbjs/lib/invariant":509}],427:[function(require,module,exports){
+},{"./ReactChildReconciler":254,"./ReactComponentEnvironment":260,"./ReactCurrentOwner":263,"./ReactInstanceMap":297,"./ReactInstrumentation":298,"./ReactMultiChildUpdateTypes":303,"./ReactReconciler":313,"./flattenChildren":346,"./reactProdInvariant":362,"_process":203,"fbjs/lib/emptyFunction":376,"fbjs/lib/invariant":384}],303:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -53793,7 +39501,7 @@ var ReactMultiChildUpdateTypes = keyMirror({
 });
 
 module.exports = ReactMultiChildUpdateTypes;
-},{"fbjs/lib/keyMirror":512}],428:[function(require,module,exports){
+},{"fbjs/lib/keyMirror":387}],304:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -53836,7 +39544,7 @@ var ReactNodeTypes = {
 
 module.exports = ReactNodeTypes;
 }).call(this,require('_process'))
-},{"./ReactElement":409,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509}],429:[function(require,module,exports){
+},{"./ReactElement":286,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384}],305:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -53935,7 +39643,7 @@ var ReactNoopUpdateQueue = {
 
 module.exports = ReactNoopUpdateQueue;
 }).call(this,require('_process'))
-},{"_process":203,"fbjs/lib/warning":518}],430:[function(require,module,exports){
+},{"_process":203,"fbjs/lib/warning":393}],306:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -54032,7 +39740,7 @@ var ReactOwner = {
 
 module.exports = ReactOwner;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509}],431:[function(require,module,exports){
+},{"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384}],307:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -54059,7 +39767,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactPropTypeLocationNames;
 }).call(this,require('_process'))
-},{"_process":203}],432:[function(require,module,exports){
+},{"_process":203}],308:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -54082,7 +39790,7 @@ var ReactPropTypeLocations = keyMirror({
 });
 
 module.exports = ReactPropTypeLocations;
-},{"fbjs/lib/keyMirror":512}],433:[function(require,module,exports){
+},{"fbjs/lib/keyMirror":387}],309:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -54516,7 +40224,7 @@ function getClassName(propValue) {
 
 module.exports = ReactPropTypes;
 }).call(this,require('_process'))
-},{"./ReactElement":409,"./ReactPropTypeLocationNames":431,"./ReactPropTypesSecret":434,"./getIteratorFn":477,"_process":203,"fbjs/lib/emptyFunction":501,"fbjs/lib/warning":518}],434:[function(require,module,exports){
+},{"./ReactElement":286,"./ReactPropTypeLocationNames":307,"./ReactPropTypesSecret":310,"./getIteratorFn":353,"_process":203,"fbjs/lib/emptyFunction":376,"fbjs/lib/warning":393}],310:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -54533,7 +40241,7 @@ module.exports = ReactPropTypes;
 var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
-},{}],435:[function(require,module,exports){
+},{}],311:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -54576,7 +40284,7 @@ _assign(ReactPureComponent.prototype, ReactComponent.prototype);
 ReactPureComponent.prototype.isPureReactComponent = true;
 
 module.exports = ReactPureComponent;
-},{"./ReactComponent":380,"./ReactNoopUpdateQueue":429,"fbjs/lib/emptyObject":502,"object-assign":519}],436:[function(require,module,exports){
+},{"./ReactComponent":258,"./ReactNoopUpdateQueue":305,"fbjs/lib/emptyObject":377,"object-assign":394}],312:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -54757,7 +40465,7 @@ PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
 }).call(this,require('_process'))
-},{"./CallbackQueue":353,"./PooledClass":373,"./ReactBrowserEventEmitter":375,"./ReactInputSelection":419,"./ReactInstrumentation":422,"./ReactUpdateQueue":441,"./Transaction":460,"_process":203,"object-assign":519}],437:[function(require,module,exports){
+},{"./CallbackQueue":231,"./PooledClass":251,"./ReactBrowserEventEmitter":253,"./ReactInputSelection":296,"./ReactInstrumentation":298,"./ReactUpdateQueue":317,"./Transaction":336,"_process":203,"object-assign":394}],313:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -54928,7 +40636,7 @@ var ReactReconciler = {
 
 module.exports = ReactReconciler;
 }).call(this,require('_process'))
-},{"./ReactInstrumentation":422,"./ReactRef":438,"_process":203,"fbjs/lib/warning":518}],438:[function(require,module,exports){
+},{"./ReactInstrumentation":298,"./ReactRef":314,"_process":203,"fbjs/lib/warning":393}],314:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55009,7 +40717,7 @@ ReactRef.detachRefs = function (instance, element) {
 };
 
 module.exports = ReactRef;
-},{"./ReactOwner":430}],439:[function(require,module,exports){
+},{"./ReactOwner":306}],315:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -55102,7 +40810,7 @@ PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
 }).call(this,require('_process'))
-},{"./PooledClass":373,"./ReactInstrumentation":422,"./ReactServerUpdateQueue":440,"./Transaction":460,"_process":203,"object-assign":519}],440:[function(require,module,exports){
+},{"./PooledClass":251,"./ReactInstrumentation":298,"./ReactServerUpdateQueue":316,"./Transaction":336,"_process":203,"object-assign":394}],316:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -55246,7 +40954,7 @@ var ReactServerUpdateQueue = function () {
 
 module.exports = ReactServerUpdateQueue;
 }).call(this,require('_process'))
-},{"./ReactUpdateQueue":441,"./Transaction":460,"_process":203,"fbjs/lib/warning":518}],441:[function(require,module,exports){
+},{"./ReactUpdateQueue":317,"./Transaction":336,"_process":203,"fbjs/lib/warning":393}],317:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -55475,7 +41183,7 @@ var ReactUpdateQueue = {
 
 module.exports = ReactUpdateQueue;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":386,"./ReactInstanceMap":421,"./ReactInstrumentation":422,"./ReactUpdates":442,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509,"fbjs/lib/warning":518}],442:[function(require,module,exports){
+},{"./ReactCurrentOwner":263,"./ReactInstanceMap":297,"./ReactInstrumentation":298,"./ReactUpdates":318,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384,"fbjs/lib/warning":393}],318:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -55729,7 +41437,7 @@ var ReactUpdates = {
 
 module.exports = ReactUpdates;
 }).call(this,require('_process'))
-},{"./CallbackQueue":353,"./PooledClass":373,"./ReactFeatureFlags":415,"./ReactReconciler":437,"./Transaction":460,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509,"object-assign":519}],443:[function(require,module,exports){
+},{"./CallbackQueue":231,"./PooledClass":251,"./ReactFeatureFlags":292,"./ReactReconciler":313,"./Transaction":336,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384,"object-assign":394}],319:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55744,7 +41452,7 @@ module.exports = ReactUpdates;
 'use strict';
 
 module.exports = '15.3.1';
-},{}],444:[function(require,module,exports){
+},{}],320:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -56047,7 +41755,7 @@ Object.keys(ATTRS).forEach(function (key) {
 });
 
 module.exports = SVGDOMPropertyConfig;
-},{}],445:[function(require,module,exports){
+},{}],321:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -56244,7 +41952,7 @@ var SelectEventPlugin = {
 };
 
 module.exports = SelectEventPlugin;
-},{"./EventConstants":364,"./EventPropagators":368,"./ReactDOMComponentTree":391,"./ReactInputSelection":419,"./SyntheticEvent":451,"./isTextInputElement":483,"fbjs/lib/ExecutionEnvironment":495,"fbjs/lib/getActiveElement":504,"fbjs/lib/keyOf":513,"fbjs/lib/shallowEqual":517}],446:[function(require,module,exports){
+},{"./EventConstants":242,"./EventPropagators":246,"./ReactDOMComponentTree":268,"./ReactInputSelection":296,"./SyntheticEvent":327,"./isTextInputElement":359,"fbjs/lib/ExecutionEnvironment":370,"fbjs/lib/getActiveElement":379,"fbjs/lib/keyOf":388,"fbjs/lib/shallowEqual":392}],322:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -56882,7 +42590,7 @@ var SimpleEventPlugin = {
 
 module.exports = SimpleEventPlugin;
 }).call(this,require('_process'))
-},{"./EventConstants":364,"./EventPropagators":368,"./ReactDOMComponentTree":391,"./SyntheticAnimationEvent":447,"./SyntheticClipboardEvent":448,"./SyntheticDragEvent":450,"./SyntheticEvent":451,"./SyntheticFocusEvent":452,"./SyntheticKeyboardEvent":454,"./SyntheticMouseEvent":455,"./SyntheticTouchEvent":456,"./SyntheticTransitionEvent":457,"./SyntheticUIEvent":458,"./SyntheticWheelEvent":459,"./getEventCharCode":472,"./reactProdInvariant":486,"_process":203,"fbjs/lib/EventListener":494,"fbjs/lib/emptyFunction":501,"fbjs/lib/invariant":509,"fbjs/lib/keyOf":513}],447:[function(require,module,exports){
+},{"./EventConstants":242,"./EventPropagators":246,"./ReactDOMComponentTree":268,"./SyntheticAnimationEvent":323,"./SyntheticClipboardEvent":324,"./SyntheticDragEvent":326,"./SyntheticEvent":327,"./SyntheticFocusEvent":328,"./SyntheticKeyboardEvent":330,"./SyntheticMouseEvent":331,"./SyntheticTouchEvent":332,"./SyntheticTransitionEvent":333,"./SyntheticUIEvent":334,"./SyntheticWheelEvent":335,"./getEventCharCode":348,"./reactProdInvariant":362,"_process":203,"fbjs/lib/EventListener":369,"fbjs/lib/emptyFunction":376,"fbjs/lib/invariant":384,"fbjs/lib/keyOf":388}],323:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -56922,7 +42630,7 @@ function SyntheticAnimationEvent(dispatchConfig, dispatchMarker, nativeEvent, na
 SyntheticEvent.augmentClass(SyntheticAnimationEvent, AnimationEventInterface);
 
 module.exports = SyntheticAnimationEvent;
-},{"./SyntheticEvent":451}],448:[function(require,module,exports){
+},{"./SyntheticEvent":327}],324:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -56961,7 +42669,7 @@ function SyntheticClipboardEvent(dispatchConfig, dispatchMarker, nativeEvent, na
 SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 
 module.exports = SyntheticClipboardEvent;
-},{"./SyntheticEvent":451}],449:[function(require,module,exports){
+},{"./SyntheticEvent":327}],325:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -56998,7 +42706,7 @@ function SyntheticCompositionEvent(dispatchConfig, dispatchMarker, nativeEvent, 
 SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface);
 
 module.exports = SyntheticCompositionEvent;
-},{"./SyntheticEvent":451}],450:[function(require,module,exports){
+},{"./SyntheticEvent":327}],326:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57035,7 +42743,7 @@ function SyntheticDragEvent(dispatchConfig, dispatchMarker, nativeEvent, nativeE
 SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 
 module.exports = SyntheticDragEvent;
-},{"./SyntheticMouseEvent":455}],451:[function(require,module,exports){
+},{"./SyntheticMouseEvent":331}],327:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -57305,7 +43013,7 @@ function getPooledWarningPropertyDefinition(propName, getVal) {
   }
 }
 }).call(this,require('_process'))
-},{"./PooledClass":373,"_process":203,"fbjs/lib/emptyFunction":501,"fbjs/lib/warning":518,"object-assign":519}],452:[function(require,module,exports){
+},{"./PooledClass":251,"_process":203,"fbjs/lib/emptyFunction":376,"fbjs/lib/warning":393,"object-assign":394}],328:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57342,7 +43050,7 @@ function SyntheticFocusEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 
 module.exports = SyntheticFocusEvent;
-},{"./SyntheticUIEvent":458}],453:[function(require,module,exports){
+},{"./SyntheticUIEvent":334}],329:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57380,7 +43088,7 @@ function SyntheticInputEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 
 module.exports = SyntheticInputEvent;
-},{"./SyntheticEvent":451}],454:[function(require,module,exports){
+},{"./SyntheticEvent":327}],330:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57465,7 +43173,7 @@ function SyntheticKeyboardEvent(dispatchConfig, dispatchMarker, nativeEvent, nat
 SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 
 module.exports = SyntheticKeyboardEvent;
-},{"./SyntheticUIEvent":458,"./getEventCharCode":472,"./getEventKey":473,"./getEventModifierState":474}],455:[function(require,module,exports){
+},{"./SyntheticUIEvent":334,"./getEventCharCode":348,"./getEventKey":349,"./getEventModifierState":350}],331:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57538,7 +43246,7 @@ function SyntheticMouseEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 
 module.exports = SyntheticMouseEvent;
-},{"./SyntheticUIEvent":458,"./ViewportMetrics":461,"./getEventModifierState":474}],456:[function(require,module,exports){
+},{"./SyntheticUIEvent":334,"./ViewportMetrics":337,"./getEventModifierState":350}],332:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57584,7 +43292,7 @@ function SyntheticTouchEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 
 module.exports = SyntheticTouchEvent;
-},{"./SyntheticUIEvent":458,"./getEventModifierState":474}],457:[function(require,module,exports){
+},{"./SyntheticUIEvent":334,"./getEventModifierState":350}],333:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57624,7 +43332,7 @@ function SyntheticTransitionEvent(dispatchConfig, dispatchMarker, nativeEvent, n
 SyntheticEvent.augmentClass(SyntheticTransitionEvent, TransitionEventInterface);
 
 module.exports = SyntheticTransitionEvent;
-},{"./SyntheticEvent":451}],458:[function(require,module,exports){
+},{"./SyntheticEvent":327}],334:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57684,7 +43392,7 @@ function SyntheticUIEvent(dispatchConfig, dispatchMarker, nativeEvent, nativeEve
 SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
-},{"./SyntheticEvent":451,"./getEventTarget":475}],459:[function(require,module,exports){
+},{"./SyntheticEvent":327,"./getEventTarget":351}],335:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57739,7 +43447,7 @@ function SyntheticWheelEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 
 module.exports = SyntheticWheelEvent;
-},{"./SyntheticMouseEvent":455}],460:[function(require,module,exports){
+},{"./SyntheticMouseEvent":331}],336:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -57975,7 +43683,7 @@ var Transaction = {
 
 module.exports = Transaction;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509}],461:[function(require,module,exports){
+},{"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384}],337:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -58003,7 +43711,7 @@ var ViewportMetrics = {
 };
 
 module.exports = ViewportMetrics;
-},{}],462:[function(require,module,exports){
+},{}],338:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -58064,7 +43772,7 @@ function accumulateInto(current, next) {
 
 module.exports = accumulateInto;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509}],463:[function(require,module,exports){
+},{"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384}],339:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -58109,7 +43817,7 @@ function adler32(data) {
 }
 
 module.exports = adler32;
-},{}],464:[function(require,module,exports){
+},{}],340:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -58136,7 +43844,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = canDefineProperty;
 }).call(this,require('_process'))
-},{"_process":203}],465:[function(require,module,exports){
+},{"_process":203}],341:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -58226,7 +43934,7 @@ function checkReactTypeSpec(typeSpecs, values, location, componentName, element,
 
 module.exports = checkReactTypeSpec;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeHook":383,"./ReactPropTypeLocationNames":431,"./ReactPropTypesSecret":434,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509,"fbjs/lib/warning":518}],466:[function(require,module,exports){
+},{"./ReactComponentTreeHook":261,"./ReactPropTypeLocationNames":307,"./ReactPropTypesSecret":310,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384,"fbjs/lib/warning":393}],342:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -58259,7 +43967,7 @@ var createMicrosoftUnsafeLocalFunction = function (func) {
 };
 
 module.exports = createMicrosoftUnsafeLocalFunction;
-},{}],467:[function(require,module,exports){
+},{}],343:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -58341,7 +44049,7 @@ function dangerousStyleValue(name, value, component) {
 
 module.exports = dangerousStyleValue;
 }).call(this,require('_process'))
-},{"./CSSProperty":351,"_process":203,"fbjs/lib/warning":518}],468:[function(require,module,exports){
+},{"./CSSProperty":229,"_process":203,"fbjs/lib/warning":393}],344:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -58465,7 +44173,7 @@ function escapeTextContentForBrowser(text) {
 }
 
 module.exports = escapeTextContentForBrowser;
-},{}],469:[function(require,module,exports){
+},{}],345:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -58528,7 +44236,7 @@ function findDOMNode(componentOrElement) {
 
 module.exports = findDOMNode;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":386,"./ReactDOMComponentTree":391,"./ReactInstanceMap":421,"./getHostComponentFromComposite":476,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509,"fbjs/lib/warning":518}],470:[function(require,module,exports){
+},{"./ReactCurrentOwner":263,"./ReactDOMComponentTree":268,"./ReactInstanceMap":297,"./getHostComponentFromComposite":352,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384,"fbjs/lib/warning":393}],346:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -58607,7 +44315,7 @@ function flattenChildren(children, selfDebugID) {
 
 module.exports = flattenChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":371,"./ReactComponentTreeHook":383,"./traverseAllChildren":492,"_process":203,"fbjs/lib/warning":518}],471:[function(require,module,exports){
+},{"./KeyEscapeUtils":249,"./ReactComponentTreeHook":261,"./traverseAllChildren":367,"_process":203,"fbjs/lib/warning":393}],347:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -58639,7 +44347,7 @@ function forEachAccumulated(arr, cb, scope) {
 }
 
 module.exports = forEachAccumulated;
-},{}],472:[function(require,module,exports){
+},{}],348:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -58690,7 +44398,7 @@ function getEventCharCode(nativeEvent) {
 }
 
 module.exports = getEventCharCode;
-},{}],473:[function(require,module,exports){
+},{}],349:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -58793,7 +44501,7 @@ function getEventKey(nativeEvent) {
 }
 
 module.exports = getEventKey;
-},{"./getEventCharCode":472}],474:[function(require,module,exports){
+},{"./getEventCharCode":348}],350:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -58837,7 +44545,7 @@ function getEventModifierState(nativeEvent) {
 }
 
 module.exports = getEventModifierState;
-},{}],475:[function(require,module,exports){
+},{}],351:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -58873,7 +44581,7 @@ function getEventTarget(nativeEvent) {
 }
 
 module.exports = getEventTarget;
-},{}],476:[function(require,module,exports){
+},{}],352:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -58904,7 +44612,7 @@ function getHostComponentFromComposite(inst) {
 }
 
 module.exports = getHostComponentFromComposite;
-},{"./ReactNodeTypes":428}],477:[function(require,module,exports){
+},{"./ReactNodeTypes":304}],353:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -58946,7 +44654,7 @@ function getIteratorFn(maybeIterable) {
 }
 
 module.exports = getIteratorFn;
-},{}],478:[function(require,module,exports){
+},{}],354:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -59021,7 +44729,7 @@ function getNodeForCharacterOffset(root, offset) {
 }
 
 module.exports = getNodeForCharacterOffset;
-},{}],479:[function(require,module,exports){
+},{}],355:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -59055,7 +44763,7 @@ function getTextContentAccessor() {
 }
 
 module.exports = getTextContentAccessor;
-},{"fbjs/lib/ExecutionEnvironment":495}],480:[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":370}],356:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -59157,7 +44865,7 @@ function getVendorPrefixedEventName(eventName) {
 }
 
 module.exports = getVendorPrefixedEventName;
-},{"fbjs/lib/ExecutionEnvironment":495}],481:[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":370}],357:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -59279,7 +44987,7 @@ function instantiateReactComponent(node, shouldHaveDebugID) {
 
 module.exports = instantiateReactComponent;
 }).call(this,require('_process'))
-},{"./ReactCompositeComponent":385,"./ReactEmptyComponent":411,"./ReactHostComponent":416,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509,"fbjs/lib/warning":518,"object-assign":519}],482:[function(require,module,exports){
+},{"./ReactCompositeComponent":262,"./ReactEmptyComponent":288,"./ReactHostComponent":293,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384,"fbjs/lib/warning":393,"object-assign":394}],358:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -59340,7 +45048,7 @@ function isEventSupported(eventNameSuffix, capture) {
 }
 
 module.exports = isEventSupported;
-},{"fbjs/lib/ExecutionEnvironment":495}],483:[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":370}],359:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -59392,7 +45100,7 @@ function isTextInputElement(elem) {
 }
 
 module.exports = isTextInputElement;
-},{}],484:[function(require,module,exports){
+},{}],360:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -59433,7 +45141,7 @@ function onlyChild(children) {
 
 module.exports = onlyChild;
 }).call(this,require('_process'))
-},{"./ReactElement":409,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509}],485:[function(require,module,exports){
+},{"./ReactElement":286,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384}],361:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -59460,7 +45168,7 @@ function quoteAttributeValueForBrowser(value) {
 }
 
 module.exports = quoteAttributeValueForBrowser;
-},{"./escapeTextContentForBrowser":468}],486:[function(require,module,exports){
+},{"./escapeTextContentForBrowser":344}],362:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -59500,7 +45208,7 @@ function reactProdInvariant(code) {
 }
 
 module.exports = reactProdInvariant;
-},{}],487:[function(require,module,exports){
+},{}],363:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -59517,7 +45225,7 @@ module.exports = reactProdInvariant;
 var ReactMount = require('./ReactMount');
 
 module.exports = ReactMount.renderSubtreeIntoContainer;
-},{"./ReactMount":425}],488:[function(require,module,exports){
+},{"./ReactMount":301}],364:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -59616,7 +45324,7 @@ if (ExecutionEnvironment.canUseDOM) {
 }
 
 module.exports = setInnerHTML;
-},{"./DOMNamespaces":357,"./createMicrosoftUnsafeLocalFunction":466,"fbjs/lib/ExecutionEnvironment":495}],489:[function(require,module,exports){
+},{"./DOMNamespaces":235,"./createMicrosoftUnsafeLocalFunction":342,"fbjs/lib/ExecutionEnvironment":370}],365:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -59665,33 +45373,7 @@ if (ExecutionEnvironment.canUseDOM) {
 }
 
 module.exports = setTextContent;
-},{"./escapeTextContentForBrowser":468,"./setInnerHTML":488,"fbjs/lib/ExecutionEnvironment":495}],490:[function(require,module,exports){
-/**
- * Copyright 2013-present, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- *
-* @providesModule shallowCompare
-*/
-
-'use strict';
-
-var shallowEqual = require('fbjs/lib/shallowEqual');
-
-/**
- * Does a shallow comparison for props and state.
- * See ReactComponentWithPureRenderMixin
- * See also https://facebook.github.io/react/docs/shallow-compare.html
- */
-function shallowCompare(instance, nextProps, nextState) {
-  return !shallowEqual(instance.props, nextProps) || !shallowEqual(instance.state, nextState);
-}
-
-module.exports = shallowCompare;
-},{"fbjs/lib/shallowEqual":517}],491:[function(require,module,exports){
+},{"./escapeTextContentForBrowser":344,"./setInnerHTML":364,"fbjs/lib/ExecutionEnvironment":370}],366:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -59734,7 +45416,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 }
 
 module.exports = shouldUpdateReactComponent;
-},{}],492:[function(require,module,exports){
+},{}],367:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -59904,7 +45586,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":371,"./ReactCurrentOwner":386,"./ReactElement":409,"./getIteratorFn":477,"./reactProdInvariant":486,"_process":203,"fbjs/lib/invariant":509,"fbjs/lib/warning":518}],493:[function(require,module,exports){
+},{"./KeyEscapeUtils":249,"./ReactCurrentOwner":263,"./ReactElement":286,"./getIteratorFn":353,"./reactProdInvariant":362,"_process":203,"fbjs/lib/invariant":384,"fbjs/lib/warning":393}],368:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -60276,7 +45958,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = validateDOMNesting;
 }).call(this,require('_process'))
-},{"_process":203,"fbjs/lib/emptyFunction":501,"fbjs/lib/warning":518,"object-assign":519}],494:[function(require,module,exports){
+},{"_process":203,"fbjs/lib/emptyFunction":376,"fbjs/lib/warning":393,"object-assign":394}],369:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -60362,7 +46044,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":501,"_process":203}],495:[function(require,module,exports){
+},{"./emptyFunction":376,"_process":203}],370:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -60398,7 +46080,7 @@ var ExecutionEnvironment = {
 };
 
 module.exports = ExecutionEnvironment;
-},{}],496:[function(require,module,exports){
+},{}],371:[function(require,module,exports){
 "use strict";
 
 /**
@@ -60430,7 +46112,7 @@ function camelize(string) {
 }
 
 module.exports = camelize;
-},{}],497:[function(require,module,exports){
+},{}],372:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -60470,7 +46152,7 @@ function camelizeStyleName(string) {
 }
 
 module.exports = camelizeStyleName;
-},{"./camelize":496}],498:[function(require,module,exports){
+},{"./camelize":371}],373:[function(require,module,exports){
 'use strict';
 
 /**
@@ -60510,7 +46192,7 @@ function containsNode(outerNode, innerNode) {
 }
 
 module.exports = containsNode;
-},{"./isTextNode":511}],499:[function(require,module,exports){
+},{"./isTextNode":386}],374:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -60639,7 +46321,7 @@ function createArrayFromMixed(obj) {
 
 module.exports = createArrayFromMixed;
 }).call(this,require('_process'))
-},{"./invariant":509,"_process":203}],500:[function(require,module,exports){
+},{"./invariant":384,"_process":203}],375:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -60725,11 +46407,68 @@ function createNodesFromMarkup(markup, handleScript) {
 
 module.exports = createNodesFromMarkup;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":495,"./createArrayFromMixed":499,"./getMarkupWrap":505,"./invariant":509,"_process":203}],501:[function(require,module,exports){
-arguments[4][345][0].apply(exports,arguments)
-},{"dup":345}],502:[function(require,module,exports){
-arguments[4][346][0].apply(exports,arguments)
-},{"_process":203,"dup":346}],503:[function(require,module,exports){
+},{"./ExecutionEnvironment":370,"./createArrayFromMixed":374,"./getMarkupWrap":380,"./invariant":384,"_process":203}],376:[function(require,module,exports){
+"use strict";
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * 
+ */
+
+function makeEmptyFunction(arg) {
+  return function () {
+    return arg;
+  };
+}
+
+/**
+ * This function accepts and discards inputs; it has no side effects. This is
+ * primarily useful idiomatically for overridable function endpoints which
+ * always need to be callable, since JS lacks a null-call idiom ala Cocoa.
+ */
+var emptyFunction = function emptyFunction() {};
+
+emptyFunction.thatReturns = makeEmptyFunction;
+emptyFunction.thatReturnsFalse = makeEmptyFunction(false);
+emptyFunction.thatReturnsTrue = makeEmptyFunction(true);
+emptyFunction.thatReturnsNull = makeEmptyFunction(null);
+emptyFunction.thatReturnsThis = function () {
+  return this;
+};
+emptyFunction.thatReturnsArgument = function (arg) {
+  return arg;
+};
+
+module.exports = emptyFunction;
+},{}],377:[function(require,module,exports){
+(function (process){
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ */
+
+'use strict';
+
+var emptyObject = {};
+
+if (process.env.NODE_ENV !== 'production') {
+  Object.freeze(emptyObject);
+}
+
+module.exports = emptyObject;
+}).call(this,require('_process'))
+},{"_process":203}],378:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -60756,7 +46495,7 @@ function focusNode(node) {
 }
 
 module.exports = focusNode;
-},{}],504:[function(require,module,exports){
+},{}],379:[function(require,module,exports){
 'use strict';
 
 /**
@@ -60791,7 +46530,7 @@ function getActiveElement() /*?DOMElement*/{
 }
 
 module.exports = getActiveElement;
-},{}],505:[function(require,module,exports){
+},{}],380:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -60888,7 +46627,7 @@ function getMarkupWrap(nodeName) {
 
 module.exports = getMarkupWrap;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":495,"./invariant":509,"_process":203}],506:[function(require,module,exports){
+},{"./ExecutionEnvironment":370,"./invariant":384,"_process":203}],381:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -60927,7 +46666,7 @@ function getUnboundedScrollPosition(scrollable) {
 }
 
 module.exports = getUnboundedScrollPosition;
-},{}],507:[function(require,module,exports){
+},{}],382:[function(require,module,exports){
 'use strict';
 
 /**
@@ -60960,7 +46699,7 @@ function hyphenate(string) {
 }
 
 module.exports = hyphenate;
-},{}],508:[function(require,module,exports){
+},{}],383:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -60999,9 +46738,59 @@ function hyphenateStyleName(string) {
 }
 
 module.exports = hyphenateStyleName;
-},{"./hyphenate":507}],509:[function(require,module,exports){
-arguments[4][347][0].apply(exports,arguments)
-},{"_process":203,"dup":347}],510:[function(require,module,exports){
+},{"./hyphenate":382}],384:[function(require,module,exports){
+(function (process){
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ */
+
+'use strict';
+
+/**
+ * Use invariant() to assert state which your program assumes to be true.
+ *
+ * Provide sprintf-style format (only %s is supported) and arguments
+ * to provide information about what broke and what you were
+ * expecting.
+ *
+ * The invariant message will be stripped in production, but the invariant
+ * will remain to ensure logic does not differ in production.
+ */
+
+function invariant(condition, format, a, b, c, d, e, f) {
+  if (process.env.NODE_ENV !== 'production') {
+    if (format === undefined) {
+      throw new Error('invariant requires an error message argument');
+    }
+  }
+
+  if (!condition) {
+    var error;
+    if (format === undefined) {
+      error = new Error('Minified exception occurred; use the non-minified dev environment ' + 'for the full error message and additional helpful warnings.');
+    } else {
+      var args = [a, b, c, d, e, f];
+      var argIndex = 0;
+      error = new Error(format.replace(/%s/g, function () {
+        return args[argIndex++];
+      }));
+      error.name = 'Invariant Violation';
+    }
+
+    error.framesToPop = 1; // we don't care about invariant's own frame
+    throw error;
+  }
+}
+
+module.exports = invariant;
+}).call(this,require('_process'))
+},{"_process":203}],385:[function(require,module,exports){
 'use strict';
 
 /**
@@ -61024,7 +46813,7 @@ function isNode(object) {
 }
 
 module.exports = isNode;
-},{}],511:[function(require,module,exports){
+},{}],386:[function(require,module,exports){
 'use strict';
 
 /**
@@ -61049,7 +46838,7 @@ function isTextNode(object) {
 }
 
 module.exports = isTextNode;
-},{"./isNode":510}],512:[function(require,module,exports){
+},{"./isNode":385}],387:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -61099,7 +46888,7 @@ var keyMirror = function keyMirror(obj) {
 
 module.exports = keyMirror;
 }).call(this,require('_process'))
-},{"./invariant":509,"_process":203}],513:[function(require,module,exports){
+},{"./invariant":384,"_process":203}],388:[function(require,module,exports){
 "use strict";
 
 /**
@@ -61134,7 +46923,7 @@ var keyOf = function keyOf(oneKeyObj) {
 };
 
 module.exports = keyOf;
-},{}],514:[function(require,module,exports){
+},{}],389:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -61164,7 +46953,7 @@ function memoizeStringOnly(callback) {
 }
 
 module.exports = memoizeStringOnly;
-},{}],515:[function(require,module,exports){
+},{}],390:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -61187,7 +46976,7 @@ if (ExecutionEnvironment.canUseDOM) {
 }
 
 module.exports = performance || {};
-},{"./ExecutionEnvironment":495}],516:[function(require,module,exports){
+},{"./ExecutionEnvironment":370}],391:[function(require,module,exports){
 'use strict';
 
 /**
@@ -61221,7 +47010,7 @@ if (performance.now) {
 }
 
 module.exports = performanceNow;
-},{"./performance":515}],517:[function(require,module,exports){
+},{"./performance":390}],392:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -61289,9 +47078,76 @@ function shallowEqual(objA, objB) {
 }
 
 module.exports = shallowEqual;
-},{}],518:[function(require,module,exports){
-arguments[4][348][0].apply(exports,arguments)
-},{"./emptyFunction":501,"_process":203,"dup":348}],519:[function(require,module,exports){
+},{}],393:[function(require,module,exports){
+(function (process){
+/**
+ * Copyright 2014-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ */
+
+'use strict';
+
+var emptyFunction = require('./emptyFunction');
+
+/**
+ * Similar to invariant but only logs a warning if the condition is not met.
+ * This can be used to log issues in development environments in critical
+ * paths. Removing the logging code for production environments will keep the
+ * same logic and follow the same code paths.
+ */
+
+var warning = emptyFunction;
+
+if (process.env.NODE_ENV !== 'production') {
+  (function () {
+    var printWarning = function printWarning(format) {
+      for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+        args[_key - 1] = arguments[_key];
+      }
+
+      var argIndex = 0;
+      var message = 'Warning: ' + format.replace(/%s/g, function () {
+        return args[argIndex++];
+      });
+      if (typeof console !== 'undefined') {
+        console.error(message);
+      }
+      try {
+        // --- Welcome to debugging React ---
+        // This error was thrown as a convenience so that you can use this stack
+        // to find the callsite that caused this warning to fire.
+        throw new Error(message);
+      } catch (x) {}
+    };
+
+    warning = function warning(condition, format) {
+      if (format === undefined) {
+        throw new Error('`warning(condition, format, ...args)` requires a warning ' + 'message argument');
+      }
+
+      if (format.indexOf('Failed Composite propType: ') === 0) {
+        return; // Ignore CompositeComponent proptype check.
+      }
+
+      if (!condition) {
+        for (var _len2 = arguments.length, args = Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
+          args[_key2 - 2] = arguments[_key2];
+        }
+
+        printWarning.apply(undefined, [format].concat(args));
+      }
+    };
+  })();
+}
+
+module.exports = warning;
+}).call(this,require('_process'))
+},{"./emptyFunction":376,"_process":203}],394:[function(require,module,exports){
 'use strict';
 /* eslint-disable no-unused-vars */
 var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -61376,12 +47232,12 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],520:[function(require,module,exports){
+},{}],395:[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/React');
 
-},{"./lib/React":374}],521:[function(require,module,exports){
+},{"./lib/React":252}],396:[function(require,module,exports){
 // A library of seedable RNGs implemented in Javascript.
 //
 // Usage:
@@ -61443,7 +47299,7 @@ sr.tychei = tychei;
 
 module.exports = sr;
 
-},{"./lib/alea":522,"./lib/tychei":523,"./lib/xor128":524,"./lib/xor4096":525,"./lib/xorshift7":526,"./lib/xorwow":527,"./seedrandom":528}],522:[function(require,module,exports){
+},{"./lib/alea":397,"./lib/tychei":398,"./lib/xor128":399,"./lib/xor4096":400,"./lib/xorshift7":401,"./lib/xorwow":402,"./seedrandom":403}],397:[function(require,module,exports){
 // A port of an algorithm by Johannes Baagøe <baagoe@baagoe.com>, 2010
 // http://baagoe.com/en/RandomMusings/javascript/
 // https://github.com/nquinlan/better-random-numbers-for-javascript-mirror
@@ -61559,7 +47415,7 @@ if (module && module.exports) {
 
 
 
-},{}],523:[function(require,module,exports){
+},{}],398:[function(require,module,exports){
 // A Javascript implementaion of the "Tyche-i" prng algorithm by
 // Samuel Neves and Filipe Araujo.
 // See https://eden.dei.uc.pt/~sneves/pubs/2011-snfa2.pdf
@@ -61664,7 +47520,7 @@ if (module && module.exports) {
 
 
 
-},{}],524:[function(require,module,exports){
+},{}],399:[function(require,module,exports){
 // A Javascript implementaion of the "xor128" prng algorithm by
 // George Marsaglia.  See http://www.jstatsoft.org/v08/i14/paper
 
@@ -61747,7 +47603,7 @@ if (module && module.exports) {
 
 
 
-},{}],525:[function(require,module,exports){
+},{}],400:[function(require,module,exports){
 // A Javascript implementaion of Richard Brent's Xorgens xor4096 algorithm.
 //
 // This fast non-cryptographic random number generator is designed for
@@ -61895,7 +47751,7 @@ if (module && module.exports) {
   (typeof define) == 'function' && define   // present with an AMD loader
 );
 
-},{}],526:[function(require,module,exports){
+},{}],401:[function(require,module,exports){
 // A Javascript implementaion of the "xorshift7" algorithm by
 // François Panneton and Pierre L'ecuyer:
 // "On the Xorgshift Random Number Generators"
@@ -61994,7 +47850,7 @@ if (module && module.exports) {
 );
 
 
-},{}],527:[function(require,module,exports){
+},{}],402:[function(require,module,exports){
 // A Javascript implementaion of the "xorwow" prng algorithm by
 // George Marsaglia.  See http://www.jstatsoft.org/v08/i14/paper
 
@@ -62082,7 +47938,7 @@ if (module && module.exports) {
 
 
 
-},{}],528:[function(require,module,exports){
+},{}],403:[function(require,module,exports){
 /*
 Copyright 2014 David Bau.
 
@@ -62326,7 +48182,7 @@ if ((typeof module) == 'object' && module.exports) {
   Math    // math: package containing random, pow, and seedrandom
 );
 
-},{"crypto":7}],529:[function(require,module,exports){
+},{"crypto":7}],404:[function(require,module,exports){
 // File:src/Three.js
 
 /**
@@ -104089,7 +89945,7 @@ THREE.MorphBlendMesh.prototype.update = function ( delta ) {
 };
 
 
-},{}],530:[function(require,module,exports){
+},{}],405:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -104209,7 +90065,7 @@ function dayPart(time) {
     if (hours < 12) return 'morning';else if (hours < 18) return 'afternoon';else if (hours < 22) return 'evening';else return 'night';
 }
 
-},{"./Popup.js":536,"react":520}],531:[function(require,module,exports){
+},{"./Popup.js":411,"react":395}],406:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -104217,10 +90073,6 @@ var _createClass = function () { function defineProperties(target, props) { for 
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
-
-var _reactThreeRenderer = require('react-three-renderer');
-
-var _reactThreeRenderer2 = _interopRequireDefault(_reactThreeRenderer);
 
 var _reactDom = require('react-dom');
 
@@ -104302,32 +90154,34 @@ var App = function (_React$Component) {
     }, {
         key: 'render',
         value: function render() {
-            //<SymbolsScene params={this.urlParams} width={window.innerWidth} height={window.innerHeight} />
+            var viewport = document.body.getBoundingClientRect();
+            var width = viewport.width;
+            var height = window.innerHeight;
             return _react2.default.createElement(
                 'div',
                 null,
-                _react2.default.createElement(_Mandala2.default, { params: this.urlParams, width: window.innerWidth, height: window.innerHeight * 1.75 }),
+                _react2.default.createElement(_Mandala2.default, { params: this.urlParams, width: width, height: height * 1.75 }),
                 _react2.default.createElement(
                     SignPost,
-                    { height: window.innerHeight * 1 },
+                    { height: height * 1 },
                     'rings. We are close to the first scene now. Check out the the arrow button [>]'
                 ),
-                _react2.default.createElement(_Rings2.default, { params: this.urlParams, width: window.innerWidth, height: window.innerHeight }),
+                _react2.default.createElement(_Rings2.default, { params: this.urlParams, width: width, height: height }),
                 _react2.default.createElement(
                     SignPost,
-                    { height: window.innerHeight * 1 },
+                    { height: height * 1 },
                     'symbols. The second scene is a grid of characters. Check out [TEXT]'
                 ),
-                _react2.default.createElement(_Symbols.SymbolsStage, { params: this.urlParams, width: window.innerWidth, height: window.innerHeight }),
+                _react2.default.createElement(_Symbols.SymbolsStage, { params: this.urlParams, width: width, height: height }),
                 _react2.default.createElement(
                     SignPost,
-                    { height: window.innerHeight * 1 },
+                    { height: height * 1 },
                     'lines. We follow up with two circles connected by lines'
                 ),
-                _react2.default.createElement(_Lines2.default, { params: this.urlParams, width: window.innerWidth, height: window.innerHeight }),
+                _react2.default.createElement(_Lines2.default, { params: this.urlParams, width: width, height: height }),
                 _react2.default.createElement(
                     SignPost,
-                    { height: window.innerHeight },
+                    { height: height },
                     'end. We are close to the end now. If you liked this page check out my ',
                     _react2.default.createElement(
                         'a',
@@ -104337,7 +90191,7 @@ var App = function (_React$Component) {
                 ),
                 _react2.default.createElement(
                     'div',
-                    { className: 'end', style: { height: window.innerHeight } },
+                    { className: 'end', style: { height: height } },
                     _react2.default.createElement(
                         'span',
                         { className: 'end-message' },
@@ -104378,7 +90232,7 @@ function SignPost(props) {
     );
 }
 
-},{"../src/core.js":543,"./Exposer":533,"./Lines":534,"./Mandala":535,"./Rings":537,"./Symbols":539,"./agents":540,"react":520,"react-dom":226,"react-three-renderer":230,"three":529}],532:[function(require,module,exports){
+},{"../src/core.js":418,"./Exposer":408,"./Lines":409,"./Mandala":410,"./Rings":412,"./Symbols":414,"./agents":415,"react":395,"react-dom":226,"three":404}],407:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -104411,7 +90265,7 @@ function Loading(props) {
     );
 }
 
-},{"react":520}],533:[function(require,module,exports){
+},{"react":395}],408:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -104692,7 +90546,7 @@ function SliderEdit(props) {
     );
 }
 
-},{"./core.js":543,"immutable":225,"react":520,"react-dom":226}],534:[function(require,module,exports){
+},{"./core.js":418,"immutable":225,"react":395,"react-dom":226}],409:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -105452,7 +91306,7 @@ function circlePoints(radius, points, phase) {
     });
 }
 
-},{"../colors/palettes.js":1,"./Stage":538,"./core.js":543,"fast-simplex-noise":224,"immutable":225,"react":520,"seedrandom":521,"three":529}],535:[function(require,module,exports){
+},{"../colors/palettes.js":1,"./Stage":413,"./core.js":418,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],410:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -105765,7 +91619,7 @@ function groupByIndex(i) {
 // 6 = 2^2 + 2
 // 7 = 2^2 + 3
 
-},{"../colors/palettes.js":1,"./Stage":538,"./core.js":543,"fast-simplex-noise":224,"immutable":225,"react":520,"seedrandom":521,"three":529}],536:[function(require,module,exports){
+},{"../colors/palettes.js":1,"./Stage":413,"./core.js":418,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],411:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -105813,7 +91667,7 @@ function Popup(props) {
     );
 }
 
-},{"react":520}],537:[function(require,module,exports){
+},{"react":395}],412:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -106507,7 +92361,7 @@ var RingsActor = function () {
   return RingsActor;
 }();
 
-},{"../colors/palettes.js":1,"./Stage":538,"./blender.js":542,"./core.js":543,"fast-simplex-noise":224,"immutable":225,"react":520,"seedrandom":521,"three":529}],538:[function(require,module,exports){
+},{"../colors/palettes.js":1,"./Stage":413,"./blender.js":417,"./core.js":418,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],413:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -106641,7 +92495,7 @@ var Stage = function (_React$Component) {
                             'a',
                             { className: 'btn share-button',
                                 onClick: function onClick() {
-                                    var image = _this3.scene.takeScreenshot("image/jpeg");
+                                    var image = _this3.scene.takeScreenshot("image/png");
 
                                     _this3.setState({
                                         showSave: true,
@@ -106787,10 +92641,8 @@ function SavePopup(props) {
                         _react2.default.createElement(
                             'a',
                             { className: 'btn',
-                                onClick: function onClick(e) {
-                                    saveFile(props.image, props.sceneName);
-                                },
-                                href: 'javascript:'
+                                href: generateImageUrl(props.image, "image/png"),
+                                download: "8x" + Date.now() + ".jpg"
                             },
                             'download'
                         )
@@ -106846,8 +92698,14 @@ function generateUrlFromSceneValues(name, values) {
     return url;
 }
 
+function generateImageUrl(imgData, mimeType) {
+    //var strDownloadMime = "image/octet-stream";
+    //var strData = imgData.replace(mimeType, strDownloadMime);
+    return imgData;
+}
+
 function saveFile(imgData, sceneName) {
-    var strMime = "image/jpeg";
+    var strMime = "image/png";
     var strDownloadMime = "image/octet-stream";
 
     var strData = imgData.replace(strMime, strDownloadMime);
@@ -106855,18 +92713,22 @@ function saveFile(imgData, sceneName) {
     var filename = "8x" + Date.now() + ".jpg";
 
     var link = document.createElement('a');
-    if (typeof link.download === 'string') {
-        document.body.appendChild(link); //Firefox requires the link to be in the body
-        link.download = filename;
-        link.href = strData;
-        link.click();
-        document.body.removeChild(link); //remove the link when done
-    } else {
-        location.replace(uri);
-    }
+
+    location.replace(uri);
+    /*
+    
+        if (typeof link.download === 'string') {
+            document.body.appendChild(link); //Firefox requires the link to be in the body
+            link.download = filename;
+            link.href = strData;
+            link.click();
+            document.body.removeChild(link); //remove the link when done
+        } else {
+        }
+        */
 }
 
-},{"./AboutPopup":530,"./Exposer.js":533,"./Popup":536,"./animate.js":541,"./blender.js":542,"./core.js":543,"immutable":225,"react":520,"three":529}],539:[function(require,module,exports){
+},{"./AboutPopup":405,"./Exposer.js":408,"./Popup":411,"./animate.js":416,"./blender.js":417,"./core.js":418,"immutable":225,"react":395,"three":404}],414:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -107698,7 +93560,7 @@ function newYDisplayer(freq, intensity) {
  * -> manchmal istes wichtig, das die elemente genau die gewünschte größe haben
 * */
 
-},{"../colors/palettes.js":1,"./Components":532,"./Stage":538,"./core.js":543,"fast-simplex-noise":224,"immutable":225,"react":520,"seedrandom":521,"three":529}],540:[function(require,module,exports){
+},{"../colors/palettes.js":1,"./Components":407,"./Stage":413,"./core.js":418,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],415:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -107874,7 +93736,7 @@ var AgentsCanvas = function (_React$Component2) {
     return AgentsCanvas;
 }(_react2.default.Component);
 
-},{"./Exposer.js":533,"./core.js":543,"react":520,"seedrandom":521,"three":529}],541:[function(require,module,exports){
+},{"./Exposer.js":408,"./core.js":418,"react":395,"seedrandom":396,"three":404}],416:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -107908,7 +93770,7 @@ function stopAnimation(animation) {
   if (animation) clearInterval(animation);
 }
 
-},{}],542:[function(require,module,exports){
+},{}],417:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -107971,7 +93833,7 @@ function functionBlender(f1, f2, alpha) {
     };
 }
 
-},{"immutable":225}],543:[function(require,module,exports){
+},{"immutable":225}],418:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -108180,4 +94042,4 @@ function memorize2(fn) {
     };
 }
 
-},{"immutable":225,"three":529}]},{},[531]);
+},{"immutable":225,"three":404}]},{},[406]);

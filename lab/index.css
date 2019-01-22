@@ -16,6 +16,12 @@ body {
     background-color: white;
     margin: 0px;
     font-family: 'SourceCodePro', 'Consolas', monospace;
+
+    overflow-y: scroll; /* Make sure to have the scrollbar at the first load. Otherwise the viewport has the first width on first rendering */
+}
+
+#root {
+    height: 200%;
 }
 
 p {
