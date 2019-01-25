@@ -6,26 +6,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 var colorSchemes = exports.colorSchemes = {
     "Black": { name: "Black", colors: [0x000000] },
-    "BlueSky": { "name": "BlueSky", "channels": 4, "colors": [1448251, 3491724, 5143240, 8368880, 11392503] },
     "Candy": { "name": "Candy", "channels": 4, "colors": [15998036, 16752386, 16504068, 11058963, 43701] },
-    "Dolores": { "name": "Dolores", "channels": 4, "colors": [15263125, 13674533, 4219516, 2505021, 16775908] },
-    "CoteAzur": { "name": "CoteAzur", "channels": 4, "colors": [22623, 37779, 16776388, 15789499, 16726016] },
-    "FlatRainbow": { "name": "FlatRainbow", "channels": 4, "colors": [15817306, 15778841, 5159535, 2987455, 9788325] },
-    "Firenze": { "name": "Firenze", "channels": 4, "colors": [4688230, 16773285, 16756795, 11946277, 9316352] },
-    "FriendsAndFoes": { "name": "FriendsAndFoes", "channels": 4, "colors": [3090739, 107174, 2742722, 12448369, 16777126] },
-    "HoneyPot": { "name": "HoneyPot", "channels": 4, "colors": [1137507, 16775893, 16765774, 14392886, 12405042] },
-    "LifeIsBeautiful": { "name": "LifeIsBeautiful", "channels": 4, "colors": [8328759, 292984, 16758579, 16085813, 12722465] },
-    "Pistachio": { "name": "Pistachio", "channels": 4, "colors": [11586713, 6782546, 12044921, 16246961, 9007707] },
-    "PurpleRain": { "name": "PurpleRain", "channels": 4, "colors": [2426445, 3544927, 5583493, 8082091, 9922769] },
-    "ThisGreen": { "name": "ThisGreen", "channels": 4, "colors": [2236962, 9756, 281897, 1474617, 4570965, 9891209] },
-    "banana": { "name": "banana", "channels": 4, "colors": [15779668, 14855484, 12540928, 9443345, 6033679] },
-    "dragenfly": { "name": "dragenfly", "channels": 4, "colors": [2496546, 4199722, 7542320, 13376813, 16733236] },
-    "Pinky": { "name": "Pinky", "channels": 4, "colors": [16167363, 15759500, 14624332, 12324149, 10620190] },
+    "YMC": { "name": "YMC", "channels": 3, "colors": [3449343, 16772096, 15404971] },
     "Vintage": { "name": "Vintage", "channels": 4, "colors": [11993088, 16777215, 16763453, 9749748, 37555] },
-    "Confetti": { "name": "Confetti", "channels": 3, "colors": [15714636, 14842687, 13392203, 4567708, 3296347] },
+    "FriendsAndFoes": { "name": "FriendsAndFoes", "channels": 4, "colors": [3090739, 107174, 2742722, 12448369, 16777126] },
+    "FlatRainbow": { "name": "FlatRainbow", "channels": 4, "colors": [15817306, 15778841, 5159535, 2987455, 9788325] },
     "Icecreamcar": { "name": "Icecreamcar", "channels": 3, "colors": [1349075, 406140, 14541799, 6345938, 14736514, 15850012, 15894798, 13847610, 15829675] },
     "MexicanTiger": { "name": "MexicanTiger", "channels": 3, "colors": [10855072, 6047025, 13882059, 13350549, 4937837, 2828340, 9188174, 15250243, 6072536, 14835614] },
-    "YMC": { "name": "YMC", "channels": 3, "colors": [3449343, 16772096, 15404971] },
+    "Dolores": { "name": "Dolores", "channels": 4, "colors": [15263125, 13674533, 4219516, 2505021, 16775908] },
+    "CoteAzur": { "name": "CoteAzur", "channels": 4, "colors": [22623, 37779, 16776388, 15789499, 16726016] },
+    "Firenze": { "name": "Firenze", "channels": 4, "colors": [4688230, 16773285, 16756795, 11946277, 9316352] },
+    "HoneyPot": { "name": "HoneyPot", "channels": 4, "colors": [1137507, 16775893, 16765774, 14392886, 12405042] },
+    "LifeIsBeautiful": { "name": "LifeIsBeautiful", "channels": 4, "colors": [8328759, 292984, 16758579, 16085813, 12722465] },
+    "Confetti": { "name": "Confetti", "channels": 3, "colors": [15714636, 14842687, 13392203, 4567708, 3296347] },
     "White": { name: "White", colors: [0xFFFFFF] }
 
 };
@@ -90002,31 +89995,31 @@ var AboutPopup = exports.AboutPopup = function (_React$Component) {
                         'The 8x graphic lab is a place to play around with graphics. It was created by Thomas Huber using his bare hands and these libraries: ',
                         _react2.default.createElement(
                             'a',
-                            { href: 'https://threejs.org/' },
+                            { target: '_blank', rel: 'noopener noreferrer', href: 'https://threejs.org/' },
                             'three.js'
                         ),
                         ', ',
                         _react2.default.createElement(
                             'a',
-                            { href: 'https://reactjs.org/' },
+                            { target: '_blank', rel: 'noopener noreferrer', href: 'https://reactjs.org/' },
                             'react'
                         ),
                         ', ',
                         _react2.default.createElement(
                             'a',
-                            { href: 'https://facebook.github.io/immutable-js/docs/#/' },
+                            { target: '_blank', rel: 'noopener noreferrer', href: 'https://facebook.github.io/immutable-js/docs/#/' },
                             'immutable.js'
                         ),
                         ', ',
                         _react2.default.createElement(
                             'a',
-                            { href: 'https://www.npmjs.com/package/fast-simplex-noise' },
+                            { target: '_blank', rel: 'noopener noreferrer', href: 'https://www.npmjs.com/package/fast-simplex-noise' },
                             'fast-simplex-noise'
                         ),
                         ' and ',
                         _react2.default.createElement(
                             'a',
-                            { href: 'https://www.npmjs.com/package/random-seed' },
+                            { target: '_blank', rel: 'noopener noreferrer', href: 'https://www.npmjs.com/package/random-seed' },
                             'random-seed'
                         ),
                         '. Have a good ',
@@ -90046,7 +90039,7 @@ var AboutPopup = exports.AboutPopup = function (_React$Component) {
                             'blog: ',
                             _react2.default.createElement(
                                 'a',
-                                { href: 'https://eight-times.tumblr.com/' },
+                                { target: '_blank', rel: 'noopener noreferrer', href: 'https://eight-times.tumblr.com/' },
                                 'tumblr'
                             )
                         )
@@ -92616,6 +92609,10 @@ function ResetButton(props) {
 }
 
 function SavePopup(props) {
+    var url = generateUrlFromSceneValues(props.sceneName, props.values);
+    var selectTextarea = function selectTextarea(e) {
+        return e.nativeEvent.target.setSelectionRange(0, e.nativeEvent.target.value.length);
+    };
     return props.show ? _react2.default.createElement(
         _Popup.Popup,
         {
@@ -92642,7 +92639,7 @@ function SavePopup(props) {
                             'a',
                             { className: 'btn',
                                 href: generateImageUrl(props.image, "image/png"),
-                                download: "8x" + Date.now() + ".jpg"
+                                download: "8x" + Date.now() + ".png"
                             },
                             'download'
                         )
@@ -92660,13 +92657,11 @@ function SavePopup(props) {
                         'td',
                         null,
                         _react2.default.createElement('textarea', {
-                            onClick: function onClick(e) {
-                                return e.nativeEvent.target.select();
-                            },
+                            onClick: selectTextarea,
                             cols: '50',
                             rows: '8',
                             readOnly: 'true',
-                            value: generateUrlFromSceneValues(props.sceneName, props.values)
+                            value: url
                         })
                     )
                 ),
@@ -92702,30 +92697,6 @@ function generateImageUrl(imgData, mimeType) {
     //var strDownloadMime = "image/octet-stream";
     //var strData = imgData.replace(mimeType, strDownloadMime);
     return imgData;
-}
-
-function saveFile(imgData, sceneName) {
-    var strMime = "image/png";
-    var strDownloadMime = "image/octet-stream";
-
-    var strData = imgData.replace(strMime, strDownloadMime);
-
-    var filename = "8x" + Date.now() + ".jpg";
-
-    var link = document.createElement('a');
-
-    location.replace(uri);
-    /*
-    
-        if (typeof link.download === 'string') {
-            document.body.appendChild(link); //Firefox requires the link to be in the body
-            link.download = filename;
-            link.href = strData;
-            link.click();
-            document.body.removeChild(link); //remove the link when done
-        } else {
-        }
-        */
 }
 
 },{"./AboutPopup":405,"./Exposer.js":408,"./Popup":411,"./animate.js":416,"./blender.js":417,"./core.js":418,"immutable":225,"react":395,"three":404}],414:[function(require,module,exports){

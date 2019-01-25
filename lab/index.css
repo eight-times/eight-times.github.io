@@ -1,8 +1,10 @@
 @font-face {
     font-family: SourceCodePro;
-    src: url('fonts/SourceCodeVariable-Roman.oft'); 
-     font-weight: regular; 
-         /*url('fonts/SourceCodeVariable-Roman.ttf') format('truetype');*/
+    src: url("fonts/SourceCodeVariable-Roman.woff") format("woff"), 
+         url('fonts/SourceCodeVariable-Roman.otf') format("opentype"), 
+         url('fonts/SourceCodeVariable-Roman.ttf') format('truetype');
+    font-weight: regular; 
+         
 }
 
 @font-face {
