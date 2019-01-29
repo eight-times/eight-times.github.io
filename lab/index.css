@@ -26,6 +26,15 @@ body {
     height: 200%;
 }
 
+#invalid-overlay {
+    height: 100%;
+    z-index: 9000;
+    width: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
 p {
     line-height: 190%;
 }

@@ -90107,11 +90107,25 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+var resizeProcess = null;
+
 window.onload = function () {
     var root = document.getElementById('root');
     _reactDom2.default.render(_react2.default.createElement(App, null), root);
+
+    window.onresize = function () {
+        if (resizeProcess == null) {
+            document.getElementById('invalid-overlay').style.display = 'block';
+            resizeProcess = setTimeout(function () {
+                resizeProcess = null;
+                document.getElementById('invalid-overlay').style.display = 'none';
+
+                var root = document.getElementById('root');
+                _reactDom2.default.render(_react2.default.createElement(App, null), root);
+            }, 500);
+        }
+    };
 };
-window.onresize = window.onload;
 
 var App = function (_React$Component) {
     _inherits(App, _React$Component);
@@ -90153,6 +90167,7 @@ var App = function (_React$Component) {
             return _react2.default.createElement(
                 'div',
                 null,
+                _react2.default.createElement('div', { id: 'invalid-overlay', style: { display: 'none' } }),
                 _react2.default.createElement(_Mandala2.default, { params: this.urlParams, width: width, height: height * 1.75 }),
                 _react2.default.createElement(
                     SignPost,
@@ -92379,7 +92394,7 @@ var _core = require('./core.js');
 
 var _immutable = require('immutable');
 
-var _animate = require('./animate.js');
+var _async = require('./async.js');
 
 var _blender = require('./blender.js');
 
@@ -92529,10 +92544,10 @@ var Stage = function (_React$Component) {
                     value: this.state.slotIndex,
                     count: this.state.slots.count(),
                     onChange: function onChange(i) {
-                        (0, _animate.stopAnimation)(_this3.animation);
+                        (0, _async.stopAnimation)(_this3.animation);
 
                         var process = (0, _blender.blender)(_this3.state.values, _this3.state.slots.get(i));
-                        _this3.animation = (0, _animate.animate)(process, 1000, function (value) {
+                        _this3.animation = (0, _async.animate)(process, 1000, function (value) {
                             scene.setState({
                                 values: value
                             });
@@ -92547,7 +92562,7 @@ var Stage = function (_React$Component) {
                     { className: 'stage-bottom-right' },
                     _react2.default.createElement(ResetButton, {
                         clicked: function clicked() {
-                            return (0, _animate.animate)((0, _blender.blender)(_this3.state.values, _this3.props.presets.get(_this3.state.slotIndex)), 2000, function (value) {
+                            return (0, _async.animate)((0, _blender.blender)(_this3.state.values, _this3.props.presets.get(_this3.state.slotIndex)), 2000, function (value) {
                                 return scene.setState({
                                     values: value
                                 });
@@ -92610,9 +92625,6 @@ function ResetButton(props) {
 
 function SavePopup(props) {
     var url = generateUrlFromSceneValues(props.sceneName, props.values);
-    var selectTextarea = function selectTextarea(e) {
-        return e.nativeEvent.target.setSelectionRange(0, e.nativeEvent.target.value.length);
-    };
     return props.show ? _react2.default.createElement(
         _Popup.Popup,
         {
@@ -92656,13 +92668,12 @@ function SavePopup(props) {
                     _react2.default.createElement(
                         'td',
                         null,
-                        _react2.default.createElement('textarea', {
-                            onClick: selectTextarea,
-                            cols: '50',
-                            rows: '8',
-                            readOnly: 'true',
-                            value: url
-                        })
+                        _react2.default.createElement(
+                            'a',
+                            { className: '',
+                                href: url },
+                            url.substring(0, 64) + "..."
+                        )
                     )
                 ),
                 _react2.default.createElement(
@@ -92688,7 +92699,6 @@ function generateUrlFromSceneValues(name, values) {
     var obj = (0, _core.flatten)(values.toJSON());
     var search = "scene=" + name + "&" + (0, _core.objToUrlParams)(obj);
     var loc = location;
-    console.log(loc);
     var url = loc.protocol + "//" + loc.hostname + (loc.port != "" ? ":" + loc.port : "") + loc.pathname + "?" + search;
     return url;
 }
@@ -92699,7 +92709,7 @@ function generateImageUrl(imgData, mimeType) {
     return imgData;
 }
 
-},{"./AboutPopup":405,"./Exposer.js":408,"./Popup":411,"./animate.js":416,"./blender.js":417,"./core.js":418,"immutable":225,"react":395,"three":404}],414:[function(require,module,exports){
+},{"./AboutPopup":405,"./Exposer.js":408,"./Popup":411,"./async.js":416,"./blender.js":417,"./core.js":418,"immutable":225,"react":395,"three":404}],414:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -93716,7 +93726,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.animate = animate;
 exports.stopAnimation = stopAnimation;
 /**
- * functions to animate
+ * functions dealing with things over time
  */
 
 /**
