@@ -90168,7 +90168,7 @@ var App = function (_React$Component) {
                 _react2.default.createElement(
                     SignPost,
                     { height: height * 1 },
-                    'rings. We are close to the first scene now. Check out the the arrow button [>]'
+                    'rings. This is the first scene. Check out the the arrow buttons on the right'
                 ),
                 _react2.default.createElement(_Rings2.default, { params: this.urlParams, width: width, height: height }),
                 _react2.default.createElement(
@@ -92744,7 +92744,7 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
                         },
                         rows: {
                             min: 0.2,
-                            max: 0.6,
+                            max: 0.8,
                             step: 0.01
                         }
                     }
@@ -92777,7 +92777,7 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
                         },
                         freq: {
                             min: 0,
-                            max: 30,
+                            max: 50,
                             step: 0.1,
                             valid: values.getIn(['size', 'chaos']) > 0
                         }
