@@ -90093,10 +90093,6 @@ var _Lines2 = _interopRequireDefault(_Lines);
 
 var _Symbols = require('./Symbols');
 
-var _agents = require('./agents');
-
-var _agents2 = _interopRequireDefault(_agents);
-
 var _core = require('../src/core.js');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -90240,7 +90236,7 @@ function SignPost(props) {
     );
 }
 
-},{"../src/core.js":418,"./Exposer":408,"./Lines":409,"./Mandala":410,"./Rings":412,"./Symbols":414,"./agents":415,"react":395,"react-dom":226,"three":404}],407:[function(require,module,exports){
+},{"../src/core.js":417,"./Exposer":408,"./Lines":409,"./Mandala":410,"./Rings":412,"./Symbols":414,"react":395,"react-dom":226,"three":404}],407:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -90292,8 +90288,6 @@ var _reactDom2 = _interopRequireDefault(_reactDom);
 
 var _immutable = require('immutable');
 
-var _core = require('./core.js');
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -90302,6 +90296,15 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+/**
+ * The Exposer transforms a description of a user parameter into a HTML user interface.
+ * It 'exposes' a parameter to the user.
+ *
+ * A single description of a user parameter is called a 'frame'. 
+ * Exposer expectes a prop called framer. This is a function that returns all frames that should be exposed.
+ * Why is it a function an not a plain object? 
+ * That's because frames can be dynamic, depending on the current value of the user parameters. I recommend having a look at the DISTORT parameters in Rings.js for that matter. 
+ */
 var Exposer = function (_React$Component) {
     _inherits(Exposer, _React$Component);
 
@@ -90554,7 +90557,7 @@ function SliderEdit(props) {
     );
 }
 
-},{"./core.js":418,"immutable":225,"react":395,"react-dom":226}],409:[function(require,module,exports){
+},{"immutable":225,"react":395,"react-dom":226}],409:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -90893,12 +90896,12 @@ var LinesScene = function (_React$Component) {
                         weight: {
                             min: 0.00,
                             max: 4,
-                            step: 0.0001
+                            step: 0.01
                         },
                         opacity: {
                             min: 0,
                             max: 1,
-                            step: 0.001
+                            step: 0.01
                         }
                     }
                 },
@@ -90919,7 +90922,7 @@ var LinesScene = function (_React$Component) {
                         opacity: {
                             min: 0,
                             max: 1,
-                            step: 0.001
+                            step: 0.01
                         }
                     }
                 },
@@ -90930,12 +90933,12 @@ var LinesScene = function (_React$Component) {
                         A: {
                             min: 0,
                             max: Math.PI,
-                            step: 0.00001
+                            step: 0.01
                         },
                         B: {
                             min: 0,
                             max: Math.PI,
-                            step: 0.00001
+                            step: 0.01
                         }
                     }
                 },
@@ -90946,7 +90949,7 @@ var LinesScene = function (_React$Component) {
                         intensity: {
                             min: 0.0,
                             max: 4,
-                            step: 0.0001
+                            step: 0.004
                         },
                         freq: {
                             min: 0,
@@ -91079,13 +91082,8 @@ var LinesActor = function () {
             var lineColorsKey = params.get('color').get('lines');
             var lineColors = props.palettes.lines[lineColorsKey].colors;
 
-            //let sum = params.get('complexity').get('lines');
-            //let ratio = params.get('complexity').get('ratio');
-
             var A = Math.floor(params.get('complexity').get('A'));
             var B = Math.floor(params.get('complexity').get('Ax') * A);
-            //let A = Math.ceil(sum / (ratio + 1));
-            //let B = sum - A;
 
             var counts = [A, B];
 
@@ -91094,7 +91092,6 @@ var LinesActor = function () {
             var dotScales = [params.get('dots').get('A'), params.get('dots').get('B')];
 
             var lineWeight = Math.pow(params.get('lines').get('weight'), 2);
-            var lineCount = counts[0];
 
             var dotGeo = new _three2.default.CircleBufferGeometry(1, 32);
 
@@ -91183,6 +91180,11 @@ var LinesActor = function () {
     return LinesActor;
 }();
 
+/**
+ * Connects one Point A with one point in B
+ */
+
+
 function oneToOne(_ref3) {
     var _ref4 = _slicedToArray(_ref3, 2),
         a = _ref4[0],
@@ -91192,7 +91194,7 @@ function oneToOne(_ref3) {
 }
 
 /**
- * This is the correct function, but onToXStrange is more interesting
+ * Connects one point in A with many in B. 
  */
 function oneToX(A, B, modulo) {
     var X = B / A;
@@ -91215,6 +91217,9 @@ function oneToX(A, B, modulo) {
     };
 }
 
+/**
+ * Connects on point A in with many in B in a visually interesting way
+ */
 function oneToXStrange(A, B) {
     var X = A / B;
     return X >= 1 ? function (_ref9) {
@@ -91231,8 +91236,6 @@ function oneToXStrange(A, B) {
         return (0, _core.mod)(a - b, A) < 1.0 / X;
     };
 }
-
-// 0,10 -> mod(10-0, 10) -> 10 < 2 -> falsch
 
 function createAllPairs(I, J) {
     var pairs = [];
@@ -91282,11 +91285,11 @@ function changeAngle(polars, update) {
 
 /* 
  * returns a new liner.
- * a liner is a function that creates a line
+ * a liner is a function that creates a line.
  */
 
 function newLiner(weight) {
-    var lineGeo = new _three2.default.PlaneGeometry(weight, 1, 1, 1);
+    var lineGeo = new _three2.default.PlaneBufferGeometry(weight, 1, 1, 1);
     lineGeo.translate(0, 1 / 2, 0);
     return function (a, b, material) {
         var ab = new _three2.default.Vector2();
@@ -91306,6 +91309,9 @@ function newLiner(weight) {
     };
 }
 
+/**
+ * Gives polar(!) coordinates of points on a circle. 
+ */
 function circlePoints(radius, points, phase) {
     return new _immutable.Range(0, points).map(function (i) {
         return (0, _core.rerange)(i, 0, points, 0, Math.PI * 2);
@@ -91314,7 +91320,7 @@ function circlePoints(radius, points, phase) {
     });
 }
 
-},{"../colors/palettes.js":1,"./Stage":413,"./core.js":418,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],410:[function(require,module,exports){
+},{"../colors/palettes.js":1,"./Stage":413,"./core.js":417,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],410:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -91627,7 +91633,7 @@ function groupByIndex(i) {
 // 6 = 2^2 + 2
 // 7 = 2^2 + 3
 
-},{"../colors/palettes.js":1,"./Stage":413,"./core.js":418,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],411:[function(require,module,exports){
+},{"../colors/palettes.js":1,"./Stage":413,"./core.js":417,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],411:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -91736,7 +91742,7 @@ var presets = (0, _immutable.fromJS)([{
     "freq": 2.13
   },
   "sector": {
-    "angle": 6.283185307179586,
+    "angle": Math.PI * 2,
     "weight": 0.05
   },
   "cam": {
@@ -91767,7 +91773,7 @@ var presets = (0, _immutable.fromJS)([{
     "freq": 2.13
   },
   "sector": {
-    "angle": 6.283185307179586,
+    "angle": Math.PI * 2,
     "weight": 0.05
   },
   "cam": {
@@ -91972,7 +91978,7 @@ var RingsScene = function (_React$Component) {
             min: {
               min: -0.99,
               max: 1,
-              step: 0.0001
+              step: 0.002
             },
             chaos: {
               min: 0,
@@ -91993,13 +91999,13 @@ var RingsScene = function (_React$Component) {
           children: {
             angle: {
               min: 0.01,
-              max: 2 * Math.PI,
-              step: 0.001
+              max: 2.01 * Math.PI,
+              step: 0.01
             },
             weight: {
               min: 0.003,
               max: 0.9,
-              step: 0.0001
+              step: 0.001
             }
           }
         },
@@ -92020,7 +92026,7 @@ var RingsScene = function (_React$Component) {
             x: {
               min: -1,
               max: 1,
-              step: 0.1
+              step: 0.01
             }
           }
         },
@@ -92031,7 +92037,7 @@ var RingsScene = function (_React$Component) {
             angle: {
               min: 0,
               max: 42 * Math.PI,
-              step: 0.00001
+              step: 0.1
             }
           }
         },
@@ -92042,12 +92048,12 @@ var RingsScene = function (_React$Component) {
             intensity: {
               min: 0.0,
               max: 2,
-              step: 0.0001
+              step: 0.01
             },
             freq: {
               min: 0,
               max: 2,
-              step: 0.0001,
+              step: 0.01,
               valid: values.getIn(['distort', 'intensity']) > 0
             }
           }
@@ -92073,39 +92079,6 @@ var RingsScene = function (_React$Component) {
         }
       });
     };
-
-    var starter = (0, _immutable.Map)({
-      complexity: (0, _immutable.Map)({
-        count: 10,
-        segments: 20
-      }),
-      radius: (0, _immutable.Map)({
-        min: 0.2,
-        chaos: 0,
-        freq: 2.13
-      }),
-      sector: (0, _immutable.Map)({
-        angle: Math.PI * 2,
-        weight: 0.05
-      }),
-      cam: (0, _immutable.Map)({
-        roll: 0,
-        zoom: 0.6,
-        x: 0
-      }),
-      spin: (0, _immutable.Map)({
-        angle: 0
-      }),
-      distort: (0, _immutable.Map)({
-        intensity: 0,
-        freq: 1.3
-      }),
-      color: (0, _immutable.Map)({
-        opacity: 1,
-        lines: "Black",
-        bg: "White"
-      })
-    });
 
     var colorRings = (0, _immutable.fromJS)({
       "complexity": {
@@ -92369,7 +92342,7 @@ var RingsActor = function () {
   return RingsActor;
 }();
 
-},{"../colors/palettes.js":1,"./Stage":413,"./blender.js":417,"./core.js":418,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],413:[function(require,module,exports){
+},{"../colors/palettes.js":1,"./Stage":413,"./blender.js":416,"./core.js":417,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],413:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -92445,24 +92418,11 @@ var Stage = function (_React$Component) {
         value: function componentDidMount() {
             this.scene = new this.props.scene(this.props, this.canvas);
             this.scene.update(this.state.values, this.props);
-            /*
-            var stage = this;
-            var oldOnScroll = window.onscroll;
-            window.onscroll = () => {
-                let newActive = isElementInViewport(this.canvas, 0.2);
-                if (stage.state.active != newActive) {
-                    stage.setState({active: newActive});
-                }
-                if (oldOnScroll) oldOnScroll();
-            }
-            */
         }
     }, {
         key: 'componentDidUpdate',
         value: function componentDidUpdate() {
-            //if (this.state.active) {
             this.scene.update(this.state.values, this.props);
-            //}
             window.currentScene = this.state.values.toJS();
         }
     }, {
@@ -92709,7 +92669,7 @@ function generateImageUrl(imgData, mimeType) {
     return imgData;
 }
 
-},{"./AboutPopup":405,"./Exposer.js":408,"./Popup":411,"./async.js":416,"./blender.js":417,"./core.js":418,"immutable":225,"react":395,"three":404}],414:[function(require,module,exports){
+},{"./AboutPopup":405,"./Exposer.js":408,"./Popup":411,"./async.js":415,"./blender.js":416,"./core.js":417,"immutable":225,"react":395,"three":404}],414:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -92755,296 +92715,6 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var presets = (0, _immutable.fromJS)([{
-    "grid": {
-        "cols": 100,
-        "rows": 14
-    },
-    "text": {
-        "text": "|\n. \n<"
-    },
-    "size": {
-        "min": 0.08,
-        "chaos": 0,
-        "freq": 2.13
-    },
-    "displacex": {
-        "intensity": 0,
-        "freq": 10.72
-    },
-    "displacey": {
-        "intensity": 0,
-        "freq": 0.8
-    },
-    "margin": {
-        "x": 1,
-        "y": 1,
-        "radius": 1
-    },
-    "rotation": {
-        "min": 0,
-        "x": 0,
-        "y": 0
-    },
-    "color": {
-        "opacity": 1,
-        "symbols": "Black",
-        "bg": "White"
-    }
-}, {
-    "grid": {
-        "cols": 100,
-        "rows": 14
-    },
-    "text": {
-        "text": "|\n. \n<"
-    },
-    "size": {
-        "min": 0.08,
-        "chaos": 2,
-        "freq": 2.13
-    },
-    "displacex": {
-        "intensity": 0,
-        "freq": 10.72
-    },
-    "displacey": {
-        "intensity": 0,
-        "freq": 0.8
-    },
-    "margin": {
-        "x": 1,
-        "y": 1,
-        "radius": 1
-    },
-    "rotation": {
-        "min": 0,
-        "x": 0,
-        "y": 0
-    },
-    "color": {
-        "opacity": 1,
-        "symbols": "Black",
-        "bg": "White"
-    }
-}, {
-    "grid": {
-        "cols": 100,
-        "rows": 14
-    },
-    "text": {
-        "text": "|\n. \n<"
-    },
-    "size": {
-        "min": 0.08,
-        "chaos": 2,
-        "freq": 2.13
-    },
-    "displacex": {
-        "intensity": 188.83,
-        "freq": 10.72
-    },
-    "displacey": {
-        "intensity": 0,
-        "freq": 0.8
-    },
-    "margin": {
-        "x": 1,
-        "y": 1,
-        "radius": 1
-    },
-    "rotation": {
-        "min": 0,
-        "x": 0,
-        "y": 0
-    },
-    "color": {
-        "opacity": 1,
-        "symbols": "Black",
-        "bg": "White"
-    }
-}, {
-    "grid": {
-        "cols": 100,
-        "rows": 14
-    },
-    "text": {
-        "text": "|"
-    },
-    "size": {
-        "min": 0.08,
-        "chaos": 2,
-        "freq": 2.13
-    },
-    "displacex": {
-        "intensity": 0,
-        "freq": 10.72
-    },
-    "displacey": {
-        "intensity": 0,
-        "freq": 0.8
-    },
-    "margin": {
-        "x": 1,
-        "y": 1,
-        "radius": 1
-    },
-    "rotation": {
-        "min": 0,
-        "x": 0,
-        "y": 0
-    },
-    "color": {
-        "opacity": 1,
-        "symbols": "Black",
-        "bg": "White"
-    }
-}, {
-    "grid": {
-        "cols": 100,
-        "rows": 14
-    },
-    "text": {
-        "text": "|"
-    },
-    "size": {
-        "min": 0.08,
-        "chaos": 2,
-        "freq": 2.13
-    },
-    "displacex": {
-        "intensity": 0,
-        "freq": 10.72
-    },
-    "displacey": {
-        "intensity": 0,
-        "freq": 0.8
-    },
-    "margin": {
-        "x": 1,
-        "y": 1,
-        "radius": 1
-    },
-    "rotation": {
-        "min": 0,
-        "x": 0,
-        "y": 14.479
-    },
-    "color": {
-        "opacity": 1,
-        "symbols": "Black",
-        "bg": "White"
-    }
-}, {
-    "grid": {
-        "cols": 100,
-        "rows": 14
-    },
-    "text": {
-        "text": "|"
-    },
-    "size": {
-        "min": 0.08,
-        "chaos": 2,
-        "freq": 2.13
-    },
-    "displacex": {
-        "intensity": 0,
-        "freq": 10.72
-    },
-    "displacey": {
-        "intensity": 154.67,
-        "freq": 0.8
-    },
-    "margin": {
-        "x": 1,
-        "y": 1,
-        "radius": 1
-    },
-    "rotation": {
-        "min": 0,
-        "x": 0,
-        "y": 14.479
-    },
-    "color": {
-        "opacity": 1,
-        "symbols": "Black",
-        "bg": "White"
-    }
-}, {
-    "grid": {
-        "cols": 100,
-        "rows": 14
-    },
-    "text": {
-        "text": "|\n. \n<"
-    },
-    "size": {
-        "min": 0.08,
-        "chaos": 0,
-        "freq": 2.13
-    },
-    "displacex": {
-        "intensity": 0,
-        "freq": 10.72
-    },
-    "displacey": {
-        "intensity": 0,
-        "freq": 0.8
-    },
-    "margin": {
-        "x": 1,
-        "y": 1,
-        "radius": 1
-    },
-    "rotation": {
-        "min": 0,
-        "x": 0,
-        "y": 0
-    },
-    "color": {
-        "opacity": 1,
-        "symbols": "Black",
-        "bg": "White"
-    }
-}, {
-    "grid": {
-        "cols": 100,
-        "rows": 14
-    },
-    "text": {
-        "text": "|||??||||||||||||||||?\n. \n<<<<<<<<<<<<<<<?<<<<<<<<<<<?\n||||||||?||||||||||||||||||???||||||||||||?|||||||||||||||?|||||t|||h|e||se|||||||||\n. \n<\n|\n..........................................s..y.?.ste.m?s.........\n<\n|\n. \n<<<<<<<<<<<<<<<<<<<<<<<<?<<<<<<<<<<<<<<?<<<<<<<<<<<<<<<<<<are<<<<<<<??<<<<failing"
-    },
-    "size": {
-        "min": 0.08,
-        "chaos": 0,
-        "freq": 2.13
-    },
-    "displacex": {
-        "intensity": 0,
-        "freq": 10.72
-    },
-    "displacey": {
-        "intensity": 0,
-        "freq": 0.8
-    },
-    "margin": {
-        "x": 1,
-        "y": 1,
-        "radius": 1
-    },
-    "rotation": {
-        "min": 0,
-        "x": 0,
-        "y": 0
-    },
-    "color": {
-        "opacity": 1,
-        "symbols": "Black",
-        "bg": "White"
-    }
-}]);
-
 var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
     _inherits(SymbolsStage, _React$Component);
 
@@ -93060,6 +92730,7 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
             bg: _palettes.monoColors
         };
 
+        // user parameter definition
         _this.framer = function (values) {
             return (0, _immutable.fromJS)({
                 grid: {
@@ -93067,12 +92738,14 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
                     label: "Grid",
                     children: {
                         cols: {
-                            min: 1,
-                            max: 170
+                            min: 0.17,
+                            max: 0.9,
+                            step: 0.01
                         },
                         rows: {
-                            min: 1,
-                            max: 170
+                            min: 0.2,
+                            max: 0.6,
+                            step: 0.01
                         }
                     }
                 },
@@ -93095,17 +92768,17 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
                         min: {
                             min: -1.0,
                             max: 10,
-                            step: 0.01
+                            step: 0.03
                         },
                         chaos: {
                             min: 0,
                             max: 20,
-                            step: 0.01
+                            step: 0.1
                         },
                         freq: {
                             min: 0,
-                            max: 50,
-                            step: 0.01,
+                            max: 30,
+                            step: 0.1,
                             valid: values.getIn(['size', 'chaos']) > 0
                         }
                     }
@@ -93117,11 +92790,11 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
                         intensity: {
                             min: 0,
                             max: 300,
-                            step: 0.01
+                            step: 1
                         },
                         freq: {
                             min: 0,
-                            max: 50,
+                            max: 30,
                             step: 0.01,
                             valid: values.getIn(['displacex', 'intensity']) > 0
                         }
@@ -93134,11 +92807,11 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
                         intensity: {
                             min: 0,
                             max: 300,
-                            step: 0.01
+                            step: 1
                         },
                         freq: {
                             min: 0,
-                            max: 50,
+                            max: 30,
                             step: 0.01,
                             valid: values.getIn(['displacey', 'intensity']) > 0
                         }
@@ -93177,12 +92850,12 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
                         x: {
                             min: 0,
                             max: Math.PI * 32,
-                            step: 0.001
+                            step: 0.1
                         },
                         y: {
                             min: 0,
                             max: Math.PI * 8,
-                            step: 0.001
+                            step: 0.1
                         }
                     }
                 },
@@ -93207,43 +92880,6 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
                 }
             });
         };
-        _this.starter = (0, _immutable.Map)({
-            grid: (0, _immutable.Map)({
-                cols: 30,
-                rows: 30
-            }),
-            text: (0, _immutable.Map)({
-                text: "xo"
-            }),
-            size: (0, _immutable.Map)({
-                min: 0.5,
-                chaos: 0,
-                freq: 2.13
-            }),
-            displacex: (0, _immutable.Map)({
-                intensity: 0,
-                freq: 0.8
-            }),
-            displacey: (0, _immutable.Map)({
-                intensity: 0,
-                freq: 0.8
-            }),
-            margin: (0, _immutable.Map)({
-                x: 1,
-                y: 1,
-                radius: 1
-            }),
-            rotation: (0, _immutable.Map)({
-                min: 0,
-                x: 0,
-                y: 0
-            }),
-            color: (0, _immutable.Map)({
-                opacity: 1,
-                symbols: "Black",
-                bg: "White"
-            })
-        });
 
         _this.presets = presets;
 
@@ -93285,11 +92921,19 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
     return SymbolsStage;
 }(_react2.default.Component);
 
+/** 
+ * SymbolsActor takes a user defined text and displays it in a grid (a table)
+ * We have four coordinate spaces:
+ * 1. The world space: The global THREE.js coordinate system
+ * 2. The grid space: The position in the symbol grid 
+ * 3. The norm space: Like grid space but normalized to 0..1
+ * 4. The line space: The position of a character in the text
+ */
+
+
 var SymbolsActor = function () {
     function SymbolsActor(props, canvas) {
         _classCallCheck(this, SymbolsActor);
-
-        this.createMats = (0, _core.memorize2)(this.createMats);
 
         this.renderer = new _three2.default.WebGLRenderer({
             canvas: canvas,
@@ -93307,6 +92951,9 @@ var SymbolsActor = function () {
 
         this.obj = new _three2.default.Object3D();
         this.scene.add(this.obj);
+
+        // create a cached version of createMaterials
+        this.createMaterials = (0, _core.memorize2)(createMaterials);
     }
 
     _createClass(SymbolsActor, [{
@@ -93322,70 +92969,86 @@ var SymbolsActor = function () {
         }
     }, {
         key: 'update',
-        value: function update(params, props) {
-            this.camera.right = props.width;
-            this.camera.top = props.height;
+        value: function update(params, settings) {
+            var width = settings.width,
+                height = settings.height,
+                palettes = settings.palettes,
+                font = settings.font;
+
+            var _params$toJS = params.toJS(),
+                _params$toJS$grid = _params$toJS.grid,
+                colsNorm = _params$toJS$grid.cols,
+                rowsNorm = _params$toJS$grid.rows,
+                _params$toJS$size = _params$toJS.size,
+                scaleMin = _params$toJS$size.min,
+                scaleChaos = _params$toJS$size.chaos,
+                scaleFreq = _params$toJS$size.freq,
+                _params$toJS$displace = _params$toJS.displacex,
+                displaceXIntensity = _params$toJS$displace.intensity,
+                displaceXFreq = _params$toJS$displace.freq,
+                _params$toJS$displace2 = _params$toJS.displacey,
+                displaceYIntensity = _params$toJS$displace2.intensity,
+                displaceYFreq = _params$toJS$displace2.freq,
+                text = _params$toJS.text.text,
+                _params$toJS$rotation = _params$toJS.rotation,
+                rotMin = _params$toJS$rotation.min,
+                rotStepX = _params$toJS$rotation.x,
+                rotStepY = _params$toJS$rotation.y,
+                _params$toJS$margin = _params$toJS.margin,
+                marginXNorm = _params$toJS$margin.x,
+                marginYNorm = _params$toJS$margin.y,
+                marginRadiusNorm = _params$toJS$margin.radius,
+                _params$toJS$color = _params$toJS.color,
+                bgKey = _params$toJS$color.bg,
+                symbolsColorKey = _params$toJS$color.symbols,
+                opacity = _params$toJS$color.opacity;
+
+            var center = new _three2.default.Vector2(width / 2, height / 2);
+
+            var cellWidth = width / (Math.pow(colsNorm, 4) * width);
+            var cellHeight = height / (Math.pow(rowsNorm, 4) * height);
+
+            var cols = Math.max(1, Math.floor(width / cellWidth));
+            var rows = Math.max(1, Math.floor(height / cellHeight));
+
+            var marginX = marginXNorm * width / 2;
+            var marginY = marginYNorm * height / 2;
+            var maxRadius = center.length();
+            var marginRadius = maxRadius * marginRadiusNorm;
+
+            var backColor = palettes.bg[bgKey].colors[0];
+            var symbolsColors = palettes.symbols[symbolsColorKey].colors;
+
+            this.camera.right = width;
+            this.camera.top = height;
             this.camera.updateProjectionMatrix();
 
-            (0, _core.removeChildren)(this.obj);
-
-            var width = props.width;
-            var height = props.height;
-            var center = new _three2.default.Vector2(width / 2, height / 2);
-            var cols = Math.floor(params.get('grid').get('cols'));
-            var rows = params.get('grid').get('rows');
-            var cellWidth = width / cols;
-            var cellHeight = height / rows;
-            var scaleMin = params.get('size').get('min');
-            var scaleChaos = params.get('size').get('chaos');
-            var scaleFreq = params.get('size').get('freq');
-            var displaceXIntensity = params.get('displacex').get('intensity');
-            var displaceXFreq = params.get('displacex').get('freq');
-            var displaceYIntensity = params.get('displacey').get('intensity');
-            var displaceYFreq = params.get('displacey').get('freq');
-            var text = params.get('text').get('text');
-            var rotMin = params.get('rotation').get('min');
-            var rotStepX = params.get('rotation').get('x');
-            var rotStepY = params.get('rotation').get('y');
-            var marginX = params.get('margin').get('x') * width / 2;
-            var marginY = params.get('margin').get('y') * height / 2;
-            var maxRadius = center.length();
-            var marginRadiusParam = params.get('margin').get('radius');
-            var marginRadius = maxRadius * marginRadiusParam;
-
-            var bgKey = params.get('color').get('bg');
-            var backColor = props.palettes.bg[bgKey].colors[0];
-            var symbolsColorKey = params.get('color').get('symbols');
-            var symbolsColors = props.palettes.symbols[symbolsColorKey].colors;
-            var opacity = params.get('color').get('opacity');
-
             this.renderer.setClearColor(backColor, 1);
-
             this.renderer.setSize(width, height);
 
-            var scaleXY = newNoiseScale(scaleFreq, scaleChaos);
+            var scaleAt = newNoiseScale(scaleFreq, scaleChaos);
 
-            var disX = newXDisplayer(displaceXFreq, displaceXIntensity);
-            var disY = newYDisplayer(displaceYFreq, displaceYIntensity);
+            var displaceXAt = newXDisplacer(displaceXFreq, displaceXIntensity);
+            var displaceYAt = newYDisplacer(displaceYFreq, displaceYIntensity);
 
-            var posX = function posX(x) {
+            var worldPosX = function worldPosX(x) {
                 return (0, _core.rerange)(x, 0, cols, 0, width) + cellWidth / 2;
             };
-            var posY = function posY(y) {
+            var worldPosY = function worldPosY(y) {
                 return (0, _core.rerange)(y, 0, rows, height, 0) - cellHeight / 2;
             };
 
-            var visibleXY = function visibleXY(x, y) {
-                return Math.abs(x - width / 2) <= marginX && Math.abs(y - height / 2) <= marginY && (marginRadiusParam >= 1 || new _three2.default.Vector2(x, y).distanceTo(center) <= marginRadius);
+            var isVisible = function isVisible(xWorld, yWorld) {
+                return Math.abs(xWorld - width / 2) <= marginX && Math.abs(yWorld - height / 2) <= marginY && (marginRadiusNorm >= 1 || new _three2.default.Vector2(xWorld, yWorld).distanceTo(center) <= marginRadius);
             };
 
             var chars = new _immutable.OrderedSet(text.split(''));
             var geos = chars.toMap().map(function (c) {
                 var geo = new _three2.default.TextGeometry(c, {
-                    font: props.font,
+                    font: font,
                     size: 10,
                     height: 1,
-                    curveSegments: 12,
+                    curveSegments: 8,
                     bevelEnabled: 0
                 });
                 geo.center();
@@ -93395,64 +93058,66 @@ var SymbolsActor = function () {
             var lines = textToLines(text);
             var gridToLineSpace = gridToLineSpaceTransformation(cols, rows, lines);
 
-            var mats = this.createMats(opacity, symbolsColors);
-            var matsMap = lineSpaceToMaterialMap(lines, mats);
+            var materials = this.createMaterials(opacity, symbolsColors);
+            var materialMap = lineSpaceToMaterialMap(lines, materials);
 
+            (0, _core.removeChildren)(this.obj);
             for (var y = 0; y < rows; y++) {
                 for (var x = 0; x < cols; x++) {
-                    var xw = posX(x);
-                    var yw = posY(y);
-                    if (visibleXY(xw, yw)) {
-                        var tu = gridToLineSpace(x, y);
-                        var c = lines.get(tu.y).get(tu.x);
-                        var mat = matsMap.get(tu.y).get(tu.x);
+                    var xWorld = worldPosX(x);
+                    var yWorld = worldPosY(y);
+                    if (isVisible(xWorld, yWorld)) {
+                        var charPos = gridToLineSpace(x, y);
+                        var charStr = lines.get(charPos.y).get(charPos.x);
+                        var material = materialMap.get(charPos.y).get(charPos.x);
 
-                        var xn = x / cols;
-                        var yn = y / rows;
+                        var geo = geos.get(charStr);
+                        var mesh = new _three2.default.Mesh(geo, material);
 
-                        var geo = geos.get(c);
-                        var mesh = new _three2.default.Mesh(geo, mat);
+                        var xNorm = x / cols;
+                        var yNorm = y / rows;
 
-                        mesh.position.x = xw - disX(xn, yn);
-                        mesh.position.y = yw - disY(xn, yn);
-
+                        mesh.position.x = xWorld - displaceXAt(xNorm, yNorm);
+                        mesh.position.y = yWorld - displaceYAt(xNorm, yNorm);
                         mesh.position.z = -10;
 
-                        var scale = scaleMin + scaleXY(xn, yn);
+                        var scale = scaleMin + scaleAt(xNorm, yNorm);
                         mesh.scale.x = scale;
                         mesh.scale.y = scale;
                         mesh.scale.z = 1;
 
-                        mesh.rotation.z = rotMin + xn * rotStepX + yn * rotStepY;
+                        mesh.rotation.z = rotMin + xNorm * rotStepX + yNorm * rotStepY;
                         this.obj.add(mesh);
                     }
                 }
             }
             this.renderer.render(this.scene, this.camera);
         }
-    }, {
-        key: 'createMats',
-        value: function createMats(opacity, colors) {
-            return new _immutable.List(colors.map(function (c) {
-                return new _three2.default.MeshBasicMaterial({
-                    color: c,
-                    opacity: opacity,
-                    transparent: true
-                });
-            }));
-        }
     }]);
 
     return SymbolsActor;
 }();
 
-function rotator(step, cols, rows) {
-    return function (x, y) {
-        var i = x + rows * y;
-        return (0, _core.mod)(i * step, Math.PI * 2);
-    };
+/** 
+ * Creates materials for a given opacity and a List of colors
+ */
+
+
+function createMaterials(opacity, colors) {
+    return new _immutable.List(colors.map(function (c) {
+        return new _three2.default.MeshBasicMaterial({
+            color: c,
+            opacity: opacity,
+            transparent: true
+        });
+    }));
 }
 
+/**
+ * Returns a function that transforms grid cooridnates into line coordinates.
+ * Line coordinates are to position of a char in a multiline text.
+ * In other words: the returned function tells you where to find the character that should be displayed at a postion in the grid. 
+ */
 function gridToLineSpaceTransformation(cols, rows, lines) {
     var L = lines.count();
     return function (x, y) {
@@ -93463,6 +93128,9 @@ function gridToLineSpaceTransformation(cols, rows, lines) {
     };
 }
 
+/**
+ * Returns a datastructure (a List) that gives to the material you need at a certain postion in line space
+ */
 function lineSpaceToMaterialMap(lines, materials) {
     var i = 0;
     var map = new _immutable.List();
@@ -93475,23 +93143,18 @@ function lineSpaceToMaterialMap(lines, materials) {
     return map;
 }
 
-function newMatGrid(cols, rows, text, mats) {
-    return function (x, y) {
-        var i = (x + cols * y) % text.length;
-        return mats[i % mats.length];
-    };
-}
-
-function randomScale(x, y) {
-    return Math.random();
-}
-
+/**
+ * Transforms a standard string into a List of lines
+ */
 function textToLines(string) {
     return (0, _immutable.fromJS)(string.split("\n")).map(function (str) {
         return new _immutable.List(str.split(''));
     });
 }
 
+/**
+ * Returns a function that gives you the right scale distortion at a point in norm space 
+ */
 function newNoiseScale(freq, intensity) {
     var seed = (0, _seedrandom2.default)('Günter von Waldbergshausen');
     var noiseGen = new _fastSimplexNoise2.default({
@@ -93500,12 +93163,15 @@ function newNoiseScale(freq, intensity) {
         min: 0,
         max: 1
     });
-    return function (x, y) {
-        return 1 + noiseGen.scaled([x, y]) * intensity;
+    return function (xNorm, yNorm) {
+        return 1 + noiseGen.scaled([xNorm, yNorm]) * intensity;
     };
 }
 
-function newXDisplayer(freq, intensity) {
+/**
+ * returns a function that gives the x displacement at a point in norm space
+ */
+function newXDisplacer(freq, intensity) {
     var seed = (0, _seedrandom2.default)("Walter Heiner Bergmansbauer");
     var noiseGen = new _fastSimplexNoise2.default({
         random: seed,
@@ -93513,12 +93179,15 @@ function newXDisplayer(freq, intensity) {
         min: -1,
         max: 1
     });
-    return function (x, y) {
-        return noiseGen.scaled([x, y]) * intensity;
+    return function (xNorm, yNorm) {
+        return noiseGen.scaled([xNorm, yNorm]) * intensity;
     };
 }
 
-function newYDisplayer(freq, intensity) {
+/**
+ * returns a function that gives the y displacement at a point in norm space
+ */
+function newYDisplacer(freq, intensity) {
     var seed = (0, _seedrandom2.default)("Walter Heiner Bergmansbauer");
     var noiseGen = new _fastSimplexNoise2.default({
         random: seed,
@@ -93526,198 +93195,302 @@ function newYDisplayer(freq, intensity) {
         min: -1.0,
         max: 1.0
     });
-    return function (x, y) {
-        return noiseGen.scaled([x, y]) * intensity;
+    return function (xNorm, yNorm) {
+        return noiseGen.scaled([xNorm, yNorm]) * intensity;
     };
 }
 
-/* Todo
- * Scenen nur berechnen wenn sichtbar (gerade beim resizen wichtig!)
- * Rotatin vielleicht doch als step (Klar dann ändert es sich mit der menge, aber ich glaube das stört weniger, ich find es wichtig, dass man 90° sprünge machen kann)
- * Die Fare sollte über die selbe methode wie der char bestimmt werden
- * Network -> alles miteinander verbinden 
- * Shapes verwenden und keine geo
- * Size Reltaiv zum bild
- * -> manchmal istes wichtig, das die elemente genau die gewünschte größe haben
-* */
-
-},{"../colors/palettes.js":1,"./Components":407,"./Stage":413,"./core.js":418,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],415:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _Exposer = require('./Exposer.js');
-
-var _Exposer2 = _interopRequireDefault(_Exposer);
-
-var _seedrandom = require('seedrandom');
-
-var _seedrandom2 = _interopRequireDefault(_seedrandom);
-
-var _core = require('./core.js');
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Agents = function (_React$Component) {
-    _inherits(Agents, _React$Component);
-
-    function Agents(props) {
-        _classCallCheck(this, Agents);
-
-        var _this = _possibleConstructorReturn(this, (Agents.__proto__ || Object.getPrototypeOf(Agents)).call(this));
-
-        _this.frames = {
-            count: {
-                min: 1,
-                max: 200
-            },
-            steps: {
-                min: 1,
-                max: 1000
-            }
-        };
-        _this.state = {};
-        _this.state.count = 5;
-        _this.state.steps = 5;
-        return _this;
+var presets = (0, _immutable.fromJS)([{
+    "grid": {
+        "cols": 0.56,
+        "rows": 0.39
+    },
+    "text": {
+        "text": "|\n. \n<"
+    },
+    "size": {
+        "min": 0.08,
+        "chaos": 0,
+        "freq": 2.13
+    },
+    "displacex": {
+        "intensity": 0,
+        "freq": 10.72
+    },
+    "displacey": {
+        "intensity": 0,
+        "freq": 0.8
+    },
+    "margin": {
+        "x": 1,
+        "y": 1,
+        "radius": 1
+    },
+    "rotation": {
+        "min": 0,
+        "x": 0,
+        "y": 0
+    },
+    "color": {
+        "opacity": 1,
+        "symbols": "Black",
+        "bg": "White"
     }
-
-    _createClass(Agents, [{
-        key: 'render',
-        value: function render() {
-            var onChange = function onChange(data) {
-                this.setState(data);
-            };
-            onChange = onChange.bind(this);
-            return _react2.default.createElement(
-                'div',
-                null,
-                _react2.default.createElement(_Exposer2.default, {
-                    frames: this.frames,
-                    values: this.state,
-                    onChange: onChange }),
-                _react2.default.createElement(AgentsCanvas, {
-                    height: this.props.height,
-                    width: this.props.width,
-                    count: this.state.count,
-                    steps: this.state.steps
-                })
-            );
-        }
-    }]);
-
-    return Agents;
-}(_react2.default.Component);
-
-exports.default = Agents;
-
-var AgentsCanvas = function (_React$Component2) {
-    _inherits(AgentsCanvas, _React$Component2);
-
-    function AgentsCanvas() {
-        _classCallCheck(this, AgentsCanvas);
-
-        return _possibleConstructorReturn(this, (AgentsCanvas.__proto__ || Object.getPrototypeOf(AgentsCanvas)).apply(this, arguments));
+}, {
+    "grid": {
+        "cols": 0.56,
+        "rows": 0.39
+    },
+    "text": {
+        "text": "|\n. \n<"
+    },
+    "size": {
+        "min": 0.08,
+        "chaos": 2,
+        "freq": 2.13
+    },
+    "displacex": {
+        "intensity": 0,
+        "freq": 10.72
+    },
+    "displacey": {
+        "intensity": 0,
+        "freq": 0.8
+    },
+    "margin": {
+        "x": 1,
+        "y": 1,
+        "radius": 1
+    },
+    "rotation": {
+        "min": 0,
+        "x": 0,
+        "y": 0
+    },
+    "color": {
+        "opacity": 1,
+        "symbols": "Black",
+        "bg": "White"
     }
+}, {
+    "grid": {
+        "cols": 0.56,
+        "rows": 0.39
+    },
+    "text": {
+        "text": "|\n. \n<"
+    },
+    "size": {
+        "min": 0.08,
+        "chaos": 2,
+        "freq": 2.13
+    },
+    "displacex": {
+        "intensity": 188.83,
+        "freq": 10.72
+    },
+    "displacey": {
+        "intensity": 0,
+        "freq": 0.8
+    },
+    "margin": {
+        "x": 1,
+        "y": 1,
+        "radius": 1
+    },
+    "rotation": {
+        "min": 0,
+        "x": 0,
+        "y": 0
+    },
+    "color": {
+        "opacity": 1,
+        "symbols": "Black",
+        "bg": "White"
+    }
+}, {
+    "grid": {
+        "cols": 0.56,
+        "rows": 0.39
+    },
+    "text": {
+        "text": "|"
+    },
+    "size": {
+        "min": 0.08,
+        "chaos": 2,
+        "freq": 2.13
+    },
+    "displacex": {
+        "intensity": 0,
+        "freq": 10.72
+    },
+    "displacey": {
+        "intensity": 0,
+        "freq": 0.8
+    },
+    "margin": {
+        "x": 1,
+        "y": 1,
+        "radius": 1
+    },
+    "rotation": {
+        "min": 0,
+        "x": 0,
+        "y": 0
+    },
+    "color": {
+        "opacity": 1,
+        "symbols": "Black",
+        "bg": "White"
+    }
+}, {
+    "grid": {
+        "cols": 0.56,
+        "rows": 0.39
+    },
+    "text": {
+        "text": "|"
+    },
+    "size": {
+        "min": 0.08,
+        "chaos": 2,
+        "freq": 2.13
+    },
+    "displacex": {
+        "intensity": 0,
+        "freq": 10.72
+    },
+    "displacey": {
+        "intensity": 0,
+        "freq": 0.8
+    },
+    "margin": {
+        "x": 1,
+        "y": 1,
+        "radius": 1
+    },
+    "rotation": {
+        "min": 0,
+        "x": 0,
+        "y": 14.479
+    },
+    "color": {
+        "opacity": 1,
+        "symbols": "Black",
+        "bg": "White"
+    }
+}, {
+    "grid": {
+        "cols": 0.56,
+        "rows": 0.39
+    },
+    "text": {
+        "text": "|"
+    },
+    "size": {
+        "min": 0.08,
+        "chaos": 2,
+        "freq": 2.13
+    },
+    "displacex": {
+        "intensity": 0,
+        "freq": 10.72
+    },
+    "displacey": {
+        "intensity": 154.67,
+        "freq": 0.8
+    },
+    "margin": {
+        "x": 1,
+        "y": 1,
+        "radius": 1
+    },
+    "rotation": {
+        "min": 0,
+        "x": 0,
+        "y": 14.479
+    },
+    "color": {
+        "opacity": 1,
+        "symbols": "Black",
+        "bg": "White"
+    }
+}, {
+    "grid": {
+        "cols": 0.56,
+        "rows": 0.39
+    },
+    "text": {
+        "text": "|\n. \n<"
+    },
+    "size": {
+        "min": 0.08,
+        "chaos": 0,
+        "freq": 2.13
+    },
+    "displacex": {
+        "intensity": 0,
+        "freq": 10.72
+    },
+    "displacey": {
+        "intensity": 0,
+        "freq": 0.8
+    },
+    "margin": {
+        "x": 1,
+        "y": 1,
+        "radius": 1
+    },
+    "rotation": {
+        "min": 0,
+        "x": 0,
+        "y": 0
+    },
+    "color": {
+        "opacity": 1,
+        "symbols": "Black",
+        "bg": "White"
+    }
+}, {
+    "grid": {
+        "cols": 0.56,
+        "rows": 0.39
+    },
+    "text": {
+        "text": "|||??||||||||||||||||?\n. \n<<<<<<<<<<<<<<<?<<<<<<<<<<<?\n||||||||?||||||||||||||||||???||||||||||||?|||||||||||||||?|||||t|||h|e||se|||||||||\n. \n<\n|\n..........................................s..y.?.ste.m?s.........\n<\n|\n. \n<<<<<<<<<<<<<<<<<<<<<<<<?<<<<<<<<<<<<<<?<<<<<<<<<<<<<<<<<<are<<<<<<<??<<<<failing"
+    },
+    "size": {
+        "min": 0.08,
+        "chaos": 0,
+        "freq": 2.13
+    },
+    "displacex": {
+        "intensity": 0,
+        "freq": 10.72
+    },
+    "displacey": {
+        "intensity": 0,
+        "freq": 0.8
+    },
+    "margin": {
+        "x": 1,
+        "y": 1,
+        "radius": 1
+    },
+    "rotation": {
+        "min": 0,
+        "x": 0,
+        "y": 0
+    },
+    "color": {
+        "opacity": 1,
+        "symbols": "Black",
+        "bg": "White"
+    }
+}]);
 
-    _createClass(AgentsCanvas, [{
-        key: 'componentDidMount',
-        value: function componentDidMount() {
-            this.renderer = new _three2.default.WebGLRenderer({
-                canvas: this.canvas,
-                antialias: true
-            });
-            this.renderer.setPixelRatio(window.devicePixelRatio);
-            this.renderer.setClearColor(0xE99E2B, 1);
-
-            this.camera = new _three2.default.PerspectiveCamera(75, this.props.width / this.props.height, 0.1, 1000);
-            this.camera.position.z = 200;
-
-            this.updateScene();
-            this.renderer.render(this.scene, this.camera);
-        }
-    }, {
-        key: 'updateScene',
-        value: function updateScene() {
-            var width = this.props.width; // canvas width
-            var height = this.props.height; // canvas height
-
-            this.renderer.setSize(width, height);
-            this.camera.aspect = width / height;
-            this.camera.updateProjectionMatrix();
-
-            this.scene = new _three2.default.Scene();
-
-            this.ambientLight = new _three2.default.AmbientLight(0xF0F0F0); // soft white light
-            this.scene.add(this.ambientLight);
-
-            var starsGeometry = new _three2.default.Geometry();
-
-            var rands1 = (0, _seedrandom2.default)("hi");
-
-            for (var i = 0; i < this.props.count; i++) {
-                var start = new _three2.default.Vector3();
-                start.x = rands1() * 200 - 100;
-                start.y = rands1() * 200 - 100;
-                start.z = 0;
-                starsGeometry.vertices.push(start);
-                var step = start;
-
-                var rands2 = (0, _seedrandom2.default)(rands1());
-                for (var j = 0; j < this.props.steps; j++) {
-                    step.add((0, _core.randDirection)(rands2));
-                    starsGeometry.vertices.push(step.clone());
-                }
-            }
-
-            var starsMaterial = new _three2.default.PointsMaterial({
-                color: 0xffffff,
-                size: 1.0
-            });
-
-            var starField = new _three2.default.Points(starsGeometry, starsMaterial);
-
-            this.scene.add(starField);
-        }
-    }, {
-        key: 'componentDidUpdate',
-        value: function componentDidUpdate() {
-            this.updateScene();
-            this.renderer.render(this.scene, this.camera);
-        }
-    }, {
-        key: 'render',
-        value: function render() {
-            var _this3 = this;
-
-            return _react2.default.createElement('canvas', { ref: function ref(c) {
-                    return _this3.canvas = c;
-                } });
-        }
-    }]);
-
-    return AgentsCanvas;
-}(_react2.default.Component);
-
-},{"./Exposer.js":408,"./core.js":418,"react":395,"seedrandom":396,"three":404}],416:[function(require,module,exports){
+},{"../colors/palettes.js":1,"./Components":407,"./Stage":413,"./core.js":417,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],415:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -93751,7 +93524,7 @@ function stopAnimation(animation) {
   if (animation) clearInterval(animation);
 }
 
-},{}],417:[function(require,module,exports){
+},{}],416:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -93766,13 +93539,12 @@ exports.functionBlender = functionBlender;
 
 var _immutable = require('immutable');
 
-/**
- * Functions for blending values from a to b using alpha
- */
-
 function numberBlend(a, b, alpha) {
     return a * (1 - alpha) + b * alpha;
-}
+} /***
+   * Functions for blending values from a to b using alpha.
+   * This is used to animated preset changes and resets. 
+   */
 
 function mapBlend(a, b, alpha) {
     if (alpha == 0) return a;
@@ -93802,6 +93574,7 @@ function blend(a, b, alpha) {
     }
     return result;
 }
+
 function blender(a, b) {
     return function (alpha) {
         return blend(a, b, alpha);
@@ -93814,7 +93587,7 @@ function functionBlender(f1, f2, alpha) {
     };
 }
 
-},{"immutable":225}],418:[function(require,module,exports){
+},{"immutable":225}],417:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -93827,17 +93600,12 @@ exports.mod = mod;
 exports.norm = norm;
 exports.rerange = rerange;
 exports.stretch = stretch;
-exports.colorStr = colorStr;
-exports.randDirection = randDirection;
 exports.polarToCart = polarToCart;
-exports.isElementInViewport = isElementInViewport;
 exports.removeChildren = removeChildren;
-exports.stumble = stumble;
-exports.mapObj = mapObj;
 exports.urlParamsToObj = urlParamsToObj;
 exports.objToUrlParams = objToUrlParams;
-exports.unflatten = unflatten;
 exports.flatten = flatten;
+exports.unflatten = unflatten;
 exports.enframe = enframe;
 exports.memorize = memorize;
 exports.memorize2 = memorize2;
@@ -93850,49 +93618,47 @@ var _immutable = require('immutable');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+/**
+ * A modulo that can handle negative numbers
+ */
 function mod(n, m) {
     return (n % m + m) % m;
 }
 
+/**
+ * Normalize a number from [min, max] to [0, 1]
+ */
 function norm(x, min, max) {
     return (x - min) / (max - min);
 };
 
+/**
+ * Reranges a function from [min1, max1] to [min2, max2]
+ */
 function rerange(x, min1, max1, min2, max2) {
     return norm(x, min1, max1) * (max2 - min2) + min2;
 };
 
+/**
+ * Stretches a normalized number into a new range 
+ */
 function stretch(xn, min, max) {
     return xn * (max - min) + min;
 }
 
-function colorStr(number) {
-    return '#' + ('00000' + (number | 0).toString(16)).substr(-6);
-}
-
-var directions = [new _three2.default.Vector2(-1, -1), new _three2.default.Vector2(0, -1), new _three2.default.Vector2(1, -1), new _three2.default.Vector2(-1, 0), new _three2.default.Vector2(1, 0), new _three2.default.Vector2(-1, 1), new _three2.default.Vector2(0, 1), new _three2.default.Vector2(1, 1)];
-
-function randDirection(rands) {
-    var index = Math.floor(rands() * 8);
-    return directions[index];
-}
-
+/**
+ * Transforms polar coordinates into cartesians.
+ * Expects a Immutable.Map({a: angle, r: radius}),
+ * returns a THREE.Vector3 
+ * (yes this is not very clean)
+ */
 function polarToCart(polar) {
     return new _three2.default.Vector3(Math.cos(polar.get('a')) * polar.get('r'), Math.sin(polar.get('a')) * polar.get('r'), 0);
 }
 
-function isElementInViewport(el, tolerance) {
-    if (tolerance == undefined) tolerance = 0;
-    var height = window.innerHeight || document.documentElement.clientHeight;
-    var width = window.innerWidth || document.documentElement.clientWidth;
-    var heightTolerance = height * tolerance;
-    var widthTolerance = width * tolerance;
-
-    var rect = el.getBoundingClientRect();
-
-    return !(rect.bottom <= -heightTolerance || rect.right <= -widthTolerance || rect.top >= height + heightTolerance || rect.left >= width + widthTolerance);
-}
-
+/**
+ * Removes all children of a THREE.Object
+ */
 function removeChildren(obj) {
     var childCount = obj.children.length;
     for (var i = 0; i < childCount; i++) {
@@ -93901,23 +93667,9 @@ function removeChildren(obj) {
     }
 }
 
-function stumble(steps, rands) {
-    var result = new _three2.default.Vector2(0, 0);
-    for (var i = 0; i < steps; i++) {
-        result.add(randDirection(rands));
-    }
-    return result;
-}
-
-function mapObj(o, f, ctx) {
-    ctx = ctx || this;
-    var result = {};
-    Object.keys(o).forEach(function (k) {
-        result[k] = f.call(ctx, o[k], k, o);
-    });
-    return result;
-}
-
+/**
+ * Parses the query part of a url and returns a js obj
+ */
 function urlParamsToObj(search) {
     if (search) {
         return JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g, '":"') + '"}', function (key, value) {
@@ -93928,31 +93680,19 @@ function urlParamsToObj(search) {
     }
 }
 
+/**
+ * Takes a js obj and returns a url search query
+ */
 function objToUrlParams(obj) {
     return Object.keys(obj).map(function (k) {
         return encodeURIComponent(k) + "=" + encodeURIComponent(obj[k]);
     }).join('&');
 }
 
-function unflatten(data) {
-    "use strict";
-
-    if (Object(data) !== data || Array.isArray(data)) return data;
-    var regex = /\.?([^.\[\]]+)|\[(\d+)\]/g,
-        resultholder = {};
-    for (var p in data) {
-        var cur = resultholder,
-            prop = "",
-            m;
-        while (m = regex.exec(p)) {
-            cur = cur[prop] || (cur[prop] = m[2] ? [] : {});
-            prop = m[2] || m[1];
-        }
-        cur[prop] = data[p];
-    }
-    return resultholder[""] || resultholder;
-};
-
+/**
+ * flattens js data into a singe map.
+ * {a: {x: 4}} -> {"a.x": 4}} 
+ */
 function flatten(data) {
     var result = {};
     function recurse(cur, prop) {
@@ -93975,8 +93715,32 @@ function flatten(data) {
     return result;
 }
 
+/**
+ * The opposite of flatten
+ */
+function unflatten(data) {
+    "use strict";
+
+    if (Object(data) !== data || Array.isArray(data)) return data;
+    var regex = /\.?([^.\[\]]+)|\[(\d+)\]/g,
+        resultholder = {};
+    for (var p in data) {
+        var cur = resultholder,
+            prop = "",
+            m;
+        while (m = regex.exec(p)) {
+            cur = cur[prop] || (cur[prop] = m[2] ? [] : {});
+            prop = m[2] || m[1];
+        }
+        cur[prop] = data[p];
+    }
+    return resultholder[""] || resultholder;
+};
+
 /* 
  * Makes sure input is within the frames. 
+ * Frames are usually used to descripe input parameters for scenes. (Check out Exposer.js)
+ * But with this functions frames can also be used to valid and convert data from the user.
  */
 function enframe(input, frames) {
     var result = {};

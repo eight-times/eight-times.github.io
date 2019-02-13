@@ -214,6 +214,11 @@ td {
     margin-right: 1em;
     margin-bottom: 1em;
 }
+
+input {
+    height: 1.7em;
+}
+
 .exposer-field input.numberInput {
     width: 200px;
     margin-left: 1em;
