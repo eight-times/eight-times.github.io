@@ -92794,7 +92794,7 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
                         },
                         freq: {
                             min: 0,
-                            max: 30,
+                            max: 50,
                             step: 0.01,
                             valid: values.getIn(['displacex', 'intensity']) > 0
                         }
@@ -92811,7 +92811,7 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
                         },
                         freq: {
                             min: 0,
-                            max: 30,
+                            max: 50,
                             step: 0.01,
                             valid: values.getIn(['displacey', 'intensity']) > 0
                         }
