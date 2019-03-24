@@ -89941,126 +89941,6 @@ THREE.MorphBlendMesh.prototype.update = function ( delta ) {
 },{}],405:[function(require,module,exports){
 'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.AboutPopup = undefined;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _Popup = require('./Popup.js');
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var AboutPopup = exports.AboutPopup = function (_React$Component) {
-    _inherits(AboutPopup, _React$Component);
-
-    function AboutPopup(props) {
-        _classCallCheck(this, AboutPopup);
-
-        var _this = _possibleConstructorReturn(this, (AboutPopup.__proto__ || Object.getPrototypeOf(AboutPopup)).call(this));
-
-        _this.state = { dayPart: dayPart(new Date()) };
-        return _this;
-    }
-
-    _createClass(AboutPopup, [{
-        key: 'render',
-        value: function render() {
-            return this.props.show ? _react2.default.createElement(
-                _Popup.Popup,
-                {
-                    onClose: this.props.onClose },
-                _react2.default.createElement(
-                    'div',
-                    { className: 'about-content' },
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'about-side' },
-                        _react2.default.createElement('img', { height: '50', width: '50', alt: 'self-Logo', src: 'grafics/8x-logo-var5.svg' })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'about-main' },
-                        'The 8x graphic lab is a place to play around with graphics. It was created by Thomas Huber using his bare hands and these libraries: ',
-                        _react2.default.createElement(
-                            'a',
-                            { target: '_blank', rel: 'noopener noreferrer', href: 'https://threejs.org/' },
-                            'three.js'
-                        ),
-                        ', ',
-                        _react2.default.createElement(
-                            'a',
-                            { target: '_blank', rel: 'noopener noreferrer', href: 'https://reactjs.org/' },
-                            'react'
-                        ),
-                        ', ',
-                        _react2.default.createElement(
-                            'a',
-                            { target: '_blank', rel: 'noopener noreferrer', href: 'https://facebook.github.io/immutable-js/docs/#/' },
-                            'immutable.js'
-                        ),
-                        ', ',
-                        _react2.default.createElement(
-                            'a',
-                            { target: '_blank', rel: 'noopener noreferrer', href: 'https://www.npmjs.com/package/fast-simplex-noise' },
-                            'fast-simplex-noise'
-                        ),
-                        ' and ',
-                        _react2.default.createElement(
-                            'a',
-                            { target: '_blank', rel: 'noopener noreferrer', href: 'https://www.npmjs.com/package/random-seed' },
-                            'random-seed'
-                        ),
-                        '. Have a good ',
-                        this.state.dayPart,
-                        '.',
-                        _react2.default.createElement(
-                            'p',
-                            null,
-                            'contact: ',
-                            _react2.default.createElement(
-                                'a',
-                                { href: 'mailto:th-huber@web.de' },
-                                'th-huber@web.de'
-                            ),
-                            ' ',
-                            _react2.default.createElement('br', null),
-                            'blog: ',
-                            _react2.default.createElement(
-                                'a',
-                                { target: '_blank', rel: 'noopener noreferrer', href: 'https://eight-times.tumblr.com/' },
-                                'tumblr'
-                            )
-                        )
-                    )
-                )
-            ) : _react2.default.createElement('div', null);
-        }
-    }]);
-
-    return AboutPopup;
-}(_react2.default.Component);
-
-function dayPart(time) {
-    var hours = time.getHours();
-    if (hours < 5) return 'night';
-    if (hours < 12) return 'morning';else if (hours < 18) return 'afternoon';else if (hours < 22) return 'evening';else return 'night';
-}
-
-},{"./Popup.js":411,"react":395}],406:[function(require,module,exports){
-'use strict';
-
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = require('react');
@@ -90083,9 +89963,9 @@ var _Rings = require('./Rings');
 
 var _Rings2 = _interopRequireDefault(_Rings);
 
-var _Mandala = require('./Mandala');
+var _Greeding = require('./Greeding');
 
-var _Mandala2 = _interopRequireDefault(_Mandala);
+var _Greeding2 = _interopRequireDefault(_Greeding);
 
 var _Lines = require('./Lines');
 
@@ -90164,34 +90044,35 @@ var App = function (_React$Component) {
                 'div',
                 null,
                 _react2.default.createElement('div', { id: 'invalid-overlay', style: { display: 'none' } }),
-                _react2.default.createElement(_Mandala2.default, { params: this.urlParams, width: width, height: height * 1.75 }),
+                _react2.default.createElement(_Greeding2.default, { width: width, height: height * 1.75 }),
                 _react2.default.createElement(
                     SignPost,
                     { height: height * 1 },
-                    'rings. This is the first scene. Check out the the arrow buttons on the right'
+                    'rings. this is the first scene. check out the the arrow bottons.'
                 ),
                 _react2.default.createElement(_Rings2.default, { params: this.urlParams, width: width, height: height }),
                 _react2.default.createElement(
                     SignPost,
                     { height: height * 1 },
-                    'symbols. The second scene is a grid of characters. Check out [TEXT]'
+                    'symbols. the second scene is a grid of characters. check out [TEXT].'
                 ),
                 _react2.default.createElement(_Symbols.SymbolsStage, { params: this.urlParams, width: width, height: height }),
                 _react2.default.createElement(
                     SignPost,
                     { height: height * 1 },
-                    'lines. We follow up with two circles connected by lines'
+                    'lines. we follow up with two circles connected by lines.'
                 ),
                 _react2.default.createElement(_Lines2.default, { params: this.urlParams, width: width, height: height }),
                 _react2.default.createElement(
                     SignPost,
                     { height: height },
-                    'end. We are close to the end now. If you liked this page check out my ',
+                    'end. we are close to the end now. if you liked this page check out my ',
                     _react2.default.createElement(
                         'a',
                         { href: 'https://eight-times.tumblr.com/', target: '_blank', rel: 'noopener noreferrer' },
                         'blog on tumblr'
-                    )
+                    ),
+                    '.'
                 ),
                 _react2.default.createElement(
                     'div',
@@ -90227,16 +90108,14 @@ function SignPost(props) {
                 { className: 'textline' },
                 props.children
             ),
-            _react2.default.createElement(
-                'p',
-                { className: 'scene-announcement-arrow' },
-                ' \u2193 '
-            )
+            _react2.default.createElement('img', { height: '16', width: '16', alt: 'arrow down', src: 'grafics/arrow-down.png',
+                style: { "marginTop": "1em" }
+            })
         )
     );
 }
 
-},{"../src/core.js":417,"./Exposer":408,"./Lines":409,"./Mandala":410,"./Rings":412,"./Symbols":414,"react":395,"react-dom":226,"three":404}],407:[function(require,module,exports){
+},{"../src/core.js":416,"./Exposer":407,"./Greeding":408,"./Lines":409,"./Rings":411,"./Symbols":413,"react":395,"react-dom":226,"three":404}],406:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -90269,7 +90148,7 @@ function Loading(props) {
     );
 }
 
-},{"react":395}],408:[function(require,module,exports){
+},{"react":395}],407:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -90557,7 +90436,69 @@ function SliderEdit(props) {
     );
 }
 
-},{"immutable":225,"react":395,"react-dom":226}],409:[function(require,module,exports){
+},{"immutable":225,"react":395,"react-dom":226}],408:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = Greeding;
+
+var _react = require("react");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Greeding(props) {
+    return _react2.default.createElement(
+        "div",
+        null,
+        _react2.default.createElement(
+            "div",
+            { id: "greeding" },
+            _react2.default.createElement("img", { width: "215", id: "greeding-logo", src: "grafics/8x-logo-var7.svg" }),
+            _react2.default.createElement(
+                "p",
+                null,
+                "created by thomas huber using his bare hands. ",
+                _react2.default.createElement("br", null),
+                "have a good ",
+                dayPart(new Date()),
+                "."
+            ),
+            _react2.default.createElement(
+                "p",
+                { id: "greeding-text" },
+                "contact: ",
+                _react2.default.createElement(
+                    "a",
+                    { href: "mailto:th-huber@web.de" },
+                    "th-huber@web.de"
+                ),
+                "\xA0 blog: ",
+                _react2.default.createElement(
+                    "a",
+                    { target: "_blank", rel: "noopener noreferrer", href: "https://eight-times.tumblr.com" },
+                    "tumblr"
+                )
+            )
+        ),
+        _react2.default.createElement(
+            "p",
+            { className: "textline", id: "guidance-start" },
+            "welcome to the 8x graphic lab. this is a place to play around with graphics. keep scrolling."
+        )
+    );
+}
+
+function dayPart(time) {
+    var hours = time.getHours();
+    if (hours < 5) return 'night';
+    if (hours < 12) return 'morning';else if (hours < 18) return 'afternoon';else if (hours < 22) return 'evening';else return 'night';
+}
+
+},{"react":395}],409:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -91320,320 +91261,7 @@ function circlePoints(radius, points, phase) {
     });
 }
 
-},{"../colors/palettes.js":1,"./Stage":413,"./core.js":417,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],410:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _three = require('three');
-
-var _three2 = _interopRequireDefault(_three);
-
-var _core = require('./core.js');
-
-var _seedrandom = require('seedrandom');
-
-var _seedrandom2 = _interopRequireDefault(_seedrandom);
-
-var _fastSimplexNoise = require('fast-simplex-noise');
-
-var _fastSimplexNoise2 = _interopRequireDefault(_fastSimplexNoise);
-
-var _palettes = require('../colors/palettes.js');
-
-var _immutable = require('immutable');
-
-var _Stage = require('./Stage');
-
-var _Stage2 = _interopRequireDefault(_Stage);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var cb = _palettes.colorSchemes;
-var palettes = {
-    content: {
-        Black: cb.Black
-    },
-    bg: {
-        "White": {
-            name: "White",
-            colors: [0xFFFFFF]
-        },
-        "Black": {
-            name: "Black",
-            colors: [0x000000]
-        }
-    }
-};
-
-var MandalaScene = function (_React$Component) {
-    _inherits(MandalaScene, _React$Component);
-
-    function MandalaScene(props) {
-        _classCallCheck(this, MandalaScene);
-
-        var _this = _possibleConstructorReturn(this, (MandalaScene.__proto__ || Object.getPrototypeOf(MandalaScene)).call(this));
-
-        _this.frames = (0, _immutable.fromJS)({
-            color: {
-                type: "group",
-                label: "Color",
-                children: {
-                    content: {
-                        type: "enum",
-                        opts: (0, _immutable.List)(Object.keys(palettes.content))
-                    },
-                    bg: {
-                        type: "enum",
-                        opts: (0, _immutable.List)(Object.keys(palettes.bg))
-                    }
-                }
-            }
-        });
-        var starter = (0, _immutable.Map)({
-            color: (0, _immutable.Map)({
-                content: "Black",
-                bg: "White"
-            })
-        });
-
-        _this.presets = (0, _immutable.List)([starter]);
-        return _this;
-    }
-
-    _createClass(MandalaScene, [{
-        key: 'render',
-        value: function render() {
-            return _react2.default.createElement(
-                'div',
-                { className: 'scene' },
-                _react2.default.createElement(_Stage2.default, {
-                    width: this.props.width,
-                    height: this.props.height,
-                    palettes: palettes,
-                    name: 'mandala',
-                    scene: MandalaActor,
-                    frames: this.frames,
-                    presets: this.presets,
-                    urlParams: this.props.params,
-                    hideSaveBtn: true,
-                    hideControls: true,
-                    hidePresetPicker: true,
-                    hideResetBtn: true
-                }),
-                _react2.default.createElement(
-                    'div',
-                    { id: 'intro-8x-logo' },
-                    _react2.default.createElement(
-                        'p',
-                        { className: 'textline', id: 'intro-8x-subtitle' },
-                        'Welcome to the 8x graphic lab. This is a place to play around with graphics. Keep scrolling'
-                    )
-                )
-            );
-        }
-    }]);
-
-    return MandalaScene;
-}(_react2.default.Component);
-
-exports.default = MandalaScene;
-
-var MandalaActor = function () {
-    function MandalaActor(props, canvas) {
-        _classCallCheck(this, MandalaActor);
-
-        this.depot = [];
-
-        this.renderer = new _three2.default.WebGLRenderer({
-            canvas: canvas,
-            antialias: true
-        });
-        this.renderer.setPixelRatio(window.devicePixelRatio);
-
-        this.scene = new _three2.default.Scene();
-
-        this.ambientLight = new _three2.default.AmbientLight(0xFFF0F0);
-        this.scene.add(this.ambientLight);
-
-        this.camera = new _three2.default.PerspectiveCamera(75, props.width / props.height, 0.1, 1000);
-
-        this.camera.position.z = 2.75;
-
-        this.root = new _three2.default.Object3D();
-        this.scene.add(this.root);
-    }
-
-    _createClass(MandalaActor, [{
-        key: 'update',
-        value: function update(params, props) {
-            this.depot.forEach(function (e) {
-                return e.dispose();
-            });
-            this.depot = [];
-
-            (0, _core.removeChildren)(this.root);
-
-            this.camera.aspect = props.width / props.height;
-            this.camera.updateProjectionMatrix();
-
-            this.renderer.setSize(props.width, props.height);
-
-            var bgKey = params.get('color').get('bg');
-            var backColor = props.palettes.bg[bgKey].colors[0];
-            this.renderer.setClearColor(backColor, 1);
-
-            var contentColorKey = params.get('color').get('content');
-            var contentColors = palettes.content[contentColorKey].colors;
-
-            var count = 16;
-            var ringDefs = (0, _immutable.List)([(0, _immutable.Map)({
-                radius: 1.8,
-                shapes: (0, _immutable.List)([lline, lline, lline, lline, lline]),
-                sizes: (0, _immutable.List)([0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]),
-                rotation: 0
-            }),
-            /*
-            Map({
-                radius: 2.0,
-                shapes: List([vlline, vlline, vlline, triangle]),
-                sizes: List([0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]),
-                rotation: 0
-            }),*/
-            /*
-            Map({
-                radius: 1.6,
-                shapes: List([rect, rect, rect]),
-                sizes: List([0.5, 0.5, 1]),
-                rotation: 0
-            }),*/
-            (0, _immutable.Map)({
-                radius: 1.,
-                shapes: (0, _immutable.List)([circleBorder, circleBorder]),
-                sizes: (0, _immutable.List)([0.85, 0.85, 0.35, 0.25])
-            }), (0, _immutable.Map)({
-                radius: 1.,
-                shapes: (0, _immutable.List)([circle, circle, circle, circle]),
-                sizes: (0, _immutable.List)([0.65, 0.65, 0.25, 0.15])
-            }),
-            /*
-            Map({
-                radius: 1.05,
-                shapes: List([vlline, vlline]),
-                sizes: List([0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]),
-                rotation: 0
-            }),*/
-            (0, _immutable.Map)({
-                radius: 0.7,
-                shapes: (0, _immutable.List)([triangle, triangle, triangle, triangle]),
-                sizes: (0, _immutable.List)([0.25, 0.25, 0.25, 0.25]),
-                rotation: 0
-            }), (0, _immutable.Map)({
-                radius: 0.55,
-                shapes: (0, _immutable.List)([line, line, line, line, line]),
-                sizes: (0, _immutable.List)([0.5, 0.5, 0.5, 0.5, 0.5])
-            })]);
-
-            for (var i = 0; i < ringDefs.count(); i++) {
-                var def = ringDefs.get(i);
-                var obj = ringObj(def, contentColors[0]);
-                this.root.add(obj);
-            }
-
-            this.renderer.render(this.scene, this.camera);
-        }
-    }]);
-
-    return MandalaActor;
-}();
-
-function ringObj(def, color) {
-    var radius = def.get('radius');
-    var shapes = def.get('shapes');
-    var count = Math.pow(2, shapes.count() + 1);
-    var sizes = def.get('sizes');
-    var rotation = def.get('rotation', 0);
-
-    var result = new _three2.default.Object3D();
-    result.rotation.z = rotation;
-    for (var i = 0; i < count; i++) {
-        var a = angleByIndex(i);
-        var pos = (0, _core.polarToCart)(new _immutable.Map({ a: a, r: radius }));
-        var group = groupByIndex(i);
-
-        var geo = shapes.get(group);
-        var mat = new _three2.default.MeshBasicMaterial({ color: color });
-        var cube = new _three2.default.Mesh(geo, mat);
-        cube.scale.multiplyScalar(sizes.get(group));
-        cube.position.copy(pos);
-        cube.rotation.z = a + Math.PI;
-
-        result.add(cube);
-    }
-    return result;
-}
-
-function lb(x) {
-    return Math.log(x) / Math.log(2);
-}
-
-var rect = new _three2.default.PlaneGeometry(0.1, 0.1, 1);
-var circle = new _three2.default.CircleGeometry(0.1, 32);
-var triangle = new _three2.default.CircleGeometry(0.1, 3);
-
-var line = new _three2.default.PlaneGeometry(0.2, 0.01, 1);
-var lline = new _three2.default.PlaneGeometry(0.6, 0.01, 1);
-var vlline = new _three2.default.PlaneGeometry(0.01, 0.6, 1);
-
-var bar = new _three2.default.PlaneGeometry(0.1, 0.6, 1);
-
-var rectBorder = new _three2.default.RingBufferGeometry(0.1, 0.15, 4);
-var circleBorder = new _three2.default.RingBufferGeometry(0.1, 0.11, 32);
-var triangleBorder = new _three2.default.RingBufferGeometry(0.1, 0.11, 3);
-
-function angleByIndex(i) {
-    var a = 0;
-    if (i > 0) {
-        var o = order(i);
-
-        var S = Math.pow(2, o);
-        var s = i - S;
-        a = s / S * Math.PI * 2 + Math.PI / S;
-    }
-    return a;
-}
-
-function order(i) {
-    return Math.floor(lb(i));
-}
-
-function groupByIndex(i) {
-    return Math.max(1, order(i)) - 1;
-}
-
-// 1 = 2^0
-// 2 = 2^1
-// 3 = 2^1 + 1
-// 4 = 2^2 
-// 5 = 2^2 + 1
-// 6 = 2^2 + 2
-// 7 = 2^2 + 3
-
-},{"../colors/palettes.js":1,"./Stage":413,"./core.js":417,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],411:[function(require,module,exports){
+},{"../colors/palettes.js":1,"./Stage":412,"./core.js":416,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],410:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -91681,7 +91309,7 @@ function Popup(props) {
     );
 }
 
-},{"react":395}],412:[function(require,module,exports){
+},{"react":395}],411:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -92342,7 +91970,7 @@ var RingsActor = function () {
   return RingsActor;
 }();
 
-},{"../colors/palettes.js":1,"./Stage":413,"./blender.js":416,"./core.js":417,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],413:[function(require,module,exports){
+},{"../colors/palettes.js":1,"./Stage":412,"./blender.js":415,"./core.js":416,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],412:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -92372,8 +92000,6 @@ var _async = require('./async.js');
 var _blender = require('./blender.js');
 
 var _Popup = require('./Popup');
-
-var _AboutPopup = require('./AboutPopup');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -92405,8 +92031,7 @@ var Stage = function (_React$Component) {
             slots: presets,
             slotIndex: 0,
             active: true,
-            showSave: false,
-            showAbout: false
+            showSave: false
         };
         _this.camera = props.camera;
 
@@ -92450,7 +92075,24 @@ var Stage = function (_React$Component) {
                 { className: 'scene', id: this.props.name + "-scene" },
                 _react2.default.createElement(
                     'div',
-                    { className: 'scene-controls' },
+                    { className: 'stage-top-left' },
+                    !this.props.hidePresetPicker ? _react2.default.createElement(PresetPicker, {
+                        value: this.state.slotIndex,
+                        count: this.state.slots.count(),
+                        onChange: function onChange(i) {
+                            (0, _async.stopAnimation)(_this3.animation);
+
+                            var process = (0, _blender.blender)(_this3.state.values, _this3.state.slots.get(i));
+                            _this3.animation = (0, _async.animate)(process, 1000, function (value) {
+                                scene.setState({
+                                    values: value
+                                });
+                            });
+                            _this3.setState({
+                                slotIndex: i
+                            });
+                        }
+                    }) : _react2.default.createElement('div', null),
                     !this.props.hideControls ? _react2.default.createElement(_Exposer2.default, {
                         framer: this.props.framer,
                         values: this.state.values,
@@ -92461,7 +92103,7 @@ var Stage = function (_React$Component) {
                         { className: 'stage-top-right' },
                         !this.props.hideSaveBtn ? _react2.default.createElement(
                             'a',
-                            { className: 'btn share-button',
+                            { className: 'btn save-button',
                                 onClick: function onClick() {
                                     var image = _this3.scene.takeScreenshot("image/png");
 
@@ -92474,16 +92116,15 @@ var Stage = function (_React$Component) {
                                 href: 'javascript:;' },
                             'Save'
                         ) : _react2.default.createElement('div', null),
-                        _react2.default.createElement(
-                            'a',
-                            { className: 'btn about-button',
-                                onClick: function onClick() {
-                                    _this3.setState({ showAbout: true });
-                                    return false;
-                                },
-                                href: 'javascript:;' },
-                            'About'
-                        )
+                        !this.props.hideResetBtn ? _react2.default.createElement(ResetButton, {
+                            clicked: function clicked() {
+                                return (0, _async.animate)((0, _blender.blender)(_this3.state.values, _this3.props.presets.get(_this3.state.slotIndex)), 2000, function (value) {
+                                    return scene.setState({
+                                        values: value
+                                    });
+                                });
+                            }
+                        }) : _react2.default.createElement('div', null)
                     )
                 ),
                 _react2.default.createElement(SavePopup, {
@@ -92494,42 +92135,6 @@ var Stage = function (_React$Component) {
                     sceneName: this.props.name,
                     image: this.state.lastScreenshot,
                     values: this.state.values }),
-                _react2.default.createElement(_AboutPopup.AboutPopup, {
-                    show: this.state.showAbout,
-                    onClose: function onClose() {
-                        return _this3.setState({ showAbout: false });
-                    }
-                }),
-                !this.props.hidePresetPicker ? _react2.default.createElement(PresetPicker, {
-                    value: this.state.slotIndex,
-                    count: this.state.slots.count(),
-                    onChange: function onChange(i) {
-                        (0, _async.stopAnimation)(_this3.animation);
-
-                        var process = (0, _blender.blender)(_this3.state.values, _this3.state.slots.get(i));
-                        _this3.animation = (0, _async.animate)(process, 1000, function (value) {
-                            scene.setState({
-                                values: value
-                            });
-                        });
-                        _this3.setState({
-                            slotIndex: i
-                        });
-                    }
-                }) : _react2.default.createElement('div', null),
-                !this.props.hideResetBtn ? _react2.default.createElement(
-                    'div',
-                    { className: 'stage-bottom-right' },
-                    _react2.default.createElement(ResetButton, {
-                        clicked: function clicked() {
-                            return (0, _async.animate)((0, _blender.blender)(_this3.state.values, _this3.props.presets.get(_this3.state.slotIndex)), 2000, function (value) {
-                                return scene.setState({
-                                    values: value
-                                });
-                            });
-                        }
-                    })
-                ) : _react2.default.createElement('div', null),
                 _react2.default.createElement('canvas', { ref: function ref(c) {
                         return _this3.canvas = c;
                     } })
@@ -92548,26 +92153,32 @@ function PresetPicker(props) {
         'div',
         { className: 'preset-picker' },
         _react2.default.createElement(
-            'a',
+            'div',
             {
-                className: 'btn preset-picker-arrow',
-                href: 'javascript:;',
-                onClick: function onClick() {
-                    return props.onChange((props.value + 1) % props.count);
-                }
+                className: 'preset-picker-arrows'
             },
-            '>'
-        ),
-        _react2.default.createElement(
-            'a',
-            {
-                className: 'btn preset-picker-arrow',
-                href: 'javascript:;',
-                onClick: function onClick() {
-                    return props.onChange((0, _core.mod)(props.value - 1, props.count));
-                }
-            },
-            '<'
+            _react2.default.createElement(
+                'a',
+                {
+                    className: 'preset-picker-previous',
+                    href: 'javascript:;',
+                    onClick: function onClick() {
+                        return props.onChange((0, _core.mod)(props.value - 1, props.count));
+                    }
+                },
+                '<'
+            ),
+            _react2.default.createElement(
+                'a',
+                {
+                    className: 'preset-picker-next',
+                    href: 'javascript:;',
+                    onClick: function onClick() {
+                        return props.onChange((props.value + 1) % props.count);
+                    }
+                },
+                '>'
+            )
         )
     );
 }
@@ -92669,7 +92280,7 @@ function generateImageUrl(imgData, mimeType) {
     return imgData;
 }
 
-},{"./AboutPopup":405,"./Exposer.js":408,"./Popup":411,"./async.js":415,"./blender.js":416,"./core.js":417,"immutable":225,"react":395,"three":404}],414:[function(require,module,exports){
+},{"./Exposer.js":407,"./Popup":410,"./async.js":414,"./blender.js":415,"./core.js":416,"immutable":225,"react":395,"three":404}],413:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -93490,7 +93101,7 @@ var presets = (0, _immutable.fromJS)([{
     }
 }]);
 
-},{"../colors/palettes.js":1,"./Components":407,"./Stage":413,"./core.js":417,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],415:[function(require,module,exports){
+},{"../colors/palettes.js":1,"./Components":406,"./Stage":412,"./core.js":416,"fast-simplex-noise":224,"immutable":225,"react":395,"seedrandom":396,"three":404}],414:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -93524,7 +93135,7 @@ function stopAnimation(animation) {
   if (animation) clearInterval(animation);
 }
 
-},{}],416:[function(require,module,exports){
+},{}],415:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -93587,7 +93198,7 @@ function functionBlender(f1, f2, alpha) {
     };
 }
 
-},{"immutable":225}],417:[function(require,module,exports){
+},{"immutable":225}],416:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -93787,4 +93398,4 @@ function memorize2(fn) {
     };
 }
 
-},{"immutable":225,"three":404}]},{},[406]);
+},{"immutable":225,"three":404}]},{},[405]);

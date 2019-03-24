@@ -1,9 +1,18 @@
 @font-face {
     font-family: SourceCodePro;
-    src: url("fonts/SourceCodeVariable-Roman.woff") format("woff"), 
-         url('fonts/SourceCodeVariable-Roman.otf') format("opentype"), 
-         url('fonts/SourceCodeVariable-Roman.ttf') format('truetype');
-    font-weight: regular; 
+    src: url("fonts/SourceCodePro-Light.woff") format("woff"), 
+         url('fonts/SourceCodePro-Light.otf') format("opentype"), 
+         url('fonts/SourceCodePro-Light.ttf') format('truetype');
+    font-weight: 300; 
+         
+}
+
+@font-face {
+    font-family: SourceCodePro;
+    src: url("fonts/SourceCodePro-Regular.woff") format("woff"), 
+         url('fonts/SourceCodePro-Regular.otf') format("opentype"), 
+         url('fonts/SourceCodePro-Regular.ttf') format('truetype');
+    font-weight: normal; 
          
 }
 
@@ -18,6 +27,8 @@ body {
     background-color: white;
     margin: 0px;
     font-family: 'SourceCodePro', 'Consolas', monospace;
+    font-weight: 300;
+    font-size: 12px;
 
     overflow-y: scroll; /* Make sure to have the scrollbar at the first load. Otherwise the viewport has the first width on first rendering */
 }
@@ -36,7 +47,7 @@ body {
 }
 
 p {
-    line-height: 190%;
+    line-height: 120%;
 }
 
 a {
@@ -64,33 +75,11 @@ td {
 }
 
 
-
-#intro-8x-logo {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(grafics/8x-logo-var5.svg);
-    background-size: auto 20%;
-    background-repeat: no-repeat;
-    background-position: center;
-    left: 0%;
-    top: 0%;
-
-}
-
-#intro-8x-subtitle {
-    text-align: center;
-    position: absolute;
-    top: 80%;
-    width: 100%;
-    background-color: black;
-    color: white;
-}
-
 .textline {
     width: 100%;
     background-color: black;
     color: white;
+    padding: 0.5em 0;
 }
 
 .textline a {
@@ -100,6 +89,21 @@ td {
 .textline a:visited {
     color: white;
 }
+
+#greeding {
+    text-align: center;
+    padding-top: 8em;
+    padding-bottom: 10em;
+}
+
+#greeding-logo {
+    padding-bottom: 2em;
+}
+
+#guidance-start {
+    text-align: center;
+}
+
 
 .scene {
     position: relative;
@@ -119,9 +123,6 @@ td {
    top: 50%;
 }
 
-.scene-announcement-arrow {
-    font-size: 125%;
-}
 
 .stage-bottom-right {
     position: absolute;
@@ -169,6 +170,7 @@ td {
 
 .exposer-group {
     overflow: visible;
+    margin-left: 1em;
 }
 
 
@@ -190,8 +192,7 @@ td {
 .btn.exposer-group-label {
     margin-bottom: 1em;
     display: block;
-    width: 120px;
-    border-left: none;
+    width: 9em;
 }
 .exposer-group-label:hover,
 .exposer-group-label.active {
@@ -222,7 +223,8 @@ input {
 .exposer-field input.numberInput {
     width: 200px;
     margin-left: 1em;
-    margin-right: 1em;
+    margin-right: 2em;
+    margin-top: -0.1em;
 }
 
 .exposer-field input.stringInput {
@@ -272,7 +274,7 @@ input {
     right: 180px;
 }
 
-.scene-controls {
+.stage-top-left {
     /*height: 100%;*/
     width: 100%;
     display: table;
@@ -334,18 +336,66 @@ input {
 }
 
 .preset-picker {
-    position: absolute;
-    right: 1em;
-    top: 45%;
     z-index: 100;
 }
-.preset-picker-arrow {
+
+.preset-picker-arrows {
     display: block;
+    margin-left: 1em;
     margin-bottom: 1em;
-    padding: 1em 0.7em;
+    position:relative;
+}
+
+.preset-picker-next {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    padding: 1em 1em 1em 1em;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    width: 5.5em; 
+    box-sizing: border-box;
+    text-align: right;
+    border-left: 0;
+}
+
+.preset-picker-previous {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    padding: 1em 1em 1em 1em;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    width: 5.5em;
+    box-sizing: border-box;
+    border-right: 0;
+
+}
+
+.preset-picker-next:hover, 
+.preset-picker-previous:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.save-button {
+    margin-right: 1em;
+    box-sizing: content-box;
+    width: 3.0em;
+    display: inline-block;
+    text-align: center;
 }
 
 .reset-button {
+    box-sizing: content-box;
+    width: 3.0em;
+    display: inline-block;
+    text-align: center;
 }
 
 
