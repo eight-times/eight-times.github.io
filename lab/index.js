@@ -89963,9 +89963,9 @@ var _Rings = require('./Rings');
 
 var _Rings2 = _interopRequireDefault(_Rings);
 
-var _Greeding = require('./Greeding');
+var _Greeting = require('./Greeting');
 
-var _Greeding2 = _interopRequireDefault(_Greeding);
+var _Greeting2 = _interopRequireDefault(_Greeting);
 
 var _Lines = require('./Lines');
 
@@ -90044,7 +90044,7 @@ var App = function (_React$Component) {
                 'div',
                 null,
                 _react2.default.createElement('div', { id: 'invalid-overlay', style: { display: 'none' } }),
-                _react2.default.createElement(_Greeding2.default, { width: width, height: height * 1.75 }),
+                _react2.default.createElement(_Greeting2.default, { width: width, height: height * 1.75 }),
                 _react2.default.createElement(
                     SignPost,
                     { height: height * 1 },
@@ -90115,7 +90115,7 @@ function SignPost(props) {
     );
 }
 
-},{"../src/core.js":416,"./Exposer":407,"./Greeding":408,"./Lines":409,"./Rings":411,"./Symbols":413,"react":395,"react-dom":226,"three":404}],406:[function(require,module,exports){
+},{"../src/core.js":416,"./Exposer":407,"./Greeting":408,"./Lines":409,"./Rings":411,"./Symbols":413,"react":395,"react-dom":226,"three":404}],406:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
