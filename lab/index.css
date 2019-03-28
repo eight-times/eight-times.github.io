@@ -28,7 +28,7 @@ body {
     margin: 0px;
     font-family: 'SourceCodePro', 'Consolas', monospace;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 0.9em;
 
     overflow-y: scroll; /* Make sure to have the scrollbar at the first load. Otherwise the viewport has the first width on first rendering */
 }
@@ -270,7 +270,7 @@ input {
 .exposer-fields {
     position: absolute;
     top: 0px;
-    left: 160px;
+    left: 13em;
     right: 180px;
 }
 
