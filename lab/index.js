@@ -90116,7 +90116,7 @@ var App = function (_React$Component) {
                 _react2.default.createElement(
                     SignPost,
                     { height: height * 1 },
-                    'rings. this is the first scene. check out the the arrow bottons.'
+                    'rings. this is the first scene. check out the arrow bottons.'
                 ),
                 _react2.default.createElement(_Rings2.default, { params: this.urlParams, width: width, height: height }),
                 _react2.default.createElement(
