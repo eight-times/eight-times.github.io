@@ -167,13 +167,6 @@ td {
     position: absolute;
 }
 
-.js-loading-message {
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    margin-left: -50px;
-}
-
 
 .exposer-group {
     overflow: visible;

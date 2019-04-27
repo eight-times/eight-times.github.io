@@ -91040,8 +91040,8 @@ var LinesActor = function () {
             canvas: canvas,
             antialias: true
         });
-        //this.renderer.setPixelRatio( window.devicePixelRatio );
-        this.renderer.setPixelRatio(2);
+        this.renderer.setPixelRatio(window.devicePixelRatio);
+        //this.renderer.setPixelRatio( 2 );
 
         this.scene = new _three2.default.Scene();
 
@@ -91872,8 +91872,8 @@ var RingsActor = function () {
       canvas: canvas,
       antialias: true
     });
-    this.renderer.setPixelRatio(2);
-    //this.renderer.setPixelRatio( window.devicePixelRatio );
+    //this.renderer.setPixelRatio( 2 );
+    this.renderer.setPixelRatio(window.devicePixelRatio);
     //console.log(window.devicePixelRatio);
 
     this.scene = new _three2.default.Scene();
@@ -92584,8 +92584,8 @@ var SymbolsActor = function () {
             canvas: canvas,
             antialias: true
         });
-        //this.renderer.setPixelRatio( window.devicePixelRatio );
-        this.renderer.setPixelRatio(2);
+        this.renderer.setPixelRatio(window.devicePixelRatio);
+        //this.renderer.setPixelRatio( 2 );
 
         this.scene = new _three2.default.Scene();
 
