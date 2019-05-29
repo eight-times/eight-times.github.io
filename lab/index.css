@@ -179,9 +179,17 @@ td {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-    padding: 1em 1em 1em 0.7em;
+    padding: 1em 0.8em 1em 0.8em;
     background-color: white;
     border: 1px solid black;
+}
+
+/*
+ * vertical list of buttons
+ */
+
+.btn.vlist {
+    margin-right: 1em;
 }
 
 .btn:hover {
@@ -351,12 +359,11 @@ input {
     text-transform: uppercase;
     color: black;
     background-color: white;
-    padding: 1em 1em 1em 1em;
+    padding: 1em 0.8em 1em 0em;
     background-color: white;
     border: 1px solid black;
     display: inline-block;
-    width: 5.5em; 
-    box-sizing: border-box;
+    width: 4.5em; 
     text-align: right;
     border-left: 0;
 }
@@ -366,12 +373,11 @@ input {
     text-transform: uppercase;
     color: black;
     background-color: white;
-    padding: 1em 1em 1em 1em;
+    padding: 1em 0em 1em 0.8em;
     background-color: white;
     border: 1px solid black;
     display: inline-block;
-    width: 5.5em;
-    box-sizing: border-box;
+    width: 4.5em;
     border-right: 0;
 
 }
