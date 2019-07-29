@@ -97303,6 +97303,8 @@ Better rank ordering method by Stefan Gustavson in 2012.
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
@@ -97333,6 +97335,8 @@ var _Lines2 = _interopRequireDefault(_Lines);
 
 var _Symbols = require('./Symbols');
 
+var _immutable = require('immutable');
+
 var _core = require('../src/core.js');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -97343,17 +97347,32 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var resizeProcess = null;
+var resizeControl = {
+    process: null,
+    lastWidth: null,
+    lastHeight: null
+};
 
 window.onload = function () {
     var root = document.getElementById('root');
     _reactDom2.default.render(_react2.default.createElement(App, null), root);
 
     window.onresize = function () {
-        if (resizeProcess == null) {
+        var _currentViewport = currentViewport(),
+            _currentViewport2 = _slicedToArray(_currentViewport, 2),
+            currentWidth = _currentViewport2[0],
+            currentHeight = _currentViewport2[1];
+
+        if (resizeControl.process == null && differs(resizeControl.lastWidth, currentWidth, 1)
+        //differs(resizeControl.lastHeight, currentHeight, 100)
+        ) {
+
+            resizeControl.lastWidth = currentWidth;
+            resizeControl.lastHeight = currentHeight;
+
             document.getElementById('invalid-overlay').style.display = 'block';
-            resizeProcess = setTimeout(function () {
-                resizeProcess = null;
+            resizeControl.process = setTimeout(function () {
+                resizeControl.process = null;
                 document.getElementById('invalid-overlay').style.display = 'none';
 
                 var root = document.getElementById('root');
@@ -97362,6 +97381,13 @@ window.onload = function () {
         }
     };
 };
+
+/*
+ * Is a the same as b within tolerance? 
+ */
+function differs(a, b, tolerance) {
+    return Math.abs(b - a) > tolerance;
+}
 
 var App = function (_React$Component) {
     _inherits(App, _React$Component);
@@ -97393,36 +97419,66 @@ var App = function (_React$Component) {
                 var top = scene.getBoundingClientRect().top + window.scrollY;
                 window.scrollTo(0, top);
             }
+
+            var _currentViewport3 = currentViewport(),
+                _currentViewport4 = _slicedToArray(_currentViewport3, 2),
+                currentWidth = _currentViewport4[0],
+                currentHeight = _currentViewport4[1];
+
+            resizeControl.lastWidth = currentWidth;
+            resizeControl.lastHeight = currentHeight;
         }
     }, {
         key: 'render',
         value: function render() {
-            var viewport = document.body.getBoundingClientRect();
-            var width = viewport.width;
-            var height = window.innerHeight;
+            var _currentViewport5 = currentViewport(),
+                _currentViewport6 = _slicedToArray(_currentViewport5, 2),
+                width = _currentViewport6[0],
+                height = _currentViewport6[1];
+
+            var features = (0, _immutable.Map)({
+                save: width >= 700,
+                edit: width >= 400,
+                reset: width >= 700
+            });
             return _react2.default.createElement(
                 'div',
                 null,
                 _react2.default.createElement('div', { id: 'invalid-overlay', style: { display: 'none' } }),
-                _react2.default.createElement(_Greeting2.default, { width: width, height: height * 1.75 }),
+                _react2.default.createElement(_Greeting2.default, { width: width, height: height * 1.75, edit: features.get('edit') }),
                 _react2.default.createElement(
                     SignPost,
                     { height: height * 1 },
                     'rings. this is the first scene. check out the arrow bottons.'
                 ),
-                _react2.default.createElement(_Rings2.default, { params: this.urlParams, width: width, height: height }),
+                _react2.default.createElement(_Rings2.default, {
+                    params: this.urlParams,
+                    width: width,
+                    height: height,
+                    features: features
+                }),
                 _react2.default.createElement(
                     SignPost,
                     { height: height * 1 },
                     'symbols. the second scene is a grid of characters. check out [TEXT].'
                 ),
-                _react2.default.createElement(_Symbols.SymbolsStage, { params: this.urlParams, width: width, height: height }),
+                _react2.default.createElement(_Symbols.SymbolsStage, {
+                    params: this.urlParams,
+                    width: width,
+                    height: height,
+                    features: features
+                }),
                 _react2.default.createElement(
                     SignPost,
                     { height: height * 1.0 },
                     'lines. we follow up with two circles connected by lines.'
                 ),
-                _react2.default.createElement(_Lines2.default, { params: this.urlParams, width: width, height: height }),
+                _react2.default.createElement(_Lines2.default, {
+                    params: this.urlParams,
+                    width: width,
+                    height: height,
+                    features: features
+                }),
                 _react2.default.createElement(
                     SignPost,
                     { height: height },
@@ -97452,6 +97508,13 @@ var App = function (_React$Component) {
 
 ;
 
+function currentViewport() {
+    var viewport = document.body.getBoundingClientRect();
+    var width = viewport.width;
+    var height = window.innerHeight;
+    return [width, height];
+}
+
 function SignPost(props) {
     return _react2.default.createElement(
         'div',
@@ -97468,14 +97531,14 @@ function SignPost(props) {
                 { className: 'textline' },
                 props.children
             ),
-            _react2.default.createElement('img', { height: '16', width: '16', alt: 'arrow down', src: 'grafics/arrow-down.png',
+            _react2.default.createElement('img', { height: '16', width: '16', alt: 'arrow down', src: 'grafics/arrow-down2.png',
                 style: { "marginTop": "1em" }
             })
         )
     );
 }
 
-},{"../src/core.js":418,"./Exposer":407,"./Greeting":408,"./Lines":409,"./Rings":412,"./Symbols":415,"react":394,"react-dom":225,"three":404}],406:[function(require,module,exports){
+},{"../src/core.js":418,"./Exposer":407,"./Greeting":408,"./Lines":409,"./Rings":412,"./Symbols":415,"immutable":224,"react":394,"react-dom":225,"three":404}],406:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -97813,7 +97876,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function Greeding(props) {
     return _react2.default.createElement(
         "div",
-        null,
+        { style: { textAlign: "center" } },
         _react2.default.createElement(
             "div",
             { id: "greeding" },
@@ -97830,13 +97893,13 @@ function Greeding(props) {
             _react2.default.createElement(
                 "p",
                 { id: "greeding-text" },
-                "contact: ",
+                "contact:\xA0",
                 _react2.default.createElement(
                     "a",
                     { href: "mailto:th-huber@web.de" },
                     "th-huber@web.de"
                 ),
-                "\xA0 blog: ",
+                "\xA0 blog:\xA0",
                 _react2.default.createElement(
                     "a",
                     { target: "_blank", rel: "noopener noreferrer", href: "https://eight-times.tumblr.com" },
@@ -97847,8 +97910,12 @@ function Greeding(props) {
         _react2.default.createElement(
             "p",
             { className: "textline", id: "guidance-start" },
-            "welcome to the 8x graphic lab. this is a place to play around with graphics. keep scrolling."
-        )
+            "welcome to the 8x graphic lab. this is a place to play around with graphics.",
+            !props.edit ? " however the screen size is to small and therefore 8x reduced to demo mode. please use a computer or a tablet for all features. " : " keep scrolling."
+        ),
+        _react2.default.createElement("img", { height: "16", width: "16", alt: "arrow down", src: "grafics/arrow-down2.png",
+            style: { "marginTop": "1em" }
+        })
     );
 }
 
@@ -98314,7 +98381,8 @@ var LinesScene = function (_React$Component) {
                 scene: LinesActor,
                 framer: this.framer,
                 presets: this.presets,
-                urlParams: this.props.params
+                urlParams: this.props.params,
+                features: this.props.features
             });
         }
     }]);
@@ -100134,7 +100202,8 @@ var RingsScene = function (_React$Component) {
         framer: this.framer,
         dynamics: this.dynamics,
         presets: this.presets,
-        urlParams: this.props.params
+        urlParams: this.props.params,
+        features: this.props.features
       });
     }
   }]);
@@ -100826,7 +100895,7 @@ var Stage = function (_React$Component) {
 
             this.mainRenderer = this.rendererWebGL;
             this.renderRoot.appendChild(this.mainRenderer.domElement);
-            this.actor = new this.props.scene(this.props, this.canvas);
+            this.actor = new this.props.scene(this.props);
             this.updateScene();
         }
     }, {
@@ -100884,7 +100953,7 @@ var Stage = function (_React$Component) {
                             });
                         }
                     }) : _react2.default.createElement('div', null),
-                    !this.props.hideControls ? _react2.default.createElement(_Exposer2.default, {
+                    this.props.features.get('edit') ? _react2.default.createElement(_Exposer2.default, {
                         framer: this.props.framer,
                         values: this.state.values,
                         dynamics: this.props.dynamics,
@@ -100892,7 +100961,7 @@ var Stage = function (_React$Component) {
                     _react2.default.createElement(
                         'div',
                         { className: 'stage-top-right' },
-                        !this.props.hideSaveBtn ? _react2.default.createElement(
+                        this.props.features.get('save') ? _react2.default.createElement(
                             'a',
                             { className: 'btn save-button',
                                 onClick: function onClick() {
@@ -100909,7 +100978,7 @@ var Stage = function (_React$Component) {
                                 href: 'javascript:;' },
                             'Save'
                         ) : _react2.default.createElement('div', null),
-                        !this.props.hideResetBtn ? _react2.default.createElement(ResetButton, {
+                        this.props.features.get('reset') ? _react2.default.createElement(ResetButton, {
                             clicked: function clicked() {
                                 return (0, _async.animate)((0, _blender.blender)(_this3.state.values, _this3.props.presets.get(_this3.state.slotIndex)), 2000, function (value) {
                                     return scene.setState({
@@ -101341,7 +101410,8 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
                 presets: this.presets,
                 scene: SymbolsActor,
                 font: this.state.font,
-                urlParams: this.props.params
+                urlParams: this.props.params,
+                features: this.props.features
             }) : _react2.default.createElement(_Components.Loading, {
                 width: this.props.width,
                 height: this.props.height,
@@ -101358,8 +101428,8 @@ var SymbolsStage = exports.SymbolsStage = function (_React$Component) {
  * We have four coordinate spaces:
  * 1. The world space: The global THREE.js coordinate system
  * 2. The grid space: The position in the symbol grid 
- * 3. The norm space: Grid space but normalized to 0..1
- * 4. The line space: The position of a character in the text
+ * 3. The norm space: The grid space normalized to 0..1
+ * 4. The line space: The position of a char in a multiline text. (col, row)
  */
 
 
@@ -101454,11 +101524,14 @@ var SymbolsActor = function () {
                 return (0, _core.rerange)(y, 0, rows, height, 0) - cellHeight / 2;
             };
 
-            var isVisible = function isVisible(xWorld, yWorld) {
-                return Math.abs(xWorld - width / 2) <= marginX && Math.abs(yWorld - height / 2) <= marginY && (marginRadiusNorm >= 1 || new THREE.Vector2(xWorld, yWorld).distanceTo(center) <= marginRadius);
+            var withinMargins = function withinMargins(xWorld, yWorld) {
+                return Math.abs(xWorld - width / 2) <= marginX && // x margin
+                Math.abs(yWorld - height / 2) <= marginY && ( // y margin
+                marginRadiusNorm >= 1 || // radius margin 
+                new THREE.Vector2(xWorld, yWorld).distanceTo(center) <= marginRadius);
             };
 
-            var chars = new _immutable.OrderedSet(text.split(''));
+            var chars = new _immutable.OrderedSet(text.split('')); //remove duplicates
             var geos = chars.toMap().map(function (c) {
                 var geo = new THREE.TextGeometry(c, {
                     font: font,
@@ -101482,7 +101555,7 @@ var SymbolsActor = function () {
                 for (var x = 0; x < cols; x++) {
                     var xWorld = worldPosX(x);
                     var yWorld = worldPosY(y);
-                    if (isVisible(xWorld, yWorld)) {
+                    if (withinMargins(xWorld, yWorld)) {
                         var charPos = gridToLineSpace(x, y);
                         var charStr = lines.get(charPos.y).get(charPos.x);
                         var material = materialMap.get(charPos.y).get(charPos.x);
@@ -101536,15 +101609,15 @@ function createMaterials(opacity, colors) {
 function gridToLineSpaceTransformation(cols, rows, lines) {
     var L = lines.count();
     return function (x, y) {
-        var u = y % L;
-        var lineLength = lines.get(u).count();
-        var t = (Math.floor(y / L) * cols + x) % lineLength;
-        return new THREE.Vector2(t, u);
+        var row = y % L;
+        var lineLength = lines.get(row).count();
+        var col = (Math.floor(y / L) * cols + x) % lineLength;
+        return new THREE.Vector2(col, row);
     };
 }
 
 /**
- * Returns a datastructure (a List) that gives to the material you need at a certain postion in line space
+ * Returns a datastructure (a List) that gives the material you need at a certain postion in line space
  */
 function lineSpaceToMaterialMap(lines, materials) {
     var i = 0;

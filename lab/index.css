@@ -79,7 +79,8 @@ td {
     width: 100%;
     background-color: black;
     color: white;
-    padding: 0.5em 0;
+    padding: 0.5em 0.5em;
+    box-sizing: border-box;
 }
 
 .textline a {
@@ -92,8 +93,10 @@ td {
 
 #greeding {
     text-align: center;
-    padding-top: 8em;
+    padding-top: 12.5%;
     padding-bottom: 10em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 #greeding-logo {
