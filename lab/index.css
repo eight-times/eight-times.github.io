@@ -47,7 +47,7 @@ body {
 }
 
 p {
-    line-height: 120%;
+    line-height: 150%;
 }
 
 a {
@@ -185,9 +185,6 @@ td {
     padding: 1em 0.8em 1em 0.8em;
     background-color: white;
     border: 1px solid black;
-}
-
-btn.save-button {
 }
 
 /*
@@ -401,7 +398,6 @@ input {
     width: 3.0em;
     display: inline-block;
     text-align: center;
-    display:none;
 }
 
 .reset-button {
